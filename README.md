@@ -1,4 +1,4 @@
-# Recetario de casa
+# Recetario de Karen y Javi
 
 Copia de seguridad del recetario de casa y versión pública, de solo lectura, para la familia.
 
