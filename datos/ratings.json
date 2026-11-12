@@ -1,0 +1,76 @@
+{
+  "arroz-a-banda": {
+    "javier": 4,
+    "karen": 4,
+    "updatedAt": "2026-11-11T10:49:36.187Z"
+  },
+  "arroz-caldoso-de-rape-y-alcachofas": {
+    "javier": 4,
+    "karen": 5,
+    "updatedAt": "2026-11-09T13:39:57.764Z"
+  },
+  "arroz-meloso-de-acelgas-alubias-y-sepia": {
+    "javier": 4,
+    "karen": 4,
+    "updatedAt": "2026-11-11T13:40:07.587Z"
+  },
+  "brocoli-con-gambas-al-ajillo": {
+    "javier": 3,
+    "karen": 1,
+    "updatedAt": "2026-11-11T07:48:49.357Z"
+  },
+  "crema-de-calabaza-y-puerro": {
+    "javier": 4,
+    "karen": 4,
+    "updatedAt": "2026-11-09T19:00:31.989Z"
+  },
+  "dorada-al-horno-con-panadera": {
+    "javier": 5,
+    "karen": 5,
+    "updatedAt": "2026-11-09T13:39:35.771Z"
+  },
+  "ensalada-de-garbanzos-con-bonito-y-huevo": {
+    "javier": 4,
+    "karen": 4,
+    "updatedAt": "2026-11-12T13:52:36.780Z"
+  },
+  "lentejas-con-pollo": {
+    "javier": 1,
+    "karen": 1,
+    "updatedAt": "2026-11-09T13:49:05.774Z"
+  },
+  "lentejas-de-la-tia-ameli": {
+    "javier": 5,
+    "karen": 5,
+    "updatedAt": "2026-11-09T13:43:53.758Z"
+  },
+  "lubina-en-papillote": {
+    "javier": 4,
+    "karen": 4,
+    "updatedAt": "2026-11-12T13:52:47.661Z"
+  },
+  "merluza-en-salsa-verde-con-almejas": {
+    "karen": 1,
+    "updatedAt": "2026-11-11T10:00:00.000Z"
+  },
+  "paella-valenciana": {
+    "javier": 5,
+    "karen": 2,
+    "updatedAt": "2026-11-11T10:49:25.986Z"
+  },
+  "potaje-de-garbanzos-espinacas-y-bacalao": {
+    "javier": 5,
+    "karen": 4,
+    "updatedAt": "2026-11-10T13:54:04.072Z"
+  },
+  "revuelto-de-setas": {
+    "javier": 4,
+    "karen": 4,
+    "updatedAt": "2026-11-09T13:39:47.204Z"
+  },
+  "sopa-de-verduras": {
+    "javier": 4,
+    "karen": 5,
+    "updatedAt": "2026-11-09T13:39:16.191Z"
+  }
+}

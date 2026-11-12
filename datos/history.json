@@ -1,0 +1,107 @@
+{
+  "2026-08-13-comida-arroz-a-banda": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-08-13",
+    "recipe": "arroz-a-banda",
+    "slot": "Comida",
+    "text": "Arroz a banda"
+  },
+  "2026-08-16-comida-paella-valenciana": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-08-16",
+    "recipe": "paella-valenciana",
+    "slot": "Comida",
+    "text": "Paella valenciana de pollo y costilla"
+  },
+  "2026-11-07-cena-revuelto-de-setas": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-07",
+    "recipe": "revuelto-de-setas",
+    "slot": "Cena",
+    "text": "Revuelto de setas con ensalada"
+  },
+  "2026-11-07-comida-dorada-al-horno-con-panadera": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-07",
+    "recipe": "dorada-al-horno-con-panadera",
+    "slot": "Comida",
+    "text": "Dorada al horno con patata panadera"
+  },
+  "2026-11-07-comida-sopa-de-verduras": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-07",
+    "recipe": "sopa-de-verduras",
+    "slot": "Comida",
+    "text": "Sopa de verduras"
+  },
+  "2026-11-08-cena-sopa-de-verduras": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-08",
+    "recipe": "sopa-de-verduras",
+    "slot": "Cena",
+    "text": "Sopa de verduras"
+  },
+  "2026-11-08-comida-arroz-caldoso-de-rape-y-alcachofas": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-08",
+    "recipe": "arroz-caldoso-de-rape-y-alcachofas",
+    "slot": "Comida",
+    "text": "Arroz caldoso de rape y alcachofas"
+  },
+  "2026-11-09-cena-crema-de-calabaza-y-puerro": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-09",
+    "recipe": "crema-de-calabaza-y-puerro",
+    "slot": "Cena",
+    "text": "Crema de calabaza y puerro"
+  },
+  "2026-11-09-comida-lentejas-con-pollo": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-09",
+    "recipe": "lentejas-con-pollo",
+    "slot": "Comida",
+    "text": "Lentejas con pollo"
+  },
+  "2026-11-10-cena-brocoli-con-gambas-al-ajillo": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-10",
+    "recipe": "brocoli-con-gambas-al-ajillo",
+    "slot": "Cena",
+    "text": "Brócoli salteado con gambas al ajillo"
+  },
+  "2026-11-10-comida-potaje-de-garbanzos-espinacas-y-bacalao": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-10",
+    "recipe": "potaje-de-garbanzos-espinacas-y-bacalao",
+    "slot": "Comida",
+    "text": "Potaje de garbanzos, espinacas y bacalao"
+  },
+  "2026-11-11-cena-crema-de-calabaza-y-puerro": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-11",
+    "recipe": "crema-de-calabaza-y-puerro",
+    "slot": "Cena",
+    "text": "Crema de calabaza y puerro"
+  },
+  "2026-11-11-comida-arroz-meloso-de-acelgas-alubias-y-sepia": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-11",
+    "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
+    "slot": "Comida",
+    "text": "Arroz meloso de acelgas, alubias y sepia"
+  },
+  "2026-11-12-comida-ensalada-de-garbanzos-con-bonito-y-huevo": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-12",
+    "recipe": "ensalada-de-garbanzos-con-bonito-y-huevo",
+    "slot": "Comida",
+    "text": "Ensalada de garbanzos con bonito y huevo"
+  },
+  "2026-11-12-comida-lubina-en-papillote": {
+    "createdAt": "2026-11-12T19:30:00+01:00",
+    "date": "2026-11-12",
+    "recipe": "lubina-en-papillote",
+    "slot": "Comida",
+    "text": "Lubina en papillote con calabacín y puerro"
+  }
+}

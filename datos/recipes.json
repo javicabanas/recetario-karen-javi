@@ -1,0 +1,4969 @@
+{
+  "alioli-de-clara-de-huevo": {
+    "equipment": [
+      "Batidora de brazo",
+      "Vaso estrecho"
+    ],
+    "ingredients": [
+      {
+        "group": "Alioli",
+        "items": [
+          {
+            "name": "Clara de huevo",
+            "note": "1 clara, a temperatura ambiente",
+            "qty": 35,
+            "unit": "g"
+          },
+          {
+            "name": "Aceite de oliva suave",
+            "qty": 150,
+            "unit": "ml"
+          },
+          {
+            "name": "Ajo",
+            "note": "sin el germen",
+            "qty": 2,
+            "unit": "dientes"
+          },
+          {
+            "name": "Zumo de limón",
+            "qty": 10,
+            "unit": "ml"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sal",
+            "note": "opcional"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Cantidades iguales (no se puede partir una clara). Se añade la opción de clara pasteurizada, al ir en crudo, y se fija el aceite en 150 ml, que da textura de mayonesa.",
+        "title": "Cambios respecto al original"
+      },
+      {
+        "text": "150 ml de aceite: firme. Hasta 200 ml: más fluido, tipo salsa. Más de 200 ml por clara se corta.",
+        "title": "Textura"
+      },
+      {
+        "text": "Nevera, en tarro cerrado, 48 horas. No se congela.",
+        "title": "Guardar"
+      },
+      {
+        "text": "Arroz a banda, fritos de pixín, pescado a la plancha, marisco cocido y patatas al vapor.",
+        "title": "Con qué"
+      }
+    ],
+    "origin": "Recetario de México (GitHub javicabanas/recetario), adaptada a casa",
+    "phases": [
+      {
+        "name": "Emulsión",
+        "steps": [
+          {
+            "text": "Saca el huevo de la nevera **30 minutos antes**: con la clara fría la emulsión se cae.",
+            "timer": 1800
+          },
+          {
+            "text": "Abre los ajos a lo largo, quita el germen y pícalos."
+          },
+          {
+            "text": "En el vaso, por este orden: clara, ajo, limón y sal. Vierte encima todo el aceite de golpe, sin remover."
+          },
+          {
+            "text": "Batidora hasta el fondo y **quieta** unos 8 segundos, hasta ver una base blanca y espesa.",
+            "timer": 8
+          },
+          {
+            "text": "Súbela muy despacio, sin parar, para que la emulsión arrastre el aceite. Si queda aceite arriba, unos pulsos cortos.",
+            "timer": 15
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "Dobla usando 2 claras en un vaso más ancho; no bajes de una clara.",
+    "servings": 4,
+    "servingsNote": "unos 200 g; una clara es el mínimo que monta bien",
+    "shopping": [
+      {
+        "detail": "Va cruda: huevo muy fresco, de cáscara limpia y sin grietas, o clara pasteurizada de brik (35 g), que quita cualquier duda.",
+        "item": "Clara"
+      },
+      {
+        "detail": "Oliva suave o un virgen extra de arbequina. Un picual intenso amarga al batirlo.",
+        "item": "Aceite"
+      },
+      {
+        "detail": "Cabeza firme, sin brotes. El germen verde del centro es lo que repite y amarga: fuera.",
+        "item": "Ajo"
+      }
+    ],
+    "short": "Alioli de clara",
+    "summary": "Alioli ligero montado con clara en lugar de yema: blanco, aireado y con el ajo muy limpio. Se hace en un minuto con la batidora.",
+    "tags": [
+      "base",
+      "salsa"
+    ],
+    "time": "5 min",
+    "title": "Alioli de clara de huevo",
+    "updatedAt": "2026-11-12T19:10:00+01:00"
+  },
+  "arroz-a-banda": {
+    "equipment": [
+      "Paellera 36 cm",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Arroz",
+        "items": [
+          {
+            "name": "Fumet de pescado de pescadería",
+            "qty": 1.2,
+            "unit": "L"
+          },
+          {
+            "name": "Sepia limpia",
+            "note": "en dados de 1 cm, bien seca",
+            "qty": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Arroz bomba",
+            "qty": 360,
+            "unit": "g"
+          },
+          {
+            "name": "Gamba pelada cruda",
+            "note": "opcional",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE",
+            "note": "40 ml para la salmorreta y 35 ml para la sepia",
+            "qty": 75,
+            "unit": "ml"
+          }
+        ]
+      },
+      {
+        "group": "Salmorreta",
+        "items": [
+          {
+            "name": "Ñoras secas",
+            "qty": 3,
+            "unit": "ud"
+          },
+          {
+            "name": "Ajo",
+            "note": "laminados",
+            "qty": 4,
+            "unit": "dientes"
+          },
+          {
+            "name": "Tomate entero pelado en lata",
+            "note": "pulpa escurrida, media lata de 400 g",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Pimentón dulce",
+            "note": "1 cucharadita rasa",
+            "qty": 5,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "group": "Mesa",
+        "items": [
+          {
+            "amount": "1 tarro",
+            "name": "Alioli"
+          },
+          {
+            "name": "Limón",
+            "note": "en cuartos",
+            "qty": 1,
+            "unit": "ud"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Se sirve de la paellera. Cada comensal mezcla una punta de alioli en su ración.",
+        "title": "Servicio"
+      },
+      {
+        "text": "Sofríe cabezas y cáscaras de gamba en 15 ml de AOVE a nivel 7 durante 3 minutos, aplastándolas con la rasera. Vierte 1,5 L de fumet, lleva a hervor y reduce a nivel 5 sin tapa hasta 1,2 L (15-20 minutos). Cuela y prueba la sal después de reducir: se concentra.",
+        "title": "Si el fumet es de supermercado"
+      }
+    ],
+    "origin": "https://claude.ai/chat/333df4e5-dda8-4e3e-8de9-658218b5b6c9",
+    "phases": [
+      {
+        "name": "Preparación previa",
+        "steps": [
+          {
+            "text": "Calienta el fumet en un cazo y pruébalo; si viene soso, corrige la sal en el cazo, nunca sobre el arroz. Tiene que estar hirviendo cuando llegue el momento de verterlo."
+          },
+          {
+            "text": "Hidrata las 3 ñoras sin semillas ni rabo en agua caliente 15 minutos; raspa la carne con un cuchillo.",
+            "timer": 900
+          }
+        ]
+      },
+      {
+        "name": "Salmorreta",
+        "steps": [
+          {
+            "level": "4",
+            "text": "En la paellera, 40 ml de AOVE. Dora los ajos laminados 2 minutos, añade la carne de ñora 30 segundos y el pimentón 10 segundos, retirando del calor si amenaza con quemarse.",
+            "timer": 120
+          },
+          {
+            "level": "4-5",
+            "text": "Incorpora los 200 g de tomate escurrido y troceado. Sofríe hasta que oscurezca y el aceite se separe por los bordes: punto casi de mermelada. El de lata llega antes que el fresco, vigila a partir del minuto 6. Retira la salmorreta a un bol.",
+            "timer": 420
+          }
+        ]
+      },
+      {
+        "name": "El arroz",
+        "steps": [
+          {
+            "level": "8",
+            "text": "Sube el fuego con 35 ml de AOVE. Sella la sepia bien seca, extendida sin amontonar, 2-3 minutos; deja evaporar el agua que suelte.",
+            "timer": 150
+          },
+          {
+            "text": "Devuelve la salmorreta a la paellera e integra 60 segundos.",
+            "timer": 60
+          },
+          {
+            "text": "Añade el arroz y nacara 90 segundos, hasta que el grano se vuelva translúcido en los bordes.",
+            "timer": 90
+          },
+          {
+            "text": "Vierte los **1,2 L de fumet hirviendo**, reparte el arroz en capa uniforme con la rasera y no lo toques más."
+          },
+          {
+            "level": "9",
+            "text": "**8 minutos a fuego fuerte**, girando la paellera 90° cada 2 minutos, deslizándola sin levantarla.",
+            "timer": 480
+          },
+          {
+            "level": "4",
+            "text": "**6-8 minutos a nivel 4.** A mitad, reparte la gamba pelada si la usas. Prueba un grano del borde al minuto 14: hecho por fuera, punto mínimo de resistencia dentro.",
+            "timer": 420
+          },
+          {
+            "level": "9",
+            "text": "**Socarrat:** 60-90 segundos al máximo, a oído: cuando el borboteo pasa a crepitar seco, apaga.",
+            "timer": 90
+          },
+          {
+            "text": "Reposo de 5 minutos bajo un paño limpio, fuera de la zona de cocción. Alioli y limón a la mesa.",
+            "timer": 300
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "La paellera de 36 cm está calculada para estas raciones. Con más arroz la capa engorda y cambian tiempos y punto; con mucho más, necesitas una paellera mayor.",
+    "servings": 4,
+    "servingsNote": "90 g de arroz por persona",
+    "shopping": [
+      {
+        "detail": "El de tu pescadería, hecho con su propia morralla. Si toca de supermercado: refrigerado, sin «aroma de pescado» ni glutamato entre los primeros ingredientes; compra 1,5 L y redúcelo (ver notas).",
+        "item": "Fumet"
+      },
+      {
+        "detail": "Fresca: carne blanca nacarada, sin tonos amarillentos, olor a mar limpio. Pide que te la limpien y quédate la salsa (el hígado) si te la dan: media cucharadita en la salmorreta potencia mucho el sabor.",
+        "item": "Sepia"
+      },
+      {
+        "detail": "Blanca o langostino crudo.",
+        "item": "Gamba"
+      },
+      {
+        "detail": "Enteras, flexibles al tacto, no quebradizas. Alternativa: 1 cucharada colmada de carne de ñora en tarro, o pimiento choricero (más amargo, usa menos).",
+        "item": "Ñoras"
+      },
+      {
+        "detail": "Bomba con D.O. Calasparra o Delta de l'Ebre. Con 14-16 minutos de cocción y sin margen para rectificar, el bomba perdona; el redondo genérico no.",
+        "item": "Arroz"
+      },
+      {
+        "detail": "Lata de tomate entero pelado al natural.",
+        "item": "Tomate"
+      }
+    ],
+    "short": "Arroz a banda",
+    "summary": "Arroz seco de sepia con salmorreta de ñora y fumet de pescadería, servido con alioli.",
+    "tags": [
+      "arroz",
+      "pescado",
+      "paellera"
+    ],
+    "time": "50 min",
+    "title": "Arroz a banda",
+    "updatedAt": "2026-11-07T10:30:00+01:00"
+  },
+  "arroz-caldoso-de-rape-y-alcachofas": {
+    "equipment": [
+      "Cocotte Le Creuset",
+      "Olla para el caldo",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Caldo (víspera)",
+        "items": [
+          {
+            "name": "Cabeza de rape",
+            "note": "más la espina de la cola",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Verde de puerro",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Cebolla",
+            "qty": 0.5,
+            "unit": "ud"
+          },
+          {
+            "name": "Laurel",
+            "qty": 1,
+            "unit": "hoja"
+          },
+          {
+            "name": "Agua fría",
+            "qty": 1.2,
+            "unit": "L"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Arroz",
+        "items": [
+          {
+            "name": "Rape limpio",
+            "note": "en tacos de 3 cm; de una cola de 500 g",
+            "qty": 350,
+            "unit": "g"
+          },
+          {
+            "name": "Alcachofas",
+            "qty": 6,
+            "unit": "ud"
+          },
+          {
+            "name": "Limón",
+            "note": "para el agua de las alcachofas",
+            "qty": 0.5,
+            "unit": "ud"
+          },
+          {
+            "name": "Arroz bomba",
+            "qty": 140,
+            "unit": "g"
+          },
+          {
+            "name": "Tomate de pera",
+            "note": "1 ud, rallado",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Ajo",
+            "note": "picados",
+            "qty": 2,
+            "unit": "dientes"
+          },
+          {
+            "name": "Pimentón dulce",
+            "note": "rasa",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Azafrán en hebra",
+            "qty": 0.1,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "name": "Caldo de rape",
+            "note": "hirviendo; el de la víspera",
+            "qty": 1,
+            "unit": "L"
+          },
+          {
+            "amount": "un poco",
+            "name": "Perejil"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Cocotte Le Creuset de 24-26 cm: para 2 raciones da la profundidad que pide un caldoso. En la paellera el caldo se evapora y queda un arroz seco. Con una de 28 cm evapora más: ten 200 ml de caldo extra caliente.\nUtensilios de madera o silicona, para no rayar el esmalte.",
+        "title": "Recipiente"
+      },
+      {
+        "text": "Formato caldoso, 70 g de arroz por persona y el doble de peso en verdura. Si lo quieres integral, necesita unos 40 minutos y unos 300 ml más de caldo; el integral no sirve para arroces secos.",
+        "title": "Arroz con más fibra"
+      },
+      {
+        "text": "1 L de fumet de pescadería. El de supermercado, mejor refrigerado y sin «aroma de pescado» entre los primeros ingredientes.",
+        "title": "Sin hacer caldo"
+      },
+      {
+        "text": "El caldo y el sofrito se pueden hacer la víspera. El sofrito, con la receta «Sofrito de tomate».",
+        "title": "Adelantar"
+      },
+      {
+        "text": "Sin rape: merluza en tacos, que solo necesita 2 minutos en el caldo. Sin alcachofa: judía verde plana o coliflor.",
+        "title": "Alternativas"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Víspera · Caldo",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Lava la cabeza y la espina y quita las agallas: amargan. A la olla con 1,2 L de agua fría, el verde del puerro, media cebolla y el laurel. Lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Al romper a hervir, retira la espuma y baja a hervor suave **25 minutos**. No pases de 30: el caldo de pescado se vuelve amargo y turbio.",
+            "timer": 1500
+          },
+          {
+            "text": "Cuela con colador fino sin presionar. Debe quedar alrededor de 1 L. Enfría y a la nevera."
+          }
+        ]
+      },
+      {
+        "name": "Preparación",
+        "steps": [
+          {
+            "text": "Limpia las alcachofas: quita las hojas duras hasta llegar a las tiernas, corta el tercio superior, pela el tallo y córtalas en cuartos. Según las cortas, a un bol con agua y el zumo de medio limón: se oxidan enseguida."
+          },
+          {
+            "text": "Calienta el caldo en un cazo con el azafrán y pruébalo: tiene que quedar algo salado, porque el arroz lo absorbe. Una vez caliente, mantenlo a fuego mínimo."
+          }
+        ]
+      },
+      {
+        "name": "El arroz",
+        "steps": [
+          {
+            "level": "7",
+            "text": "En la cocotte, los 40 ml de AOVE, y caliéntala con el aceite dentro, nunca vacía (el esmalte sufre): 2 minutos a nivel 5 y luego sube a 7. Sala los tacos de rape y márcalos 1 minuto por cara: solo sellar, que terminan en el caldo. Retíralos a un plato.",
+            "timer": 90
+          },
+          {
+            "level": "6",
+            "text": "Alcachofas escurridas y bien secas: dóralas hasta que tomen color en los bordes.",
+            "timer": 300
+          },
+          {
+            "level": "5",
+            "text": "Ajo picado 30 segundos y el tomate rallado. Sofríe hasta el punto de **aceite roto**: el tomate pierde el agua y el aceite asoma por los bordes. Si usas el sofrito ya hecho, basta con calentarlo 1 minuto.",
+            "timer": 480
+          },
+          {
+            "level": "5",
+            "text": "Pimentón: remueve solo 10 segundos, que se quema enseguida, y añade el arroz. Nacara 1 minuto.",
+            "timer": 60
+          },
+          {
+            "level": "9",
+            "text": "Vierte **1 L de caldo hirviendo** y lleva a hervor vivo."
+          },
+          {
+            "level": "8",
+            "text": "**5 minutos a hervor vivo.**",
+            "timer": 300
+          },
+          {
+            "level": "5",
+            "text": "**10 minutos a fuego medio**, moviendo la cocotte de vez en cuando. El hierro tarda en bajar de temperatura: si a los 2 minutos sigue hirviendo fuerte, baja a 4. Si baja mucho el caldo, añade más caliente: tiene que quedar caldoso, con caldo de sobra en el plato.",
+            "timer": 600
+          },
+          {
+            "level": "5",
+            "text": "Devuelve el rape con su jugo y cuece **3 minutos** más. Prueba el arroz: hecho, con un punto mínimo de resistencia.",
+            "timer": 180
+          },
+          {
+            "text": "Perejil, retira la cocotte de la zona y reposo de 2 minutos, destapada: el hierro sigue cociendo. Sirve enseguida: el caldoso no espera, sigue chupando caldo.",
+            "timer": 120
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "70 g de arroz por persona y el doble de verdura",
+    "shopping": [
+      {
+        "detail": "Cola de unos 500 g: carne blanca nacarada, firme, sin tonos amarillentos y sin agua en la bandeja. Pide que retiren piel y telilla, que la corten en tacos y que te den la espina. Pide también una cabeza para el caldo.",
+        "item": "Rape"
+      },
+      {
+        "detail": "Cerradas, pesadas para su tamaño, hojas prietas que crujen al apretarlas y sin manchas negras. En noviembre empieza la temporada de la del Prat (IGP Carxofa del Prat).",
+        "item": "Alcachofas"
+      },
+      {
+        "detail": "Bomba con D.O. Calasparra o Delta de l'Ebre.",
+        "item": "Arroz"
+      },
+      {
+        "detail": "En hebra, nunca colorante.",
+        "item": "Azafrán"
+      }
+    ],
+    "short": "Arroz caldoso de rape",
+    "summary": "Arroz caldoso con caldo de cabeza de rape hecho la víspera, alcachofas doradas y tacos de rape que se terminan en el caldo.",
+    "tags": [
+      "arroz",
+      "pescado",
+      "verdura"
+    ],
+    "time": "Víspera 45 min + 45 min",
+    "title": "Arroz caldoso de rape y alcachofas",
+    "updatedAt": "2026-11-07T22:05:00+01:00"
+  },
+  "arroz-meloso-de-acelgas-alubias-y-sepia": {
+    "equipment": [
+      "Cocotte Le Creuset",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Arroz",
+        "items": [
+          {
+            "name": "Arroz bomba",
+            "qty": 140,
+            "unit": "g"
+          },
+          {
+            "name": "Sepia limpia",
+            "note": "en dados de 1,5 cm; descongelada la víspera y bien seca",
+            "qty": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Alubia blanca cocida",
+            "note": "1 tarro, escurrida y enjuagada",
+            "qty": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Acelgas",
+            "note": "1 manojo; pencas en dados y hojas en tiras, por separado",
+            "qty": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Caldo de pescado o de verduras",
+            "note": "hirviendo; o agua",
+            "qty": 800,
+            "unit": "ml"
+          },
+          {
+            "name": "Azafrán en hebra",
+            "qty": 0.1,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Sofrito",
+        "items": [
+          {
+            "name": "Tomate de pera",
+            "note": "1 ud, rallado; o el sofrito ya hecho",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Ajo",
+            "note": "picados",
+            "qty": 2,
+            "unit": "dientes"
+          },
+          {
+            "name": "Pimentón dulce",
+            "qty": 1,
+            "unit": "cdta"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Versión del arròs amb bledes valenciano, que lleva acelga y alubia; la sepia añade la proteína para que sea plato único.",
+        "title": "Origen"
+      },
+      {
+        "text": "70 g de arroz por persona y el doble de peso en verdura y legumbre. Con arroz integral, unos 40 minutos y unos 300 ml más de caldo.",
+        "title": "Arroz con más fibra"
+      },
+      {
+        "text": "Calamar o gamba en lugar de sepia; o bacalao desalado en tacos, añadido junto a las alubias.",
+        "title": "Alternativas"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Sepia y pencas",
+        "steps": [
+          {
+            "text": "Calienta el caldo con el azafrán y prueba la sal: tiene que quedar algo salado. Mantenlo caliente."
+          },
+          {
+            "level": "8",
+            "text": "Sepia muy seca y salada. En la cocotte con 20 ml de AOVE, séllala hasta que suelte el agua, se evapore y empiece a dorar.",
+            "timer": 180
+          },
+          {
+            "level": "6",
+            "text": "Añade las pencas de acelga y rehoga 3 minutos.",
+            "timer": 180
+          }
+        ]
+      },
+      {
+        "name": "Sofrito",
+        "steps": [
+          {
+            "level": "5",
+            "text": "20 ml de AOVE, ajo 30 segundos y tomate rallado hasta el punto de **aceite roto**. Si usas el sofrito ya hecho, basta con calentarlo 1 minuto.",
+            "timer": 420
+          },
+          {
+            "level": "5",
+            "text": "Pimentón 10 segundos y el arroz: nacara 1 minuto.",
+            "timer": 60
+          }
+        ]
+      },
+      {
+        "name": "Arroz",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Vierte **800 ml de caldo hirviendo** y lleva a hervor."
+          },
+          {
+            "level": "5",
+            "text": "**10 minutos a fuego medio**, removiendo de vez en cuando: en el meloso, remover suelta almidón y liga.",
+            "timer": 600
+          },
+          {
+            "level": "4",
+            "text": "Añade las alubias y las hojas de acelga y sigue **6 minutos**; si se seca, un poco de caldo caliente. Debe quedar meloso: al servirlo se extiende en el plato.",
+            "timer": 360
+          },
+          {
+            "text": "Reposo de 2 minutos y a la mesa.",
+            "timer": 120
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "70 g de arroz por persona",
+    "shopping": [
+      {
+        "detail": "Limpia y congelada, con sepia como único ingrediente. Descongela en la nevera 12 horas antes.",
+        "item": "Sepia"
+      },
+      {
+        "detail": "Cocida en tarro de cristal, tipo riñón o planchada, solo con agua y sal.",
+        "item": "Alubia"
+      },
+      {
+        "detail": "Pencas blancas y crujientes, hojas sin manchas.",
+        "item": "Acelgas"
+      },
+      {
+        "detail": "Bomba con D.O. Calasparra o Delta de l'Ebre.",
+        "item": "Arroz"
+      }
+    ],
+    "short": "Arroz meloso de acelgas",
+    "summary": "Arròs amb bledes con sepia para completar la proteína: meloso, con alubia blanca y mucha acelga.",
+    "tags": [
+      "arroz",
+      "legumbre",
+      "pescado"
+    ],
+    "time": "40 min",
+    "title": "Arroz meloso de acelgas, alubias y sepia",
+    "updatedAt": "2026-11-07T11:30:00+01:00"
+  },
+  "brocoli-con-gambas-al-ajillo": {
+    "equipment": [
+      "Sartén grande con tapa",
+      "Sartén antiadherente pequeña con tapa",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Salteado",
+        "items": [
+          {
+            "name": "Brócoli",
+            "note": "en arbolitos; el tallo pelado, en bastones",
+            "qty": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Gamba pelada cruda",
+            "note": "descongelada en la nevera la noche antes",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Ajo",
+            "note": "laminados",
+            "qty": 3,
+            "unit": "dientes"
+          },
+          {
+            "name": "AOVE",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua",
+            "qty": 50,
+            "unit": "ml"
+          },
+          {
+            "name": "Limón",
+            "qty": 0.5,
+            "unit": "ud"
+          },
+          {
+            "amount": "un poco",
+            "name": "Perejil"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal en escamas"
+          }
+        ]
+      },
+      {
+        "group": "Huevos",
+        "items": [
+          {
+            "name": "Huevos L",
+            "note": "1 por persona",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "AOVE",
+            "qty": 10,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Pimienta negra recién molida",
+            "note": "opcional"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "La yema líquida emulsiona con el aceite del ajillo y el limón: es la salsa que le faltaba al brócoli. Y sube la proteína de la cena a unos 30 g por ración.",
+        "title": "Por qué el huevo"
+      },
+      {
+        "text": "Otra opción: marca las gambas solo 40 segundos por cara y, tras devolver el brócoli, baja a nivel 3, añade 3 huevos batidos con sal y remueve despacio 1-2 minutos. Retíralo jugoso: el calor residual lo termina.",
+        "title": "En revuelto"
+      },
+      {
+        "text": "Esta versión no lleva guindilla. Si algún día quieres un punto, una pizca de pimentón de la Vera sobre el huevo, fuera del fuego.",
+        "title": "Sin picante"
+      },
+      {
+        "text": "En la nevera la noche antes, en un colador sobre un plato para que escurran.",
+        "title": "Descongelar"
+      },
+      {
+        "text": "Coliflor o romanesco en lugar de brócoli; langostino o calamar en lugar de gamba.",
+        "title": "Alternativas"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Brócoli",
+        "steps": [
+          {
+            "text": "Seca muy bien las gambas descongeladas con papel y sálalas: si llegan húmedas se cuecen en vez de marcarse."
+          },
+          {
+            "level": "8",
+            "text": "Sartén caliente con 20 ml de AOVE. Brócoli extendido, tallos incluidos, sin moverlo mucho hasta que se tuesten las puntas.",
+            "timer": 210
+          },
+          {
+            "level": "8",
+            "text": "Añade 50 ml de agua y tapa: 2 minutos al vapor. Queda tierno con un punto crujiente. Retíralo a un plato.",
+            "timer": 120
+          }
+        ]
+      },
+      {
+        "name": "Huevos y gambas, a la vez",
+        "steps": [
+          {
+            "level": "5",
+            "text": "En la sartén pequeña, 10 ml de AOVE. Casca los huevos y déjalos cuajar sin tocarlos; tapa el último minuto para velar la yema. Si la preferís cuajada, 1 minuto más tapada. Mientras, sigue con las gambas.",
+            "timer": 180
+          },
+          {
+            "level": "5",
+            "text": "En la sartén grande, 20 ml de AOVE con el ajo laminado a fuego medio, hasta que el ajo baile y empiece a tomar color.",
+            "timer": 60
+          },
+          {
+            "level": "9",
+            "text": "Sube al máximo y añade las gambas: **1 minuto por cara**, solo hasta que cambien de color. Pasadas se vuelven gomosas.",
+            "timer": 120
+          },
+          {
+            "text": "Devuelve el brócoli, saltea 30 segundos y termina con zumo de limón, perejil y sal en escamas.",
+            "timer": 30
+          }
+        ]
+      },
+      {
+        "name": "Al plato",
+        "steps": [
+          {
+            "text": "Brócoli y gambas con su aceite de ajo, y el huevo encima con sal en escamas y, si quieres, pimienta. Rompe la yema en la mesa: se liga con el aceite y el limón y hace de salsa."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "unos 30 g de proteína por ración",
+    "shopping": [
+      {
+        "detail": "Pelada cruda congelada, con poco glaseado (mira el peso neto escurrido) y sin más aditivos que sal. Alternativa: langostino crudo pelado.",
+        "item": "Gamba"
+      },
+      {
+        "detail": "Cabeza compacta verde oscuro, sin flores amarillas, tallo firme y húmedo en el corte.",
+        "item": "Brócoli"
+      },
+      {
+        "detail": "Talla L, lo más frescos posible: con la yema líquida se nota, y la clara fresca se queda recogida en la sartén en vez de extenderse.",
+        "item": "Huevos"
+      }
+    ],
+    "short": "Brócoli con gambas",
+    "summary": "Brócoli tostado en sartén y terminado al vapor, gambas al ajillo marcadas a fuego fuerte y un huevo a la plancha por persona, cuya yema hace de salsa. Cena completa en 25 minutos.",
+    "tags": [
+      "marisco",
+      "verdura",
+      "cena"
+    ],
+    "time": "25 min",
+    "title": "Brócoli salteado con gambas al ajillo y huevo",
+    "updatedAt": "2026-11-10T17:35:00+01:00"
+  },
+  "chilaquiles-verdes": {
+    "equipment": [
+      "Sartén De Buyer 28 cm",
+      "Sauteuse o cazuela ancha",
+      "Sartén antiadherente",
+      "Batidora",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Totopos",
+        "items": [
+          {
+            "name": "Tortillas de maíz",
+            "note": "del día anterior, algo secas",
+            "qty": 6,
+            "unit": "ud"
+          },
+          {
+            "name": "Aceite de girasol",
+            "note": "para freír",
+            "qty": 250,
+            "unit": "ml"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Salsa verde",
+        "items": [
+          {
+            "name": "Tomatillo verde",
+            "note": "de lata, escurrido",
+            "qty": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Chile serrano o jalapeño fresco",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Ajo",
+            "note": "pequeño",
+            "qty": 1,
+            "unit": "dientes"
+          },
+          {
+            "name": "Cebolla tierna",
+            "qty": 30,
+            "unit": "g"
+          },
+          {
+            "name": "Epazote seco",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Caldo de pollo",
+            "qty": 100,
+            "unit": "ml"
+          },
+          {
+            "name": "Aceite de girasol",
+            "qty": 1,
+            "unit": "cda"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Montaje",
+        "items": [
+          {
+            "name": "Pollo cocido desmenuzado",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Huevo",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Crème fraîche o nata agria",
+            "qty": 50,
+            "unit": "g"
+          },
+          {
+            "name": "Queso fresco",
+            "note": "desmigado",
+            "qty": 40,
+            "unit": "g"
+          },
+          {
+            "name": "Cebolla tierna",
+            "note": "en aros finos",
+            "qty": 40,
+            "unit": "g"
+          },
+          {
+            "amount": "un poco",
+            "name": "Cilantro fresco",
+            "note": "picado"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "De 4 a 2 raciones. El pollo y el huevo, opcionales en el original, aquí van siempre para que sea un plato único con proteína. Tomatillo de lata y epazote seco en vez de frescos, porque es lo que se encuentra aquí; crema mexicana por crème fraîche.",
+        "title": "Cambios respecto al original"
+      },
+      {
+        "text": "Al caer sobre el aceite caliente pierde el sabor a crudo, se concentra y se oscurece. Es la diferencia entre una salsa verde de mesa y una de chilaquiles.",
+        "title": "Por qué se fríe la salsa"
+      },
+      {
+        "text": "La salsa aguanta 4 días en la nevera y se congela 3 meses. Los totopos fritos, 3 días en una lata cerrada. Montados no se guardan: se reblandecen en minutos.",
+        "title": "Adelantar"
+      }
+    ],
+    "origin": "Recetario de México (GitHub javicabanas/recetario), adaptada a casa",
+    "phases": [
+      {
+        "name": "Totopos",
+        "steps": [
+          {
+            "text": "Corta cada tortilla en 6 triángulos."
+          },
+          {
+            "level": "7",
+            "text": "Calienta el aceite en la De Buyer hasta 180 °C.",
+            "timer": 180
+          },
+          {
+            "level": "7",
+            "text": "Fríe en dos tandas, 3 minutos cada una, hasta que estén dorados y **secos del todo**: si quedan blandos por dentro, se deshacen en la salsa. A papel absorbente y una pizca de sal.",
+            "timer": 180
+          }
+        ]
+      },
+      {
+        "name": "Salsa verde",
+        "steps": [
+          {
+            "text": "Tritura el tomatillo escurrido con el chile, el ajo, la cebolla, el epazote y el caldo hasta que quede lisa. Con tomatillo fresco: antes, 8 minutos hervido con el chile, el ajo y la cebolla, a nivel 6."
+          },
+          {
+            "level": "7",
+            "text": "**Fríe la salsa:** calienta la cucharada de aceite en la sauteuse y vierte la salsa de golpe. Salpica: ten una tapa a mano. Deja que rompa a hervir.",
+            "timer": 60
+          },
+          {
+            "level": "5",
+            "text": "Cuece destapada hasta que espese un poco y pase a verde oscuro. Sal. Debe napar la cuchara: si se pasa, un chorrito de caldo.",
+            "timer": 480
+          }
+        ]
+      },
+      {
+        "name": "Montaje",
+        "steps": [
+          {
+            "level": "4",
+            "text": "Calienta el pollo dentro de la salsa, 1 minuto.",
+            "timer": 60
+          },
+          {
+            "level": "7",
+            "text": "Fríe los dos huevos en la antiadherente, con la yema líquida.",
+            "timer": 120
+          },
+          {
+            "level": "4",
+            "text": "**Justo antes de servir**, echa los totopos a la salsa y mezcla con movimientos envolventes 1 minuto: bañados, no ahogados, y aún con algo de crujiente.",
+            "timer": 60
+          },
+          {
+            "text": "Al plato enseguida: chilaquiles, huevo encima, crème fraîche en hilo, queso, aros de cebolla y cilantro."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "plato único, con pollo y huevo",
+    "shopping": [
+      {
+        "detail": "De maíz, sin trigo en la etiqueta. Atajo: 120 g de totopos de bolsa naturales, sin sabores y gruesos; entonces te saltas la fritura.",
+        "item": "Tortillas de maíz"
+      },
+      {
+        "detail": "Fresco casi no se encuentra: lata de tomatillo entero (La Costeña, Herdez) en tiendas latinas o por internet. No es tomate verde sin madurar: es otra fruta, ácida y cítrica. Último recurso: 300 g de salsa verde de bote, y pasas directamente a freírla.",
+        "item": "Tomatillo"
+      },
+      {
+        "detail": "Serrano o jalapeño fresco, firme y brillante. Sustituto: una guindilla verde fresca. Sin semillas pica la mitad.",
+        "item": "Chile"
+      },
+      {
+        "detail": "Seco, en tiendas latinas. Sabor entre anís y orégano, difícil de imitar: si no lo hay, 4 ramas de cilantro y una pizca de orégano. Sale rica, pero distinta.",
+        "item": "Epazote"
+      },
+      {
+        "detail": "Queso fresco tipo Burgos de los firmes, bien escurrido, o feta suave desmigado.",
+        "item": "Queso fresco"
+      },
+      {
+        "detail": "Sobras de pollo asado o cocido. Si no hay: una pechuga de 200 g, 12 minutos en agua con sal a nivel 5, y se desmenuza.",
+        "item": "Pollo"
+      }
+    ],
+    "short": "Chilaquiles",
+    "summary": "Totopos de maíz bañados en el último momento en salsa verde de tomatillo frita, con pollo desmenuzado, huevo frito, crema, queso fresco y cebolla.",
+    "tags": [
+      "mexicana",
+      "pollo",
+      "huevo"
+    ],
+    "time": "35 min",
+    "title": "Chilaquiles verdes con pollo y huevo",
+    "updatedAt": "2026-11-12T19:10:00+01:00"
+  },
+  "cochinita-pibil": {
+    "equipment": [
+      "Cocotte Le Creuset con tapa",
+      "Horno",
+      "Batidora",
+      "Cazo",
+      "Sartén de hierro",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Carne",
+        "items": [
+          {
+            "name": "Paleta de cerdo sin hueso",
+            "note": "con su grasa, en trozos de 6-8 cm",
+            "qty": 1,
+            "unit": "kg"
+          },
+          {
+            "name": "Agua",
+            "qty": 50,
+            "unit": "ml"
+          }
+        ]
+      },
+      {
+        "group": "Recado rojo",
+        "items": [
+          {
+            "name": "Pasta de achiote",
+            "qty": 65,
+            "unit": "g"
+          },
+          {
+            "name": "Zumo de naranja",
+            "note": "recién exprimido",
+            "qty": 90,
+            "unit": "ml"
+          },
+          {
+            "name": "Zumo de lima",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "name": "Vinagre de manzana",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "name": "Ajo",
+            "qty": 4,
+            "unit": "dientes"
+          },
+          {
+            "name": "Comino molido",
+            "qty": 0.5,
+            "unit": "cdta"
+          },
+          {
+            "name": "Pimienta negra molida",
+            "qty": 0.5,
+            "unit": "cdta"
+          },
+          {
+            "name": "Orégano seco",
+            "qty": 0.5,
+            "unit": "cdta"
+          },
+          {
+            "name": "Clavo",
+            "qty": 5,
+            "unit": "ud"
+          },
+          {
+            "name": "Sal",
+            "qty": 12,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "group": "Cebolla encurtida",
+        "items": [
+          {
+            "name": "Cebolla morada",
+            "note": "1 grande, en juliana de 2 mm",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Zumo de naranja",
+            "qty": 70,
+            "unit": "ml"
+          },
+          {
+            "name": "Zumo de lima",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Chile habanero",
+            "note": "opcional, sin semillas, en rodajas",
+            "qty": 0.5,
+            "unit": "ud"
+          },
+          {
+            "name": "Sal",
+            "qty": 3,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "group": "Para servir",
+        "items": [
+          {
+            "name": "Tortillas de maíz",
+            "qty": 12,
+            "unit": "ud"
+          },
+          {
+            "amount": "un manojo",
+            "name": "Cilantro fresco"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "El original era para 12 (3 kg) y se hacía en bandeja con hojas de plátano y doble capa de aluminio. Aquí va 1 kg en la cocotte tapada, que da el mismo ambiente de vapor sin hojas; por eso el horno baja de casi 6 horas a 3. La naranja agria se sustituye por naranja y lima, el orégano mexicano por el de casa, y la sal sube a 12 g por kilo porque el original quedaba corto.",
+        "title": "Cambios respecto al original"
+      },
+      {
+        "text": "Se vende congelada en tiendas latinas y asiáticas. Pásala unos segundos por la placa caliente para que se ablande, forra la cocotte con ella y cubre la carne con otro trozo: aporta un aroma vegetal que la tapa sola no da.",
+        "title": "Si consigues hoja de plátano"
+      },
+      {
+        "text": "Con su jugo, 4 días en la nevera. Se congela muy bien 3 meses, en raciones con jugo; se descongela en la nevera y se calienta tapada a nivel 4. La cebolla encurtida aguanta 5 días en la nevera.",
+        "title": "Guardar"
+      },
+      {
+        "text": "En torta (con el pan y los frijoles de la torta de milanesa), con arroz blanco o en quesadilla.",
+        "title": "Con las sobras"
+      }
+    ],
+    "origin": "Recetario de México (GitHub javicabanas/recetario), adaptada a casa",
+    "phases": [
+      {
+        "name": "Día 1 · Marinado",
+        "steps": [
+          {
+            "text": "**Recado:** tritura con la batidora el achiote desmenuzado, los zumos, el vinagre, el ajo, las especias y la sal hasta que quede una pasta lisa que cubra la carne sin escurrir."
+          },
+          {
+            "text": "Embadurna bien los trozos de paleta en un recipiente de vidrio. Tapa y a la nevera **12 horas** (máximo 24). Dale la vuelta a media marinada.",
+            "timer": 43200
+          }
+        ]
+      },
+      {
+        "name": "Día 2 · Horno",
+        "steps": [
+          {
+            "text": "Precalienta el horno a **150 °C**, calor arriba y abajo, sin ventilador.",
+            "timer": 600
+          },
+          {
+            "text": "Carne con todo su marinado en la cocotte, en una sola capa apretada. Añade los 50 ml de agua. Pon una hoja de papel de horno entre la olla y la tapa para que cierre mejor."
+          },
+          {
+            "text": "Al horno **3 horas** sin abrir. Está cuando un tenedor la deshace sin esfuerzo; si se resiste, 30 minutos más.",
+            "timer": 10800
+          },
+          {
+            "text": "Apaga y deja reposar tapada dentro del horno.",
+            "timer": 900
+          },
+          {
+            "text": "Deshilacha la carne con dos tenedores dentro de la olla y mézclala con su jugo. Prueba de sal."
+          }
+        ]
+      },
+      {
+        "name": "Cebolla encurtida (2 horas antes de servir)",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Pon agua a hervir en un cazo."
+          },
+          {
+            "level": "9",
+            "text": "**Escalda** la cebolla 30 segundos y pásala a agua con hielo: pierde el picor y queda crujiente. Escurre bien.",
+            "timer": 30
+          },
+          {
+            "text": "Mézclala con los zumos, el habanero y la sal. Reposo a temperatura ambiente hasta que se ponga rosa fucsia.",
+            "timer": 7200
+          }
+        ]
+      },
+      {
+        "name": "Servicio",
+        "steps": [
+          {
+            "level": "7",
+            "text": "Calienta las tortillas de una en una en la sartén de hierro seca, 30 segundos por cara, y guárdalas envueltas en un paño.",
+            "timer": 30
+          },
+          {
+            "text": "Cada tortilla: cochinita con algo de jugo, cebolla encurtida y cilantro."
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "Hasta 1,5 kg caben en una capa en la cocotte con el mismo tiempo. Más cantidad pide una fuente honda bien tapada y 1 hora más de horno.",
+    "servings": 4,
+    "servingsNote": "dos comidas para dos: la mitad se congela con su jugo",
+    "shopping": [
+      {
+        "detail": "Paleta (espalda) o cabeza de lomo, con grasa infiltrada: el lomo o el solomillo quedan secos. Pide en la carnicería 1 kg sin hueso en trozos grandes. Carne rosada, grasa blanca y firme.",
+        "item": "Paleta de cerdo"
+      },
+      {
+        "detail": "Pastilla de «recado rojo» o «achiote» (El Yucateco, La Anita), en tiendas latinas o por internet. Sin ella no es cochinita: como apaño, 2 cdas de pimentón dulce, 1 cdta más de orégano y 1 cda de vinagre dan color y un sabor parecido, no el mismo.",
+        "item": "Pasta de achiote"
+      },
+      {
+        "detail": "En enero y febrero hay naranja amarga de Sevilla: si la encuentras, usa 130 ml de su zumo en el recado y 100 ml en la cebolla, en lugar de la mezcla de naranja y lima.",
+        "item": "Naranja agria"
+      },
+      {
+        "detail": "Fresco, en tiendas latinas y a veces en El Corte Inglés. Pica muchísimo: medio y sin semillas. Sustituto: una guindilla fresca roja, o nada.",
+        "item": "Chile habanero"
+      },
+      {
+        "detail": "De maíz nixtamalizado, sin harina de trigo en la etiqueta. Refrigeradas en tiendas latinas o en la sección internacional de El Corte Inglés. Las de trigo valen, pero es otro plato.",
+        "item": "Tortillas de maíz"
+      }
+    ],
+    "short": "Cochinita",
+    "summary": "Paleta de cerdo marinada en recado rojo de achiote y cítricos, hecha en cocotte tapada al horno hasta que se deshilacha, con cebolla morada encurtida y tortillas de maíz.",
+    "tags": [
+      "mexicana",
+      "carne",
+      "horno",
+      "adelantar"
+    ],
+    "time": "4 h (+ 12 h de marinado)",
+    "title": "Cochinita pibil",
+    "updatedAt": "2026-11-12T19:10:00+01:00"
+  },
+  "crema-de-calabaza-y-puerro": {
+    "equipment": [
+      "Olla 4 L",
+      "Batidora de mano",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Crema",
+        "items": [
+          {
+            "name": "Calabaza cacahuete",
+            "note": "pieza entera; unos 800 g limpia",
+            "qty": 1,
+            "unit": "kg"
+          },
+          {
+            "name": "Puerro",
+            "note": "la parte blanca",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Zanahoria",
+            "note": "1 ud",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua",
+            "note": "hasta dos tercios de la altura de las verduras",
+            "qty": 500,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Nuez moscada"
+          }
+        ]
+      },
+      {
+        "group": "Al servir",
+        "items": [
+          {
+            "amount": "un hilo",
+            "name": "AOVE"
+          },
+          {
+            "amount": "un puñado",
+            "name": "Pipas de calabaza tostadas",
+            "note": "opcional"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Destapada a nivel 5-6, 10-15 minutos, removiendo y rascando el fondo, hasta que nape la cuchara; cubre a medias porque salpica. En la nevera espesa un poco más. Otra opción: una patata pequeña (150 g) en dados, 15 minutos en la crema, y vuelve a triturar.",
+        "title": "Si queda clara"
+      },
+      {
+        "text": "Un hilo de AOVE en crudo y, si quieres, pipas de calabaza tostadas.",
+        "title": "Al servir"
+      },
+      {
+        "text": "Acompáñala de un segundo con proteína: tortilla, pescado o una tosta con caballa.",
+        "title": "Cena completa"
+      },
+      {
+        "text": "3-4 días en nevera. Congela muy bien.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Corte",
+        "steps": [
+          {
+            "text": "Pela la calabaza con un pelador o un cuchillo, quita las semillas y córtala en dados de 2-3 cm. Puerro y zanahoria en rodajas."
+          }
+        ]
+      },
+      {
+        "name": "Cocción",
+        "steps": [
+          {
+            "level": "5",
+            "text": "AOVE en la olla. Puerro y zanahoria con una pizca de sal, sin que tomen color.",
+            "timer": 300
+          },
+          {
+            "level": "5",
+            "text": "Añade la calabaza y rehoga 3 minutos.",
+            "timer": 180
+          },
+          {
+            "level": "9",
+            "text": "Agua hasta **dos tercios de la altura** de las verduras (unos 500 ml), no a ras: la calabaza suelta mucha agua al cocer. Sal y lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Hervor suave **20 minutos**, hasta que la calabaza se deshaga al presionarla.",
+            "timer": 1200
+          }
+        ]
+      },
+      {
+        "name": "Triturar",
+        "steps": [
+          {
+            "text": "Antes de triturar, saca un cucharón de caldo a un vaso. Tritura hasta que quede lisa y añade de ese caldo solo lo que haga falta: tiene que napar la cuchara. Termina con una cucharada de AOVE en crudo para emulsionar, la sal y la nuez moscada."
+          },
+          {
+            "text": "Lo que no vayas a tomar hoy, en tápers: enfría y a la nevera antes de 2 horas."
+          }
+        ]
+      }
+    ],
+    "servings": 4,
+    "servingsNote": "unos 300 ml por ración",
+    "shopping": [
+      {
+        "detail": "Cacahuete (butternut): pesada para su tamaño, piel mate beige uniforme, sin zonas blandas y con el pedúnculo seco. En trozo: carne naranja intensa y fibra prieta.",
+        "item": "Calabaza"
+      },
+      {
+        "detail": "Blanco largo y firme.",
+        "item": "Puerro"
+      }
+    ],
+    "short": "Crema de calabaza",
+    "summary": "Crema sedosa de calabaza cacahuete, puerro y zanahoria, emulsionada con aceite en crudo; se hace para cuatro y congela bien.",
+    "tags": [
+      "crema",
+      "verdura",
+      "cena"
+    ],
+    "time": "40 min",
+    "title": "Crema de calabaza y puerro",
+    "updatedAt": "2026-11-08T11:30:00+01:00"
+  },
+  "dorada-al-horno-con-panadera": {
+    "equipment": [
+      "Horno",
+      "Fuente de horno",
+      "Sartén pequeña",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Panadera",
+        "items": [
+          {
+            "name": "Patata Monalisa",
+            "note": "en rodajas de 3-4 mm",
+            "qty": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Cebolla",
+            "note": "1 mediana, en juliana fina",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua",
+            "qty": 60,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal y pimienta"
+          }
+        ]
+      },
+      {
+        "group": "Pescado",
+        "items": [
+          {
+            "name": "Dorada",
+            "note": "de 400-450 g, limpia y sin escamas",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Limón",
+            "note": "medio en rodajas, medio para la mesa",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "AOVE",
+            "qty": 10,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Refrito",
+        "items": [
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Ajo",
+            "note": "laminados",
+            "qty": 3,
+            "unit": "dientes"
+          },
+          {
+            "name": "Vinagre de Jerez",
+            "qty": 10,
+            "unit": "ml"
+          },
+          {
+            "amount": "un poco",
+            "name": "Perejil",
+            "note": "picado"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "En lomos y sin espinas se come solo con tenedor. Para sacarlos: corta a lo largo de la línea central, levanta la carne de cada lado con una pala y retira la espina entera tirando desde la cola.",
+        "title": "Servicio"
+      },
+      {
+        "text": "55-58 °C en la parte más gruesa.",
+        "title": "Punto con termómetro"
+      },
+      {
+        "text": "Lubina del mismo tamaño, con los mismos tiempos. Besugo o pargo si los encuentras a buen precio.",
+        "title": "Alternativas"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Panadera",
+        "steps": [
+          {
+            "text": "Precalienta el horno a **200 °C**, calor arriba y abajo.",
+            "timer": 600
+          },
+          {
+            "text": "Patata en rodajas de 3-4 mm y cebolla en juliana. Mezcla en la fuente con 40 ml de AOVE, 60 ml de agua, sal y pimienta. Extiende en una capa de no más de 2 cm."
+          },
+          {
+            "text": "Al horno **25 minutos**, hasta que la patata esté casi tierna y empiece a dorar por los bordes.",
+            "timer": 1500
+          }
+        ]
+      },
+      {
+        "name": "Dorada",
+        "steps": [
+          {
+            "text": "Mientras, seca la dorada con papel. Haz 2 cortes superficiales en cada costado, solo en la piel, para que la parte gruesa se haga a la vez que la cola. Sal dentro y fuera y unas rodajas de limón en la tripa."
+          },
+          {
+            "text": "Dorada sobre la patata, un hilo de AOVE y **15-18 minutos** a 200 °C. Está en su punto cuando la aleta del lomo sale sin resistencia y la carne junto a la espina ya no está translúcida.",
+            "timer": 960
+          }
+        ]
+      },
+      {
+        "name": "Refrito y servicio",
+        "steps": [
+          {
+            "level": "5",
+            "text": "En los últimos minutos, el refrito: 30 ml de AOVE con el ajo laminado hasta que baile y empiece a dorar.",
+            "timer": 120
+          },
+          {
+            "text": "Fuera del fuego, añade el vinagre (salpica: aparta la cara) y el perejil."
+          },
+          {
+            "text": "Saca los lomos al plato sin espinas, la patata al lado y el refrito por encima."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "una dorada de 400-450 g por persona",
+    "shopping": [
+      {
+        "detail": "Ojos brillantes y abombados, agallas rojo vivo, piel tersa y la franja dorada entre los ojos bien marcada; carne firme que recupera la forma al presionarla. Pide que la limpien y la escamen, con cabeza. Salvaje: más cara y de sabor más fino; de acuicultura: más grasa y regular.",
+        "item": "Dorada"
+      },
+      {
+        "detail": "Monalisa o Kennebec: aguantan en rodajas sin deshacerse.",
+        "item": "Patata"
+      },
+      {
+        "detail": "Firme, de piel seca y crujiente, sin brotes.",
+        "item": "Cebolla"
+      },
+      {
+        "detail": "De Jerez; si no tienes, de vino blanco.",
+        "item": "Vinagre"
+      }
+    ],
+    "short": "Dorada al horno",
+    "summary": "Dorada entera sobre patata panadera y cebolla, terminada con un refrito de ajo y vinagre; se sirve en lomos, sin espinas.",
+    "tags": [
+      "pescado",
+      "horno"
+    ],
+    "time": "55 min",
+    "title": "Dorada al horno con patata panadera",
+    "updatedAt": "2026-11-07T11:30:00+01:00"
+  },
+  "ensalada-de-garbanzos-con-bonito-y-huevo": {
+    "equipment": [
+      "Cazo pequeño",
+      "Inducción",
+      "Táper",
+      "Tarrito con tapa"
+    ],
+    "ingredients": [
+      {
+        "group": "Ensalada",
+        "items": [
+          {
+            "name": "Garbanzo cocido",
+            "note": "escurrido; 1 tarro",
+            "qty": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Bonito del norte en aceite de oliva",
+            "note": "escurrido; 2 latas",
+            "qty": 160,
+            "unit": "g"
+          },
+          {
+            "name": "Huevos L",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Tomate",
+            "note": "2 tomates",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Pimiento rojo asado",
+            "note": "de tarro",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Cebolleta",
+            "qty": 0.5,
+            "unit": "ud"
+          }
+        ]
+      },
+      {
+        "group": "Aliño",
+        "items": [
+          {
+            "name": "AOVE",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "name": "Vinagre de Jerez",
+            "qty": 10,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Comino molido"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Montada y sin aliñar, aguanta 24 horas en la nevera, tapada. El aliño, en su tarro, varios días. No se congela: el tomate y el huevo se deshacen.",
+        "title": "Guardar"
+      },
+      {
+        "text": "Con los huevos ya cocidos y pelados se monta en 10 minutos.",
+        "title": "Sin encender el fuego"
+      },
+      {
+        "text": "Sin cebolleta: un cuarto de cebolla picada muy fina y 10 minutos en agua fría para que no pique. Sin bonito: caballa o ventresca en aceite de oliva.",
+        "title": "Alternativas"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Huevos",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Cazo con agua que cubra los huevos un dedo. Llévalo a ebullición.",
+            "timer": 300
+          },
+          {
+            "level": "7",
+            "text": "Baja los huevos con una cuchara y cuécelos 10 minutos con hervor suave: a borbotón fuerte chocan entre sí y se rajan.",
+            "timer": 600
+          },
+          {
+            "text": "Pásalos a agua muy fría 5 minutos y pélalos bajo el grifo. El frío corta la cocción (yema sin cerco verde) y la cáscara sale mejor.",
+            "timer": 300
+          }
+        ]
+      },
+      {
+        "name": "Ensalada",
+        "steps": [
+          {
+            "text": "Mientras se cuecen, enjuaga los garbanzos y escúrrelos bien: el agua que les quede diluye el aliño."
+          },
+          {
+            "text": "Corta el tomate y el pimiento en dados de 1,5 cm y pica la cebolleta muy fina. Quita las semillas del tomate: es lo que suelta agua en las horas de nevera. Separa el bonito en lascas."
+          },
+          {
+            "text": "Mezcla en el táper los garbanzos, la verdura y el bonito, y pon el huevo en cuartos por encima. Todo queda en trozos de bocado: se come con cuchara."
+          }
+        ]
+      },
+      {
+        "name": "Aliño y servicio",
+        "steps": [
+          {
+            "text": "Agita el AOVE, el vinagre, la sal y el comino en un tarrito y guárdalo aparte. Se aliña al comer, para que el tomate no suelte agua."
+          },
+          {
+            "text": "A la nevera. Sácala 15 minutos antes de comer: muy fría apenas sabe a nada.",
+            "timer": 900
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "unos 40 g de proteína por ración",
+    "shopping": [
+      {
+        "detail": "En tarro de cristal y que solo lleve garbanzo, agua y sal. Granos enteros, sin pieles sueltas flotando en el líquido.",
+        "item": "Garbanzo cocido"
+      },
+      {
+        "detail": "En aceite de oliva, no de girasol. Es más jugoso y firme que el atún claro, que en ensalada queda seco.",
+        "item": "Bonito del norte"
+      },
+      {
+        "detail": "En tarro, entero y asado a la leña. Si no hay, piquillos.",
+        "item": "Pimiento asado"
+      },
+      {
+        "detail": "Firme y pesado para su tamaño, que huela a tomate junto al pedúnculo. En noviembre, mejor un pera bien maduro que el redondo de ensalada, que va soso.",
+        "item": "Tomate"
+      },
+      {
+        "detail": "Si no queréis encender el fuego, cocidos y pelados: Mercadona los vende así.",
+        "item": "Huevos"
+      }
+    ],
+    "short": "Ensalada de garbanzos",
+    "summary": "Garbanzo de tarro, bonito del norte, huevo duro y verdura en dados, con el aliño aparte. Se monta por la mañana y se come fría, sin calentar.",
+    "tags": [
+      "legumbres",
+      "pescado",
+      "huevos",
+      "ensalada",
+      "comida"
+    ],
+    "time": "20 min",
+    "title": "Ensalada de garbanzos con bonito y huevo",
+    "updatedAt": "2026-11-11T17:35:00+01:00"
+  },
+  "fritos-de-pixin": {
+    "equipment": [
+      "Cazo hondo 20-22 cm",
+      "Rejilla",
+      "Termómetro"
+    ],
+    "ingredients": [
+      {
+        "group": "Pescado",
+        "items": [
+          {
+            "name": "Pixín (rape) limpio",
+            "note": "sin piel ni telilla; unos 700 g de cola entera",
+            "qty": 400,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "group": "Rebozado",
+        "items": [
+          {
+            "name": "Huevos L",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Harina de trigo floja",
+            "qty": 80,
+            "unit": "g"
+          },
+          {
+            "name": "Sidra natural",
+            "note": "opcional, aligera el huevo",
+            "qty": 2,
+            "unit": "cda"
+          },
+          {
+            "name": "Ajo",
+            "note": "opcional, muy picado, dentro del huevo",
+            "qty": 1,
+            "unit": "diente"
+          },
+          {
+            "amount": "un poco",
+            "name": "Perejil picado",
+            "note": "opcional, dentro del huevo"
+          }
+        ]
+      },
+      {
+        "group": "Fritura y mesa",
+        "items": [
+          {
+            "amount": "700 ml – 1 L",
+            "name": "Aceite de oliva suave o 0,4°",
+            "note": "3 cm de altura en el cazo"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal fina y sal en escamas"
+          },
+          {
+            "name": "Limón",
+            "note": "en gajos",
+            "qty": 1,
+            "unit": "ud"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Pimientos de Padrón o de Gernika fritos en el mismo aceite antes del pescado: aromatizan ligeramente la grasa.\nComo segundo apoyo, patatas panaderas o ensalada de escarola con cebolleta y vinagreta de sidra, que corta la fritura.\nEn Asturias se come con limón y poco más. Si quieres salsa, mahonesa ligera aflojada con una cucharada de sidra y ralladura de limón.",
+        "title": "Acompañamiento"
+      },
+      {
+        "text": "Sidra natural asturiana a 10-12 °C, escanciada en culines: su acidez y el carbónico limpian el rebozado.\nSi prefieres vino, Godello de Valdeorras o Albariño joven a 9-10 °C.",
+        "title": "Bebida"
+      }
+    ],
+    "origin": "https://claude.ai/chat/a63fce36-569d-47c9-a2c9-79d9b15860cd",
+    "phases": [
+      {
+        "name": "Preparación",
+        "steps": [
+          {
+            "text": "Corta el pixín en tacos de 3-4 cm o medallones de 2 cm de grosor. Piezas iguales, o las cocciones se desigualan."
+          },
+          {
+            "text": "Sala ligeramente y deja 15 minutos sobre rejilla: el rape suelta bastante agua. Sécalo a conciencia con papel; el agua que quede despega el rebozado.",
+            "timer": 900
+          },
+          {
+            "text": "Bate los huevos con una pizca de sal, la sidra y, si quieres, el ajo y el perejil muy picados."
+          }
+        ]
+      },
+      {
+        "name": "Fritura",
+        "steps": [
+          {
+            "level": "8",
+            "text": "Calienta el aceite en un cazo hondo de 20-22 cm con 3 cm de altura: nivel 8 hasta 180 °C y después baja a 5-6 para mantener. Sin termómetro: un dado de pan dora en 30-40 segundos."
+          },
+          {
+            "text": "Reboza a la romana: primero harina, sacudiendo bien el exceso; después huevo, y directo al aceite. Ese orden fija la capa; al revés se desprende."
+          },
+          {
+            "level": "5-6",
+            "text": "Fríe en tandas de 5-6 piezas, 2-3 minutos, dándoles la vuelta a mitad. Si el aceite baja de 165 °C el rebozado absorbe grasa en vez de sellarse: recupera temperatura entre tandas.",
+            "timer": 150
+          },
+          {
+            "text": "Escurre sobre rejilla, nunca sobre papel apilado: el vapor reblandece el fondo. Sal en escamas nada más salir."
+          },
+          {
+            "text": "Sirve de inmediato con los gajos de limón aparte."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "",
+    "shopping": [
+      {
+        "detail": "Cola de rape, no colas pequeñas de «rape blanco», que rinden poco. Piel gris negruzca brillante y adherida, carne blanca nacarada sin tonos amarillentos, firme al presionar, olor a mar limpio. Evita la que suelta agua en la bandeja. Pide que la limpien de espina central y que retiren la telilla azulada: se contrae al freír y deja el bocado correoso.",
+        "item": "Pixín"
+      },
+      {
+        "detail": "Oliva suave o 0,4°; un picual intenso tapa el pescado. Si lo prefieres neutro, girasol alto oleico.",
+        "item": "Aceite"
+      },
+      {
+        "detail": "Natural con DOP Sidra de Asturias (Trabanco, Cortina, Viuda de Angelón). En El Corte Inglés de Sabadell suele haber Trabanco.",
+        "item": "Sidra"
+      },
+      {
+        "detail": "Lomos gruesos de merluza o bacalao desalado bien escurrido. Son más frágiles: reduce la fritura a 90 segundos.",
+        "item": "Alternativas al pixín"
+      }
+    ],
+    "short": "Pixín",
+    "summary": "Rape rebozado a la romana al estilo asturiano, frito a 180 °C en tandas cortas.",
+    "tags": [
+      "pescado",
+      "fritura",
+      "asturiano"
+    ],
+    "time": "35 min",
+    "title": "Fritos de pixín",
+    "updatedAt": "2026-11-07T10:30:00+01:00"
+  },
+  "lentejas-con-pollo": {
+    "equipment": [
+      "Cocotte Le Creuset",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Guiso",
+        "items": [
+          {
+            "name": "Lentejas pardinas",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Contramuslo de pollo deshuesado y sin piel",
+            "note": "en dados de 3 cm",
+            "qty": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Zanahoria",
+            "note": "2 medianas, en rodajas",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Calabaza",
+            "note": "en dados de 2 cm",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Puerro",
+            "note": "picado",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Pimiento verde italiano",
+            "note": "picado",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Ajo",
+            "note": "picados",
+            "qty": 2,
+            "unit": "dientes"
+          },
+          {
+            "name": "Tomate frito casero",
+            "qty": 2,
+            "unit": "cda"
+          },
+          {
+            "name": "Pimentón dulce",
+            "note": "rasa",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Comino molido",
+            "qty": 0.5,
+            "unit": "cdta"
+          },
+          {
+            "name": "Laurel",
+            "qty": 1,
+            "unit": "hoja"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua fría",
+            "qty": 1.3,
+            "unit": "L"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          },
+          {
+            "name": "Vinagre de Jerez",
+            "note": "opcional, al final",
+            "qty": 5,
+            "unit": "ml"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Versión más ligera a propósito. El dorado del pollo y el pimentón ponen el fondo que normalmente da el chorizo.",
+        "title": "Sin chorizo"
+      },
+      {
+        "text": "Unos 40 g por ración entre la lenteja y el pollo: es plato único completo.",
+        "title": "Proteína"
+      },
+      {
+        "text": "3 días en nevera; 3 meses en el congelador. Descongela en la nevera la noche antes y calienta a fuego suave con un chorrito de agua.",
+        "title": "Conservación"
+      },
+      {
+        "text": "Casi siempre es fuego bajo: en la Le Creuset, por debajo del nivel 4 el caldo deja de hervir aunque humee. También alargan la cocción el agua dura (la de Sabadell lo es), las lentejas de más de un año y el ácido del tomate. Con agua dura o lentejas viejas, cuenta con 50-55 minutos.",
+        "title": "Si quedan duras"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Dorar",
+        "steps": [
+          {
+            "text": "Lava las lentejas en un colador y escúrrelas. Seca el pollo con papel y sálalo."
+          },
+          {
+            "level": "8",
+            "text": "Cocotte bien caliente con 20 ml de AOVE. Dora el pollo extendido, sin amontonar y sin moverlo al principio, hasta que tenga costra por varias caras. Ese dorado es el fondo de sabor del guiso. Retíralo.",
+            "timer": 360
+          }
+        ]
+      },
+      {
+        "name": "Sofrito",
+        "steps": [
+          {
+            "level": "5",
+            "text": "Baja el fuego, 10 ml de AOVE y puerro, pimiento y zanahoria, rascando el fondo dorado con la cuchara de madera.",
+            "timer": 360
+          },
+          {
+            "level": "5",
+            "text": "Ajo 1 minuto. Fuera del fuego, el pimentón 10 segundos y el tomate frito.",
+            "timer": 60
+          }
+        ]
+      },
+      {
+        "name": "Guiso",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Lentejas, pollo con su jugo, calabaza, laurel y comino. Cubre con 1,3 L de agua fría, sala y lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Retira la espuma y deja **hervor suave 45 minutos**, con la tapa entreabierta. Tiene que verse un borboteo suave en toda la superficie: si solo humea o tiembla, sube medio punto. Si se queda seco, añade agua caliente, nunca fría, para no cortar la cocción.",
+            "timer": 2700
+          },
+          {
+            "text": "Prueba varias lentejas: cremosas por dentro y con la piel entera. Si alguna tiene el centro harinoso, 10 minutos más y vuelve a probar. Rectifica de sal y, si quieres, unas gotas de vinagre de Jerez para avivar."
+          },
+          {
+            "text": "Reposo de 10 minutos con el fuego apagado: el caldo espesa.",
+            "timer": 600
+          }
+        ]
+      },
+      {
+        "name": "Guardar",
+        "steps": [
+          {
+            "text": "Lo que no vayas a comer hoy, en tápers: enfríalo destapado y a la nevera antes de 2 horas. Lo que vaya a comerse dentro de 4 días o más, al congelador."
+          }
+        ]
+      }
+    ],
+    "servings": 4,
+    "servingsNote": "75 g de lenteja y 125 g de pollo por persona",
+    "shopping": [
+      {
+        "detail": "Pardinas de cosecha reciente: las viejas tardan más y se quedan duras. Mejor con IGP Lenteja de Tierra de Campos. No necesitan remojo.",
+        "item": "Lentejas"
+      },
+      {
+        "detail": "Deshuesado y sin piel: queda jugoso en un guiso largo, donde la pechuga se seca.",
+        "item": "Contramuslo"
+      },
+      {
+        "detail": "Cacahuete (butternut); sale de la misma pieza que la crema.",
+        "item": "Calabaza"
+      },
+      {
+        "detail": "Italiano, verde brillante y firme.",
+        "item": "Pimiento"
+      }
+    ],
+    "short": "Lentejas con pollo",
+    "summary": "Lentejas pardinas con contramuslo dorado, zanahoria, calabaza y pimiento; sin chorizo y con proteína suficiente para ser plato único.",
+    "tags": [
+      "legumbre",
+      "guiso",
+      "pollo"
+    ],
+    "time": "1 h 5 min",
+    "title": "Lentejas estofadas con pollo y verduras",
+    "updatedAt": "2026-11-08T11:20:00+01:00"
+  },
+  "lentejas-con-verduras-y-huevo": {
+    "equipment": [
+      "Cocotte Le Creuset",
+      "Cazo hondo",
+      "Espumadera",
+      "Colador fino",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Guiso",
+        "items": [
+          {
+            "name": "Lentejas pardinas",
+            "qty": 360,
+            "unit": "g"
+          },
+          {
+            "name": "Puerro",
+            "note": "blanco y verde tierno, picado",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Pimiento verde italiano",
+            "note": "picado",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Zanahoria",
+            "note": "2 medianas, en rodajas",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Calabaza cacahuete",
+            "note": "en dados de 2 cm",
+            "qty": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Espinacas frescas",
+            "note": "o hojas de acelga en tiras",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Tomate de pera",
+            "note": "1 ud, rallado",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Ajo",
+            "note": "picados",
+            "qty": 3,
+            "unit": "dientes"
+          },
+          {
+            "name": "Carne de pimiento choricero",
+            "note": "de tarro",
+            "qty": 1,
+            "unit": "cda"
+          },
+          {
+            "name": "Pimentón dulce de la Vera",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Comino molido",
+            "qty": 0.5,
+            "unit": "cdta"
+          },
+          {
+            "name": "Laurel",
+            "qty": 1,
+            "unit": "hoja"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua fría",
+            "qty": 1.5,
+            "unit": "L"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          },
+          {
+            "name": "Vinagre de Jerez",
+            "note": "opcional, al final",
+            "qty": 5,
+            "unit": "ml"
+          }
+        ]
+      },
+      {
+        "group": "Al servir",
+        "items": [
+          {
+            "name": "Huevos L",
+            "note": "2 por ración, solo en las que vayas a servir",
+            "qty": 8,
+            "unit": "ud"
+          },
+          {
+            "amount": "un hilo",
+            "name": "AOVE en crudo"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Pimentón dulce"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal en escamas"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Con el colador no hacen falta vinagre ni remolino: la clara firme se recoge sola alrededor de la yema. Si los huevos tienen más de una semana, añade 1 cucharada de vinagre al agua. Escalfa como mucho 4 a la vez.",
+        "title": "Huevo escalfado"
+      },
+      {
+        "text": "Con un cazo menos: calienta las raciones del día en una cazuela baja, haz huecos con la cuchara, casca los huevos dentro, tapa y deja 4-5 minutos a nivel 3, hasta que cuaje la clara.",
+        "title": "En el propio guiso"
+      },
+      {
+        "text": "Lo ponen el pochado largo de puerro y zanahoria, la carne de choricero y el pimentón. La calabaza se deshace en parte y da cuerpo al caldo.",
+        "title": "Fondo de sabor sin carne"
+      },
+      {
+        "text": "Unos 35 g por ración entre los 90 g de lenteja y los 2 huevos: plato único completo.",
+        "title": "Proteína"
+      },
+      {
+        "text": "3 días en nevera y 3 meses en el congelador, siempre sin huevo. Descongela en la nevera la noche antes, calienta a fuego suave con un chorrito de agua y escalfa los huevos en el momento.",
+        "title": "Conservación"
+      },
+      {
+        "text": "Casi siempre es fuego bajo: en la Le Creuset, por debajo del nivel 4 el caldo deja de hervir aunque humee. También alargan la cocción el agua dura (la de Sabadell lo es), las lentejas de más de un año y el ácido del tomate. Con agua dura o lentejas viejas, cuenta con 50-55 minutos.",
+        "title": "Si quedan duras"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · chat del 9 de noviembre de 2026, sustituye a las lentejas con pollo",
+    "phases": [
+      {
+        "name": "Preparación",
+        "steps": [
+          {
+            "text": "Lava las lentejas en un colador y escúrrelas. Pica el puerro y el pimiento, corta la zanahoria en rodajas y la calabaza en dados de 2 cm, pica el ajo y ralla el tomate."
+          }
+        ]
+      },
+      {
+        "name": "Sofrito",
+        "steps": [
+          {
+            "level": "5",
+            "text": "Calienta la cocotte con los 30 ml de AOVE dentro, nunca vacía. Puerro, pimiento y zanahoria con una pizca de sal: **pocha** removiendo de vez en cuando hasta que el puerro esté translúcido y empiece a dorar por los bordes. Sin carne, este pochado largo es el fondo de sabor del guiso.",
+            "timer": 600
+          },
+          {
+            "level": "5",
+            "text": "Ajo, 1 minuto, sin que se dore.",
+            "timer": 60
+          },
+          {
+            "level": "5",
+            "text": "Tomate rallado y carne de choricero. Sofríe hasta que el tomate pierda el agua y el aceite asome por los bordes.",
+            "timer": 300
+          },
+          {
+            "text": "Fuera del fuego, el pimentón y el comino: remueve solo 10 segundos, que se queman enseguida."
+          }
+        ]
+      },
+      {
+        "name": "Guiso",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Lentejas, calabaza y laurel. Cubre con 1,5 L de agua fría, sala y lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Retira la espuma y deja **hervor suave 45 minutos**, con la tapa entreabierta. Tiene que verse un borboteo suave en toda la superficie: si solo humea o tiembla, sube medio punto. Si se queda seco, añade agua caliente, nunca fría, para no cortar la cocción.",
+            "timer": 2700
+          },
+          {
+            "level": "4",
+            "text": "Añade las espinacas en dos tandas y sigue 5 minutos.",
+            "timer": 300
+          },
+          {
+            "text": "Prueba varias lentejas: cremosas por dentro y con la piel entera. Si alguna tiene el centro harinoso, 10 minutos más. Aplasta un cucharón de lentejas y calabaza contra la pared y remueve: liga el caldo. Rectifica de sal y, si quieres, unas gotas de vinagre de Jerez."
+          },
+          {
+            "text": "Reposo de 10 minutos con el fuego apagado: el caldo espesa. Mientras, prepara los huevos.",
+            "timer": 600
+          }
+        ]
+      },
+      {
+        "name": "Huevos escalfados",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Cazo hondo con agua hasta unos 8 cm de altura, a hervor."
+          },
+          {
+            "text": "Casca cada huevo en un colador fino sobre un bol y déjalo 20-30 segundos: se va la clara más líquida, la que hace hilos en el agua. Pásalo a un cuenco pequeño. 2 huevos por ración, solo para las que vayas a servir."
+          },
+          {
+            "level": "3-4",
+            "text": "Baja el fuego hasta que el agua tiemble sin borbotear. Acerca el cuenco al agua y desliza los huevos uno a uno. **3 minutos** para yema líquida; 4 si la quieres melosa.",
+            "timer": 180
+          },
+          {
+            "text": "Sácalos con la espumadera, apóyala un momento sobre papel de cocina para escurrir y pon unas escamas de sal."
+          },
+          {
+            "text": "Lentejas en plato hondo, 2 huevos encima, un hilo de AOVE en crudo y una pizca de pimentón. Al romper la yema, liga con el caldo."
+          }
+        ]
+      },
+      {
+        "name": "Guardar",
+        "steps": [
+          {
+            "text": "Lo que no vayas a comer hoy, sin huevo, en tápers: enfríalo destapado y a la nevera antes de 2 horas. Lo que vaya a comerse dentro de 4 días o más, al congelador."
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "Para más de 6 raciones, usa una olla de 6 L o más: en la cocotte no cabe el agua.",
+    "servings": 4,
+    "servingsNote": "90 g de lenteja y 2 huevos por persona; el huevo, solo en las raciones que se sirven",
+    "shopping": [
+      {
+        "detail": "Pardinas de cosecha reciente: las viejas tardan más y se quedan duras. Mejor con IGP Lenteja de Tierra de Campos. No necesitan remojo.",
+        "item": "Lentejas"
+      },
+      {
+        "detail": "Categoría L y lo más frescos posible: la clara espesa se mantiene recogida y escalfa limpia. Mira la fecha de puesta; con más de una semana, la clara se abre en el agua.",
+        "item": "Huevos"
+      },
+      {
+        "detail": "Cacahuete (butternut): pesada para su tamaño, piel mate beige y sin zonas blandas.",
+        "item": "Calabaza"
+      },
+      {
+        "detail": "Hoja tersa, verde oscuro, sin hojas lacias ni húmedas en el fondo de la bolsa. Alternativa: acelgas, con las pencas en dados junto a las lentejas y las hojas al final.",
+        "item": "Espinacas"
+      },
+      {
+        "detail": "En tarro, en la sección de conservas. Alternativa: 1 ñora hidratada 15 minutos y raspada, o media cucharadita más de pimentón.",
+        "item": "Carne de pimiento choricero"
+      },
+      {
+        "detail": "Italiano, verde brillante y firme.",
+        "item": "Pimiento"
+      }
+    ],
+    "short": "Lentejas y huevo",
+    "summary": "Lentejas pardinas estofadas con puerro, zanahoria, calabaza y espinacas, sin carne, con dos huevos escalfados encima al servir.",
+    "tags": [
+      "legumbre",
+      "guiso",
+      "verdura",
+      "huevos"
+    ],
+    "time": "1 h 20 min",
+    "title": "Lentejas estofadas con verduras y huevo escalfado",
+    "updatedAt": "2026-11-09T14:40:00+01:00"
+  },
+  "lentejas-de-la-tia-ameli": {
+    "equipment": [
+      "Olla rápida",
+      "Batidora de mano o licuadora",
+      "Cazo",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Lentejas",
+        "items": [
+          {
+            "name": "Lentejas pardinas",
+            "qty": 340,
+            "unit": "g"
+          },
+          {
+            "name": "Agua del grifo",
+            "note": "hasta cubrir las lentejas y que pase unos 3 cm",
+            "qty": 1.2,
+            "unit": "L"
+          },
+          {
+            "name": "AOVE",
+            "note": "un chorrito",
+            "qty": 10,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Sofrito",
+        "items": [
+          {
+            "name": "Cebolla",
+            "note": "pequeña, picada",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Zanahoria",
+            "note": "grandes, picadas, unos 260 g",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Ajo",
+            "note": "picados",
+            "qty": 2,
+            "unit": "dientes"
+          },
+          {
+            "name": "Pimiento verde italiano",
+            "note": "opcional, picado",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Calabaza",
+            "note": "opcional, en dados de 2 cm",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Tomate natural en lata",
+            "note": "tres cuartos de una lata de 400 g",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Chorizo",
+        "items": [
+          {
+            "name": "Chorizo para guisar",
+            "note": "entero",
+            "qty": 2,
+            "unit": "ud"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Pasada de su libreta (21/03/2020) y adaptada: lenteja pardina sin remojo y 4 raciones. La original es para medio kilo de lentejas, con 1 cebolla, 4 zanahorias y 1 lata mediana de tomate, y 10 minutos de olla rápida con las lentejas remojadas. Las cantidades que no venían (ajo, aceite del sofrito, calabaza y chorizo) son estimadas.",
+        "title": "La receta de Ameli"
+      },
+      {
+        "text": "Las lentejas se cuecen solo con agua y reciben el sofrito al final: el caldo queda espeso y uniforme, sin trozos de verdura. El chorizo cocido aparte suelta su grasa en el agua del cazo y no en el guiso.",
+        "title": "Por qué el sofrito va aparte y triturado"
+      },
+      {
+        "text": "En la Le Creuset, después de añadir el agua (unos 150 ml más, porque evapora): hervor a nivel 9 y luego hervor suave a nivel 4 con la tapa entreabierta, unos 45 minutos. Después, el sofrito y el hervor final igual.",
+        "title": "Sin olla rápida"
+      },
+      {
+        "text": "Unos 30 g por ración entre la lenteja y el chorizo.",
+        "title": "Proteína"
+      },
+      {
+        "text": "3 días en nevera; 3 meses en el congelador. Descongela en la nevera la noche antes y calienta a fuego suave con un chorrito de agua.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "Libreta de la tía Ameli (21/03/2020), foto enviada al chat del proyecto Cocina y recetas el 9 de noviembre de 2026; adaptada a pardina sin remojo y 4 raciones",
+    "phases": [
+      {
+        "name": "Sofrito",
+        "steps": [
+          {
+            "text": "Lava las lentejas en un colador y escúrrelas. Pica la cebolla, la zanahoria, el ajo y, si lo usas, el pimiento; la calabaza, en dados de 2 cm."
+          },
+          {
+            "level": "5",
+            "text": "En la olla rápida, sin tapa, los 30 ml de AOVE. Cebolla, zanahoria, ajo, pimiento y calabaza con una pizca de sal: **pocha** removiendo de vez en cuando hasta que la cebolla esté transparente y la zanahoria tierna.",
+            "timer": 720
+          },
+          {
+            "level": "5",
+            "text": "Añade el tomate y sofríe hasta que pierda parte del agua.",
+            "timer": 480
+          },
+          {
+            "text": "Tritura el sofrito con la batidora de mano en un vaso alto, o en la licuadora, hasta que quede fino. Resérvalo."
+          }
+        ]
+      },
+      {
+        "name": "Lentejas",
+        "steps": [
+          {
+            "text": "En la misma olla, las lentejas. Agua del grifo hasta que las cubra y pase unos 3 cm, un poco de sal y un chorrito de aceite."
+          },
+          {
+            "level": "9",
+            "text": "Cierra la olla y fuego fuerte hasta que suba la válvula."
+          },
+          {
+            "level": "4",
+            "text": "Baja el fuego lo justo para mantener la presión: **7 minutos**.",
+            "timer": 420
+          },
+          {
+            "level": "5",
+            "text": "Mientras, cuece aparte el chorizo: entero, cubierto de agua en un cazo. Lleva a hervor a fuego fuerte y baja a 5 durante 10 minutos; suelta parte de su grasa en el agua. Escúrrelo y córtalo en rodajas.",
+            "timer": 600
+          },
+          {
+            "text": "Apaga y deja que la olla pierda la presión sola antes de abrirla: con legumbre, abrirla de golpe saca espuma por la válvula. Mientras baja, las lentejas terminan de hacerse."
+          }
+        ]
+      },
+      {
+        "name": "Terminar",
+        "steps": [
+          {
+            "text": "Prueba varias lentejas: cremosas por dentro y con la piel entera. Si alguna tiene el centro harinoso, alarga 3-4 minutos el hervor del paso siguiente."
+          },
+          {
+            "level": "6",
+            "text": "Echa el sofrito triturado, remueve y deja que den un hervor, sin tapa. Prueba de sal.",
+            "timer": 300
+          },
+          {
+            "text": "Añade el chorizo en rodajas en el último minuto, o ponlo encima de cada plato al servir."
+          }
+        ]
+      },
+      {
+        "name": "Guardar",
+        "steps": [
+          {
+            "text": "Lo que no vayas a comer hoy, en tápers: enfríalo destapado y a la nevera antes de 2 horas. Lo que vaya a comerse dentro de 4 días o más, al congelador."
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "En olla rápida, con legumbre no llenes más de la mitad de la olla. Al cambiar raciones, el tiempo con presión no cambia.",
+    "servings": 4,
+    "servingsNote": "85 g de lenteja y medio chorizo por persona",
+    "shopping": [
+      {
+        "detail": "Pardinas de cosecha reciente: las viejas tardan más y se quedan duras. Mejor con IGP Lenteja de Tierra de Campos. No necesitan remojo.",
+        "item": "Lentejas"
+      },
+      {
+        "detail": "Para guisar, en sarta o ristra, fresco o semicurado; mejor con pimentón de la Vera. El curado para loncha se endurece al cocerlo.",
+        "item": "Chorizo"
+      },
+      {
+        "detail": "Natural en lata, entero o triturado, sin azúcar añadido. El resto de la lata aguanta 3 días en la nevera en un táper de cristal, o congelado.",
+        "item": "Tomate"
+      },
+      {
+        "detail": "Firme, de piel lisa y sin raicillas; si la venden con hojas, que estén frescas.",
+        "item": "Zanahoria"
+      },
+      {
+        "detail": "Cacahuete (butternut) o de cabello, pesada para su tamaño y sin zonas blandas. Opcional.",
+        "item": "Calabaza"
+      }
+    ],
+    "short": "Lentejas Ameli",
+    "summary": "Lentejas pardinas en olla rápida con un sofrito de cebolla, zanahoria y tomate triturado que se añade al final, y chorizo cocido aparte. De la libreta de la tía Ameli.",
+    "tags": [
+      "legumbre",
+      "guiso"
+    ],
+    "time": "50 min",
+    "title": "Lentejas de la tía Ameli",
+    "updatedAt": "2026-11-09T14:45:00+01:00"
+  },
+  "lubina-en-papillote": {
+    "equipment": [
+      "Estuche de vapor de silicona",
+      "Microondas 700 W",
+      "Sartén",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Papillote",
+        "items": [
+          {
+            "name": "Lomos de lubina",
+            "note": "de 150 g, con piel y sin espinas",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Calabacín",
+            "note": "1 mediano, en bastones finos",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Puerro",
+            "note": "la parte blanca, en juliana",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Limón",
+            "note": "medio en rodajas finas y medio exprimido (15 ml de zumo)",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Agua",
+            "qty": 15,
+            "unit": "ml"
+          },
+          {
+            "name": "AOVE",
+            "note": "15 ml para saltear y 15 ml en crudo",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "amount": "un poco",
+            "name": "Perejil o eneldo"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal y pimienta"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Zumo de limón y agua: forman el vapor y dan la acidez. Si tienes vino blanco seco, 30 ml en su lugar, y el limón solo en rodajas.\nLicores dulces como el Cointreau, no: en el estuche cerrado el alcohol casi no se evapora y el pescado sabe a licor. Para un toque de naranja, un poco de ralladura sobre el pescado antes de cerrar.",
+        "title": "El líquido"
+      },
+      {
+        "text": "Con el estuche: 200 °C, sobre la rejilla, 14-15 minutos para lomos de 2 cm. Tarda 2-3 minutos más que en papel porque la silicona se calienta más despacio.\nEn papel de horno: un paquete por ración con una hoja de 40 cm y la mitad del líquido en cada uno; cierra doblando los bordes varias veces sobre sí mismos, con aire dentro. A 200 °C: 8-9 minutos para lomos de 1 cm, 12 para 2 cm y 14-15 para 3 cm.",
+        "title": "En el horno"
+      },
+      {
+        "text": "Dorada, merluza o bacalao fresco en lomos del mismo grosor, con los mismos tiempos.",
+        "title": "Alternativas"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Verduras",
+        "steps": [
+          {
+            "level": "7",
+            "text": "Saltea el calabacín y el puerro con 15 ml de AOVE y sal, solo para que pierdan el crudo.",
+            "timer": 180
+          }
+        ]
+      },
+      {
+        "name": "Estuche",
+        "steps": [
+          {
+            "text": "Cama de verduras en el estuche y los dos lomos encima, con la piel abajo. Si no caben planos, dobla la parte fina de la cola bajo el lomo: así todo tiene el mismo grosor y se hace a la vez."
+          },
+          {
+            "text": "Sal, pimienta, las rodajas de limón, 15 ml de zumo de limón, 15 ml de agua y un hilo de AOVE. Cierra la tapa y sujétala con la banda."
+          },
+          {
+            "text": "Microondas a máxima potencia (700 W) **4 min 30 s**.",
+            "timer": 270
+          },
+          {
+            "text": "**Reposo de 2 minutos sin abrir**: el vapor termina la cocción.",
+            "timer": 120
+          },
+          {
+            "text": "Comprueba el punto: carne opaca que se separa en lascas con una leve presión, 55-58 °C en el centro. Si el centro sigue translúcido, tandas de 30 s más."
+          },
+          {
+            "text": "Abre la tapa por el lado contrario a ti: sale mucho vapor de golpe. Termina con perejil o eneldo y sirve con el jugo del fondo por encima."
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "En el estuche caben 2 lomos. Para más raciones, cocina en tandas o hazlo en papel de horno (nota «En el horno»).",
+    "servings": 2,
+    "servingsNote": "un lomo de 150 g por persona",
+    "shopping": [
+      {
+        "detail": "Lomos de una pieza de 600-800 g: carne brillante, algo translúcida, que no se abre en láminas. Pide que te la abran en lomos y quiten las espinas. Salvaje, de sabor más fino; de acuicultura, más regular.",
+        "item": "Lubina"
+      },
+      {
+        "detail": "Mediano, firme y de piel brillante.",
+        "item": "Calabacín"
+      }
+    ],
+    "short": "Lubina en papillote",
+    "summary": "Lomos de lubina al vapor en el estuche de silicona, en el microondas, sobre una cama fina de calabacín y puerro con limón.",
+    "tags": [
+      "pescado",
+      "microondas",
+      "cena"
+    ],
+    "time": "20 min",
+    "title": "Lubina en papillote con calabacín y puerro",
+    "updatedAt": "2026-11-12T13:55:00+01:00"
+  },
+  "margarita": {
+    "equipment": [
+      "Coctelera o tarro con tapa",
+      "Colador fino",
+      "Exprimidor"
+    ],
+    "ingredients": [
+      {
+        "group": "Cóctel",
+        "items": [
+          {
+            "name": "Tequila blanco 100 % agave",
+            "qty": 100,
+            "unit": "ml"
+          },
+          {
+            "name": "Cointreau",
+            "qty": 50,
+            "unit": "ml"
+          },
+          {
+            "name": "Zumo de lima",
+            "note": "2-3 limas, recién exprimidas",
+            "qty": 50,
+            "unit": "ml"
+          },
+          {
+            "name": "Hielo",
+            "qty": 250,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "group": "Copa",
+        "items": [
+          {
+            "name": "Sal gruesa",
+            "qty": 1,
+            "unit": "cda"
+          },
+          {
+            "name": "Lima",
+            "note": "para el borde y 2 rodajas",
+            "qty": 0.5,
+            "unit": "ud"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "De 1 copa a 2. Sin coctelera vale un tarro de cristal con tapa de rosca. El resto, igual.",
+        "title": "Cambios respecto al original"
+      },
+      {
+        "text": "Si la lima es muy ácida, 10 ml de jarabe (azúcar y agua a partes iguales). Con hielo: en vaso bajo sobre hielo nuevo, no el de agitar.",
+        "title": "Ajuste"
+      },
+      {
+        "text": "Tommy's: sin Cointreau, 120 ml de tequila y 30 ml de sirope de agave. Picante: 4 rodajas de jalapeño fresco en la coctelera. Granizada: todo a la batidora con 300 g de hielo picado.",
+        "title": "Variantes"
+      }
+    ],
+    "origin": "Recetario de México (GitHub javicabanas/recetario), adaptada a casa",
+    "phases": [
+      {
+        "name": "Copa",
+        "steps": [
+          {
+            "text": "Frota con lima la mitad exterior del borde de cada copa y pásala por la sal: así se puede beber con sal o sin ella. Al congelador mientras preparas el resto.",
+            "timer": 300
+          }
+        ]
+      },
+      {
+        "name": "Cóctel",
+        "steps": [
+          {
+            "text": "Exprime las limas en el momento."
+          },
+          {
+            "text": "Tequila, Cointreau y lima a la coctelera, llena de hielo hasta dos tercios."
+          },
+          {
+            "text": "**Agita con fuerza** hasta que la coctelera esté helada y escarchada por fuera. El agitado enfría, airea y agua lo justo: corto, queda agresivo; largo, aguado.",
+            "timer": 15
+          },
+          {
+            "text": "Cuela dos veces (colador de la coctelera y colador fino) sobre las copas frías. Rodaja de lima."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "dos copas",
+    "shopping": [
+      {
+        "detail": "Que la etiqueta diga «100 % agave»: los que no lo dicen llevan otros azúcares y saben ásperos. Blanco para un perfil fresco; reposado si lo quieres con un toque de madera.",
+        "item": "Tequila"
+      },
+      {
+        "detail": "Cointreau o un triple seco de calidad. Los muy baratos son casi solo azúcar.",
+        "item": "Licor de naranja"
+      },
+      {
+        "detail": "Lima, no limón. Piel fina y brillante, que ceda un poco: da más zumo. Nunca zumo de bote.",
+        "item": "Lima"
+      }
+    ],
+    "short": "Margarita",
+    "summary": "El cóctel clásico de tequila, licor de naranja y lima en proporción 2:1:1, agitado con hielo y servido en copa con borde de sal.",
+    "tags": [
+      "mexicana",
+      "bebida",
+      "cóctel"
+    ],
+    "time": "5 min",
+    "title": "Margarita",
+    "updatedAt": "2026-11-12T19:10:00+01:00"
+  },
+  "merluza-en-salsa-verde-con-almejas": {
+    "equipment": [
+      "Cazuela baja o sartén honda",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Pescado",
+        "items": [
+          {
+            "name": "Merluza",
+            "note": "2 lomos o rodajas del centro",
+            "qty": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Almejas",
+            "qty": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Guisante fino congelado",
+            "qty": 150,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "group": "Salsa verde",
+        "items": [
+          {
+            "name": "AOVE",
+            "qty": 50,
+            "unit": "ml"
+          },
+          {
+            "name": "Ajo",
+            "note": "picados muy finos",
+            "qty": 3,
+            "unit": "dientes"
+          },
+          {
+            "name": "Harina",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Vino blanco",
+            "qty": 50,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua o caldo de pescado",
+            "qty": 200,
+            "unit": "ml"
+          },
+          {
+            "name": "Perejil fresco",
+            "note": "un buen puñado, picado",
+            "qty": 15,
+            "unit": "g"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Se liga moviendo la cazuela, nunca removiendo con cuchara, que rompe el pescado. Si queda espesa, una cucharada de agua; si queda líquida, un minuto más de vaivén.",
+        "title": "La salsa verde"
+      },
+      {
+        "text": "La merluza se separa en lascas con una leve presión y el centro sigue jugoso.",
+        "title": "Punto"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Antes",
+        "steps": [
+          {
+            "text": "Purga las almejas en agua fría con sal, unos 35 g por litro, **30 minutos**, para que suelten la arena. Enjuágalas.",
+            "timer": 1800
+          },
+          {
+            "text": "Seca la merluza y sálala 10 minutos antes de cocinarla."
+          }
+        ]
+      },
+      {
+        "name": "Salsa",
+        "steps": [
+          {
+            "level": "4",
+            "text": "Cazuela con 50 ml de AOVE a fuego suave. Ajo picado hasta que baile, **sin dorarse**.",
+            "timer": 120
+          },
+          {
+            "level": "4",
+            "text": "Harina, 30 segundos removiendo.",
+            "timer": 30
+          },
+          {
+            "level": "6",
+            "text": "Vino blanco, 1 minuto para que evapore el alcohol. Luego el agua poco a poco, removiendo.",
+            "timer": 60
+          },
+          {
+            "level": "5",
+            "text": "Guisantes congelados, 3 minutos.",
+            "timer": 180
+          }
+        ]
+      },
+      {
+        "name": "Merluza",
+        "steps": [
+          {
+            "level": "4",
+            "text": "Merluza con la piel arriba. **3 minutos** moviendo la cazuela en vaivén: la gelatina que suelta el pescado liga con el aceite y espesa la salsa.",
+            "timer": 180
+          },
+          {
+            "level": "4",
+            "text": "Dale la vuelta, añade las almejas y tapa **2-3 minutos**, hasta que se abran. Descarta las que sigan cerradas.",
+            "timer": 150
+          },
+          {
+            "text": "Perejil abundante, vaivén 30 segundos, prueba de sal y sirve.",
+            "timer": 30
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "200 g de merluza por persona",
+    "shopping": [
+      {
+        "detail": "De pincho o de anzuelo mejor que de arrastre: carne más firme. Piel brillante, carne blanca con reflejos y sin agua en la bandeja. Lomos o rodajas del centro.",
+        "item": "Merluza"
+      },
+      {
+        "detail": "Vivas: cerradas o que se cierran al tocarlas, sin olor. Fina o babosa si están bien de precio; la japónica es más barata y aguanta bien.",
+        "item": "Almejas"
+      },
+      {
+        "detail": "Fino o extrafino congelado.",
+        "item": "Guisante"
+      },
+      {
+        "detail": "Hoja lisa, fresco, sin hojas amarillas.",
+        "item": "Perejil"
+      },
+      {
+        "detail": "Merluza congelada en lomos de buena calidad, descongelada en la nevera, o pescadilla. Berberechos en lugar de almejas, o sin ellas.",
+        "item": "Alternativas"
+      }
+    ],
+    "short": "Merluza en salsa verde",
+    "summary": "Merluza ligada en cazuela con su propia gelatina, ajo, perejil y vino blanco, con almejas y guisante fino.",
+    "tags": [
+      "pescado",
+      "guiso"
+    ],
+    "time": "30 min + 30 min de purga",
+    "title": "Merluza en salsa verde con almejas y guisantes",
+    "updatedAt": "2026-11-07T11:30:00+01:00"
+  },
+  "mojo-de-ajo-veracruzano": {
+    "equipment": [
+      "Cazo pequeño de fondo grueso",
+      "Cuchara de madera",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Mojo",
+        "items": [
+          {
+            "name": "Ajo",
+            "note": "1 cabeza, unos 15 dientes, en láminas de 2 mm",
+            "qty": 50,
+            "unit": "g"
+          },
+          {
+            "name": "Aceite de oliva suave",
+            "qty": 150,
+            "unit": "ml"
+          },
+          {
+            "name": "Chile de árbol seco",
+            "note": "enteros",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Comino molido"
+          },
+          {
+            "name": "Zumo de lima",
+            "note": "1 lima",
+            "qty": 25,
+            "unit": "ml"
+          },
+          {
+            "name": "Vinagre de manzana",
+            "qty": 5,
+            "unit": "ml"
+          },
+          {
+            "name": "Sal",
+            "qty": 3,
+            "unit": "g"
+          },
+          {
+            "name": "Cilantro fresco",
+            "note": "picado",
+            "qty": 5,
+            "unit": "g"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Tenías dos versiones y aquí hay una: el método de la simplificada (arranque en frío, que en inducción no falla) con lo que hace veracruzana a la primera (chile de árbol, comino, cilantro, lima y vinagre). Cantidad reducida a 150 ml de aceite. La conservación baja de 2 semanas a 4 días.",
+        "title": "Cambios respecto al original"
+      },
+      {
+        "text": "Nevera, en tarro cerrado, **4 días como máximo**: el ajo en aceite no se guarda más tiempo por seguridad. Para tenerlo siempre a mano, congélalo en una cubitera (3 meses) y saca cubitos. En la nevera el aceite se espesa: 15 minutos fuera antes de usar.",
+        "title": "Guardar"
+      },
+      {
+        "text": "Para dos: 300 g de gambas peladas, secas y con sal, 1 minuto por cara en la De Buyer a nivel 8 con una cucharada del aceite del mojo. Fuera del fuego, 3 cucharadas de mojo con su ajo. Con arroz blanco.",
+        "title": "Gambas al mojo de ajo"
+      },
+      {
+        "text": "Sobre lubina, dorada o rape a la plancha, en lugar del refrito de ajo: 2 cucharadas por ración, templado.",
+        "title": "Con pescado"
+      },
+      {
+        "text": "Variante veracruzana: 80 g de cebolla en juliana fina junto con el ajo desde el principio. Queda más dulce y con más cuerpo.",
+        "title": "Versión con cebolla"
+      }
+    ],
+    "origin": "Recetario de México (GitHub javicabanas/recetario), dos versiones combinadas y adaptadas a casa",
+    "phases": [
+      {
+        "name": "Confitado",
+        "steps": [
+          {
+            "text": "Pela los ajos y córtalos en láminas de 2 mm."
+          },
+          {
+            "text": "**En frío:** aceite, ajo, chiles y comino al cazo antes de encender. Así el ajo se confita desde dentro en lugar de freírse por fuera."
+          },
+          {
+            "level": "3",
+            "text": "Enciende y remueve casi sin parar. Debe burbujear muy suave; si chisporrotea, baja a nivel 2.",
+            "timer": 660
+          },
+          {
+            "text": "**Punto crítico:** en cuanto el ajo esté color paja, saca el cazo de la placa. El calor del aceite lo lleva a dorado en un par de minutos. Si esperas a verlo dorado en el fuego, acaba marrón y amargo, y no tiene arreglo."
+          }
+        ]
+      },
+      {
+        "name": "Final",
+        "steps": [
+          {
+            "text": "Espera a que deje de burbujear y añade la lima y el vinagre en hilo, removiendo. Puede salpicar.",
+            "timer": 120
+          },
+          {
+            "text": "Sal y cilantro. Reposo de 5 minutos antes de usar.",
+            "timer": 300
+          }
+        ]
+      }
+    ],
+    "servings": 4,
+    "servingsNote": "unos 200 ml: salsa para dos comidas de pescado o gambas para dos",
+    "shopping": [
+      {
+        "detail": "Ajo morado, cabeza prieta y pesada, sin brotes. Láminas todas del mismo grosor para que se doren a la vez.",
+        "item": "Ajo"
+      },
+      {
+        "detail": "Seco, rojo, fino y largo; en tiendas latinas o por internet. Sustituto fácil: 2 cayenas secas enteras. Van enteros para perfumar, no para picar.",
+        "item": "Chile de árbol"
+      },
+      {
+        "detail": "El limón mexicano es nuestra lima: piel fina y brillante, que pese para su tamaño.",
+        "item": "Lima"
+      },
+      {
+        "detail": "Oliva suave o arbequina; un virgen extra intenso tapa el ajo. El de girasol también vale y es lo habitual en Veracruz.",
+        "item": "Aceite"
+      }
+    ],
+    "short": "Mojo de ajo",
+    "summary": "Ajo laminado confitado en aceite desde frío hasta color paja, con chile de árbol y comino, terminado con lima, un punto de vinagre y cilantro. Para gambas y pescado a la plancha.",
+    "tags": [
+      "mexicana",
+      "base",
+      "salsa"
+    ],
+    "time": "20 min",
+    "title": "Mojo de ajo veracruzano",
+    "updatedAt": "2026-11-12T19:10:00+01:00"
+  },
+  "paella-valenciana": {
+    "equipment": [
+      "Paellera 36 cm",
+      "Olla lenta",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Carne",
+        "items": [
+          {
+            "name": "Contramuslo de pollo",
+            "note": "con hueso y piel, en piezas de 4-5 cm",
+            "qty": 750,
+            "unit": "g"
+          },
+          {
+            "name": "Costilla de cerdo",
+            "note": "troceada pequeña, 2-3 cm",
+            "qty": 125,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "group": "Caldo (olla lenta)",
+        "items": [
+          {
+            "name": "AOVE para dorar",
+            "qty": 50,
+            "unit": "ml"
+          },
+          {
+            "name": "Cebolla",
+            "note": "tostada por la cara del corte",
+            "qty": 0.5,
+            "unit": "ud"
+          },
+          {
+            "name": "Ajo",
+            "note": "sin pelar, cortada por el ecuador",
+            "qty": 0.5,
+            "unit": "cabeza"
+          },
+          {
+            "name": "Tomate maduro",
+            "note": "unos 200 g, partido por la mitad",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Agua fría",
+            "note": "hasta 1,7-1,8 L en total",
+            "qty": 1.75,
+            "unit": "L"
+          }
+        ]
+      },
+      {
+        "group": "Paella",
+        "items": [
+          {
+            "name": "Arroz bomba",
+            "qty": 420,
+            "unit": "g"
+          },
+          {
+            "name": "Judía verde plana",
+            "note": "en trozos de 4-5 cm",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Tomate de pera rallado",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Garrofó congelado",
+            "qty": 120,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE para el sofrito",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "name": "AOVE para la paellera",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Pimentón dulce de la Vera",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Azafrán en hebra",
+            "qty": 0.2,
+            "unit": "g"
+          },
+          {
+            "name": "Romero fresco",
+            "qty": 1,
+            "unit": "rama"
+          },
+          {
+            "amount": "en dos fases",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Mesa",
+        "items": [
+          {
+            "name": "Limones",
+            "qty": 2,
+            "unit": "ud"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Paellera al centro sobre el salvamanteles; se sirve de ella con la rasera, en capa fina, rascando para que cada ración lleve socarrat, carne y garrofó.\nLimones en la mesa para quien quiera. Alioli no: no es tradición con la paella de carne y tapa el romero.\nSi abres tinto, uno joven y fresco tipo garnacha.",
+        "title": "Servicio"
+      },
+      {
+        "text": "Caldo con carne dorada más el trío tostado (cebolla, ajo y tomate). Fuera apio, puerro, zanahoria y laurel: llevan el caldo hacia sopa de cocido y compiten con el romero.\nProporción 750 g de pollo y 125 g de costilla para mantener el perfil clásico. Más costilla da un caldo más denso pero acerca el plato a un arroz de costillas.\nEl romero nunca va al caldo de la víspera: seis horas de infusión lo vuelven medicinal.",
+        "title": "Decisiones de esta versión"
+      },
+      {
+        "text": "Jueves o viernes: compra.\nViernes noche: dorar carnes, tostar cebolla y ajos, olla lenta en LOW toda la noche.\nSábado: colar y medir el caldo, sofrito, garrofó a descongelar, azafrán tostado, estación y ensayo con 1,25 L.\nDomingo: atemperar, caldo con azafrán a fuego mínimo y arrancar unos 40 minutos antes de comer.",
+        "title": "Calendario"
+      }
+    ],
+    "origin": "https://claude.ai/chat/b846c0ec-c928-4370-8328-d9baccf0ff40",
+    "phases": [
+      {
+        "name": "Viernes noche · Caldo en olla lenta",
+        "steps": [
+          {
+            "text": "Sala generosamente el pollo y la costilla."
+          },
+          {
+            "level": "8-9",
+            "text": "Dóralos con 50 ml de AOVE en dos tandas, sin amontonar: 15 minutos en total, dorado profundo por todas las caras. Este dorado es el 70 % del sabor final.",
+            "timer": 900
+          },
+          {
+            "level": "8-9",
+            "text": "En la misma sartén, con el fuego aún fuerte, tuesta media cebolla por la cara del corte hasta casi quemarla (2-3 minutos sin moverla) y media cabeza de ajos sin pelar, cortada por el ecuador, boca abajo, 2 minutos.",
+            "timer": 180
+          },
+          {
+            "text": "Todo a la olla lenta: carnes, cebolla y ajos tostados y un tomate maduro partido por la mitad. Desglasa la sartén con un vaso de agua rascando bien el fondo dorado y vierte ese jugo también."
+          },
+          {
+            "text": "Agua fría hasta **1,7-1,8 L** en total. Nada de judía ni garrofó: se desharían."
+          },
+          {
+            "text": "Olla lenta en **LOW, 6-8 horas**, durante la noche. No la toques."
+          }
+        ]
+      },
+      {
+        "name": "Sábado · Preparación",
+        "steps": [
+          {
+            "text": "Cuela el caldo presionando suavemente cebolla, ajos y tomate contra el colador antes de descartarlos. Mídelo: objetivo **1,45 L**. Si falta, completa con agua; si sobra, guárdalo todo. Punto de sal: ligeramente más salado de lo agradable en cuchara, porque el arroz absorbe la sal."
+          },
+          {
+            "text": "Carne a un táper, cubierta con un cucharón de caldo. Caldo y carne a la nevera. Si al enfriar la capa de grasa solidificada supera el medio centímetro, retira el exceso; el resto se queda, es sabor."
+          },
+          {
+            "text": "Garrofó: pesa 120 g y ponlo a descongelar en la nevera. El resto del paquete, al congelador."
+          },
+          {
+            "level": "6",
+            "text": "**Sofrito:** 40 ml de AOVE y la judía verde en trozos de 4-5 cm, 3-4 minutos.",
+            "timer": 210
+          },
+          {
+            "level": "6",
+            "text": "Añade 150 g de tomate rallado y sofríe hasta el punto de **aceite roto**: el tomate pierde toda su agua y el aceite se separa y aflora por los bordes, unos 8-10 minutos. Este punto no es negociable. Táper y nevera.",
+            "timer": 540
+          },
+          {
+            "text": "Tuesta las hebras de azafrán 10 segundos en sartén seca y guárdalas en un papelito doblado."
+          },
+          {
+            "text": "**Estación:** arroz pesado (420 g) en un bol, romero lavado y seco, limones cortados. A mano: rasera, dos paños limpios, manoplas y salvamanteles grande."
+          },
+          {
+            "level": "9",
+            "text": "**Ensayo de inducción:** paellera con **1,25 L** de agua en tu zona más grande (zona flexible activada si la tienes). Confirma que asienta plana, observa el burbujeo y memoriza a qué altura de la pared queda ese volumen: es tu referencia para el domingo. Si el centro hierve con violencia y el borde apenas se mueve, tu máximo real es el nivel 8.",
+            "timer": 300
+          }
+        ]
+      },
+      {
+        "name": "Domingo · Antes de arrancar",
+        "steps": [
+          {
+            "text": "**Hora y media antes de comer:** saca de la nevera carne, sofrito y garrofó para que se atemperen."
+          },
+          {
+            "text": "**45 minutos antes:** todo el caldo en un cazo a fuego mínimo, tapado, con el azafrán tostado dentro. Del arranque a la mesa son unos 38-40 minutos."
+          }
+        ]
+      },
+      {
+        "name": "Domingo · La paella",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Caldo a hervor violento en su cazo. Paellera al máximo con 30 ml de AOVE (Booster 1 minuto para precalentar, si quieres)."
+          },
+          {
+            "level": "9",
+            "text": "Pollo y costilla a la paellera: 3 minutos para recuperar temperatura y reavivar el dorado. Que chisporrotee de verdad.",
+            "timer": 180
+          },
+          {
+            "text": "Sofrito de judía y tomate más el garrofó: 1-2 minutos integrando. Añade una cucharadita de pimentón y remueve solo 10 segundos: se quema enseguida."
+          },
+          {
+            "level": "7-8",
+            "text": "**Hervor previo:** vierte todo el caldo hirviendo (unos 1,45 L) y mantén hervor franco 10-12 minutos con la carne y la verdura dentro. Gira la paellera 90° a mitad. Aquí se reconstruye el fondo tostado y se concentra el caldo. Prueba y ajusta la sal en el minuto 8: es la última corrección cómoda. Vigila el nivel a partir del minuto 9.",
+            "timer": 600
+          },
+          {
+            "text": "**Comprobación de nivel:** debe quedar líquido en torno a tu marca de **1,25 L**. Si ha reducido de más, añade caldo o agua hirviendo; si va sobrado, 2-3 minutos más de hervor fuerte."
+          },
+          {
+            "level": "9",
+            "text": "**Arroz en lluvia:** con el caldo a hervor vivo, reparte los 420 g en cruz sobre toda la superficie y nivela con la rasera: capa uniforme, carne semihundida y repartida. Posa la rama de romero encima. **A partir de aquí no se remueve.**"
+          },
+          {
+            "level": "9",
+            "text": "**9 minutos a fuego fuerte** (o tu máximo real del ensayo), girando la paellera 90° cada 2 minutos, deslizándola sin levantarla.",
+            "timer": 540
+          },
+          {
+            "level": "4",
+            "text": "Baja a nivel 4 durante 6-8 minutos. Última rotación al tercer minuto; después, quieta. Cuando no quede líquido brillante, prueba un grano del borde: hecho por fuera, resistencia mínima dentro. Si le falta, 2 minutos más a nivel 4.",
+            "timer": 420
+          },
+          {
+            "level": "9",
+            "text": "**Socarrat:** 60-90 segundos al máximo o con Booster, a oído: cuando el borboteo pasa a crepitar seco, apaga. La inducción corta el calor al instante, así que apura hasta el crepitar franco.",
+            "timer": 90
+          },
+          {
+            "text": "Paellera al salvamanteles con un paño limpio encima: **5 minutos de reposo**. Retira el romero.",
+            "timer": 300
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "La paellera de 36 cm está calculada para estas raciones. Con más arroz la capa engorda y cambian tiempos y punto; con mucho más, necesitas una paellera mayor.",
+    "servings": 6,
+    "servingsNote": "unos 70 g de arroz por persona, como cierre de menú",
+    "shopping": [
+      {
+        "detail": "Carnicería, jueves o viernes. Pollo con hueso y piel en piezas de 4-5 cm; costilla troceada pequeña, 2-3 cm.",
+        "item": "Contramuslo de pollo y costilla"
+      },
+      {
+        "detail": "D.O. Valencia o Calasparra.",
+        "item": "Arroz bomba"
+      },
+      {
+        "detail": "Congelado Hacendado (Mercadona), sección de congelados. El paquete de 450 g da para varias paellas.",
+        "item": "Garrofó"
+      },
+      {
+        "detail": "Vainas firmes que chasquen al doblarlas.",
+        "item": "Judía verde plana"
+      },
+      {
+        "detail": "Muy maduro, para rallar. Uno más para el caldo.",
+        "item": "Tomate de pera"
+      },
+      {
+        "detail": "En hebra, nunca colorante.",
+        "item": "Azafrán"
+      },
+      {
+        "detail": "Dulce de la Vera.",
+        "item": "Pimentón"
+      },
+      {
+        "detail": "Fresco, una rama pequeña.",
+        "item": "Romero"
+      },
+      {
+        "detail": "AOVE picual.",
+        "item": "Aceite"
+      }
+    ],
+    "short": "Paella",
+    "summary": "Método híbrido: caldo de carne dorada en olla lenta la víspera y hervor previo en la paellera antes del arroz.",
+    "tags": [
+      "arroz",
+      "carne",
+      "paellera"
+    ],
+    "time": "Víspera + 40 min",
+    "title": "Paella valenciana de pollo y costilla",
+    "updatedAt": "2026-11-07T10:30:00+01:00"
+  },
+  "pinada": {
+    "equipment": [
+      "Batidora de vaso o de brazo",
+      "Colador fino"
+    ],
+    "ingredients": [
+      {
+        "group": "Piñada",
+        "items": [
+          {
+            "name": "Piña fresca",
+            "note": "pelada, sin ojos ni corazón, en trozos",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Leche entera",
+            "note": "muy fría",
+            "qty": 250,
+            "unit": "ml"
+          },
+          {
+            "name": "Leche condensada",
+            "qty": 50,
+            "unit": "ml"
+          },
+          {
+            "name": "Extracto de vainilla",
+            "qty": 0.5,
+            "unit": "cdta"
+          },
+          {
+            "name": "Hielo",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Canela molida",
+            "note": "opcional"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "De 4 vasos a 2 y pasos agrupados. Fuera la parte de coctelería profesional (cristalería, lecitina).",
+        "title": "Cambios respecto al original"
+      },
+      {
+        "text": "La bromelina de la piña rompe las proteínas de la leche y la mezcla se separa. Con todo muy frío va más lento; aun así, se bebe en el momento. Si hay que esperar, nevera y máximo 2 horas, removiendo antes de servir.",
+        "title": "Por qué no espera"
+      },
+      {
+        "text": "De coco: cambia 100 ml de leche por leche de coco. Con alcohol: 50 ml de ron blanco o tequila reposado por vaso.",
+        "title": "Variantes"
+      },
+      {
+        "text": "Con comida picante (el lácteo calma el picor): cochinita pibil, chilaquiles.",
+        "title": "Con qué"
+      }
+    ],
+    "origin": "Recetario de México (GitHub javicabanas/recetario), adaptada a casa",
+    "phases": [
+      {
+        "name": "Batido",
+        "steps": [
+          {
+            "text": "Tritura la piña con la mitad de la leche a máxima potencia hasta que no queden hebras.",
+            "timer": 60
+          },
+          {
+            "text": "Añade el resto de la leche, la leche condensada y la vainilla. 30 segundos más. Prueba: si la piña es ácida, un poco más de condensada; si es muy dulce, unas gotas de lima.",
+            "timer": 30
+          },
+          {
+            "text": "**Dos formas de servir.** Granizada: tritura con el hielo hasta que quede espesa. Tradicional: cuela por el colador fino y sirve sobre hielo."
+          },
+          {
+            "text": "Canela por encima y a la mesa ya: la piña acaba cortando la leche si espera."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "dos vasos de unos 300 ml",
+    "shopping": [
+      {
+        "detail": "Madura: amarilla dorada en la base, olor dulce por abajo, y una hoja del centro que salga al tirar sin esfuerzo. La de avión es más dulce. Media piña pequeña da los 200 g limpios.",
+        "item": "Piña"
+      },
+      {
+        "detail": "Entera: la desnatada se corta antes con la acidez de la piña.",
+        "item": "Leche"
+      }
+    ],
+    "short": "Piñada",
+    "summary": "Bebida cremosa del centro de México: piña fresca batida con leche fría, leche condensada y vainilla. Sin alcohol.",
+    "tags": [
+      "mexicana",
+      "bebida"
+    ],
+    "time": "10 min",
+    "title": "Piñada",
+    "updatedAt": "2026-11-12T19:10:00+01:00"
+  },
+  "potaje-de-garbanzos-espinacas-y-bacalao": {
+    "equipment": [
+      "Cazuela u olla 3 L",
+      "Mortero",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Potaje",
+        "items": [
+          {
+            "name": "Garbanzo cocido",
+            "note": "1 tarro, escurrido y enjuagado",
+            "qty": 570,
+            "unit": "g"
+          },
+          {
+            "name": "Bacalao desalado",
+            "note": "en tacos o lascas grandes",
+            "qty": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Espinacas frescas",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Huevos",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Agua o caldo de verduras",
+            "qty": 600,
+            "unit": "ml"
+          },
+          {
+            "name": "Laurel",
+            "qty": 1,
+            "unit": "hoja"
+          },
+          {
+            "name": "Pimentón dulce",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "amount": "con cuidado",
+            "name": "Sal",
+            "note": "el bacalao ya sala"
+          }
+        ]
+      },
+      {
+        "group": "Majado",
+        "items": [
+          {
+            "name": "AOVE",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "name": "Ajo",
+            "note": "pelados, enteros",
+            "qty": 3,
+            "unit": "dientes"
+          },
+          {
+            "name": "Pan de centeno",
+            "note": "1 rebanada",
+            "qty": 30,
+            "unit": "g"
+          },
+          {
+            "name": "Comino molido",
+            "qty": 0.5,
+            "unit": "cdta"
+          },
+          {
+            "name": "Vinagre de Jerez",
+            "qty": 5,
+            "unit": "ml"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Gana de un día para otro. Recalienta a fuego suave moviendo la cazuela; como máximo 2 días en nevera, por el bacalao.",
+        "title": "Adelantar"
+      },
+      {
+        "text": "Sin bacalao: merluza o abadejo en tacos, 3 minutos. Con garbanzo seco: 150 g en remojo 12 horas y cocidos aparte.",
+        "title": "Alternativas"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Huevos y majado",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Huevos a agua hirviendo **10 minutos**, a agua fría y pélalos.",
+            "timer": 600
+          },
+          {
+            "level": "5",
+            "text": "En la cazuela, 40 ml de AOVE. Fríe los ajos enteros y el pan hasta que estén dorados, sin quemarse.",
+            "timer": 150
+          },
+          {
+            "text": "Sácalos al mortero y májalos con el comino y el vinagre hasta hacer una pasta. El aceite se queda en la cazuela."
+          }
+        ]
+      },
+      {
+        "name": "Potaje",
+        "steps": [
+          {
+            "level": "7",
+            "text": "En ese aceite, las espinacas en dos tandas, hasta que bajen.",
+            "timer": 150
+          },
+          {
+            "level": "9",
+            "text": "Fuera del fuego, el pimentón 10 segundos. Añade los garbanzos, el laurel, el majado y 600 ml de agua. Lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Hervor suave **10 minutos** para que se integre y espese un poco.",
+            "timer": 600
+          },
+          {
+            "level": "3",
+            "text": "Bacalao en tacos y **5 minutos** a fuego suave, sin remover con cuchara: mueve la cazuela en vaivén para que no se rompa.",
+            "timer": 300
+          },
+          {
+            "text": "Prueba antes de salar. Sirve con el huevo duro en cuartos por encima."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "unos 40 g de proteína por ración",
+    "shopping": [
+      {
+        "detail": "Desalado refrigerado; mejor lomo o tacos que migas. Lascas blancas que se separan y sin olor amoniacal. Aguanta 3-4 días en nevera dentro de fecha.",
+        "item": "Bacalao"
+      },
+      {
+        "detail": "Cocido en tarro de cristal, solo con garbanzo, agua y sal. Enjuágalo para quitar el líquido de la conserva.",
+        "item": "Garbanzo"
+      },
+      {
+        "detail": "Hoja tersa, verde oscuro, sin hojas lacias ni húmedas en el fondo de la bolsa.",
+        "item": "Espinacas"
+      }
+    ],
+    "short": "Potaje de bacalao",
+    "summary": "Potaje de vigilia con garbanzo cocido, espinacas, majado de ajo y pan frito, bacalao desalado en lascas y huevo duro.",
+    "tags": [
+      "legumbre",
+      "guiso",
+      "pescado"
+    ],
+    "time": "35 min",
+    "title": "Potaje de garbanzos, espinacas y bacalao",
+    "updatedAt": "2026-11-07T11:30:00+01:00"
+  },
+  "rape-a-la-plancha-con-refrito-de-ajo": {
+    "equipment": [
+      "Sartén de acero o hierro",
+      "Olla mediana",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Rape",
+        "items": [
+          {
+            "name": "Rape limpio, en lomos",
+            "note": "de una cola de 700-800 g, sin piel ni telilla",
+            "qty": 400,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE",
+            "qty": 15,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal fina"
+          }
+        ]
+      },
+      {
+        "group": "Guarnición",
+        "items": [
+          {
+            "name": "Patata Monalisa",
+            "note": "en dados de 2 cm",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Guisante fino congelado",
+            "note": "sin descongelar",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Agua",
+            "qty": 1.5,
+            "unit": "L"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Refrito",
+        "items": [
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Ajo",
+            "note": "laminados",
+            "qty": 3,
+            "unit": "dientes"
+          },
+          {
+            "name": "Vinagre de Jerez",
+            "qty": 10,
+            "unit": "ml"
+          },
+          {
+            "amount": "un poco",
+            "name": "Perejil",
+            "note": "picado"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Es el mismo de la dorada al horno: aceite, ajo dorado y vinagre de Jerez, sin guindilla.",
+        "title": "El refrito"
+      },
+      {
+        "text": "Suelta más agua que el fresco: deja que escurra toda la noche en el colador y sécalo dos veces, antes y después del salado. Pésalo: con 300 g también da para dos.",
+        "title": "Rape congelado"
+      },
+      {
+        "text": "Con termómetro, 50-55 °C en el centro. Sin termómetro, la carne pasa de translúcida a blanca nacarada y aún cede un poco al presionar.",
+        "title": "Punto del rape"
+      },
+      {
+        "text": "Sin rape: lomos de corvina o de bacalao fresco, 2-3 minutos por cara. En lugar de guisantes, judía verde plana en trozos, 8 minutos con la patata.",
+        "title": "Alternativas"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · sustituye a la merluza en salsa verde del viernes 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Preparación",
+        "steps": [
+          {
+            "text": "Corta los lomos de rape en medallones de 3 cm. Sálalos y déjalos 10 minutos sobre papel de cocina: el rape suelta mucha agua, y así se dora en vez de cocerse.",
+            "timer": 600
+          },
+          {
+            "level": "9",
+            "text": "Mientras, la olla con 1,5 L de agua y sal a hervir. Pela la patata y córtala en dados de 2 cm."
+          }
+        ]
+      },
+      {
+        "name": "Guarnición",
+        "steps": [
+          {
+            "level": "6",
+            "text": "Patata al agua hirviendo, hervor suave 8 minutos.",
+            "timer": 480
+          },
+          {
+            "level": "6",
+            "text": "Añade los guisantes sin descongelar y sigue 4 minutos. Escurre y deja tapado.",
+            "timer": 240
+          }
+        ]
+      },
+      {
+        "name": "Rape",
+        "steps": [
+          {
+            "level": "8",
+            "text": "Seca el rape a conciencia con papel. Precalienta la sartén en seco hasta que una gota de agua ruede por la superficie.",
+            "timer": 150
+          },
+          {
+            "level": "7",
+            "text": "15 ml de AOVE y los medallones separados entre sí, **sin tocarlos** hasta que se doren por abajo.",
+            "timer": 120
+          },
+          {
+            "level": "7",
+            "text": "Dales la vuelta y 2 minutos más. Están cuando la carne está nacarada y cede un poco al presionar: pasado se vuelve gomoso. Si son más gruesos de 3 cm, 30 segundos más por cara. Retíralos a los platos.",
+            "timer": 120
+          }
+        ]
+      },
+      {
+        "name": "Refrito",
+        "steps": [
+          {
+            "level": "3",
+            "text": "Baja la sartén a nivel 3 y espera 1 minuto: el acero guarda el calor y quemaría el ajo. 30 ml de AOVE y el ajo laminado, hasta que baile y tome un dorado pálido.",
+            "timer": 90
+          },
+          {
+            "text": "Fuera del fuego, el vinagre (salpica: aparta la cara) y el perejil. Viértelo enseguida sobre el rape, la patata y los guisantes: si se queda en la sartén, el ácido estropea el curado."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "unos 35 g de proteína por ración",
+    "shopping": [
+      {
+        "detail": "Una cola de 700-800 g. Carne blanca nacarada y firme, sin olor amoniacal, que no suelte agua en la bandeja. Pide que la limpien de piel y de la **telilla gris azulada** (en la plancha se encoge y deja el rape correoso) y que saquen los dos lomos. Si lo tienes congelado, descongélalo en la nevera la noche antes, en un colador sobre un plato.",
+        "item": "Rape"
+      },
+      {
+        "detail": "Monalisa o Agria, firme, sin brotes ni zonas verdes.",
+        "item": "Patata"
+      },
+      {
+        "detail": "Finos congelados: los de la merluza que ya no se hace.",
+        "item": "Guisantes"
+      }
+    ],
+    "short": "Rape a la plancha",
+    "summary": "Medallones de rape marcados en sartén muy caliente, con patata y guisantes cocidos y el refrito de ajo y vinagre de la dorada por encima. Plato único en 30 minutos.",
+    "tags": [
+      "pescado",
+      "plancha"
+    ],
+    "time": "30 min",
+    "title": "Rape a la plancha con refrito de ajo, patata y guisantes",
+    "updatedAt": "2026-11-11T11:05:00+01:00"
+  },
+  "revuelto-de-setas": {
+    "equipment": [
+      "Sartén de hierro 28 cm",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Revuelto",
+        "items": [
+          {
+            "name": "Setas de temporada",
+            "note": "níscalos o setas variadas",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Huevos L",
+            "qty": 5,
+            "unit": "ud"
+          },
+          {
+            "name": "Ajo",
+            "note": "picado fino",
+            "qty": 1,
+            "unit": "dientes"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "amount": "un poco",
+            "name": "Perejil",
+            "note": "picado"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Ensalada",
+        "items": [
+          {
+            "amount": "½ bolsa",
+            "name": "Lechuga"
+          },
+          {
+            "name": "Tomate",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Aguacate",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "AOVE",
+            "qty": 20,
+            "unit": "ml"
+          },
+          {
+            "name": "Vinagre de Jerez",
+            "qty": 5,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Fuego bajo y sacarlo antes de tiempo. A fuego fuerte el huevo se agarra en grumos secos y suelta agua.",
+        "title": "El punto del revuelto"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Setas",
+        "steps": [
+          {
+            "text": "Limpia las setas con un paño húmedo o una brocha, sin lavarlas: absorben agua y luego no se doran. Trocea las grandes."
+          },
+          {
+            "level": "8",
+            "text": "Sartén caliente con 20 ml de AOVE. Setas extendidas, sin amontonar y **sin tocarlas el primer minuto**; luego saltea hasta que suelten el agua, se evapore y se doren. Sal al final: si salas al principio sueltan agua y se cuecen.",
+            "timer": 360
+          },
+          {
+            "level": "5",
+            "text": "Baja el fuego, añade 10 ml de AOVE y el ajo picado, 30 segundos.",
+            "timer": 30
+          }
+        ]
+      },
+      {
+        "name": "Revuelto",
+        "steps": [
+          {
+            "text": "Bate los huevos con sal, solo para romperlos, sin espumar."
+          },
+          {
+            "level": "3",
+            "text": "Fuego bajo y el huevo sobre las setas. Remueve despacio con una espátula, arrastrando de los bordes al centro. **Retira la sartén cuando aún esté jugoso**: el calor residual termina de cuajarlo.",
+            "timer": 120
+          },
+          {
+            "text": "Perejil picado y al plato."
+          }
+        ]
+      },
+      {
+        "name": "Ensalada",
+        "steps": [
+          {
+            "text": "Aliña la lechuga, el tomate y el aguacate justo antes de servir, con AOVE, vinagre y sal."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "2-3 huevos por persona",
+    "shopping": [
+      {
+        "detail": "En noviembre, níscalos (rovellons): firmes, sin zonas blandas y con el corte del pie limpio, sin galerías. Si no hay o están caros, setas variadas, o champiñón con shiitake.",
+        "item": "Setas"
+      },
+      {
+        "detail": "Categoría L y frescos: la clara se mantiene recogida al cascarlos.",
+        "item": "Huevos"
+      }
+    ],
+    "short": "Revuelto de setas",
+    "summary": "Setas de temporada bien doradas y revuelto jugoso a fuego bajo, con ensalada de lechuga, tomate y aguacate.",
+    "tags": [
+      "huevos",
+      "setas",
+      "cena"
+    ],
+    "time": "20 min",
+    "title": "Revuelto de setas con ensalada",
+    "updatedAt": "2026-11-07T11:30:00+01:00"
+  },
+  "sofrito-de-tomate": {
+    "equipment": [
+      "Sartén 24-28 cm",
+      "Rallador",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Sofrito",
+        "items": [
+          {
+            "name": "Tomate de pera maduro",
+            "note": "2 tomates, rallados; es el peso de la pulpa sin piel",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Ajo",
+            "note": "picados muy finos",
+            "qty": 4,
+            "unit": "dientes"
+          },
+          {
+            "name": "AOVE",
+            "qty": 40,
+            "unit": "ml"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sal"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Mientras el tomate tiene agua, se cuece a unos 100 °C. Cuando el agua se va, sube la temperatura, se concentran los azúcares y el aceite se queda con el sabor. Un sofrito con agua sabe a tomate crudo y además mete agua en el arroz y descuadra el caldo.",
+        "title": "Por qué hasta aceite roto"
+      },
+      {
+        "text": "En el arroz, sustituye el paso de ajo y tomate: el sofrito hecho, 1 minuto para calentarlo. Después, el pimentón 10 segundos y el arroz.",
+        "title": "Cómo se usa"
+      },
+      {
+        "text": "El pimentón se añade en cada arroz: se quema en segundos y, recalentado o congelado, amarga.",
+        "title": "Sin pimentón"
+      },
+      {
+        "text": "Ajusta las raciones. Al doblar, usa la sartén más ancha o la paellera, y cuenta unos 5 minutos más de reducción.",
+        "title": "Más cantidad"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · plan del fin de semana del 7 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Preparación",
+        "steps": [
+          {
+            "text": "**Ralla el tomate:** córtalo por la mitad y frota la cara del corte contra el rallador grueso, sobre un bol. La piel se queda en la mano y se tira. Deben salir unos 200 g de pulpa."
+          },
+          {
+            "text": "Pica el ajo muy fino."
+          }
+        ]
+      },
+      {
+        "name": "Sofrito",
+        "steps": [
+          {
+            "level": "4",
+            "text": "Sartén ancha con los 40 ml de AOVE. Ajo 30-40 segundos, que perfume **sin dorarse**: dorado amarga al reducir.",
+            "timer": 40
+          },
+          {
+            "level": "6",
+            "text": "Tomate y una pizca de sal. Sube hasta que borbotee.",
+            "timer": 90
+          },
+          {
+            "level": "5",
+            "text": "**Reduce removiendo cada 2-3 minutos** y rascando el fondo con la espátula. Los últimos minutos, más a menudo: es cuando se agarra. Con tomate de lata llega antes, vigila desde el minuto 8.",
+            "timer": 780
+          },
+          {
+            "level": "5",
+            "text": "**Punto de aceite roto**, con las cuatro señales: ha quedado en un tercio del volumen, el color ha pasado de rojo vivo a granate, la espátula deja un surco que no se llena de agua y el aceite asoma por los bordes con chisporroteo de fritura. Si falta alguna, 2-3 minutos más."
+          }
+        ]
+      },
+      {
+        "name": "Guardar",
+        "steps": [
+          {
+            "text": "Reparte en dos mitades iguales, unos 50 g cada una. La del arroz de mañana, a un táper pequeño en la **nevera**: aguanta 3 días."
+          },
+          {
+            "text": "La otra, cuando esté fría, a una bolsa de congelación aplanada, con nombre y fecha, al **congelador**: aguanta 3 meses. La noche antes de usarla, a la nevera."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "2 arroces de 2 raciones, unos 50 g de sofrito por arroz",
+    "shopping": [
+      {
+        "detail": "Maduro de verdad: rojo intenso y uniforme, cede un poco al presionar y huele a tomate junto al pedúnculo. Si no los hay maduros, mejor tomate entero pelado en lata: 200 g de pulpa escurrida.",
+        "item": "Tomate de pera"
+      },
+      {
+        "detail": "Cabeza firme y pesada, sin brotes verdes ni dientes blandos.",
+        "item": "Ajo"
+      }
+    ],
+    "short": "Sofrito",
+    "summary": "Base de ajo y tomate de pera reducida hasta aceite roto, para adelantar el sofrito de los arroces. Sin pimentón: va en cada arroz.",
+    "tags": [
+      "base",
+      "adelantar"
+    ],
+    "time": "20 min",
+    "title": "Sofrito de tomate",
+    "updatedAt": "2026-11-07T19:00:00+01:00"
+  },
+  "sopa-de-verduras": {
+    "equipment": [
+      "Olla 4-5 L",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Verduras",
+        "items": [
+          {
+            "name": "Puerro",
+            "note": "blanco y verde tierno, en medias lunas",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Zanahoria",
+            "note": "2 medianas, en rodajas de 5 mm",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Acelgas",
+            "note": "pencas en dados y hojas en tiras, por separado",
+            "qty": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Patata Monalisa",
+            "note": "1 mediana, chascada en trozos de 2 cm",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Calabacín",
+            "note": "1 mediano, en dados de 1,5 cm",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Ajo",
+            "note": "laminado",
+            "qty": 1,
+            "unit": "dientes"
+          }
+        ]
+      },
+      {
+        "group": "Caldo",
+        "items": [
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua fría",
+            "qty": 1.6,
+            "unit": "L"
+          },
+          {
+            "name": "Laurel",
+            "qty": 1,
+            "unit": "hoja"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Al servir",
+        "items": [
+          {
+            "name": "Fideo fino",
+            "note": "20 g por ración, solo en las raciones que vayas a tomar",
+            "qty": 80,
+            "unit": "g"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "En la nevera el fideo sigue absorbiendo caldo y se convierte en una pasta blanda. Cuécelo siempre en las raciones del día.",
+        "title": "Por qué el fideo aparte"
+      },
+      {
+        "text": "Si la quieres más ligada, tritura un cucharón de verduras con un poco de caldo y devuélvelo a la olla.",
+        "title": "Más cuerpo"
+      },
+      {
+        "text": "3 días en la nevera. Congela bien, sin fideo.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Preparación",
+        "steps": [
+          {
+            "text": "Lava y corta las verduras. Separa pencas y hojas de acelga: las pencas van al principio y las hojas al final. **Chasca** la patata: clava el cuchillo y arranca el trozo en vez de cortarlo limpio; la superficie rugosa suelta almidón y da cuerpo al caldo."
+          }
+        ]
+      },
+      {
+        "name": "Sofrito suave",
+        "steps": [
+          {
+            "level": "5",
+            "text": "AOVE en la olla. Puerro, zanahoria y pencas de acelga con una pizca de sal: **pocha** sin que tomen color, removiendo de vez en cuando, hasta que el puerro esté translúcido.",
+            "timer": 420
+          },
+          {
+            "level": "5",
+            "text": "Añade el ajo laminado y remueve 1 minuto, sin que se dore.",
+            "timer": 60
+          },
+          {
+            "level": "5",
+            "text": "Patata y calabacín: 2 minutos removiendo para que se impregnen del aceite.",
+            "timer": 120
+          }
+        ]
+      },
+      {
+        "name": "Cocción",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Agua fría, laurel y sal. Lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Al romper a hervir, baja a **hervor suave 10 minutos**, con la tapa entreabierta.",
+            "timer": 600
+          },
+          {
+            "level": "4",
+            "text": "Añade las hojas de acelga y sigue 5 minutos, hasta que la patata se deshaga en los bordes al presionarla.",
+            "timer": 300
+          },
+          {
+            "text": "Retira el laurel y rectifica de sal. Separa en tápers las raciones que no vayas a tomar hoy, **sin fideo**: enfríalas destapadas y a la nevera antes de 2 horas."
+          }
+        ]
+      },
+      {
+        "name": "Al servir",
+        "steps": [
+          {
+            "level": "8",
+            "text": "En un cazo, las raciones que vas a tomar. Cuando hierva, añade 20 g de fideo por ración y cuece 3 minutos. Sirve en el momento.",
+            "timer": 180
+          }
+        ]
+      }
+    ],
+    "servings": 4,
+    "servingsNote": "unos 350 ml por ración; el fideo, solo en lo que se sirve",
+    "shopping": [
+      {
+        "detail": "Blanco largo y firme, hojas verdes sin amarillear ni secas en la punta.",
+        "item": "Puerro"
+      },
+      {
+        "detail": "Mediano, piel brillante y tersa, firme al apretar. Los muy grandes tienen más agua y semilla.",
+        "item": "Calabacín"
+      },
+      {
+        "detail": "Pencas blancas y crujientes que se parten limpias; hojas sin manchas ni bordes lacios.",
+        "item": "Acelgas"
+      },
+      {
+        "detail": "Monalisa: mantiene la forma en la sopa y suelta algo de almidón al chascarla.",
+        "item": "Patata"
+      },
+      {
+        "detail": "Fino, del n.º 0 o 1, de sémola de trigo duro.",
+        "item": "Fideo"
+      }
+    ],
+    "short": "Sopa de verduras",
+    "summary": "Sopa de puerro, zanahoria, calabacín y acelgas con fideo fino añadido al servir; se hace para cuatro y aguanta tres días.",
+    "tags": [
+      "sopa",
+      "verdura"
+    ],
+    "time": "45 min",
+    "title": "Sopa de verduras",
+    "updatedAt": "2026-11-07T11:30:00+01:00"
+  },
+  "torta-de-milanesa": {
+    "equipment": [
+      "Sartén De Buyer 28 cm",
+      "Sartén de hierro",
+      "Mazo o rodillo",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Milanesas",
+        "items": [
+          {
+            "name": "Filetes de ternera muy finos",
+            "note": "2 filetes de tapa o cadera, de 3-4 mm",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Harina de trigo",
+            "qty": 30,
+            "unit": "g"
+          },
+          {
+            "name": "Huevo",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Pan rallado fino",
+            "qty": 60,
+            "unit": "g"
+          },
+          {
+            "name": "Ajo en polvo",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Cebolla en polvo",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Comino molido",
+            "qty": 0.25,
+            "unit": "cdta"
+          },
+          {
+            "name": "Pimienta negra molida",
+            "qty": 0.25,
+            "unit": "cdta"
+          },
+          {
+            "name": "Sal",
+            "qty": 0.5,
+            "unit": "cdta"
+          },
+          {
+            "name": "Aceite de girasol",
+            "note": "para freír",
+            "qty": 150,
+            "unit": "ml"
+          }
+        ]
+      },
+      {
+        "group": "Armado",
+        "items": [
+          {
+            "name": "Panecillos de corteza fina",
+            "note": "de unos 15 cm",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Frijoles refritos",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Aguacate Hass maduro",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Lima",
+            "qty": 0.5,
+            "unit": "ud"
+          },
+          {
+            "name": "Lechuga romana",
+            "note": "en juliana fina",
+            "qty": 50,
+            "unit": "g"
+          },
+          {
+            "name": "Tomate de pera",
+            "note": "en rodajas finas",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Cebolla tierna",
+            "note": "en aros finos",
+            "qty": 50,
+            "unit": "g"
+          },
+          {
+            "name": "Jalapeños en vinagre",
+            "note": "en rodajas, al gusto",
+            "qty": 5,
+            "unit": "ud"
+          },
+          {
+            "name": "Mayonesa",
+            "qty": 40,
+            "unit": "g"
+          },
+          {
+            "name": "Crème fraîche o nata agria",
+            "qty": 20,
+            "unit": "g"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal y pimienta"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "De 4 a 2 raciones. Los cortes mexicanos (bola, aguayón) pasan a tapa o cadera; el bolillo, a un panecillo de corteza fina; la crema ácida mexicana, a crème fraîche; la cebolla blanca, a cebolla tierna. La harina del empanado no estaba en la lista de ingredientes del original y aquí sí. Fuera la nota de altitud: no afecta a la fritura.",
+        "title": "Cambios respecto al original"
+      },
+      {
+        "text": "A menos de 170 °C la milanesa chupa aceite; a más de 190 °C se quema el pan antes de hacerse la carne. Si el aceite humea, baja a nivel 6.",
+        "title": "Punto del aceite"
+      },
+      {
+        "text": "Con pechuga de pollo aplanada (3 minutos por cara) o lomo de cerdo (4 minutos por cara). Con panko queda más crujiente.",
+        "title": "Variantes"
+      },
+      {
+        "text": "Las milanesas empanadas y sin freír se congelan 1 mes, separadas con papel de horno; se fríen sin descongelar, con 1 minuto más por cara. La torta montada no se guarda.",
+        "title": "Adelantar y guardar"
+      }
+    ],
+    "origin": "Recetario de México (GitHub javicabanas/recetario), adaptada a casa",
+    "phases": [
+      {
+        "name": "Milanesas",
+        "steps": [
+          {
+            "text": "**Aplana** los filetes entre dos hojas de film, golpeando del centro hacia fuera hasta 3-4 mm uniformes. Sazona por las dos caras con la sal, la pimienta, el comino y la mitad del ajo y la cebolla en polvo. Reposo de 10 minutos.",
+            "timer": 600
+          },
+          {
+            "text": "Tres platos: harina; huevo batido con 1 cda de agua; pan rallado con el resto del ajo y la cebolla en polvo. Pasa cada filete por harina, huevo y pan, apretando para que agarre."
+          },
+          {
+            "text": "Déjalas sobre una rejilla **5 minutos**: el empanado se fija y no se suelta al freír.",
+            "timer": 300
+          },
+          {
+            "level": "7",
+            "text": "Calienta el aceite en la De Buyer hasta 180 °C: un dado de pan se dora en 30 segundos.",
+            "timer": 180
+          },
+          {
+            "level": "7",
+            "text": "Fríe las milanesas de una en una, 2 minutos por cara, hasta dorado uniforme. A papel absorbente.",
+            "timer": 120
+          }
+        ]
+      },
+      {
+        "name": "Armado",
+        "steps": [
+          {
+            "level": "4",
+            "text": "Calienta los frijoles en un cazo, removiendo.",
+            "timer": 120
+          },
+          {
+            "level": "7",
+            "text": "Abre los panecillos sin separarlos del todo, quita un poco de miga y tuesta las caras de dentro en la sartén de hierro seca: así no se empapan.",
+            "timer": 30
+          },
+          {
+            "text": "Aplasta el aguacate con sal y el zumo de la media lima. Mezcla la mayonesa con la crème fraîche."
+          },
+          {
+            "text": "**Montaje, de abajo arriba:** frijoles calientes, milanesa, aguacate, lechuga, tomate, cebolla y jalapeños. En la tapa, la mezcla de mayonesa. Cierra y aprieta un poco."
+          },
+          {
+            "level": "6",
+            "text": "Pasa la torta cerrada por la sartén de hierro, 30 segundos por lado apretando con una espátula. Corta en diagonal.",
+            "timer": 30
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "una torta por persona, con 150 g de carne",
+    "shopping": [
+      {
+        "detail": "Tapa, cadera o babilla: cortes magros y tiernos. Pide «filetes para empanar, muy finos»; si salen gruesos, se aplanan en casa. Color rojo cereza, sin líquido en la bandeja.",
+        "item": "Ternera"
+      },
+      {
+        "detail": "El bolillo es un pan blanco de miga tierna y corteza fina. Lo más parecido aquí: un panecillo tipo Viena grande, una pistola pequeña o un trozo de barra de 15 cm. Evita la chapata y la masa madre: demasiado correosas.",
+        "item": "Pan"
+      },
+      {
+        "detail": "De lata (La Costeña, Old El Paso), en la sección internacional. Caseros: 150 g de alubia pinta cocida de bote, escurrida, frita 5 minutos a nivel 6 con 1 cda de aceite y 30 g de cebolla picada, y aplastada con un tenedor.",
+        "item": "Frijoles refritos"
+      },
+      {
+        "detail": "Hass, piel casi negra, que ceda un poco al apretar junto al rabillo. Si al quitar el rabillo se ve verde, está en su punto; marrón, pasado.",
+        "item": "Aguacate"
+      },
+      {
+        "detail": "En rodajas, de bote, en cualquier supermercado. Sustituto: guindillas en vinagre (piparras), más suaves.",
+        "item": "Jalapeños en vinagre"
+      }
+    ],
+    "short": "Torta de milanesa",
+    "summary": "Bocadillo mexicano de milanesa de ternera fina y crujiente con frijoles refritos, aguacate, lechuga, tomate y jalapeños en vinagre.",
+    "tags": [
+      "mexicana",
+      "carne",
+      "bocadillo"
+    ],
+    "time": "35 min",
+    "title": "Torta de milanesa estilo Tlaxcala",
+    "updatedAt": "2026-11-12T19:10:00+01:00"
+  },
+  "tostas-de-escalivada-con-ventresca": {
+    "equipment": [
+      "Sartén o tostadora"
+    ],
+    "ingredients": [
+      {
+        "group": "Tostas",
+        "items": [
+          {
+            "name": "Pan de centeno integral",
+            "qty": 4,
+            "unit": "rebanadas"
+          },
+          {
+            "name": "Escalivada",
+            "note": "1 tarro, escurrida",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Ventresca de atún",
+            "note": "1 lata, escurrida",
+            "qty": 110,
+            "unit": "g"
+          },
+          {
+            "name": "Anchoas en aceite",
+            "note": "1 lata",
+            "qty": 8,
+            "unit": "ud"
+          },
+          {
+            "name": "Ajo",
+            "note": "para frotar",
+            "qty": 1,
+            "unit": "dientes"
+          },
+          {
+            "amount": "un hilo",
+            "name": "AOVE"
+          }
+        ]
+      },
+      {
+        "group": "Ensalada",
+        "items": [
+          {
+            "name": "Escarola",
+            "qty": 0.5,
+            "unit": "ud"
+          },
+          {
+            "name": "Granada",
+            "qty": 0.5,
+            "unit": "ud"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Vinagre de Jerez",
+            "qty": 10,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "2 pimientos rojos, 1 berenjena y 1 cebolla enteros al horno a 200 °C entre 45 y 60 minutos. Tápalos 15 minutos para que suden, pélalos y córtalos en tiras con su jugo y AOVE.",
+        "title": "Escalivada casera"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Ensalada",
+        "steps": [
+          {
+            "text": "Lava la escarola en agua muy fría 10 minutos: se riza y pierde amargor. Escúrrela y sécala bien.",
+            "timer": 600
+          },
+          {
+            "text": "Desgrana media granada: boca abajo sobre un bol, golpea la piel con una cuchara de madera."
+          }
+        ]
+      },
+      {
+        "name": "Tostas",
+        "steps": [
+          {
+            "level": "7",
+            "text": "Tuesta el pan en la sartén seca, 2 minutos por cara, o en la tostadora.",
+            "timer": 240
+          },
+          {
+            "text": "Frota con el ajo, un hilo de AOVE y monta: escalivada escurrida, ventresca en lascas y dos anchoas por tosta."
+          },
+          {
+            "text": "Aliña la escarola con AOVE, vinagre y sal, y reparte la granada por encima."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "2 tostas por persona",
+    "shopping": [
+      {
+        "detail": "En tarro, con pimiento rojo y berenjena asados en aceite de oliva; mejor si no lleva más que verdura, aceite y sal.",
+        "item": "Escalivada"
+      },
+      {
+        "detail": "De atún claro o de bonito del norte, en aceite de oliva.",
+        "item": "Ventresca"
+      },
+      {
+        "detail": "En aceite de oliva; del Cantábrico si el precio lo permite.",
+        "item": "Anchoas"
+      },
+      {
+        "detail": "Rizada, con el corazón amarillo pálido y las hojas exteriores tersas.",
+        "item": "Escarola"
+      },
+      {
+        "detail": "Pesada, de piel tensa y sin grietas.",
+        "item": "Granada"
+      }
+    ],
+    "short": "Tostas de escalivada",
+    "summary": "Pan de centeno tostado con escalivada, ventresca de atún y anchoas, con ensalada de escarola y granada; cena fría en 15 minutos.",
+    "tags": [
+      "cena",
+      "conservas",
+      "verdura"
+    ],
+    "time": "15 min",
+    "title": "Tostas de escalivada con ventresca y anchoas",
+    "updatedAt": "2026-11-07T11:30:00+01:00"
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "2026-11-07": {
+    "days": [
+      {
+        "date": "2026-11-07",
+        "errand": "Compra en El Corte Inglés: todo menos el pescado del jueves.",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "sopa-de-verduras",
+                "text": "Sopa de verduras"
+              },
+              {
+                "recipe": "dorada-al-horno-con-panadera",
+                "text": "Dorada al horno con patata panadera"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "revuelto-de-setas",
+                "text": "Revuelto de setas con ensalada"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-08",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "arroz-caldoso-de-rape-y-alcachofas",
+                "text": "Arroz caldoso de rape y alcachofas"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "sopa-de-verduras",
+                "text": "Sopa de verduras, la del sábado"
+              },
+              {
+                "text": "Tosta de centeno con jamón dulce y huevo a la plancha"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-09",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "lentejas-con-pollo",
+                "text": "Lentejas con pollo, hechas el domingo"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "crema-de-calabaza-y-puerro",
+                "text": "Crema de calabaza y puerro, hecha el domingo"
+              },
+              {
+                "text": "Tortilla francesa de 2 huevos"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Gambas del congelador a la nevera."
+      },
+      {
+        "date": "2026-11-10",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "potaje-de-garbanzos-espinacas-y-bacalao",
+                "text": "Potaje de garbanzos, espinacas y bacalao, hecho el domingo"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "brocoli-con-gambas-al-ajillo",
+                "text": "Brócoli salteado con gambas al ajillo"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Sepia y sofrito del congelador a la nevera."
+      },
+      {
+        "date": "2026-11-11",
+        "errand": "Comprar garbanzo cocido en tarro y cebolleta para la ensalada del jueves.",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
+                "text": "Arroz meloso de acelgas, alubias y sepia"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "crema-de-calabaza-y-puerro",
+                "text": "Crema de calabaza, hecha el domingo"
+              },
+              {
+                "text": "Tosta de centeno con caballa"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Las lentejas con pollo se quedan en el congelador: son para Abril y se le dan congeladas."
+      },
+      {
+        "date": "2026-11-12",
+        "errand": "Comprar lubina en El Corte Inglés. Se añade sola a la lista a las 8:00.",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "ensalada-de-garbanzos-con-bonito-y-huevo",
+                "text": "Ensalada de garbanzos con bonito y huevo, montada por la mañana (20 minutos: los huevos se cuecen 10 mientras cortas el resto). El aliño va aparte y se pone al comer."
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "lubina-en-papillote",
+                "text": "Lubina en papillote con calabacín y puerro"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Rape del congelador a la nevera, en un colador sobre un plato."
+      },
+      {
+        "date": "2026-11-13",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "rape-a-la-plancha-con-refrito-de-ajo",
+                "text": "Rape a la plancha con refrito de ajo, patata y guisantes"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "tostas-de-escalivada-con-ventresca",
+                "text": "Tostas de escalivada con ventresca y anchoas"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      }
+    ],
+    "end": "2026-11-13",
+    "notes": [
+      {
+        "text": "2-3 kiwis al día, unas 8-10 ciruelas pasas y agua rica en magnesio («contiene magnesio» en la etiqueta). La fibra, siempre con líquido: sopas y cremas cuentan.",
+        "title": "Fibra y líquido"
+      },
+      {
+        "text": "Caldosos o melosos, con 70 g de arroz por persona y el doble de verdura o legumbre. Nada de arroz blanco hervido solo.",
+        "title": "Arroces"
+      },
+      {
+        "text": "Comidas de 30-40 g por persona y cenas de unos 20 g.",
+        "title": "Proteína"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 7 al 13 de noviembre de 2026",
+    "prep": [
+      {
+        "steps": [
+          {
+            "text": "Todo menos lubina, merluza y almejas."
+          },
+          {
+            "how": "La cabeza y la espina son para el caldo del arroz de mañana. Que te quiten las agallas si pueden.",
+            "text": "En la pescadería: dorada limpia y sin escamas; cabeza y espina del rape aparte."
+          }
+        ],
+        "title": "Compra",
+        "when": "Sábado 7 · 11:15"
+      },
+      {
+        "steps": [
+          {
+            "how": "Pasos 1-3 de la receta de la dorada: patata en rodajas de 3-4 mm y cebolla en juliana, con aceite y sal.",
+            "recipe": "dorada-al-horno-con-panadera",
+            "text": "Horno a 200 °C y patata panadera 25 minutos."
+          },
+          {
+            "how": "El fideo se cuece al servir, en las raciones del día (paso 9): en la nevera se deshace.",
+            "recipe": "sopa-de-verduras",
+            "text": "Mientras, la sopa para 4 raciones; el fideo, solo en las de hoy."
+          },
+          {
+            "how": "Pasos 4-5: seca la dorada, dos cortes por lado, sal y un hilo de aceite.",
+            "recipe": "dorada-al-horno-con-panadera",
+            "text": "Dorada sobre la panadera, 15-18 minutos."
+          },
+          {
+            "how": "Destapadas hasta que dejen de humear y a la nevera antes de 2 horas.",
+            "text": "Las 2 raciones de sopa que sobran, a la nevera sin fideo."
+          }
+        ],
+        "title": "Comida",
+        "when": "Sábado 7 · 12:45"
+      },
+      {
+        "steps": [
+          {
+            "how": "Pasos 1-3 de la receta del arroz caldoso. Quita las agallas, que amargan. Cabeza y espina con 1,2 L de agua fría, puerro, cebolla y laurel; al hervir, fuera la espuma y nivel 4. No pases de 30 minutos. Cuélalo sin presionar. Mientras hierve, haz el sofrito.",
+            "recipe": "arroz-caldoso-de-rape-y-alcachofas",
+            "text": "Caldo de rape: 25 minutos de hervor suave, colar y a la nevera."
+          },
+          {
+            "how": "2 tomates de pera rallados, 4 ajos picados y 40 ml de AOVE. Ajo sin dorar a nivel 4 y tomate a nivel 5, 12-15 minutos removiendo, hasta que quede granate, en un tercio del volumen y con el aceite asomando por los bordes. Sin pimentón: va en cada arroz.",
+            "recipe": "sofrito-de-tomate",
+            "text": "Sofrito doble de tomate de pera hasta aceite roto: la mitad para el domingo y la otra mitad al congelador para el miércoles."
+          },
+          {
+            "how": "Separa las hojas de las pencas cortando a lo largo de la penca. Lava todo en un bol grande con agua fría y cámbiala si queda tierra. Sécalo muy bien, las hojas en la centrifugadora y las pencas con un paño: la humedad es lo que las estropea. Las pencas pueden ir ya en dados de 1,5 cm; las hojas, enteras. Tápers separados con papel de cocina, a la nevera.",
+            "text": "Acelgas del miércoles lavadas, separadas y secas, en táper con papel de cocina."
+          },
+          {
+            "how": "Paso 1 del revuelto: con un paño húmedo o una brocha, sin lavarlas bajo el grifo, que absorben agua y luego no doran. Corta la base terrosa del pie y trocea las grandes.",
+            "recipe": "revuelto-de-setas",
+            "text": "Setas limpias para la cena."
+          }
+        ],
+        "title": "Adelanto, 1 hora",
+        "when": "Sábado 7 · 17:30"
+      },
+      {
+        "steps": [
+          {
+            "how": "Setas a fuego fuerte sin tocarlas el primer minuto y sal al final; el huevo a fuego bajo, fuera de la sartén cuando aún esté jugoso.",
+            "recipe": "revuelto-de-setas",
+            "text": "Revuelto de setas con ensalada, 10 minutos."
+          }
+        ],
+        "title": "Cena",
+        "when": "Sábado 7 · 21:00"
+      },
+      {
+        "steps": [
+          {
+            "how": "Calabaza: 1 kg ya pelada y sin semillas, en dados (200 g de 2 cm para las lentejas y 800 g de 2-3 cm para la crema). Zanahoria: 3 en rodajas de 5 mm (200 g para las lentejas y 100 g para la crema). Puerro: 2 (uno picado para las lentejas; el blanco del otro, en rodajas, para la crema). Pimiento verde italiano: 1 picado (lentejas). Ajo: 5 pelados (2 picados para las lentejas y 3 enteros para el potaje). Espinacas: 300 g lavadas y centrifugadas. Bacalao: 250 g en tacos de 3-4 cm. Rape del arroz: 350 g en tacos de 3 cm. El pollo, lo último: 500 g de contramuslo en dados de 3 cm, seco y salado. Lentejas lavadas; garbanzos escurridos y enjuagados. Las alcachofas no: se limpian justo antes del arroz.",
+            "text": "Antes de encender: 15 minutos de corte para las tres recetas."
+          },
+          {
+            "how": "Empieza por aquí: es la más larga, alrededor de 1 hora. Cuando entre en el hervor suave (paso 6, nivel 4 y borboteo visible), arranca la crema.",
+            "recipe": "lentejas-con-pollo",
+            "text": "Fuego 1, en la Le Creuset: lentejas con pollo para 4."
+          },
+          {
+            "how": "Mientras hierve sus 20 minutos (paso 5), pon los huevos en el tercer fuego.",
+            "recipe": "crema-de-calabaza-y-puerro",
+            "text": "Fuego 2: crema de calabaza y puerro para 4."
+          },
+          {
+            "how": "Los huevos son el paso 1 de la receta del potaje: 10 minutos en agua hirviendo y a agua fría. El potaje va el último: es el más corto y el bacalao no debe recocerse.",
+            "recipe": "potaje-de-garbanzos-espinacas-y-bacalao",
+            "text": "Fuego 3: huevos duros y después el potaje de garbanzos, espinacas y bacalao."
+          },
+          {
+            "how": "No lo dejes enfriar en la olla: la Le Creuset guarda el calor durante horas. Reparte en tápers poco hondos, destapados hasta que dejen de humear (20-30 minutos), y a la nevera. Las lentejas que van al congelador, primero frías en la nevera; con nombre y fecha.",
+            "text": "Enfriar rápido y guardar antes de 2 horas: lentejas, 2 raciones a la nevera y 2 al congelador; crema, las 4 a la nevera; potaje, a la nevera."
+          }
+        ],
+        "title": "Cocina en paralelo, 2 h 30 min",
+        "when": "Domingo 8 · 10:00"
+      },
+      {
+        "steps": [
+          {
+            "how": "Empieza en el paso 4: el caldo ya está hecho. Las alcachofas se oxidan, así que límpialas al momento, en agua con limón. En el paso 8, el sofrito solo se calienta 1 minuto.",
+            "recipe": "arroz-caldoso-de-rape-y-alcachofas",
+            "text": "Arroz caldoso de rape con el caldo y el sofrito del sábado; las alcachofas, limpias justo antes."
+          }
+        ],
+        "title": "Comida",
+        "when": "Domingo 8 · 13:00"
+      },
+      {
+        "steps": [
+          {
+            "how": "La sopa, con el fideo al servir (paso 9). El huevo a la plancha: nivel 6 con un hilo de aceite, 2-3 minutos; tapa los últimos 30 segundos si quieres la yema velada.",
+            "recipe": "sopa-de-verduras",
+            "text": "Sopa del sábado y tosta de centeno con jamón dulce y huevo, 10 minutos."
+          }
+        ],
+        "title": "Cena",
+        "when": "Domingo 8 · noche"
+      }
+    ],
+    "servings": 2,
+    "shopping": [
+      {
+        "what": "Todo lo de la lista menos el pescado del jueves.",
+        "when": "Sábado 7",
+        "where": "El Corte Inglés Sabadell"
+      },
+      {
+        "what": "Ensalada del jueves: 1 tarro de garbanzo cocido y 1 cebolleta. El resto (bonito, pimiento asado, tomate y huevos) ya está en casa.",
+        "when": "Miércoles 11",
+        "where": "Mercadona o El Corte Inglés"
+      },
+      {
+        "what": "Lubina (2 lomos de 150 g), y patata si no queda. El rape del viernes sale del congelador.",
+        "when": "Jueves 12",
+        "where": "El Corte Inglés Sabadell"
+      }
+    ],
+    "start": "2026-11-07",
+    "summary": "Comidas y cenas para dos. Comidas con proteína suficiente, arroces caldosos o melosos con mucha verdura, y fruta y líquido a diario.",
+    "title": "Semana del 7 al 13 de noviembre",
+    "updatedAt": "2026-11-11T17:35:00+01:00"
+  }
+}
