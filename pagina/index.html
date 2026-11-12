@@ -398,7 +398,11 @@ a.btn.btn-primary { color: var(--on-cobalt); }
 
 /* ---------- versión pública de solo lectura ---------- */
 .readonly .star, .readonly .eat { pointer-events: none; }
-.readonly .eat:not([aria-pressed="true"]), .readonly .x-btn, .readonly .hist > .row { display: none; }
+.readonly .eat:not([aria-pressed="true"]), .readonly .x-btn, .readonly .hist > .row, .readonly .backup-row { display: none; }
+.backup-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+.backup-row .btn { padding: 10px 16px; }
+.backup-row .btn:disabled { opacity: .5; cursor: default; }
+.backup-status { color: var(--muted); font-size: .9rem; flex: 1 1 14rem; }
 
 /* ---------- historial: lo que se ha comido ---------- */
 .sections .short { display: none; }
@@ -800,19 +804,76 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     return new Blob([new Uint8Array([137, 80, 78, 71, 13, 10, 26, 10]), pngChunk('IHDR', ihdr), pngChunk('IDAT', packed), pngChunk('IEND', new Uint8Array(0))], { type: 'image/png' });
   }
   function scheduleBackup() { clearTimeout(backupTimer); backupTimer = setTimeout(autoBackup, 20000); }
+  // Devuelve 'saved' (copia nueva), 'same' (nada ha cambiado), 'busy', 'unavailable' o 'failed'.
   async function autoBackup() {
-    if (backupBusy || !dbh || !assetsNs || backupMeta === undefined) return;
-    if (!BACKUP_COLS.every((c) => rawFresh.has(c)) || typeof CompressionStream !== 'function') return;
+    if (backupBusy) return 'busy';
+    if (!dbh || !assetsNs || backupMeta === undefined) return 'unavailable';
+    if (!BACKUP_COLS.every((c) => rawFresh.has(c)) || typeof CompressionStream !== 'function') return 'unavailable';
     backupBusy = true;
     try {
       const bytes = new TextEncoder().encode(backupJSON());
       const hash = await sha256Hex(bytes);
-      if (backupMeta && backupMeta.hash === hash) return;
+      if (backupMeta && backupMeta.hash === hash) return 'same';
       const previous = backupMeta && backupMeta.assetId;
       const up = await assetsNs.upload(await bytesToPng(bytes));
       await dbh.collection('meta').doc('backup').set({ hash, assetId: up.id, bytes: bytes.length, at: new Date().toISOString(), format: 'png-rgb-v1' });
+      backupMeta = { hash, assetId: up.id, at: new Date().toISOString() };
       if (previous && previous !== up.id) { try { await assetsNs.delete(previous); } catch { /* la copia anterior se queda */ } }
-    } catch { /* se vuelve a intentar la próxima vez que cambien los datos o se abra la página */ } finally { backupBusy = false; }
+      return 'saved';
+    } catch { return 'failed'; /* se vuelve a intentar la próxima vez que cambien los datos o se abra la página */ } finally { backupBusy = false; }
+  }
+
+  /* Copia a mano: guarda la copia ahora y pide que la tarea programada la suba ya, sin esperar a la noche.
+     La tarea se lanza a través del conector de tareas programadas de quien abre la página; si no está
+     disponible o no se permite, la copia queda guardada igualmente y sube con la ejecución diaria. */
+  const UPLOAD_SERVER = 'Claude Code Remote';
+  const UPLOAD_TASK = 'trig_01Pir6Jykj23MMD416X7JWzu';
+  let backupNowMsg = '';
+  let backupNowRunning = false;
+  function backupStatusText() {
+    if (backupNowMsg) return backupNowMsg;
+    if (backupMeta && backupMeta.at) return `Última copia: ${new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }).format(new Date(backupMeta.at)).replace('.', '')}`;
+    return backupMeta === null ? 'Todavía no hay copia' : '';
+  }
+  function showBackupStatus(msg) {
+    if (msg !== undefined) backupNowMsg = msg;
+    const el = $('#backup-status'); if (el) el.textContent = backupStatusText();
+    const btn = $('[data-action="backup-now"]'); if (btn) btn.disabled = backupNowRunning;
+  }
+  async function requestUpload() {
+    let mcp = null;
+    try { mcp = await window.claude.use('mcp'); } catch { mcp = null; }
+    if (!mcp) return 'none';
+    try { await mcp.callTool(UPLOAD_SERVER, 'fire_trigger', { trigger_id: UPLOAD_TASK }, { cache: false }); return 'ok'; } catch (e) { return (e && e.code) || 'upstream_error'; }
+  }
+  async function backupNow() {
+    if (backupNowRunning) return;
+    backupNowRunning = true;
+    showBackupStatus('Guardando la copia…');
+    try {
+      clearTimeout(backupTimer);
+      let saved = await autoBackup();
+      for (let i = 0; saved === 'busy' && i < 20; i++) { await new Promise((ok) => setTimeout(ok, 500)); saved = await autoBackup(); }
+      if (saved !== 'saved' && saved !== 'same') {
+        showBackupStatus(saved === 'unavailable' ? 'Ahora no se puede guardar la copia: los datos aún se están cargando o esta sesión no tiene permiso.' : 'No se ha podido guardar la copia. Prueba otra vez.');
+        return;
+      }
+      showBackupStatus('Copia guardada. Pidiendo la subida a GitHub…');
+      const code = await requestUpload();
+      const kept = 'Copia guardada.';
+      const tonight = 'Se subirá sola esta noche.';
+      switch (code) {
+        case 'ok': showBackupStatus(`${kept} La subida a GitHub está en marcha: tarda unos minutos.`); break;
+        case 'needs_reauth': showBackupStatus(`${kept} El conector de tareas programadas necesita volver a conectarse (Ajustes → Conectores). ${tonight}`); break;
+        case 'server_not_connected': case 'selection_required': case 'server_not_found':
+          showBackupStatus(`${kept} Esta cuenta no tiene disponible el conector de tareas programadas. ${tonight}`); break;
+        case 'not_in_manifest': case 'approval_required': case 'consent_required': case 'blocked_by_policy': case 'not_granted':
+          showBackupStatus(`${kept} No se ha dado permiso para lanzar la subida desde aquí. ${tonight}`); break;
+        case 'none': case 'capability_disabled': case 'capability_removed':
+          showBackupStatus(`${kept} Desde esta vista no se puede lanzar la subida. ${tonight}`); break;
+        default: showBackupStatus(`${kept} No hay confirmación de que la subida haya arrancado; si no lo ha hecho, se hará esta noche.`);
+      }
+    } finally { backupNowRunning = false; showBackupStatus(); }
   }
   function renderBackup() {
     const ready = BACKUP_COLS.every((c) => rawFresh.has(c));
@@ -1151,7 +1212,8 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         <div id="tags" class="tags" role="group" aria-label="Filtrar por etiquetas: cada una que marques acota más"></div>
         <div id="sort" class="sort" role="group" aria-label="Ordenar recetas" hidden></div>
         <div id="notice"></div>
-        <ul id="results" class="cards"></ul>`;
+        <ul id="results" class="cards"></ul>
+        <div class="backup-row"><button class="btn" data-action="backup-now">Guardar copia ahora</button><p id="backup-status" class="backup-status" aria-live="polite"></p></div>`;
       const q = $('#q'); q.value = state.query;
       q.addEventListener('input', () => { state.query = q.value; updateList(); });
     }
@@ -1171,6 +1233,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     $('#tags').hidden = tags.length < 2;
 
     $('#notice').innerHTML = statusNotice();
+    showBackupStatus();
 
     const sorts = [['az', 'A–Z']];
     if (anyRating()) sorts.push(['rate', 'Mejor valoradas']);
@@ -1349,6 +1412,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         $(`[data-action="rate"][data-who="${who}"][data-v="${v}"]`)?.focus();
         break;
       }
+      case 'backup-now': backupNow(); break;
       case 'backup-copy': {
         const ta = $('#backup-text'); if (!ta) break;
         const manual = () => { ta.focus(); ta.select(); toast('Texto seleccionado: cópialo con Ctrl+C'); };
@@ -1674,6 +1738,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       const d = snap.docs.find((x) => x.id === 'backup' && x.exists);
       backupMeta = d ? (d.data() || null) : null;
       scheduleBackup();
+      if (!backupNowRunning) showBackupStatus();
       if (currentSection() === 'copia' && !currentId()) render();
     }, () => { /* sin acceso a `meta` no hay copia automática */ });
     db.collection('history').onSnapshot((snap) => {
