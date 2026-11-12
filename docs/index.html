@@ -1214,7 +1214,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         <div id="sort" class="sort" role="group" aria-label="Ordenar recetas" hidden></div>
         <div id="notice"></div>
         <ul id="results" class="cards"></ul>
-        <div class="backup-row"><button class="btn" data-action="backup-now">Guardar copia ahora</button><p id="backup-status" class="backup-status" aria-live="polite"></p></div>`;
+        <div class="backup-row"><button class="btn" data-action="backup-now">Guardar copia ahora</button><a class="btn" href="https://javicabanas.github.io/recetario-karen-javi/" target="_blank" rel="noopener">Abrir la página pública</a><p id="backup-status" class="backup-status" aria-live="polite"></p></div>`;
       const q = $('#q'); q.value = state.query;
       q.addEventListener('input', () => { state.query = q.value; updateList(); });
     }
