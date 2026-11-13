@@ -1063,6 +1063,23 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       || state.menus[0];
   }
 
+  function nextMenu() {
+    const t = todayISO();
+    const cur = currentMenu();
+    if (!cur || !(cur.start <= t && t <= cur.end)) return null;
+    return [...state.menus].filter((m) => m.start > cur.end).sort((a, b) => a.start.localeCompare(b.start))[0] || null;
+  }
+  function shownMenu() {
+    const n = nextMenu();
+    if (!n) state.menuAhead = false;
+    return state.menuAhead && n ? n : currentMenu();
+  }
+  function menuSwitchHTML() {
+    const n = nextMenu();
+    if (!n) return '';
+    return `<div class="row"><button class="btn" data-action="menu-switch">${state.menuAhead ? '← Semana actual' : `Semana siguiente (${esc(menuRange(n))}) →`}</button></div>`;
+  }
+
   function sectionsNav(active) {
     const items = [['hoy', '#hoy', 'Hoy'], ['semana', '#semana', 'Semana'], ['finde', '#finde', '<span class="long">Fin de semana</span><span class="short">Finde</span>'], ['list', '#recetas', 'Recetas'], ['historial', '#historial', 'Historial']];
     return `<nav class="sections" aria-label="Secciones">${items.map(([k, href, label]) => `<a href="${href}"${k === active ? ' aria-current="page"' : ''}>${label}</a>`).join('')}</nav>`;
@@ -1148,11 +1165,12 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   }
 
   function renderWeek() {
-    const m = currentMenu();
+    const m = shownMenu();
     let body = noMenuHTML();
     if (m) {
       const t = todayISO();
       body = `
+        ${menuSwitchHTML()}
         <section class="head"><h1>${esc(m.title)}</h1>${m.summary ? `<p class="lede">${esc(m.summary)}</p>` : ''}</section>
         <ol class="days">${m.days.map((d) => {
           const cls = d.date === t ? ' is-today' : d.date < t ? ' is-past' : '';
@@ -1174,13 +1192,14 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   }
 
   function renderPlan() {
-    const m = currentMenu();
+    const m = shownMenu();
     let body = noMenuHTML();
-    if (m && !m.prep.length) body = '<div class="empty"><p>Este menú no tiene plan de fin de semana.</p></div>';
+    if (m && !m.prep.length) body = `${menuSwitchHTML()}<div class="empty"><p>Este menú no tiene plan de fin de semana.</p></div>`;
     else if (m) {
       const key = `plan-${m.id}`;
       const checks = new Set(store.get(`rec:checks:${key}`, []));
       body = `
+        ${menuSwitchHTML()}
         <section class="head"><h1>Plan del fin de semana</h1><p class="lede">Lo que se deja hecho el sábado y el domingo para que entre semana solo quede calentar o cocinar entre 15 y 30 minutos. Cada tarea explica cómo se hace y enlaza su receta, con potencias y temporizadores. Marca cada paso según lo termines.</p></section>
         <ol class="timeline">${m.prep.map((p, bi) => {
           const parts = p.when.split(' · ');
@@ -1454,6 +1473,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       case 'serv': if (r) { const max = Math.max(24, r.servings * 4); state.servings[r.id] = Math.min(max, Math.max(1, servingsOf(r) + Number(el.dataset.d))); render(); } break;
       case 'serv-reset': if (r) { delete state.servings[r.id]; render(); } break;
       case 'clear-checks': if (r) { store.set(`rec:checks:${r.id}`, []); render(); } break;
+      case 'menu-switch': state.menuAhead = !state.menuAhead; render(); window.scrollTo(0, 0); break;
       case 'clear-plan': store.set(`rec:checks:${el.dataset.key}`, []); render(); break;
       case 'copy-ing': if (r) copyIngredients(r); break;
       case 'timer-start': startTimer(el.dataset.key, el.dataset.label, Number(el.dataset.secs)); break;

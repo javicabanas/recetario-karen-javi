@@ -1,4 +1,170 @@
 {
+  "alcachofas-salteadas-con-huevo-escalfado": {
+    "equipment": [
+      "Sartén antiadherente grande con tapa",
+      "Cazo hondo",
+      "Colador fino",
+      "Espumadera",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Alcachofas",
+        "items": [
+          {
+            "name": "Alcachofas",
+            "note": "unos 600 g",
+            "qty": 5,
+            "unit": "ud"
+          },
+          {
+            "name": "Ajo",
+            "note": "laminado",
+            "qty": 3,
+            "unit": "dientes"
+          },
+          {
+            "name": "Limón",
+            "note": "medio para el agua y medio para terminar",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua",
+            "qty": 50,
+            "unit": "ml"
+          },
+          {
+            "amount": "un poco",
+            "name": "Perejil"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal en escamas"
+          }
+        ]
+      },
+      {
+        "group": "Huevos",
+        "items": [
+          {
+            "name": "Huevos L",
+            "note": "2 por persona",
+            "qty": 4,
+            "unit": "ud"
+          }
+        ]
+      },
+      {
+        "group": "Para acompañar",
+        "items": [
+          {
+            "name": "Pan de centeno integral",
+            "qty": 2,
+            "unit": "rebanadas"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "La receta clásica de alcachofas rehogadas lleva jamón; aquí el fondo lo ponen el dorado, el ajo y el limón, y la proteína, el huevo.",
+        "title": "Sin jamón"
+      },
+      {
+        "text": "Unos 18 g por ración con el pan.",
+        "title": "Proteína"
+      },
+      {
+        "text": "Limpias se oxidan y recalentadas quedan correosas: se hacen al momento.",
+        "title": "No se adelanta"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 14 al 20 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Limpiar",
+        "steps": [
+          {
+            "text": "Bol con agua fría, el zumo de medio limón y unas ramas de perejil."
+          },
+          {
+            "text": "**Tornea** cada alcachofa: quita hojas exteriores hasta llegar a las amarillo pálido, corta el tercio superior, pela el tallo y pártela en cuartos. Retira la pelusa del centro con una puntilla. Al agua con limón según las cortas: se oxidan en minutos."
+          }
+        ]
+      },
+      {
+        "name": "Saltear",
+        "steps": [
+          {
+            "level": "7",
+            "text": "Escurre y **seca bien** las alcachofas. Sartén con el AOVE: dóralas por las caras del corte, sin moverlas mucho.",
+            "timer": 300
+          },
+          {
+            "level": "5",
+            "text": "Añade el ajo laminado, 1 minuto, sin que se queme.",
+            "timer": 60
+          },
+          {
+            "level": "4",
+            "text": "Agua, tapa y deja hasta que el corazón se atraviese sin resistencia.",
+            "timer": 360
+          },
+          {
+            "text": "Destapa, deja que evapore el agua y termina con zumo de limón, perejil picado y sal en escamas."
+          }
+        ]
+      },
+      {
+        "name": "Huevos escalfados",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Mientras las alcachofas están tapadas, cazo con 8 cm de agua, a hervor."
+          },
+          {
+            "text": "Casca cada huevo en un colador fino sobre un bol, 20-30 segundos: se va la clara líquida, la que hace hilos. Pásalo a un cuenco."
+          },
+          {
+            "level": "3-4",
+            "text": "Baja hasta que el agua tiemble sin borbotear y desliza los huevos. **3 minutos** para yema líquida.",
+            "timer": 180
+          },
+          {
+            "text": "Sácalos con la espumadera, escúrrelos sobre papel y ponlos sobre las alcachofas con sal en escamas. La yema liga con el aceite y el limón."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "2-3 alcachofas y 2 huevos por persona",
+    "shopping": [
+      {
+        "detail": "Pesadas, prietas y con las hojas cerradas; al apretarlas, crujen. Tallo firme y corte sin ennegrecer.",
+        "item": "Alcachofas"
+      },
+      {
+        "detail": "Categoría L y lo más frescos posible: la clara espesa escalfa recogida.",
+        "item": "Huevos"
+      }
+    ],
+    "short": "Alcachofas",
+    "summary": "Alcachofas en cuartos doradas en sartén y terminadas tapadas con ajo y limón, con dos huevos escalfados por persona; cena sin jamón.",
+    "tags": [
+      "verdura",
+      "huevo",
+      "cena"
+    ],
+    "time": "30 min",
+    "title": "Alcachofas salteadas con ajo y limón, con huevo escalfado",
+    "updatedAt": "2026-11-13T19:55:00+01:00"
+  },
   "alioli-de-clara-de-huevo": {
     "equipment": [
       "Batidora de brazo",
@@ -918,6 +1084,233 @@
     "title": "Brócoli salteado con gambas al ajillo y huevo",
     "updatedAt": "2026-11-10T17:35:00+01:00"
   },
+  "carne-guisada-con-vino-tinto": {
+    "equipment": [
+      "Cocotte Le Creuset",
+      "Cazo",
+      "Olla",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Guiso",
+        "items": [
+          {
+            "name": "Morcillo o aguja de ternera",
+            "note": "en dados de 3 cm",
+            "qty": 800,
+            "unit": "g"
+          },
+          {
+            "name": "Panceta veteada",
+            "note": "en dados pequeños",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Cebolla",
+            "note": "1 mediana, picada",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Zanahoria",
+            "note": "en rodajas de 1 cm",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Vino tinto joven",
+            "qty": 500,
+            "unit": "ml"
+          },
+          {
+            "name": "Harina",
+            "note": "1 cda colmada",
+            "qty": 15,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua caliente",
+            "note": "hasta cubrir justo la carne",
+            "qty": 150,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Pimienta negra"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Nuez moscada"
+          }
+        ]
+      },
+      {
+        "group": "Cebollitas",
+        "items": [
+          {
+            "name": "Cebollitas francesas",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Mantequilla",
+            "qty": 10,
+            "unit": "g"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Guarnición",
+        "items": [
+          {
+            "name": "Patata",
+            "note": "para las raciones del día",
+            "qty": 500,
+            "unit": "g"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Escalada de 1,5 kg de carne a 800 g. La mitad de tocino, y panceta en su lugar. Zanahoria añadida para que el plato lleve verdura. 2 horas de cocción en vez de 2 h 30, por ser morcillo en dados de 3 cm. Potencias de la placa de inducción en lugar de «fuego».",
+        "title": "Cambios respecto al libro"
+      },
+      {
+        "text": "A las 2 horas, prueba un trozo: si ofrece resistencia, sigue 20-30 minutos. Por debajo del nivel 2 el guiso deja de hervir aunque humee.",
+        "title": "Si no está tierna"
+      },
+      {
+        "text": "Unos 40 g por ración.",
+        "title": "Proteína"
+      },
+      {
+        "text": "Mejora de un día para otro. 4 días en nevera; congela bien, sin la patata. Calienta a nivel 3 con un chorrito de agua.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "1080 recetas de cocina (Simone Ortega), n.º 731",
+    "phases": [
+      {
+        "name": "Dorar",
+        "steps": [
+          {
+            "text": "Seca la carne con papel. Pica la cebolla, corta la panceta en dados y la zanahoria en rodajas de 1 cm."
+          },
+          {
+            "level": "6",
+            "text": "Cocotte con el AOVE. Panceta y cebolla picada hasta que la cebolla empiece a dorarse. Retíralas con la espumadera.",
+            "timer": 600
+          },
+          {
+            "level": "8",
+            "text": "Dora la carne en **dos tandas**, sin amontonarla y sin moverla al principio: amontonada cuece en su jugo y no se tuesta. 4 minutos por tanda.",
+            "timer": 240
+          }
+        ]
+      },
+      {
+        "name": "Guiso",
+        "steps": [
+          {
+            "level": "6",
+            "text": "Toda la carne dentro. Espolvorea la harina y remueve 1 minuto, para que pierda el sabor a crudo.",
+            "timer": 60
+          },
+          {
+            "level": "9",
+            "text": "Vierte el vino poco a poco, removiendo y rascando el fondo tostado. Pimienta y nuez moscada. Lleva a hervor.",
+            "timer": 180
+          },
+          {
+            "text": "Devuelve la panceta y la cebolla. Añade agua caliente hasta **cubrir justo** la carne."
+          },
+          {
+            "level": "2-3",
+            "text": "Tapa. Hervor apenas visible **2 horas**. Remueve cada 30 minutos para que no se agarre. La zanahoria entra cuando falten 40 minutos.",
+            "timer": 7200
+          }
+        ]
+      },
+      {
+        "name": "Cebollitas y final",
+        "steps": [
+          {
+            "level": "6",
+            "text": "Cebollitas peladas en un cazo, en una sola capa. Agua fría hasta cubrirlas justo, sal y la mantequilla. Lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Cuécelas hasta que estén tiernas y el líquido casi reducido. Escúrrelas.",
+            "timer": 1200
+          },
+          {
+            "level": "5",
+            "text": "Patata pelada y en trozos, en agua con sal, para las raciones del día.",
+            "timer": 1200
+          },
+          {
+            "level": "3",
+            "text": "Cuando la carne se deshaga con el tenedor, sala, añade las cebollitas y deja 10 minutos sin tapa.",
+            "timer": 600
+          },
+          {
+            "text": "Sirve en plato hondo con la salsa por encima y la patata alrededor. Lo que sobre, sin patata, en tápers: enfría destapado y a la nevera antes de 2 horas."
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "En la cocotte caben hasta 1,2 kg de carne. Dora siempre en tandas que no llenen el fondo.",
+    "servings": 4,
+    "servingsNote": "200 g de carne en crudo por persona; 2 raciones para el día y 2 para guardar",
+    "shopping": [
+      {
+        "detail": "Morcillo (jarrete) o aguja, con vetas de gelatina; pídela cortada en dados de 3 cm. La carne magra de filete queda seca en un guiso largo.",
+        "item": "Carne"
+      },
+      {
+        "detail": "Tinto joven con cuerpo (garnacha, tempranillo) que te beberías. Ni reservas ni vino «para cocinar».",
+        "item": "Vino"
+      },
+      {
+        "detail": "Firmes y secas, sin brotes. Alternativa: chalotas enteras o cebolla en gajos gruesos.",
+        "item": "Cebollitas francesas"
+      },
+      {
+        "detail": "En un trozo, curada y sin ahumar.",
+        "item": "Panceta"
+      },
+      {
+        "detail": "Para cocer: monalisa o kennebec, firme y sin brotes ni zonas verdes.",
+        "item": "Patata"
+      }
+    ],
+    "short": "Carne guisada",
+    "summary": "Morcillo de ternera guisado despacio en vino tinto con panceta, zanahoria y cebollitas glaseadas; se hace para cuatro y mejora de un día para otro.",
+    "tags": [
+      "guiso",
+      "carne",
+      "plato único"
+    ],
+    "time": "2 h 45 min",
+    "title": "Carne guisada con vino tinto",
+    "updatedAt": "2026-11-13T19:55:00+01:00"
+  },
   "chilaquiles-verdes": {
     "equipment": [
       "Sartén De Buyer 28 cm",
@@ -1582,6 +1975,155 @@
     "time": "1 h 30 min + frío",
     "title": "Crema de arroz con leche al estilo Casa Gerardo",
     "updatedAt": "2026-11-13T07:55:00+01:00"
+  },
+  "crema-de-calabacin-y-puerro": {
+    "equipment": [
+      "Olla 4 L",
+      "Batidora de mano",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Crema",
+        "items": [
+          {
+            "name": "Calabacín",
+            "note": "1 y medio, con piel",
+            "qty": 600,
+            "unit": "g"
+          },
+          {
+            "name": "Puerro",
+            "note": "la parte blanca",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Cebolleta",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Patata",
+            "note": "1 pequeña",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua",
+            "note": "hasta la mitad de la altura de las verduras",
+            "qty": 400,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Al servir",
+        "items": [
+          {
+            "amount": "un hilo",
+            "name": "AOVE"
+          },
+          {
+            "name": "Huevo duro",
+            "note": "opcional, picado por encima",
+            "qty": 2,
+            "unit": "ud"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Acompáñala de proteína: huevo duro picado por encima, tortilla o una tabla de jamón y queso.",
+        "title": "Cena completa"
+      },
+      {
+        "text": "3-4 días en nevera. Congela bien; al descongelar puede separarse un poco: remueve o pasa la batidora 10 segundos al calentarla.",
+        "title": "Conservación"
+      },
+      {
+        "text": "Destapada a nivel 5-6, 5-10 minutos, removiendo, hasta que nape la cuchara.",
+        "title": "Si queda clara"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 14 al 20 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Corte",
+        "steps": [
+          {
+            "text": "Lava el calabacín y córtalo con piel en medias lunas de 1 cm. Puerro y cebolleta en rodajas; la patata, pelada, en dados de 2 cm."
+          }
+        ]
+      },
+      {
+        "name": "Cocción",
+        "steps": [
+          {
+            "level": "5",
+            "text": "AOVE en la olla. Puerro y cebolleta con una pizca de sal, sin que tomen color.",
+            "timer": 360
+          },
+          {
+            "level": "5",
+            "text": "Añade el calabacín y la patata y rehoga 3 minutos.",
+            "timer": 180
+          },
+          {
+            "level": "9",
+            "text": "Agua hasta **la mitad de la altura** de las verduras (unos 400 ml): el calabacín suelta mucha agua. Sal y lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Hervor suave 15 minutos, tapada, hasta que la patata se deshaga al presionarla.",
+            "timer": 900
+          }
+        ]
+      },
+      {
+        "name": "Triturar",
+        "steps": [
+          {
+            "text": "Saca un cucharón de caldo a un vaso. Tritura hasta que quede lisa y añade de ese caldo solo lo que haga falta: tiene que napar la cuchara. Termina con una cucharada de AOVE en crudo y rectifica de sal."
+          },
+          {
+            "text": "Lo que no vayas a tomar hoy, en tápers: enfría destapado y a la nevera antes de 2 horas."
+          }
+        ]
+      }
+    ],
+    "servings": 4,
+    "servingsNote": "unos 300 ml por ración",
+    "shopping": [
+      {
+        "detail": "Firme, de piel brillante y sin golpes; los medianos tienen menos semilla y menos agua.",
+        "item": "Calabacín"
+      },
+      {
+        "detail": "Blanco largo y firme, hojas tersas.",
+        "item": "Puerro"
+      }
+    ],
+    "short": "Crema de calabacín",
+    "summary": "Crema ligera de calabacín con su piel, puerro, cebolleta y una patata para dar cuerpo, emulsionada con aceite en crudo; se hace para cuatro y congela bien.",
+    "tags": [
+      "sopa",
+      "verdura",
+      "cena"
+    ],
+    "time": "35 min",
+    "title": "Crema de calabacín y puerro",
+    "updatedAt": "2026-11-13T19:55:00+01:00"
   },
   "crema-de-calabaza-y-puerro": {
     "equipment": [
@@ -4446,6 +4988,170 @@
     "time": "10 min",
     "title": "Piñada",
     "updatedAt": "2026-11-12T19:10:00+01:00"
+  },
+  "pollo-guisado-con-cerveza-y-cebolla": {
+    "equipment": [
+      "Cocotte Le Creuset o cazuela con tapa",
+      "Cazo",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Guiso",
+        "items": [
+          {
+            "name": "Muslos y contramuslos de pollo",
+            "note": "con hueso y piel",
+            "qty": 700,
+            "unit": "g"
+          },
+          {
+            "name": "Cebolla",
+            "note": "2 medianas, en rodajas de 2-3 mm",
+            "qty": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Cerveza rubia suave",
+            "qty": 200,
+            "unit": "ml"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Maicena",
+            "note": "disuelta en 15 ml de agua fría",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Guarnición",
+        "items": [
+          {
+            "name": "Arroz redondo",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Agua",
+            "qty": 350,
+            "unit": "ml"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sal"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Pollo troceado en vez de entero: 30 minutos de cocción en lugar de 45 y sin trinchar. Mucho menos aceite. Maicena en lugar de fécula de patata. Sin extracto de carne. La salsa no se cuela: la cebolla se queda dentro.",
+        "title": "Cambios respecto al libro"
+      },
+      {
+        "text": "Reposado gana. Guárdalo con su salsa y caliéntalo tapado 10 minutos a nivel 4, con un chorrito de agua. El arroz, siempre recién hecho.",
+        "title": "Hecho de víspera"
+      },
+      {
+        "text": "Unos 40 g por ración.",
+        "title": "Proteína"
+      },
+      {
+        "text": "3 días en nevera; congela bien.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "1080 recetas de cocina (Simone Ortega), n.º 839",
+    "phases": [
+      {
+        "name": "Dorar",
+        "steps": [
+          {
+            "text": "Seca el pollo con papel y sálalo. Corta la cebolla en rodajas finas, de 2-3 mm."
+          },
+          {
+            "level": "7",
+            "text": "Cocotte con el AOVE. Dora el pollo empezando por la piel, sin moverlo hasta que se suelte solo. Retíralo a un plato.",
+            "timer": 480
+          },
+          {
+            "level": "5",
+            "text": "Quita grasa hasta dejar solo un velo en el fondo. Cebolla con una pizca de sal hasta que esté transparente, rascando el fondo tostado.",
+            "timer": 480
+          }
+        ]
+      },
+      {
+        "name": "Guiso",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Devuelve el pollo con su jugo, con la piel hacia arriba. Añade la cerveza y lleva a hervor.",
+            "timer": 120
+          },
+          {
+            "level": "3",
+            "text": "Tapa y deja **30 minutos**. A mitad, dale la vuelta y riégalo con la salsa.",
+            "timer": 1800
+          },
+          {
+            "level": "4",
+            "text": "Mientras, el arroz: hervor a nivel 9 con el agua y la sal, tapa y nivel 4 durante 15 minutos; 5 de reposo tapado.",
+            "timer": 900
+          }
+        ]
+      },
+      {
+        "name": "Salsa",
+        "steps": [
+          {
+            "level": "6",
+            "text": "Saca el pollo. Añade la maicena disuelta y hierve sin tapa hasta que la salsa nape la cuchara. Rectifica de sal.",
+            "timer": 120
+          },
+          {
+            "text": "Sirve el pollo con la cebolla y la salsa por encima, y el arroz al lado."
+          }
+        ]
+      }
+    ],
+    "servings": 2,
+    "servingsNote": "350 g de pollo con hueso por persona",
+    "shopping": [
+      {
+        "detail": "De corral o amarillo, piel seca y sin olor. Pide los muslos separados del contramuslo.",
+        "item": "Pollo"
+      },
+      {
+        "detail": "Seca, firme y pesada, sin brotes verdes. La cebolleta no sirve aquí: suelta demasiada agua.",
+        "item": "Cebolla"
+      },
+      {
+        "detail": "Rubia tipo lager. Ni tostadas ni muy amargas: al reducir, el amargor se concentra.",
+        "item": "Cerveza"
+      }
+    ],
+    "short": "Pollo a la cerveza",
+    "summary": "Muslos y contramuslos dorados y guisados con cebolla en rodajas y cerveza rubia, con la salsa ligada al final; con arroz blanco.",
+    "tags": [
+      "guiso",
+      "carne",
+      "pollo",
+      "plato único"
+    ],
+    "time": "50 min",
+    "title": "Pollo guisado con cerveza y cebolla",
+    "updatedAt": "2026-11-13T19:55:00+01:00"
   },
   "potaje-de-garbanzos-espinacas-y-bacalao": {
     "equipment": [

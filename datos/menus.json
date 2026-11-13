@@ -353,5 +353,300 @@
     "summary": "Comidas y cenas para dos. Comidas con proteína suficiente, arroces caldosos o melosos con mucha verdura, y fruta y líquido a diario.",
     "title": "Semana del 7 al 13 de noviembre",
     "updatedAt": "2026-11-11T17:35:00+01:00"
+  },
+  "2026-11-14": {
+    "days": [
+      {
+        "date": "2026-11-14",
+        "errand": "Compra de la semana en Condis, Caprabo o Alcampo. Carne y chorizo, mejor en el mostrador.",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "ensalada-de-garbanzos-con-bonito-y-huevo",
+                "text": "Ensalada de garbanzos con bonito y huevo, la que queda en la nevera"
+              },
+              {
+                "text": "Pitahaya de postre"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "tostas-de-escalivada-con-ventresca",
+                "text": "Tostas de escalivada con ventresca y ensalada de escarola (gasta la escalivada abierta)"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-15",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "carne-guisada-con-vino-tinto",
+                "text": "Carne guisada con vino tinto, con patata cocida"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "alcachofas-salteadas-con-huevo-escalfado",
+                "text": "Alcachofas salteadas con ajo y limón, con huevo escalfado"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Sopa de verduras del congelador a la nevera."
+      },
+      {
+        "date": "2026-11-16",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "pollo-guisado-con-cerveza-y-cebolla",
+                "text": "Pollo guisado con cerveza y cebolla, hecho el domingo, con arroz blanco recién hecho"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "sopa-de-verduras",
+                "text": "Sopa de verduras, del congelador"
+              },
+              {
+                "text": "Tosta de centeno con jamón serrano"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Arroz meloso del congelador a la nevera."
+      },
+      {
+        "date": "2026-11-17",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
+                "text": "Arroz meloso de acelgas, alubias y sepia, del congelador"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "text": "Tortilla de calabacín y cebolleta (4 huevos, medio calabacín) con ensalada de lechuga y tomate"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "carne-guisada-con-vino-tinto",
+                "text": "Carne guisada con vino tinto, la del domingo"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "crema-de-calabacin-y-puerro",
+                "text": "Crema de calabacín y puerro, hecha el domingo, con huevo duro picado"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Potaje de garbanzos del congelador a la nevera."
+      },
+      {
+        "date": "2026-11-19",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "potaje-de-garbanzos-espinacas-y-bacalao",
+                "text": "Potaje de garbanzos, espinacas y bacalao, del congelador"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "text": "Pechuga de pollo a la plancha con ajo y perejil, y ensalada de lechuga y tomate"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Sofrito de las lentejas y crema de calabacín del congelador a la nevera."
+      },
+      {
+        "date": "2026-11-20",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "lentejas-de-la-tia-ameli",
+                "text": "Lentejas de la tía Ameli, con el sofrito hecho el domingo: 25 minutos. 2 raciones al congelador"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "crema-de-calabacin-y-puerro",
+                "text": "Crema de calabacín y puerro, del congelador"
+              },
+              {
+                "text": "Jamón serrano y queso con pan de centeno"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      }
+    ],
+    "end": "2026-11-20",
+    "notes": [
+      {
+        "text": "De la nevera: ensalada de garbanzos, escalivada, alcachofas, puerros, calabacín y medio, cebolletas, perejil y pitahaya. Del congelador: arroz meloso, sopa de verduras y potaje de garbanzos.",
+        "title": "Aprovechado"
+      },
+      {
+        "text": "Ningún día pasa de 25 minutos de cocina: lo largo queda hecho el domingo.",
+        "title": "Entre semana"
+      },
+      {
+        "text": "Comidas de 30-40 g por persona y cenas de unos 20 g.",
+        "title": "Proteína"
+      },
+      {
+        "text": "Legumbre tres días, verdura en todas las comidas y sopa o crema en tres cenas. El arroz blanco del lunes va con el guiso y su cebolla, no solo.",
+        "title": "Fibra y líquido"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 14 al 20 de noviembre de 2026",
+    "prep": [
+      {
+        "steps": [
+          {
+            "text": "Toda la lista «Compra Súper»."
+          },
+          {
+            "how": "El morcillo y el chorizo para guisar, mejor en el mostrador de Caprabo o Alcampo que en bandeja. La panceta, en un trozo.",
+            "text": "En la carnicería: morcillo en dados de 3 cm; muslos separados de los contramuslos."
+          }
+        ],
+        "title": "Compra",
+        "when": "Sábado 14 · mañana"
+      },
+      {
+        "steps": [
+          {
+            "how": "Agua muy fría 10 minutos, centrifugadora y a un táper con papel de cocina debajo y encima: la humedad es lo que las estropea. Aguantan hasta el jueves. Aparta media escarola para la cena de hoy.",
+            "text": "Escarola y lechuga lavadas y secas, en táper con papel de cocina."
+          },
+          {
+            "how": "10 minutos en agua hirviendo a nivel 7 y a agua fría. Con cáscara, a la nevera.",
+            "text": "2 huevos duros para el miércoles."
+          }
+        ],
+        "title": "Adelanto, 20 minutos",
+        "when": "Sábado 14 · 17:30"
+      },
+      {
+        "steps": [
+          {
+            "how": "Empieza por aquí: es la comida de hoy y la más larga. Cuando esté tapada a nivel 2-3 (último paso de la fase «Guiso»), arranca el pollo.",
+            "recipe": "carne-guisada-con-vino-tinto",
+            "text": "Fuego 1, en la Le Creuset: carne guisada con vino tinto para 4."
+          },
+          {
+            "how": "Receta entera menos el arroz, que se hace el lunes. Cuando esté tapado a nivel 3, arranca la crema.",
+            "recipe": "pollo-guisado-con-cerveza-y-cebolla",
+            "text": "Fuego 2, en otra cazuela con tapa: pollo guisado con cerveza y cebolla."
+          },
+          {
+            "how": "Usa un calabacín entero y los dos puerros; el medio calabacín que queda es para la tortilla del martes. Mientras hierve sus 15 minutos, pica la verdura del sofrito.",
+            "recipe": "crema-de-calabacin-y-puerro",
+            "text": "Fuego 3: crema de calabacín y puerro para 4."
+          },
+          {
+            "how": "Pasos 1-4 de la receta, en una sartén honda en el fuego que deje libre la crema. Triturado, a un táper y al congelador.",
+            "recipe": "lentejas-de-la-tia-ameli",
+            "text": "Sofrito triturado de las lentejas del viernes."
+          },
+          {
+            "how": "Fase «Cebollitas y final» de la receta de la carne.",
+            "recipe": "carne-guisada-con-vino-tinto",
+            "text": "Cebollitas y patata para la comida, 30 minutos antes de comer."
+          },
+          {
+            "how": "Tápers poco hondos, destapados hasta que dejen de humear. Carne: 2 raciones sin patata a la nevera. Pollo: a la nevera con su salsa. Crema: 2 raciones a la nevera y 2 al congelador. Sofrito: al congelador. Todo con nombre y fecha.",
+            "text": "Enfriar y guardar antes de 2 horas."
+          }
+        ],
+        "title": "Cocina en paralelo, 2 h 45 min",
+        "when": "Domingo 15 · 10:45"
+      },
+      {
+        "steps": [
+          {
+            "how": "Se limpian al momento, en agua con limón.",
+            "recipe": "alcachofas-salteadas-con-huevo-escalfado",
+            "text": "Alcachofas salteadas con huevo escalfado, 30 minutos."
+          },
+          {
+            "text": "Sopa de verduras del congelador a la nevera, para el lunes."
+          }
+        ],
+        "title": "Cena",
+        "when": "Domingo 15 · 21:00"
+      }
+    ],
+    "servings": 2,
+    "shopping": [
+      {
+        "what": "Toda la lista. No hay compra de mitad de semana: no hay pescado fresco este menú.",
+        "when": "Sábado 14",
+        "where": "Condis, Caprabo o Alcampo"
+      }
+    ],
+    "start": "2026-11-14",
+    "summary": "Comidas y cenas para dos, con cuchara y guisos de carne y pollo. Aprovecha lo que había en la nevera y el congelador; lo largo se cocina el domingo.",
+    "title": "Semana del 14 al 20 de noviembre",
+    "updatedAt": "2026-11-13T19:55:00+01:00"
   }
 }

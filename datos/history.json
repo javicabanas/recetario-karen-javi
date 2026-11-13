@@ -104,6 +104,13 @@
     "slot": "Comida",
     "text": "Lubina en papillote con calabacín y puerro"
   },
+  "2026-11-13-cena-tostas-de-escalivada-con-ventresca": {
+    "createdAt": "2026-11-13T19:58:12.499Z",
+    "date": "2026-11-13",
+    "recipe": "tostas-de-escalivada-con-ventresca",
+    "slot": "Cena",
+    "text": "Tostas de escalivada con ventresca y anchoas"
+  },
   "2026-11-13-comida-rape-a-la-plancha-con-refrito-de-ajo": {
     "createdAt": "2026-11-13T14:29:45.843Z",
     "date": "2026-11-13",
