@@ -3,7 +3,7 @@
 Paleta de cerdo marinada en recado rojo de achiote y cítricos, hecha en cocotte tapada al horno hasta que se deshilacha, con cebolla morada encurtida y tortillas de maíz.
 
 **Raciones:** 4 (dos comidas para dos: la mitad se congela con su jugo) · **Tiempo:** 4 h (+ 12 h de marinado)
-**Equipo:** Cocotte Le Creuset con tapa, Horno, Batidora, Cazo, Sartén de hierro, Inducción · **Etiquetas:** mexicana, carne, horno, adelantar
+**Equipo:** Cocotte Le Creuset con tapa, Horno, Batidora, Cazo, Sartén de hierro, Inducción · **Etiquetas:** mexicana, carne, adelantar
 
 ## Ingredientes
 

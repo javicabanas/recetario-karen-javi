@@ -3,7 +3,7 @@
 Arròs amb bledes con sepia para completar la proteína: meloso, con alubia blanca y mucha acelga.
 
 **Raciones:** 2 (70 g de arroz por persona) · **Tiempo:** 40 min
-**Equipo:** Cocotte Le Creuset, Inducción · **Etiquetas:** arroz, legumbre, pescado
+**Equipo:** Cocotte Le Creuset, Inducción · **Etiquetas:** arroz, legumbre, pescado, marisco, plato único
 
 ## Ingredientes
 

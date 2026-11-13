@@ -3,7 +3,7 @@
 El cóctel clásico de tequila, licor de naranja y lima en proporción 2:1:1, agitado con hielo y servido en copa con borde de sal.
 
 **Raciones:** 2 (dos copas) · **Tiempo:** 5 min
-**Equipo:** Coctelera o tarro con tapa, Colador fino, Exprimidor · **Etiquetas:** mexicana, bebida, cóctel
+**Equipo:** Coctelera o tarro con tapa, Colador fino, Exprimidor · **Etiquetas:** mexicana, bebida
 
 ## Ingredientes
 

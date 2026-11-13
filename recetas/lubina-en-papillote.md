@@ -3,7 +3,7 @@
 Lomos de lubina al vapor en el estuche de silicona, en el microondas, sobre una cama fina de calabacín y puerro con limón.
 
 **Raciones:** 2 (un lomo de 150 g por persona) · **Tiempo:** 20 min
-**Equipo:** Estuche de vapor de silicona, Microondas 700 W, Sartén, Inducción · **Etiquetas:** pescado, microondas, cena
+**Equipo:** Estuche de vapor de silicona, Microondas 700 W, Sartén, Inducción · **Etiquetas:** pescado, cena
 
 ## Ingredientes
 

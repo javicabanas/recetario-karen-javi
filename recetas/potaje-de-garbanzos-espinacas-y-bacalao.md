@@ -3,7 +3,7 @@
 Potaje de vigilia con garbanzo cocido, espinacas, majado de ajo y pan frito, bacalao desalado en lascas y huevo duro.
 
 **Raciones:** 2 (unos 40 g de proteína por ración) · **Tiempo:** 35 min
-**Equipo:** Cazuela u olla 3 L, Mortero, Inducción · **Etiquetas:** legumbre, guiso, pescado
+**Equipo:** Cazuela u olla 3 L, Mortero, Inducción · **Etiquetas:** legumbre, guiso, pescado, plato único
 
 ## Ingredientes
 

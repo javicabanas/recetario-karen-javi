@@ -3,7 +3,7 @@
 Merluza ligada en cazuela con su propia gelatina, ajo, perejil y vino blanco, con almejas y guisante fino.
 
 **Raciones:** 2 (200 g de merluza por persona) · **Tiempo:** 30 min + 30 min de purga
-**Equipo:** Cazuela baja o sartén honda, Inducción · **Etiquetas:** pescado, guiso
+**Equipo:** Cazuela baja o sartén honda, Inducción · **Etiquetas:** pescado, marisco, guiso
 
 ## Ingredientes
 

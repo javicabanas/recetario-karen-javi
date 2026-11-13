@@ -3,7 +3,7 @@
 Totopos de maíz bañados en el último momento en salsa verde de tomatillo frita, con pollo desmenuzado, huevo frito, crema, queso fresco y cebolla.
 
 **Raciones:** 2 (plato único, con pollo y huevo) · **Tiempo:** 35 min
-**Equipo:** Sartén De Buyer 28 cm, Sauteuse o cazuela ancha, Sartén antiadherente, Batidora, Inducción · **Etiquetas:** mexicana, pollo, huevo
+**Equipo:** Sartén De Buyer 28 cm, Sauteuse o cazuela ancha, Sartén antiadherente, Batidora, Inducción · **Etiquetas:** mexicana, carne, pollo, huevo, plato único
 
 ## Ingredientes
 

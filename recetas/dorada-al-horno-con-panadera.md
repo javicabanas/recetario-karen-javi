@@ -3,7 +3,7 @@
 Dorada entera sobre patata panadera y cebolla, terminada con un refrito de ajo y vinagre; se sirve en lomos, sin espinas.
 
 **Raciones:** 2 (una dorada de 400-450 g por persona) · **Tiempo:** 55 min
-**Equipo:** Horno, Fuente de horno, Sartén pequeña, Inducción · **Etiquetas:** pescado, horno
+**Equipo:** Horno, Fuente de horno, Sartén pequeña, Inducción · **Etiquetas:** pescado
 
 ## Ingredientes
 

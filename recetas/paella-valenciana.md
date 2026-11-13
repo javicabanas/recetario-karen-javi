@@ -3,7 +3,7 @@
 Método híbrido: caldo de carne dorada en olla lenta la víspera y hervor previo en la paellera antes del arroz.
 
 **Raciones:** 6 (unos 70 g de arroz por persona, como cierre de menú) · **Tiempo:** Víspera + 40 min
-**Equipo:** Paellera 36 cm, Olla lenta, Inducción · **Etiquetas:** arroz, carne, paellera
+**Equipo:** Paellera 36 cm, Olla lenta, Inducción · **Etiquetas:** arroz, carne
 
 ## Ingredientes
 

@@ -306,11 +306,12 @@
     "tags": [
       "arroz",
       "pescado",
-      "paellera"
+      "marisco",
+      "plato único"
     ],
     "time": "50 min",
     "title": "Arroz a banda",
-    "updatedAt": "2026-11-07T10:30:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "arroz-caldoso-de-rape-y-alcachofas": {
     "equipment": [
@@ -550,11 +551,12 @@
     "tags": [
       "arroz",
       "pescado",
-      "verdura"
+      "verdura",
+      "plato único"
     ],
     "time": "Víspera 45 min + 45 min",
     "title": "Arroz caldoso de rape y alcachofas",
-    "updatedAt": "2026-11-07T22:05:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "arroz-meloso-de-acelgas-alubias-y-sepia": {
     "equipment": [
@@ -731,11 +733,13 @@
     "tags": [
       "arroz",
       "legumbre",
-      "pescado"
+      "pescado",
+      "marisco",
+      "plato único"
     ],
     "time": "40 min",
     "title": "Arroz meloso de acelgas, alubias y sepia",
-    "updatedAt": "2026-11-07T11:30:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "brocoli-con-gambas-al-ajillo": {
     "equipment": [
@@ -1136,12 +1140,14 @@
     "summary": "Totopos de maíz bañados en el último momento en salsa verde de tomatillo frita, con pollo desmenuzado, huevo frito, crema, queso fresco y cebolla.",
     "tags": [
       "mexicana",
+      "carne",
       "pollo",
-      "huevo"
+      "huevo",
+      "plato único"
     ],
     "time": "35 min",
     "title": "Chilaquiles verdes con pollo y huevo",
-    "updatedAt": "2026-11-12T19:10:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "cochinita-pibil": {
     "equipment": [
@@ -1389,12 +1395,11 @@
     "tags": [
       "mexicana",
       "carne",
-      "horno",
       "adelantar"
     ],
     "time": "4 h (+ 12 h de marinado)",
     "title": "Cochinita pibil",
-    "updatedAt": "2026-11-12T19:10:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "crema-de-arroz-con-leche": {
     "equipment": [
@@ -1721,13 +1726,13 @@
     "short": "Crema de calabaza",
     "summary": "Crema sedosa de calabaza cacahuete, puerro y zanahoria, emulsionada con aceite en crudo; se hace para cuatro y congela bien.",
     "tags": [
-      "crema",
+      "sopa",
       "verdura",
       "cena"
     ],
     "time": "40 min",
     "title": "Crema de calabaza y puerro",
-    "updatedAt": "2026-11-08T11:30:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "dorada-al-horno-con-panadera": {
     "equipment": [
@@ -1905,12 +1910,11 @@
     "short": "Dorada al horno",
     "summary": "Dorada entera sobre patata panadera y cebolla, terminada con un refrito de ajo y vinagre; se sirve en lomos, sin espinas.",
     "tags": [
-      "pescado",
-      "horno"
+      "pescado"
     ],
     "time": "55 min",
     "title": "Dorada al horno con patata panadera",
-    "updatedAt": "2026-11-07T11:30:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "ensalada-de-garbanzos-con-bonito-y-huevo": {
     "equipment": [
@@ -2499,6 +2503,10 @@
       {
         "text": "Con chocolate caliente o café de olla, para mojar.",
         "title": "Cómo se toman"
+      },
+      {
+        "text": "Receta añadida a petición de Ximena.",
+        "title": "Origen"
       }
     ],
     "origin": "Proyecto Cocina y recetas · chat del 13 de noviembre de 2026, a petición de Ximena. Receta propia a partir del pan de muerto tradicional, adaptada a casa.",
@@ -2601,7 +2609,7 @@
     ],
     "time": "45 min de trabajo + 2 h 45 min de fermentación y horno",
     "title": "Hojaldras tlaxcaltecas (pan de muerto)",
-    "updatedAt": "2026-11-13T12:30:00Z"
+    "updatedAt": "2026-11-13T13:07:00Z"
   },
   "lentejas-con-pollo": {
     "equipment": [
@@ -2800,11 +2808,13 @@
     "tags": [
       "legumbre",
       "guiso",
-      "pollo"
+      "carne",
+      "pollo",
+      "plato único"
     ],
     "time": "1 h 5 min",
     "title": "Lentejas estofadas con pollo y verduras",
-    "updatedAt": "2026-11-08T11:20:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "lentejas-con-verduras-y-huevo": {
     "equipment": [
@@ -3084,11 +3094,12 @@
       "legumbre",
       "guiso",
       "verdura",
-      "huevo"
+      "huevo",
+      "plato único"
     ],
     "time": "1 h 20 min",
     "title": "Lentejas estofadas con verduras y huevo escalfado",
-    "updatedAt": "2026-11-13T13:30:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "lentejas-de-la-tia-ameli": {
     "equipment": [
@@ -3310,11 +3321,12 @@
     "summary": "Lentejas pardinas en olla rápida con un sofrito de cebolla, zanahoria y tomate triturado que se añade al final, y chorizo cocido aparte. De la libreta de la tía Ameli.",
     "tags": [
       "legumbre",
-      "guiso"
+      "guiso",
+      "plato único"
     ],
     "time": "50 min",
     "title": "Lentejas de la tía Ameli",
-    "updatedAt": "2026-11-09T14:45:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "lubina-en-papillote": {
     "equipment": [
@@ -3442,12 +3454,11 @@
     "summary": "Lomos de lubina al vapor en el estuche de silicona, en el microondas, sobre una cama fina de calabacín y puerro con limón.",
     "tags": [
       "pescado",
-      "microondas",
       "cena"
     ],
     "time": "20 min",
     "title": "Lubina en papillote con calabacín y puerro",
-    "updatedAt": "2026-11-12T13:55:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "margarita": {
     "equipment": [
@@ -3563,12 +3574,11 @@
     "summary": "El cóctel clásico de tequila, licor de naranja y lima en proporción 2:1:1, agitado con hielo y servido en copa con borde de sal.",
     "tags": [
       "mexicana",
-      "bebida",
-      "cóctel"
+      "bebida"
     ],
     "time": "5 min",
     "title": "Margarita",
-    "updatedAt": "2026-11-12T19:10:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "merluza-en-salsa-verde-con-almejas": {
     "equipment": [
@@ -3736,11 +3746,12 @@
     "summary": "Merluza ligada en cazuela con su propia gelatina, ajo, perejil y vino blanco, con almejas y guisante fino.",
     "tags": [
       "pescado",
+      "marisco",
       "guiso"
     ],
     "time": "30 min + 30 min de purga",
     "title": "Merluza en salsa verde con almejas y guisantes",
-    "updatedAt": "2026-11-07T11:30:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "mojo-de-ajo-veracruzano": {
     "equipment": [
@@ -4193,45 +4204,38 @@
     "summary": "Método híbrido: caldo de carne dorada en olla lenta la víspera y hervor previo en la paellera antes del arroz.",
     "tags": [
       "arroz",
-      "carne",
-      "paellera"
+      "carne"
     ],
     "time": "Víspera + 40 min",
     "title": "Paella valenciana de pollo y costilla",
-    "updatedAt": "2026-11-07T10:30:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "panque-de-platano-macho": {
     "equipment": [
       "Horno",
-      "Molde alargado de 22-25 cm",
+      "Molde alargado de unos 20 cm",
       "Batidora de vaso o de brazo",
-      "Rejilla",
-      "Inducción"
+      "Rejilla"
     ],
     "ingredients": [
       {
         "group": "Masa",
         "items": [
           {
-            "name": "Plátano macho muy maduro",
-            "note": "ya pelado; 3 medianos, unos 750 g con piel",
-            "qty": 500,
-            "unit": "g"
+            "name": "Plátanos machos muy maduros",
+            "note": "unos 350 g ya pelados",
+            "qty": 2,
+            "unit": "ud"
           },
           {
             "name": "Huevos L",
-            "note": "a temperatura ambiente",
-            "qty": 4,
+            "note": "3 si son pequeños",
+            "qty": 2,
             "unit": "ud"
           },
           {
             "name": "Impulsor químico (tipo Royal)",
-            "note": "medio sobre",
-            "qty": 8,
-            "unit": "g"
-          },
-          {
-            "name": "Canela molida",
+            "note": "unos 5 g",
             "qty": 1,
             "unit": "cdta"
           },
@@ -4239,10 +4243,6 @@
             "name": "Extracto de vainilla",
             "qty": 1,
             "unit": "cdta"
-          },
-          {
-            "amount": "una pizca",
-            "name": "Sal"
           }
         ]
       },
@@ -4250,54 +4250,49 @@
         "group": "Cobertura",
         "items": [
           {
-            "name": "Nueces pecanas",
-            "qty": 40,
-            "unit": "g"
+            "amount": "al gusto",
+            "name": "Almendras, nueces, pasas o granola",
+            "note": "unos 40 g"
           }
         ]
       }
     ],
     "notes": [
       {
-        "text": "No lleva mantequilla ni aceite, pero el huevo y las nueces aportan algo de grasa. Sin las nueces queda en lo mínimo.",
+        "text": "Receta de Carol, añadida a petición de Ximena.",
+        "title": "Origen"
+      },
+      {
+        "text": "Carol lo hace en un hornito eléctrico, a unos 250 °C y 15 minutos. En un horno grande esa temperatura quema la cobertura antes de que cuaje el centro, así que aquí va a 180 °C y el doble de tiempo. La prueba es la suya: cobertura dorada y palillo seco. Se añade el reposo antes de cortar.",
+        "title": "Cambios respecto al original"
+      },
+      {
+        "text": "No lleva mantequilla ni aceite, pero el huevo y los frutos secos aportan algo de grasa. Con pasas en lugar de frutos secos queda en lo mínimo.",
         "title": "«Sin grasa», con matiz"
       },
       {
-        "text": "Con plátano bien negro no necesita azúcar. Si estaba solo amarillo con manchas, añade 30 g de miel al triturar.",
+        "text": "Con plátano bien negro no necesita azúcar. Si estaba solo amarillo con manchas, añade 20 g de miel al triturar.",
         "title": "Dulzor"
       },
       {
-        "text": "Con plátano de Canarias muy maduro sale más dulce y más húmedo: usa 450 g y hornea 5-10 minutos más.",
-        "title": "Sin plátano macho"
-      },
-      {
-        "text": "4 días en la nevera, tapado; mejora al día siguiente. Se congela en rebanadas 2 meses.",
+        "text": "4 días en la nevera, tapado. Se congela en rebanadas 2 meses.",
         "title": "Conservación"
       }
     ],
-    "origin": "Proyecto Cocina y recetas · chat del 13 de noviembre de 2026, a petición de Ximena. Receta propia a partir del panqué mexicano de plátano macho.",
+    "origin": "Receta de Carol, a petición de Ximena (chat del 13 de noviembre de 2026), adaptada a casa.",
     "phases": [
       {
         "name": "Masa",
         "steps": [
           {
-            "text": "Precalienta el horno a 175 °C, calor arriba y abajo, sin ventilador, con la rejilla a media altura. Forra el molde con papel de horno en lugar de engrasarlo."
+            "text": "Precalienta el horno a 180 °C, calor arriba y abajo, con la rejilla a media altura. Forra el molde con papel de horno."
           },
           {
-            "level": "6",
-            "text": "Trocea las nueces. Si quieres más sabor, tuéstalas en una sartén sin aceite, moviéndolas.",
-            "timer": 120
-          },
-          {
-            "text": "Tritura los huevos solos a máxima potencia, hasta que espumen: ese aire es parte de la subida.",
+            "text": "Corta el plátano en cubos y tritúralo con los huevos, el impulsor y la vainilla hasta que quede una mezcla homogénea, sin grumos.",
             "timer": 60
           },
           {
-            "text": "Añade el plátano en trozos, la canela, la vainilla y la sal. Tritura hasta que no queden grumos.",
-            "timer": 60
-          },
-          {
-            "text": "Añade el impulsor y tritura 5 segundos, solo para integrarlo. Vierte en el molde enseguida."
+            "text": "Vierte en el molde y reparte por encima los frutos secos, las pasas o la granola."
           }
         ]
       },
@@ -4305,31 +4300,31 @@
         "name": "Horneado",
         "steps": [
           {
-            "text": "Reparte las nueces por encima y hornea 45-50 minutos. Está cuando un palillo sale limpio del centro y la superficie está dorada. Si se dora de más antes de tiempo, tápalo con papel de aluminio.",
-            "timer": 2700
+            "text": "Hornea 30-35 minutos, hasta que la cobertura esté dorada. Comprueba desde el minuto 25: un palillo o un cuchillo clavado en el centro tiene que salir seco. Si se dora de más antes de cuajar, tápalo con papel de aluminio.",
+            "timer": 1800
           },
           {
-            "text": "Déjalo 10 minutos en el molde, sácalo tirando del papel y enfríalo del todo sobre una rejilla antes de cortar: recién hecho se desmorona y al enfriar se asienta.",
+            "text": "Déjalo 10 minutos en el molde, sácalo tirando del papel y deja que se enfríe sobre una rejilla antes de cortar: al enfriar se asienta.",
             "timer": 600
           }
         ]
       }
     ],
-    "scaleWarning": "Las cantidades son para un molde de 1 L. Para el doble, usa dos moldes en vez de uno más grande: el centro tardaría demasiado en cuajar.",
-    "servings": 8,
-    "servingsNote": "8 rebanadas, un molde alargado de 22-25 cm (1 L)",
+    "scaleWarning": "Para el doble, usa dos moldes en vez de uno más grande: el centro tardaría demasiado en cuajar.",
+    "servings": 6,
+    "servingsNote": "6 rebanadas, un molde alargado de unos 20 cm",
     "shopping": [
       {
         "detail": "En fruterías latinas, Mercadona o El Corte Inglés. Tiene que estar con la piel casi negra y blando al apretar, porque es el único azúcar de la receta. Si solo lo hay amarillo, madura en casa 5-7 días a temperatura ambiente. Verde no sirve.",
         "item": "Plátano macho"
       },
       {
-        "detail": "Talla L, a temperatura ambiente, para que monten mejor.",
+        "detail": "Talla L. Si son M o más pequeños, 3.",
         "item": "Huevos"
       },
       {
-        "detail": "Entera en mitades, sin olor rancio. Alternativa: nuez común.",
-        "item": "Nuez pecana"
+        "detail": "Frutos secos crudos y sin sal (almendra laminada, nuez común o pecana), pasas o granola. Que no huelan a rancio.",
+        "item": "Cobertura"
       },
       {
         "detail": "Que no lleve meses abierto; es lo único que airea la masa.",
@@ -4337,14 +4332,14 @@
       }
     ],
     "short": "Panqué de plátano",
-    "summary": "Bizcocho mexicano en el que el almidón del plátano macho hace de harina y el huevo da la estructura. Queda denso y húmedo, entre bizcocho y budín, y sube poco.",
+    "summary": "Bizcocho mexicano sin harina ni grasa añadida: plátano macho maduro, huevo e impulsor, todo triturado y al horno. Queda denso y húmedo, entre bizcocho y budín, y sube poco.",
     "tags": [
       "mexicana",
       "postre"
     ],
-    "time": "15 min de trabajo + 50 min de horno",
-    "title": "Panqué de plátano macho sin harina ni grasa añadida",
-    "updatedAt": "2026-11-13T12:40:00Z"
+    "time": "10 min de trabajo + 30 min de horno",
+    "title": "Panqué de plátano macho de Carol",
+    "updatedAt": "2026-11-13T13:07:00Z"
   },
   "pinada": {
     "equipment": [
@@ -4618,11 +4613,12 @@
     "tags": [
       "legumbre",
       "guiso",
-      "pescado"
+      "pescado",
+      "plato único"
     ],
     "time": "35 min",
     "title": "Potaje de garbanzos, espinacas y bacalao",
-    "updatedAt": "2026-11-07T11:30:00+01:00"
+    "updatedAt": "2026-11-13T13:50:00+01:00"
   },
   "rape-a-la-plancha-con-refrito-de-ajo": {
     "equipment": [

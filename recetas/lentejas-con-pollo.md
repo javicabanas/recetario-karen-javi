@@ -3,7 +3,7 @@
 Lentejas pardinas con contramuslo dorado, zanahoria, calabaza y pimiento; sin chorizo y con proteína suficiente para ser plato único.
 
 **Raciones:** 4 (75 g de lenteja y 125 g de pollo por persona) · **Tiempo:** 1 h 5 min
-**Equipo:** Cocotte Le Creuset, Inducción · **Etiquetas:** legumbre, guiso, pollo
+**Equipo:** Cocotte Le Creuset, Inducción · **Etiquetas:** legumbre, guiso, carne, pollo, plato único
 
 ## Ingredientes
 

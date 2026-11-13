@@ -79,6 +79,10 @@ La primera fermentación se puede hacer en la nevera, de 8 a 12 horas, con el bo
 
 Con chocolate caliente o café de olla, para mojar.
 
+**Origen**
+
+Receta añadida a petición de Ximena.
+
 **Al cambiar raciones**
 
 La masa se escala sin problema, pero el tiempo de fermentación no cambia. En una bandeja caben 6 hojaldras individuales; para más, hornea en dos tandas y guarda la segunda bandeja en la nevera mientras tanto. Si haces una sola pieza grande con toda la masa, hornea 28-30 minutos.

@@ -103,5 +103,12 @@
     "recipe": "lubina-en-papillote",
     "slot": "Comida",
     "text": "Lubina en papillote con calabacín y puerro"
+  },
+  "2026-11-13-comida-rape-a-la-plancha-con-refrito-de-ajo": {
+    "createdAt": "2026-11-13T14:29:45.843Z",
+    "date": "2026-11-13",
+    "recipe": "rape-a-la-plancha-con-refrito-de-ajo",
+    "slot": "Comida",
+    "text": "Rape a la plancha con refrito de ajo, patata y guisantes"
   }
 }

@@ -3,7 +3,7 @@
 Crema sedosa de calabaza cacahuete, puerro y zanahoria, emulsionada con aceite en crudo; se hace para cuatro y congela bien.
 
 **Raciones:** 4 (unos 300 ml por ración) · **Tiempo:** 40 min
-**Equipo:** Olla 4 L, Batidora de mano, Inducción · **Etiquetas:** crema, verdura, cena
+**Equipo:** Olla 4 L, Batidora de mano, Inducción · **Etiquetas:** sopa, verdura, cena
 
 ## Ingredientes
 

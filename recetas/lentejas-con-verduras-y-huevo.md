@@ -3,7 +3,7 @@
 Lentejas pardinas estofadas con puerro, zanahoria, calabaza y espinacas, sin carne, con dos huevos escalfados encima al servir.
 
 **Raciones:** 4 (90 g de lenteja y 2 huevos por persona; el huevo, solo en las raciones que se sirven) · **Tiempo:** 1 h 20 min
-**Equipo:** Cocotte Le Creuset, Cazo hondo, Espumadera, Colador fino, Inducción · **Etiquetas:** legumbre, guiso, verdura, huevo
+**Equipo:** Cocotte Le Creuset, Cazo hondo, Espumadera, Colador fino, Inducción · **Etiquetas:** legumbre, guiso, verdura, huevo, plato único
 
 ## Ingredientes
 

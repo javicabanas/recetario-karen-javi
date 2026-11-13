@@ -3,7 +3,7 @@
 Arroz seco de sepia con salmorreta de ñora y fumet de pescadería, servido con alioli.
 
 **Raciones:** 4 (90 g de arroz por persona) · **Tiempo:** 50 min
-**Equipo:** Paellera 36 cm, Inducción · **Etiquetas:** arroz, pescado, paellera
+**Equipo:** Paellera 36 cm, Inducción · **Etiquetas:** arroz, pescado, marisco, plato único
 
 ## Ingredientes
 

@@ -3,7 +3,7 @@
 Arroz caldoso con caldo de cabeza de rape hecho la víspera, alcachofas doradas y tacos de rape que se terminan en el caldo.
 
 **Raciones:** 2 (70 g de arroz por persona y el doble de verdura) · **Tiempo:** Víspera 45 min + 45 min
-**Equipo:** Cocotte Le Creuset, Olla para el caldo, Inducción · **Etiquetas:** arroz, pescado, verdura
+**Equipo:** Cocotte Le Creuset, Olla para el caldo, Inducción · **Etiquetas:** arroz, pescado, verdura, plato único
 
 ## Ingredientes
 

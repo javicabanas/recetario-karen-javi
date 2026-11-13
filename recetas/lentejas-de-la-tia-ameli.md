@@ -3,7 +3,7 @@
 Lentejas pardinas en olla rápida con un sofrito de cebolla, zanahoria y tomate triturado que se añade al final, y chorizo cocido aparte. De la libreta de la tía Ameli.
 
 **Raciones:** 4 (85 g de lenteja y medio chorizo por persona) · **Tiempo:** 50 min
-**Equipo:** Olla rápida, Batidora de mano o licuadora, Cazo, Inducción · **Etiquetas:** legumbre, guiso
+**Equipo:** Olla rápida, Batidora de mano o licuadora, Cazo, Inducción · **Etiquetas:** legumbre, guiso, plato único
 
 ## Ingredientes
 
