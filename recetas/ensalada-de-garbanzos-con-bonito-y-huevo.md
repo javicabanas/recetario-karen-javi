@@ -3,7 +3,7 @@
 Garbanzo de tarro, bonito del norte, huevo duro y verdura en dados, con el aliño aparte. Se monta por la mañana y se come fría, sin calentar.
 
 **Raciones:** 2 (unos 40 g de proteína por ración) · **Tiempo:** 20 min
-**Equipo:** Cazo pequeño, Inducción, Táper, Tarrito con tapa · **Etiquetas:** legumbres, pescado, huevos, ensalada, comida
+**Equipo:** Cazo pequeño, Inducción, Táper, Tarrito con tapa · **Etiquetas:** legumbre, pescado, huevo, ensalada
 
 ## Ingredientes
 

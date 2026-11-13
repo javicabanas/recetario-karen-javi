@@ -2072,15 +2072,14 @@
     "short": "Ensalada de garbanzos",
     "summary": "Garbanzo de tarro, bonito del norte, huevo duro y verdura en dados, con el aliño aparte. Se monta por la mañana y se come fría, sin calentar.",
     "tags": [
-      "legumbres",
+      "legumbre",
       "pescado",
-      "huevos",
-      "ensalada",
-      "comida"
+      "huevo",
+      "ensalada"
     ],
     "time": "20 min",
     "title": "Ensalada de garbanzos con bonito y huevo",
-    "updatedAt": "2026-11-11T17:35:00+01:00"
+    "updatedAt": "2026-11-13T13:30:00+01:00"
   },
   "fabada-asturiana": {
     "equipment": [
@@ -2226,13 +2225,14 @@
     "tags": [
       "legumbre",
       "guiso",
+      "carne",
       "asturiana",
-      "invitados",
-      "plato único"
+      "plato único",
+      "invitados"
     ],
     "time": "3 h 30 min + remojo 12 h",
     "title": "Fabada asturiana",
-    "updatedAt": "2026-11-13T07:55:00+01:00"
+    "updatedAt": "2026-11-13T08:00:00+01:00"
   },
   "fritos-de-pixin": {
     "equipment": [
@@ -2381,11 +2381,227 @@
     "tags": [
       "pescado",
       "fritura",
-      "asturiano"
+      "asturiana"
     ],
     "time": "35 min",
     "title": "Fritos de pixín",
-    "updatedAt": "2026-11-07T10:30:00+01:00"
+    "updatedAt": "2026-11-13T13:20:00+01:00"
+  },
+  "hojaldras-tlaxcaltecas": {
+    "equipment": [
+      "Horno",
+      "Bandeja de horno",
+      "Cazo",
+      "Bol grande",
+      "Rejilla",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Masa",
+        "items": [
+          {
+            "name": "Harina de fuerza",
+            "qty": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Azúcar",
+            "qty": 60,
+            "unit": "g"
+          },
+          {
+            "name": "Sal",
+            "qty": 3,
+            "unit": "g"
+          },
+          {
+            "name": "Levadura fresca de panadería",
+            "note": "o 4 g de levadura seca de panadería",
+            "qty": 10,
+            "unit": "g"
+          },
+          {
+            "name": "Leche entera",
+            "qty": 60,
+            "unit": "ml"
+          },
+          {
+            "name": "Anís en grano (matalahúva)",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Huevo L",
+            "note": "a temperatura ambiente",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Yema de huevo",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Mantequilla sin sal",
+            "note": "en pomada, fuera de la nevera 1 hora antes",
+            "qty": 70,
+            "unit": "g"
+          },
+          {
+            "name": "Naranja",
+            "note": "solo la ralladura",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Agua de azahar",
+            "qty": 1,
+            "unit": "cdta"
+          }
+        ]
+      },
+      {
+        "group": "Acabado",
+        "items": [
+          {
+            "name": "Mantequilla sin sal",
+            "note": "fundida",
+            "qty": 30,
+            "unit": "g"
+          },
+          {
+            "name": "Azúcar",
+            "note": "para rebozar",
+            "qty": 50,
+            "unit": "g"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Con ajonjolí (sésamo): antes de hornear, pincela con huevo batido y espolvorea 20 g de sésamo crudo; al salir no lleva mantequilla ni azúcar. Con nuez, al estilo de Apizaco: añade 40 g de nuez pecana (o nuez común) picada al final del amasado. En Tlaxcala también se rebozan con azúcar teñido de rosa.",
+        "title": "Variantes de Tlaxcala y Puebla"
+      },
+      {
+        "text": "Levadura seca de panadería: 4 g, mezclada directamente con la harina, sin esponja. Sin agua de azahar: la ralladura de media naranja más. Sin anís en grano: 1 cda de licor de anís en la masa, quitando 1 cda de leche.",
+        "title": "Sustituciones"
+      },
+      {
+        "text": "La primera fermentación se puede hacer en la nevera, de 8 a 12 horas, con el bol tapado: gana sabor y la masa fría se forma mejor. Al día siguiente, forma y cuenta 1 h 30 min de segunda fermentación.",
+        "title": "Adelantar"
+      },
+      {
+        "text": "2 días en una bolsa cerrada, a temperatura ambiente; se recuperan con 5 minutos de horno a 150 °C. Se congelan 1 mes ya horneadas y sin el azúcar; el rebozado se hace al descongelar y calentar.",
+        "title": "Conservación"
+      },
+      {
+        "text": "Con chocolate caliente o café de olla, para mojar.",
+        "title": "Cómo se toman"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · chat del 13 de noviembre de 2026, a petición de Ximena. Receta propia a partir del pan de muerto tradicional, adaptada a casa.",
+    "phases": [
+      {
+        "name": "Masa",
+        "steps": [
+          {
+            "level": "4",
+            "text": "Calienta la leche con el anís en un cazo hasta que humee, sin hervir. Tapa, deja infusionar 10 minutos y cuela. Tiene que quedar tibia (30-35 °C): más caliente mata la levadura.",
+            "timer": 180
+          },
+          {
+            "text": "Deshaz la levadura en la leche tibia con 1 cdta del azúcar y 2 cdas de la harina. Reposo de 15 minutos, hasta que burbujee: es la esponja, que arranca la fermentación antes de que la grasa y el azúcar la frenen.",
+            "timer": 900
+          },
+          {
+            "text": "En un bol grande mezcla el resto de la harina y el azúcar, la sal y la ralladura. Añade la esponja, el huevo, la yema y el azahar. Mezcla y amasa 5 minutos sobre la encimera, sin harina: es pegajosa.",
+            "timer": 300
+          },
+          {
+            "text": "Añade la mantequilla en pomada en tres veces, integrando cada parte antes de la siguiente. Amasa 12-15 minutos: estira la masa alejándola de ti, pliégala sobre sí misma y gírala un cuarto; ayúdate de una rasqueta y no añadas harina. Está cuando se despega de la mesa y un trozo se estira hasta casi transparentar sin romperse (prueba de la membrana).",
+            "timer": 780
+          },
+          {
+            "text": "Haz una bola, ponla en un bol untado con aceite y tapa. Fermenta 1 h 30 min a 26-28 °C (dentro del horno apagado con la luz encendida), hasta que doble el volumen.",
+            "timer": 5400
+          }
+        ]
+      },
+      {
+        "name": "Formado",
+        "steps": [
+          {
+            "text": "Vuelca la masa y aplástala para sacar el gas. Separa 120 g para los huesos. Divide el resto en 4 partes de unos 100 g y boléalas: con la mano en forma de cuenco, gira cada porción sobre la mesa sin harina hasta que la superficie quede tensa y lisa. Ponlas en la bandeja con papel de horno, separadas 8 cm, y aplástalas un poco."
+          },
+          {
+            "text": "Huesos: de los 120 g saca 4 bolitas de 6 g y 8 tiras de 12 g. Rueda cada tira con los dedos separados, apretando, para que queden marcados los nudillos. Pincela cada bola con un poco de agua, cruza encima dos tiras y pega la bolita en el centro."
+          },
+          {
+            "text": "Tapa con un paño y fermenta 50-60 minutos, hasta que casi doblen: al hundir un dedo enharinado, la marca vuelve despacio. Los últimos 15 minutos, precalienta el horno a 180 °C, calor arriba y abajo.",
+            "timer": 3300
+          }
+        ]
+      },
+      {
+        "name": "Horneado y acabado",
+        "steps": [
+          {
+            "text": "Hornea a 180 °C a media altura 16-18 minutos, hasta un dorado uniforme; la base suena hueca al golpearla. Si se doran demasiado pronto, tápalas con papel de aluminio.",
+            "timer": 1020
+          },
+          {
+            "level": "2",
+            "text": "Funde la mantequilla del acabado en un cazo.",
+            "timer": 120
+          },
+          {
+            "text": "Deja templar 10 minutos sobre una rejilla. Pincela cada hojaldra con la mantequilla fundida y rebózala en el azúcar: en caliente la mantequilla se la bebe el pan y el azúcar se funde.",
+            "timer": 600
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "La masa se escala sin problema, pero el tiempo de fermentación no cambia. En una bandeja caben 6 hojaldras individuales; para más, hornea en dos tandas y guarda la segunda bandeja en la nevera mientras tanto. Si haces una sola pieza grande con toda la masa, hornea 28-30 minutos.",
+    "servings": 4,
+    "servingsNote": "una hojaldra individual de unos 120 g por persona",
+    "shopping": [
+      {
+        "detail": "De fuerza (12-13 % de proteína en la tabla nutricional). Con harina floja la masa no aguanta la mantequilla y el pan queda bajo.",
+        "item": "Harina"
+      },
+      {
+        "detail": "Fresca de panadería, en dados de 25 g, en la nevera del supermercado (Mercadona, junto a la mantequilla). Color crema uniforme, que se desmigue sin estar reseca ni oscura por los bordes. No vale la levadura química (tipo Royal).",
+        "item": "Levadura"
+      },
+      {
+        "detail": "Matalahúva, en la sección de especias. No es anís estrellado; si solo hay estrellado, 1 estrella infusionada en la leche.",
+        "item": "Anís en grano"
+      },
+      {
+        "detail": "En la sección de repostería (la de los roscones). Alternativa: la ralladura de media naranja más.",
+        "item": "Agua de azahar"
+      },
+      {
+        "detail": "De mesa, de piel firme y sin encerar (o ecológica), porque se usa la piel. Ahora están en temporada.",
+        "item": "Naranja"
+      },
+      {
+        "detail": "Sin sal, de 82 % de grasa.",
+        "item": "Mantequilla"
+      }
+    ],
+    "short": "Hojaldras",
+    "summary": "Pan dulce mexicano de masa enriquecida, perfumado con anís, naranja y azahar, con los «huesos» de masa encima y rebozado en azúcar. En Tlaxcala y Puebla al pan de muerto se le llama hojaldra.",
+    "tags": [
+      "mexicana",
+      "postre",
+      "pan"
+    ],
+    "time": "45 min de trabajo + 2 h 45 min de fermentación y horno",
+    "title": "Hojaldras tlaxcaltecas (pan de muerto)",
+    "updatedAt": "2026-11-13T12:30:00Z"
   },
   "lentejas-con-pollo": {
     "equipment": [
@@ -2868,11 +3084,11 @@
       "legumbre",
       "guiso",
       "verdura",
-      "huevos"
+      "huevo"
     ],
     "time": "1 h 20 min",
     "title": "Lentejas estofadas con verduras y huevo escalfado",
-    "updatedAt": "2026-11-09T14:40:00+01:00"
+    "updatedAt": "2026-11-13T13:30:00+01:00"
   },
   "lentejas-de-la-tia-ameli": {
     "equipment": [
@@ -4592,13 +4808,13 @@
     "short": "Revuelto de setas",
     "summary": "Setas de temporada bien doradas y revuelto jugoso a fuego bajo, con ensalada de lechuga, tomate y aguacate.",
     "tags": [
-      "huevos",
+      "huevo",
       "setas",
       "cena"
     ],
     "time": "20 min",
     "title": "Revuelto de setas con ensalada",
-    "updatedAt": "2026-11-07T11:30:00+01:00"
+    "updatedAt": "2026-11-13T13:30:00+01:00"
   },
   "sofrito-de-tomate": {
     "equipment": [

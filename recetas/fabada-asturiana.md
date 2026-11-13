@@ -3,7 +3,7 @@
 Fabes de la granja cocidas a temblor con su compango (chorizo, morcilla, lacón y panceta) y azafrán. Larga de reloj, pero con media hora de trabajo.
 
 **Raciones:** 4 (plato único; unos 110 g de fabes en seco por ración) · **Tiempo:** 3 h 30 min + remojo 12 h
-**Equipo:** Cocotte Le Creuset, Inducción · **Etiquetas:** legumbre, guiso, asturiana, invitados, plato único
+**Equipo:** Cocotte Le Creuset, Inducción · **Etiquetas:** legumbre, guiso, carne, asturiana, plato único, invitados
 
 ## Ingredientes
 

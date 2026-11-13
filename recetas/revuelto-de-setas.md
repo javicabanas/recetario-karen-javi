@@ -3,7 +3,7 @@
 Setas de temporada bien doradas y revuelto jugoso a fuego bajo, con ensalada de lechuga, tomate y aguacate.
 
 **Raciones:** 2 (2-3 huevos por persona) · **Tiempo:** 20 min
-**Equipo:** Sartén de hierro 28 cm, Inducción · **Etiquetas:** huevos, setas, cena
+**Equipo:** Sartén de hierro 28 cm, Inducción · **Etiquetas:** huevo, setas, cena
 
 ## Ingredientes
 

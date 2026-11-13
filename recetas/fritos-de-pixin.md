@@ -3,7 +3,7 @@
 Rape rebozado a la romana al estilo asturiano, frito a 180 °C en tandas cortas.
 
 **Raciones:** 2 · **Tiempo:** 35 min
-**Equipo:** Cazo hondo 20-22 cm, Rejilla, Termómetro · **Etiquetas:** pescado, fritura, asturiano
+**Equipo:** Cazo hondo 20-22 cm, Rejilla, Termómetro · **Etiquetas:** pescado, fritura, asturiana
 
 ## Ingredientes
 
