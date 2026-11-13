@@ -1396,6 +1396,188 @@
     "title": "Cochinita pibil",
     "updatedAt": "2026-11-12T19:10:00+01:00"
   },
+  "crema-de-arroz-con-leche": {
+    "equipment": [
+      "Cocotte Le Creuset",
+      "Cazo",
+      "Soplete o gratinador",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Crema",
+        "items": [
+          {
+            "name": "Arroz redondo",
+            "note": "no bomba",
+            "qty": 120,
+            "unit": "g"
+          },
+          {
+            "name": "Agua",
+            "qty": 400,
+            "unit": "ml"
+          },
+          {
+            "name": "Leche entera fresca",
+            "qty": 1.2,
+            "unit": "L"
+          },
+          {
+            "name": "Mantequilla sin sal",
+            "note": "en dados",
+            "qty": 50,
+            "unit": "g"
+          },
+          {
+            "name": "Azúcar",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Canela en rama",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Vainilla",
+            "note": "opcional",
+            "qty": 0.5,
+            "unit": "vaina"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Al servir",
+        "items": [
+          {
+            "name": "Azúcar para quemar",
+            "qty": 60,
+            "unit": "g"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Gratinador del horno al máximo, cuencos lo más cerca posible, 2-3 minutos vigilando. Si no, canela molida.",
+        "title": "Sin soplete"
+      },
+      {
+        "text": "Cambia 200 ml de leche por nata de 35 %.",
+        "title": "Más untuoso"
+      },
+      {
+        "text": "La versión cedida por el restaurante no lleva nata y escurre el agua del arroz; la casera de Directo al Paladar añade nata y más azúcar. Aquí: sin nata, sin escurrir el agua (se pierde almidón) y con 150 g de azúcar, porque la costra quemada ya endulza.",
+        "title": "Cambios respecto a las fuentes"
+      },
+      {
+        "text": "3 días en nevera, sin la costra. No se congela.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · comida del 14 de noviembre de 2026. Fuentes: receta cedida por Casa Gerardo (Explore Parts Unknown) y Directo al Paladar, adaptada a casa",
+    "phases": [
+      {
+        "name": "Pasta de arroz",
+        "steps": [
+          {
+            "level": "7",
+            "text": "Arroz, agua, canela y vainilla en un cazo. Lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Cuece **15-18 minutos** removiendo, hasta que el grano se abra y quede casi una pasta. Si se seca antes, añade un chorro de agua caliente.",
+            "timer": 1020
+          }
+        ]
+      },
+      {
+        "name": "Cocción en leche",
+        "steps": [
+          {
+            "level": "6",
+            "text": "Mientras, calienta la leche en la cocotte hasta que esté a punto de hervir. No la dejes sola: se sube.",
+            "timer": 480
+          },
+          {
+            "level": "5",
+            "text": "Pasa la pasta de arroz a la leche y remueve hasta que rompa a hervir."
+          },
+          {
+            "level": "4",
+            "text": "Cuece **50-60 minutos**. Remueve con cuchara de madera cada 2-3 minutos rascando el fondo; los últimos 15 minutos, sin parar. Está cuando la crema nape la cuchara (la cubra sin escurrir).",
+            "timer": 3300
+          },
+          {
+            "level": "3",
+            "text": "Añade la mantequilla en dados, poco a poco, removiendo hasta que se integre.",
+            "timer": 180
+          },
+          {
+            "text": "Fuera del fuego, añade la sal y el azúcar en lluvia sin dejar de remover. El azúcar va al final: si entra antes, el arroz no se deshace y se agarra más."
+          },
+          {
+            "level": "3",
+            "text": "Vuelve al fuego **8-10 minutos**, removiendo.",
+            "timer": 540
+          }
+        ]
+      },
+      {
+        "name": "Frío y costra",
+        "steps": [
+          {
+            "text": "Retira canela y vainilla, reparte en platos hondos o cuencos bajos (capa de 2-3 cm) y deja templar 30 minutos.",
+            "timer": 1800
+          },
+          {
+            "text": "Tapa con film a piel (tocando la superficie, para que no haga costra) y a la nevera hasta el día siguiente."
+          },
+          {
+            "text": "Justo antes de servir: sácalo 30 minutos antes, espolvorea una capa fina de azúcar y quémala con soplete. Deja 1 minuto para que cristalice.",
+            "timer": 60
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "Con más de 2 L de leche, alarga la cocción 15-20 minutos y usa la olla más ancha.",
+    "servings": 4,
+    "servingsNote": "cuencos bajos, capa de 2-3 cm",
+    "shopping": [
+      {
+        "detail": "Redondo normal, no bomba: tiene que deshacerse y soltar almidón.",
+        "item": "Arroz"
+      },
+      {
+        "detail": "Entera y fresca (de nevera, pasteurizada), no UHT ni semidesnatada.",
+        "item": "Leche"
+      },
+      {
+        "detail": "Sin sal, de 82 % de grasa.",
+        "item": "Mantequilla"
+      },
+      {
+        "detail": "En rama, de Ceilán si la encuentras: más fina que la casia.",
+        "item": "Canela"
+      }
+    ],
+    "short": "Arroz con leche",
+    "summary": "Arroz con leche asturiano muy cremoso: el arroz se deshace primero en agua, cuece una hora en leche, se liga con mantequilla y se sirve con costra de azúcar quemado. Se hace la víspera.",
+    "tags": [
+      "postre",
+      "asturiana",
+      "arroz",
+      "invitados"
+    ],
+    "time": "1 h 30 min + frío",
+    "title": "Crema de arroz con leche al estilo Casa Gerardo",
+    "updatedAt": "2026-11-13T07:55:00+01:00"
+  },
   "crema-de-calabaza-y-puerro": {
     "equipment": [
       "Olla 4 L",
@@ -1899,6 +2081,158 @@
     "time": "20 min",
     "title": "Ensalada de garbanzos con bonito y huevo",
     "updatedAt": "2026-11-11T17:35:00+01:00"
+  },
+  "fabada-asturiana": {
+    "equipment": [
+      "Cocotte Le Creuset",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Fabada",
+        "items": [
+          {
+            "name": "Fabes de la granja",
+            "note": "en remojo 12 h",
+            "qty": 450,
+            "unit": "g"
+          },
+          {
+            "name": "Chorizo asturiano",
+            "note": "unos 200 g",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Morcilla asturiana",
+            "note": "unos 200 g",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Lacón curado",
+            "note": "desalado 12 h",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Panceta curada",
+            "note": "desalada 12 h",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Azafrán en hebra"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal",
+            "note": "solo al final"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Nunca cuchara dentro de la olla: rompe las fabes. Solo vaivén por las asas.",
+        "title": "Sin cuchara"
+      },
+      {
+        "text": "Tiene que ser un temblor. Si a nivel 3 borbotea, baja a 2: con hervor fuerte se despellejan.",
+        "title": "El hervor"
+      },
+      {
+        "text": "Fabes cocidas en bote de buena calidad y 40 minutos a nivel 3 con el compango.",
+        "title": "Plan B sin remojo"
+      },
+      {
+        "text": "Es plato único contundente: de entrante, como mucho una ensalada.",
+        "title": "Menú"
+      },
+      {
+        "text": "Mejora al día siguiente. 3 días en nevera; congela bien sin el compango.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · comida del 14 de noviembre de 2026",
+    "phases": [
+      {
+        "name": "Víspera",
+        "steps": [
+          {
+            "text": "Fabes en agua fría abundante (3 veces su volumen), 12 horas. En un cuenco aparte, lacón y panceta en agua templada para desalar. Chorizo y morcilla no se remojan."
+          }
+        ]
+      },
+      {
+        "name": "Cocción",
+        "steps": [
+          {
+            "level": "7",
+            "text": "Escurre las fabes, ponlas en la cocotte y cubre con agua fría dos dedos por encima. Lleva a hervor y espuma bien.",
+            "timer": 660
+          },
+          {
+            "level": "3",
+            "text": "Añade lacón, panceta y chorizos. Cuando recupere el hervor, tapa dejando una rendija y cuece **1 hora** a temblor, sin borboteo.",
+            "timer": 3600
+          },
+          {
+            "text": "Asusta con 100 ml de agua fría (corta el hervor y evita que se despellejen) y menea la olla por las asas. Añade las morcillas pinchadas con un palillo y el azafrán tostado y desleído en un poco de caldo."
+          },
+          {
+            "level": "3",
+            "text": "Cuece **1 hora 30 minutos** más. Asusta otras dos veces por el camino y mantén las fabes siempre cubiertas.",
+            "timer": 5400
+          },
+          {
+            "text": "Prueba una faba: mantecosa y entera. Rectifica de sal ahora. Si el caldo está claro, aplasta 5-6 fabes con un tenedor y devuélvelas."
+          }
+        ]
+      },
+      {
+        "name": "Reposo y servicio",
+        "steps": [
+          {
+            "text": "Apaga y deja reposar tapada **45-60 minutos**: el reposo espesa el caldo.",
+            "timer": 2700
+          },
+          {
+            "text": "Corta el compango en trozos y sírvelo en fuente aparte o encima."
+          }
+        ]
+      }
+    ],
+    "scaleWarning": "Para más de 6 raciones no cabe en la cocotte con holgura: usa la olla más grande y cuenta 15-20 minutos más.",
+    "servings": 4,
+    "servingsNote": "plato único; unos 110 g de fabes en seco por ración",
+    "shopping": [
+      {
+        "detail": "Faba Asturiana IGP, variedad granja, de la cosecha del año. Grano grande, blanco y entero, sin piel arrugada. Alternativa: judión de La Granja o alubia blanca de riñón (cuecen algo antes).",
+        "item": "Fabes"
+      },
+      {
+        "detail": "Chorizo y morcilla asturianos (ahumados), lacón y panceta curada. Lo más fácil es un lote de compango envasado al vacío: una pieza de cada sirve para 4.",
+        "item": "Compango"
+      },
+      {
+        "detail": "En hebra, no molido. Opcional pero tradicional.",
+        "item": "Azafrán"
+      }
+    ],
+    "short": "Fabada",
+    "summary": "Fabes de la granja cocidas a temblor con su compango (chorizo, morcilla, lacón y panceta) y azafrán. Larga de reloj, pero con media hora de trabajo.",
+    "tags": [
+      "legumbre",
+      "guiso",
+      "asturiana",
+      "invitados",
+      "plato único"
+    ],
+    "time": "3 h 30 min + remojo 12 h",
+    "title": "Fabada asturiana",
+    "updatedAt": "2026-11-13T07:55:00+01:00"
   },
   "fritos-de-pixin": {
     "equipment": [
