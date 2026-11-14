@@ -1,6 +1,7 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Recetario de Javier</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22%3E%3Crect width=%2248%22 height=%2248%22 rx=%2211%22 fill=%22%231B4E8B%22/%3E%3Cg font-family=%22Georgia,'Times New Roman',serif%22 font-weight=%22700%22 font-size=%2230%22 text-anchor=%22middle%22%3E%3Ctext x=%2215.5%22 y=%2234.5%22 fill=%22%23F2B437%22%3EK%3C/text%3E%3Ctext x=%2236%22 y=%2234.5%22 fill=%22%23FFFFFF%22%3EJ%3C/text%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Barlow+Condensed:wght@500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap">
@@ -347,6 +348,8 @@ a.btn.btn-primary { color: var(--on-cobalt); }
 .day-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
 .day-name { font-family: var(--f-display); font-weight: 600; font-size: 1.25rem; line-height: 1.2; }
 .day-date { display: inline-flex; align-items: center; gap: 8px; font-family: var(--f-num); font-weight: 600; font-size: 1.05rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.prot { color: var(--muted); font-size: .92rem; }
+.prot b { color: var(--ink); font-variant-numeric: tabular-nums; }
 .day-date .chip { background: var(--saffron); color: var(--on-saffron); font-family: var(--f-body); }
 .meal, .todo { display: grid; grid-template-columns: 4.8rem 1fr; gap: 10px; align-items: baseline; }
 .todo { border-top: 1px dashed var(--line); padding-top: 10px; font-size: .95rem; }
@@ -387,6 +390,7 @@ a.btn.btn-primary { color: var(--on-cobalt); }
 .rate { display: inline-flex; align-items: center; gap: 4px; color: var(--ink); }
 .rate svg { width: 15px; height: 15px; fill: var(--saffron); flex: none; }
 .sort { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.sort-sel { font: inherit; font-size: .95rem; font-weight: 600; color: inherit; background: transparent; border: 1px solid currentColor; border-radius: 999px; padding: 8px 14px; min-height: 40px; max-width: 100%; }
 .sort .lab { font-size: .74rem; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); font-weight: 700; }
 
 @media (min-width: 640px) {
@@ -409,7 +413,7 @@ a.btn.btn-primary { color: var(--on-cobalt); }
 @media (max-width: 560px) {
   .sections .long { display: none; }
   .sections .short { display: inline; }
-  .sections a { padding-inline: 6px; }
+  .sections a { padding-inline: 5px; font-size: .86rem; }
 }
 .eat-item { display: flex; flex-direction: column; gap: 6px; }
 .eat {
@@ -426,6 +430,22 @@ a.btn.btn-primary { color: var(--on-cobalt); }
 .hist-sum span { color: var(--muted); font-size: .88rem; }
 .hist input[type="date"] { background: var(--bg); border: 1.5px solid var(--line); border-radius: 12px; padding: 10px 12px; min-height: 44px; }
 .hist .btn { padding: 10px 16px; }
+.hist input[type="text"], .hist input[type="number"], .hist textarea { background: var(--bg); border: 1.5px solid var(--line); border-radius: 12px; padding: 10px 12px; min-height: 44px; font: inherit; color: inherit; }
+.hist input[type="text"], .hist textarea { flex: 1 1 14rem; min-width: 0; }
+.hist input[type="number"] { width: 5.5rem; }
+.hist textarea { resize: vertical; }
+.fb-list li span { white-space: normal; overflow-wrap: anywhere; }
+.fz-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.fz-item { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 14px; background: var(--surface); border: 1.5px solid var(--line); border-radius: var(--r); padding: 12px 14px; }
+.fz-item .what { display: flex; flex-direction: column; line-height: 1.3; flex: 1 1 12rem; min-width: 0; }
+.fz-item .what a { color: var(--ink); font-weight: 700; text-decoration: none; }
+.fz-item .what span { color: var(--muted); font-size: .88rem; }
+.fz-item .what .old { color: var(--alarm); font-weight: 700; }
+.fz-ctl { display: flex; align-items: center; gap: 6px; }
+.fz-ctl .pm { width: 40px; height: 40px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--bg); color: var(--cobalt); font-size: 1.3rem; font-weight: 700; line-height: 1; }
+.fz-ctl output { min-width: 2ch; text-align: center; font-weight: 700; font-variant-numeric: tabular-nums; }
+.fz-ctl .unit { color: var(--muted); font-size: .88rem; margin-right: 2px; }
+.fz-ask { display: flex; flex-direction: column; gap: 10px; }
 .hist-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
 .hist-list li { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding-block: 4px; border-top: 1px solid var(--line); font-variant-numeric: tabular-nums; }
 .hist .howto { color: var(--cobalt); font-weight: 700; font-size: .92rem; text-decoration: none; }
@@ -514,6 +534,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   const state = { recipes: [], byId: new Map(), status: 'loading', errorCode: null, query: '', tags: new Set(), servings: {}, view: null, menus: [], menuStatus: 'loading', backTo: null, ratings: new Map(), ratingsOn: false, sort: store.get('rec:sort', 'az'), history: new Map(), histOn: false, histMonth: null, histDay: null, addDate: null };
   const app = $('#app');
   let dbh = null;
+  state.freezer = []; state.feedback = []; state.fzDraft = { text: '', n: 2, date: '', place: 'congelador' }; state.fbDraft = {}; state.fzAsk = null; state.extraOn = false;
   /* Casillas marcadas (ingredientes y plan): se guardan en la base de datos, colección `checks`,
      para que sobrevivan a recargar y se vean en todos los dispositivos. El almacenamiento local es solo respaldo. */
   const checkState = new Map();
@@ -692,6 +713,117 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       ${list.length ? `<ul class="hist-list">${list.slice(0, 6).map((e) => `<li><span>${esc(fullDate(e.date))}${e.slot ? ` · ${esc(e.slot.toLowerCase())}` : ''}</span><button class="x-btn" data-action="hist-del" data-id="${esc(e.id)}" aria-label="Quitar del historial: ${esc(shortDate(e.date))}">Quitar</button></li>`).join('')}</ul>` : ''}
       ${list.length > 6 ? '<a class="howto" href="#historial">Ver todo el historial →</a>' : ''}
     </section>`;
+  }
+
+  /* ---------- congelador y notas de cocina ----------
+     Colecciones `freezer` ({text, recipe?, servings, date, createdAt}) y `feedback` ({recipe, text, date, createdAt}).
+     Van aparte de `recipes` para que actualizar una receta no las borre. No entran en la copia pública. */
+  const newId = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
+  const isReadonly = () => document.body.classList.contains('readonly');
+  async function docWrite(col, id, body, failMsg) {
+    if (isReadonly()) return false;
+    if (!dbh) { toast('Ahora no llego al recetario: no se puede guardar'); return false; }
+    const ref = dbh.collection(col).doc(id);
+    try { if (body === null) await ref.delete(); else await ref.set(body); return true; } catch { toast(failMsg); return false; }
+  }
+  const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+  const fzTotal = (rid) => state.freezer.filter((x) => x.recipe === rid && x.place === 'congelador').reduce((n, x) => n + x.servings, 0);
+  function fzAdd(text, servings, date, place) {
+    const clean = String(text || '').trim();
+    if (!clean) { toast('Escribe el nombre del plato'); return false; }
+    const n = Math.max(1, Math.min(40, Math.round(Number(servings) || 0)));
+    const rec = state.recipes.find((r) => norm(r.title) === norm(clean));
+    const where = place === 'despensa' ? 'despensa' : 'congelador';
+    const body = { text: rec && where === 'congelador' ? rec.title : clean.slice(0, 120), servings: n, date: date || todayISO(), place: where, createdAt: new Date().toISOString() };
+    if (rec && where === 'congelador') body.recipe = rec.id;
+    const id = newId();
+    state.freezer.push({ id, ...body, recipe: body.recipe || null });
+    docWrite('freezer', id, body, 'No se ha guardado en el congelador. Prueba otra vez.');
+    return true;
+  }
+  function fzSet(id, servings) {
+    const x = state.freezer.find((e) => e.id === id); if (!x) return;
+    if (servings <= 0) {
+      state.freezer = state.freezer.filter((e) => e.id !== id);
+      docWrite('freezer', id, null, 'No se ha quitado del congelador. Prueba otra vez.');
+      return;
+    }
+    x.servings = Math.min(40, servings);
+    const body = { text: x.text, servings: x.servings, date: x.date, place: x.place, createdAt: x.createdAt || new Date().toISOString() };
+    if (x.recipe) body.recipe = x.recipe;
+    docWrite('freezer', id, body, 'No se ha guardado el cambio. Prueba otra vez.');
+  }
+  function fzTake(rid, n) {
+    let left = n;
+    for (const x of state.freezer.filter((e) => e.recipe === rid && e.place === 'congelador').sort((a, b) => a.date.localeCompare(b.date))) {
+      if (left <= 0) break;
+      const take = Math.min(left, x.servings); left -= take;
+      fzSet(x.id, x.servings - take);
+    }
+  }
+  function fzMaybeAsk(rid, title) {
+    if (!rid || isReadonly() || fzTotal(rid) <= 0) return;
+    const m = currentMenu();
+    state.fzAsk = { recipe: rid, title, n: Math.max(1, Number(m && m.servings) || 2) };
+  }
+  function fzAskHTML() {
+    const a = state.fzAsk; if (!a || isReadonly()) return '';
+    const total = fzTotal(a.recipe); if (!total) return '';
+    const n = Math.min(total, a.n);
+    return `<p class="notice fz-ask"><span>Hay ${plural(total, 'ración', 'raciones')} de <b>${esc(a.title)}</b> en el congelador. ¿Esto salió de ahí?</span><span class="row"><button class="btn btn-primary" data-action="fz-ask-yes">Sí, descontar ${n}</button><button class="btn" data-action="fz-ask-no">No</button></span></p>`;
+  }
+  function fzRecipeHTML(r) {
+    if (isReadonly() || !state.extraOn) return '';
+    const total = fzTotal(r.id);
+    return `<section class="hist" aria-label="Congelador">
+      <div class="hist-sum"><b>Congelador</b><span>${total ? plural(total, 'ración guardada', 'raciones guardadas') : 'No hay raciones guardadas'}</span></div>
+      <div class="row"><button class="btn" data-action="fz-from-recipe">Guardar raciones</button>${total ? '<a class="howto" href="#congelador">Ver el congelador →</a>' : ''}</div>
+    </section>`;
+  }
+  function feedbackHTML(r) {
+    if (isReadonly() || !state.extraOn) return '';
+    const list = state.feedback.filter((x) => x.recipe === r.id).sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)));
+    return `<section class="hist" aria-label="Notas de cocina">
+      <div class="hist-sum"><b>Notas de cocina</b><span>Lo que cambiarías la próxima vez. Se tienen en cuenta al planificar el menú y al corregir la receta.</span></div>
+      <div class="row"><label class="sr" for="fb-text">Nota</label><textarea id="fb-text" rows="2" maxlength="600" placeholder="Por ejemplo: le sobraba caldo; 10 minutos más de cocción">${esc(state.fbDraft[r.id] || '')}</textarea><button class="btn" data-action="fb-add">Guardar nota</button></div>
+      ${list.length ? `<ul class="hist-list fb-list">${list.map((x) => `<li><span><b>${esc(shortDate(x.date))}</b> · ${esc(x.text)}</span><button class="x-btn" data-action="fb-del" data-id="${esc(x.id)}" aria-label="Quitar la nota del ${esc(shortDate(x.date))}">Quitar</button></li>`).join('')}</ul>` : ''}
+    </section>`;
+  }
+  function renderFreezer() {
+    const t = todayISO();
+    const all = [...state.freezer].sort((a, b) => a.date.localeCompare(b.date) || a.text.localeCompare(b.text, 'es'));
+    const d = state.fzDraft;
+    const ro = isReadonly();
+    const pantry = d.place === 'despensa';
+    const form = ro ? '' : `<section class="hist" aria-label="Apuntar">
+        <div class="hist-sum"><b>Apuntar</b><span>${pantry ? 'Lo que dura: conservas, legumbres, arroces, pasta. Nombre, unidades y día en que lo apuntas.' : 'Plato, raciones y día en que lo congelas. Si es una receta, elige su nombre de la lista para que quede enlazada.'}</span></div>
+        <div class="row"><label class="sr" for="fz-place">Dónde</label><select id="fz-place" class="sort-sel"><option value="congelador"${pantry ? '' : ' selected'}>Congelador</option><option value="despensa"${pantry ? ' selected' : ''}>Despensa</option></select>
+          <label class="sr" for="fz-text">${pantry ? 'Producto' : 'Plato'}</label><input type="text" id="fz-text" ${pantry ? '' : 'list="fz-recipes" '}placeholder="${pantry ? 'Producto' : 'Plato'}" autocomplete="off" maxlength="120" value="${esc(d.text)}">
+          ${pantry ? '' : `<datalist id="fz-recipes">${state.recipes.map((r) => `<option value="${esc(r.title)}"></option>`).join('')}</datalist>`}
+          <label class="sr" for="fz-n">${pantry ? 'Unidades' : 'Raciones'}</label><input type="number" id="fz-n" min="1" max="40" inputmode="numeric" value="${esc(d.n)}">
+          <label class="sr" for="fz-date">Día</label><input type="date" id="fz-date" value="${esc(d.date || t)}" max="${t}">
+          <button class="btn btn-primary" data-action="fz-add">Guardar</button></div>
+      </section>`;
+    const itemHTML = (x) => {
+      const frozen = x.place === 'congelador';
+      const r = x.recipe ? state.byId.get(x.recipe) : null;
+      const old = frozen && (new Date(t) - new Date(x.date)) / 864e5 > 90;
+      const name = esc(r ? r.title : x.text);
+      const unit = frozen ? 'rac.' : 'ud.';
+      return `<li class="fz-item">
+        <div class="what">${r ? `<a href="#r-${encodeURIComponent(r.id)}">${name}</a>` : `<b>${name}</b>`}<span${old ? ' class="old"' : ''}>${frozen ? 'Congelado' : 'Apuntado'} el ${esc(shortDate(x.date))} (${esc(agoText(x.date))})${old ? ' · lleva más de 3 meses' : ''}</span></div>
+        ${ro ? `<div class="fz-ctl"><output>${x.servings}</output><span class="unit">${unit}</span></div>` : `<div class="fz-ctl"><button class="pm" data-action="fz-step" data-id="${esc(x.id)}" data-d="-1" aria-label="Uno menos de ${name}">−</button><output aria-live="polite">${x.servings}</output><span class="unit">${unit}</span><button class="pm" data-action="fz-step" data-id="${esc(x.id)}" data-d="1" aria-label="Uno más de ${name}">+</button><button class="x-btn" data-action="fz-del" data-id="${esc(x.id)}" aria-label="Quitar ${name}">Quitar</button></div>`}
+      </li>`;
+    };
+    const group = (title, list, empty) => `<section class="group"><h3>${title}</h3>${list.length ? `<ul class="fz-list">${list.map(itemHTML).join('')}</ul>` : `<div class="empty"><p>${empty}</p></div>`}</section>`;
+    const frozen = all.filter((x) => x.place === 'congelador');
+    const dry = all.filter((x) => x.place === 'despensa').sort((a, b) => a.text.localeCompare(b.text, 'es'));
+    const total = frozen.reduce((n, x) => n + x.servings, 0);
+    app.innerHTML = `${mainHeader('congelador', total ? `${plural(total, 'ración', 'raciones')} en el congelador` : 'Despensa y congelador')}${statusNotice()}
+      <section class="head"><h1>Despensa y congelador</h1><p class="lede">Lo que hay en casa para contar con ello al hacer el menú y la lista de la compra. Al marcar un plato como comido, la página pregunta si salió del congelador para descontarlo.</p></section>
+      ${form}
+      ${group('Congelador', frozen, 'No hay nada apuntado en el congelador.')}
+      ${group('Despensa', dry, 'No hay nada apuntado en la despensa.')}`;
   }
 
   function histDishHTML(e) {
@@ -920,8 +1052,29 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       notes: arr(d.notes),
       scaleWarning: d.scaleWarning || '',
       updatedAt: d.updatedAt || null,
+      protein: protNum(d.protein),
     };
   }
+
+  /* Proteína: gramos por ración (una persona). En la receta, `protein`; en un plato del menú, `protein` propio
+     (para platos sin receta o que cambian la receta). Lo calcula quien guarda la receta o el menú. */
+  function protNum(v) { const n = Number(v); return v === null || v === undefined || v === '' || !Number.isFinite(n) || n < 0 ? null : Math.round(n); }
+  function itemProtein(it) {
+    if (it.protein !== null && it.protein !== undefined) return it.protein;
+    const r = it.recipe ? state.byId.get(it.recipe) : null;
+    return r ? r.protein : null;
+  }
+  function dayProtein(d) {
+    let sum = 0, missing = 0, n = 0;
+    d.meals.forEach((m) => m.items.forEach((it) => { n += 1; const g = itemProtein(it); if (g === null) missing += 1; else sum += g; }));
+    return { sum, missing, n };
+  }
+  function dayProteinHTML(d) {
+    const x = dayProtein(d);
+    if (!x.n || x.missing === x.n) return '';
+    return `<p class="prot" title="Suma de las comidas y cenas del menú; no cuenta desayunos ni lo que se coma aparte">Proteína del día: <b>${x.missing ? 'al menos ' : 'unos '}${x.sum} g</b> por persona${x.missing ? ` · ${x.missing === 1 ? 'falta el dato de 1 plato' : `falta el dato de ${x.missing} platos`}` : ''}</p>`;
+  }
+  const protChip = (g) => (g === null || g === undefined ? '' : `<span>${g} g prot.</span>`);
 
   function normalizeMenu(id, d) {
     const arr = (v) => (Array.isArray(v) ? v : []);
@@ -938,7 +1091,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         night: x.night || '',
         meals: arr(x.meals).map((m) => ({
           slot: m.slot || '',
-          items: arr(m.items).map((it) => ({ text: String(it.text || ''), recipe: it.recipe || null, leftover: !!it.leftover })),
+          items: arr(m.items).map((it) => ({ text: String(it.text || ''), recipe: it.recipe || null, leftover: !!it.leftover, protein: protNum(it.protein) })),
         })),
       })),
       prep: arr(d.prep).map((p) => ({
@@ -1015,7 +1168,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
 
   /* ---------- render ---------- */
   function currentId() { const h = location.hash.slice(1); return h.startsWith('r-') ? decodeURIComponent(h.slice(2)) : null; }
-  const SECTION_OF_HASH = { semana: 'semana', finde: 'finde', recetas: 'list', historial: 'historial', copia: 'copia' };
+  const SECTION_OF_HASH = { semana: 'semana', finde: 'finde', recetas: 'list', historial: 'historial', congelador: 'congelador', copia: 'copia' };
   function currentSection() { return SECTION_OF_HASH[location.hash.slice(1)] || 'hoy'; }
 
   function render() {
@@ -1024,6 +1177,9 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     const viewKey = id ? `r:${id}` : section;
     const same = state.view === viewKey;
     const y = window.scrollY;
+    const act = document.activeElement;
+    const keepId = act && ['fz-text', 'fz-n', 'fz-date', 'fb-text'].includes(act.id) ? act.id : null;
+    const keepSel = keepId && typeof act.selectionStart === 'number' ? [act.selectionStart, act.selectionEnd] : null;
     if (!id) state.backTo = null;
     else if (!same && state.view && !state.view.startsWith('r:')) state.backTo = state.view;
     if (id) renderRecipe(id);
@@ -1031,8 +1187,15 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     else if (section === 'finde') renderPlan();
     else if (section === 'list') renderList(same);
     else if (section === 'historial') renderHistory();
+    else if (section === 'congelador') renderFreezer();
     else if (section === 'copia') renderBackup();
     else renderToday();
+    const ask = fzAskHTML();
+    if (ask) { const head = app.querySelector('header'); if (head) head.insertAdjacentHTML('afterend', ask); }
+    if (keepId && same) {
+      const again = document.getElementById(keepId);
+      if (again) { again.focus(); if (keepSel) { try { again.setSelectionRange(keepSel[0], keepSel[1]); } catch { /* este campo no admite selección */ } } }
+    }
     state.view = viewKey;
     window.scrollTo(0, same ? y : 0);
     syncTimerButtons();
@@ -1091,7 +1254,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   }
 
   function sectionsNav(active) {
-    const items = [['hoy', '#hoy', 'Hoy'], ['semana', '#semana', 'Semana'], ['finde', '#finde', '<span class="long">Fin de semana</span><span class="short">Finde</span>'], ['list', '#recetas', 'Recetas'], ['historial', '#historial', 'Historial']];
+    const items = [['hoy', '#hoy', 'Hoy'], ['semana', '#semana', 'Semana'], ['finde', '#finde', '<span class="long">Fin de semana</span><span class="short">Finde</span>'], ['list', '#recetas', 'Recetas'], ['historial', '#historial', '<span class="long">Historial</span><span class="short">Hist.</span>'], ['congelador', '#congelador', '<span class="long">Despensa</span><span class="short">Desp.</span>']].filter(([k]) => k !== 'congelador' || !document.body.classList.contains('readonly'));
     return `<nav class="sections" aria-label="Secciones">${items.map(([k, href, label]) => `<a href="${href}"${k === active ? ' aria-current="page"' : ''}>${label}</a>`).join('')}</nav>`;
   }
 
@@ -1133,9 +1296,10 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   function todayDishHTML(it, slot) {
     const r = it.recipe ? state.byId.get(it.recipe) : null;
     const eat = eatBtnHTML(todayISO(), slot, it, false);
-    if (!r) return `<li class="eat-item"><div class="card static"><h2>${esc(it.text)}</h2>${it.recipe ? '' : '<div class="meta"><span>Sin receta</span></div>'}</div>${eat}</li>`;
+    const prot = protChip(itemProtein(it));
+    if (!r) return `<li class="eat-item"><div class="card static"><h2>${esc(it.text)}</h2>${it.recipe && !prot ? '' : `<div class="meta">${it.recipe ? '' : '<span>Sin receta</span>'}${prot}</div>`}</div>${eat}</li>`;
     const note = norm(it.text) === norm(r.title) ? r.summary : it.text;
-    const meta = it.leftover ? '<span class="chip">Ya hecho</span>' : r.time ? `<span>${esc(r.time)}</span>` : '';
+    const meta = (it.leftover ? '<span class="chip">Ya hecho</span>' : r.time ? `<span>${esc(r.time)}</span>` : '') + prot;
     return `<li class="eat-item"><a class="card today" href="#r-${encodeURIComponent(r.id)}">
       <h2>${esc(r.title)}</h2>
       ${note ? `<p>${esc(note)}</p>` : ''}
@@ -1166,6 +1330,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         <div class="today-meals">${d.meals.map((meal) => `
           <section class="group"><h3>${esc(meal.slot)}</h3><ul class="cards">${meal.items.map((it) => todayDishHTML(it, meal.slot)).join('')}</ul></section>`).join('')}
         </div>
+        ${dayProteinHTML(d)}
         ${tasks.length ? `<section class="day" aria-label="Tareas de hoy">${tasks.map(([slot, txt]) => `<div class="todo"><span class="slot">${slot}</span><p>${inline(txt)}</p></div>`).join('')}</section>` : ''}`;
     }
     app.innerHTML = `${mainHeader('hoy', m ? menuRange(m) : 'Menú de la semana')}${statusNotice()}
@@ -1187,6 +1352,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
           return `<li class="day${cls}"${d.date === t ? ' aria-current="date"' : ''}>
             <div class="day-head"><h2 class="day-name">${esc(weekday(d.date))}</h2><span class="day-date">${d.date === t ? '<span class="chip">Hoy</span>' : ''}${esc(shortDate(d.date))}</span></div>
             ${dayHTML(d)}
+            ${dayProteinHTML(d)}
           </li>`;
         }).join('')}</ol>
         ${m.shopping.length ? `<section class="group"><h3>Compras</h3><ul class="buy">${m.shopping.map((s) => `<li><b>${esc(s.when)}${s.where ? ` · ${esc(s.where)}` : ''}</b>${s.what ? `<span>${inline(s.what)}</span>` : ''}</li>`).join('')}</ul></section>` : ''}
@@ -1265,12 +1431,17 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     showBackupStatus();
 
     const sorts = [['az', 'A–Z']];
+    const eaten = histIndex().byRecipe;
     if (anyRating()) sorts.push(['rate', 'Mejor valoradas']);
-    if (histIndex().byRecipe.size) sorts.push(['old', 'Hace más tiempo']);
+    if (all.some((r) => r.time)) sorts.push(['fast', 'Más rápidas']);
+    if (all.some((r) => r.protein !== null)) sorts.push(['prot', 'Más proteína']);
+    if (eaten.size) sorts.push(['old', 'Hace más tiempo'], ['often', 'Más repetidas']);
+    if (all.some((r) => r.updatedAt)) sorts.push(['new', 'Recientes']);
+    if (eaten.size && all.some((r) => !eaten.has(r.id))) sorts.push(['untried', 'Sin probar']);
     const sortKey = sorts.some(([k]) => k === state.sort) ? state.sort : 'az';
     const byRate = sortKey === 'rate';
     $('#sort').hidden = sorts.length < 2;
-    $('#sort').innerHTML = sorts.length > 1 ? `<span class="lab">Ordenar</span>${sorts.map(([k, label]) => `<button class="tag" data-action="sort" data-sort="${k}" aria-pressed="${sortKey === k}">${label}</button>`).join('')}` : '';
+    $('#sort').innerHTML = sorts.length > 1 ? `<label class="lab" for="sort-sel">Ordenar</label><select id="sort-sel" class="sort-sel">${sorts.map(([k, label]) => `<option value="${k}"${sortKey === k ? ' selected' : ''}>${label}</option>`).join('')}</select>` : '';
 
     const q = norm(state.query.trim());
     const hits = all.filter((r) => {
@@ -1279,6 +1450,24 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       const hay = norm([r.title, r.summary, r.tags.join(' '), r.ingredients.flatMap((g) => g.items.map((i) => i.name)).join(' ')].join(' '));
       return q.split(/\s+/).every((w) => hay.includes(w));
     });
+    const byTitle = (a, b) => a.title.localeCompare(b.title, 'es');
+    if (sortKey === 'fast') {
+      const mins = (r) => {
+        const s = norm(r.time || '');
+        if (!s) return Infinity;
+        const h = /(\d+)\s*h/.exec(s), m = /(\d+)\s*min/.exec(s);
+        const n = (h ? +h[1] * 60 : 0) + (m ? +m[1] : 0) + (/vispera|noche|dia/.test(s) ? 1440 : 0);
+        return n || Infinity;
+      };
+      hits.sort((a, b) => (mins(a) === mins(b) ? byTitle(a, b) : mins(a) - mins(b)));
+    }
+    if (sortKey === 'prot') hits.sort((a, b) => (b.protein ?? -1) - (a.protein ?? -1) || byTitle(a, b));
+    if (sortKey === 'often') {
+      const times = (r) => (eaten.get(r.id) || []).length;
+      hits.sort((a, b) => times(b) - times(a) || byTitle(a, b));
+    }
+    if (sortKey === 'new') hits.sort((a, b) => String(b.updatedAt || '').localeCompare(String(a.updatedAt || '')) || byTitle(a, b));
+    if (sortKey === 'untried') hits.sort((a, b) => (eaten.has(a.id) ? 1 : 0) - (eaten.has(b.id) ? 1 : 0) || byTitle(a, b));
     if (byRate) {
       hits.sort((a, b) => {
         const sa = ratingScore(a.id), sb = ratingScore(b.id);
@@ -1316,7 +1505,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       <li><a class="card" href="#r-${encodeURIComponent(r.id)}">
         <h2>${esc(r.title)}</h2>
         ${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
-        <div class="meta">${rateSummaryHTML(r.id)}<span>${r.servings} raciones</span>${r.time ? `<span>${esc(r.time)}</span>` : ''}${lastEaten(r.id) ? `<span>Última: ${esc(shortDate(lastEaten(r.id)))}</span>` : ''}
+        <div class="meta">${rateSummaryHTML(r.id)}<span>${r.servings} raciones</span>${r.time ? `<span>${esc(r.time)}</span>` : ''}${protChip(r.protein)}${lastEaten(r.id) ? `<span>Última: ${esc(shortDate(lastEaten(r.id)))}</span>` : ''}
           ${r.tags.length ? `<span class="chips">${r.tags.map((t) => `<span class="chip">${esc(t)}</span>`).join('')}</span>` : ''}</div>
       </a></li>`).join('');
   }
@@ -1350,7 +1539,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
 
   function renderRecipe(id) {
     const r = state.byId.get(id);
-    const [backHash, backLabel] = { hoy: ['hoy', 'Hoy'], semana: ['semana', 'Semana'], finde: ['finde', 'Fin de semana'], historial: ['historial', 'Historial'] }[state.backTo] || ['recetas', 'Recetas'];
+    const [backHash, backLabel] = { hoy: ['hoy', 'Hoy'], semana: ['semana', 'Semana'], finde: ['finde', 'Fin de semana'], historial: ['historial', 'Historial'], congelador: ['congelador', 'Despensa'] }[state.backTo] || ['recetas', 'Recetas'];
     const back = `<a class="back" href="#${backHash}">${ICON.back}${backLabel}</a>`;
     if (!r) {
       const msg = state.status === 'loading' || state.status === 'slow' ? 'Cargando receta…' : 'Esta receta no existe o se ha borrado.';
@@ -1397,6 +1586,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         <div class="meta">
           ${r.time ? `<span>${esc(r.time)}</span>` : ''}
           <span>${steps.length} pasos</span>
+          ${r.protein === null ? '' : `<span>${r.protein} g de proteína por ración</span>`}
           ${r.updatedAt ? `<span>Actualizada ${esc(df.format(new Date(r.updatedAt)))}</span>` : ''}
         </div>
         ${r.equipment.length ? `<div class="meta"><span class="chips">${r.equipment.map((e) => `<span class="chip">${esc(e)}</span>`).join('')}</span></div>` : ''}
@@ -1417,7 +1607,9 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       <div class="tabs" role="tablist" aria-label="Secciones de la receta">
         ${tabsAvail.map(([k, label]) => `<button role="tab" id="tab-${k}" aria-selected="${tab === k}" aria-controls="panel" data-action="tab" data-tab="${k}">${label}</button>`).join('')}
       </div>
-      <div id="panel" class="panel" role="tabpanel" aria-labelledby="tab-${tab}">${panel}</div>`;
+      <div id="panel" class="panel" role="tabpanel" aria-labelledby="tab-${tab}">${panel}</div>
+      ${feedbackHTML(r)}
+      ${fzRecipeHTML(r)}`;
   }
 
   /* ---------- acciones ---------- */
@@ -1450,6 +1642,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       }
       case 'eat': {
         const d = el.dataset;
+        if (el.getAttribute('aria-pressed') !== 'true' && d.recipe) fzMaybeAsk(d.recipe, (state.byId.get(d.recipe) || {}).title || d.text);
         histSet({ id: d.id, date: d.date, slot: d.slot, recipe: d.recipe || null, text: d.text }, el.getAttribute('aria-pressed') !== 'true');
         $(`[data-action="eat"][data-id="${CSS.escape(d.id)}"]`)?.focus();
         break;
@@ -1458,7 +1651,42 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         const date = state.addDate || todayISO(); const slot = el.dataset.slot;
         const id = histId(date, slot, r.id, r.title);
         if (histIndex().all.has(id)) toast('Ya estaba apuntada ese día');
-        else { histSet({ id, date, slot, recipe: r.id, text: r.title }, true); toast(`Apuntada: ${slot.toLowerCase()} del ${shortDate(date)}`); }
+        else { fzMaybeAsk(r.id, r.title); histSet({ id, date, slot, recipe: r.id, text: r.title }, true); toast(`Apuntada: ${slot.toLowerCase()} del ${shortDate(date)}`); }
+        break;
+      }
+      case 'fz-add': {
+        const d = state.fzDraft;
+        if (fzAdd(d.text, d.n, d.date, d.place)) { state.fzDraft = { text: '', n: d.place === 'despensa' ? 1 : 2, date: '', place: d.place }; toast('Guardado en el congelador'); render(); }
+        break;
+      }
+      case 'fz-step': {
+        const x = state.freezer.find((e) => e.id === el.dataset.id);
+        if (x) { const id = x.id; const d = el.dataset.d; fzSet(id, x.servings + Number(d)); render(); $(`[data-action="fz-step"][data-id="${CSS.escape(id)}"][data-d="${d}"]`)?.focus(); }
+        break;
+      }
+      case 'fz-del': fzSet(el.dataset.id, 0); toast('Quitado del congelador'); render(); break;
+      case 'fz-ask-yes': {
+        const a = state.fzAsk; state.fzAsk = null;
+        if (a) { const n = Math.min(fzTotal(a.recipe), a.n); fzTake(a.recipe, n); toast(`${plural(n, 'ración descontada', 'raciones descontadas')} del congelador`); }
+        render();
+        break;
+      }
+      case 'fz-ask-no': state.fzAsk = null; render(); break;
+      case 'fz-from-recipe': if (r) { state.fzDraft = { text: r.title, n: 2, date: '', place: 'congelador' }; location.hash = 'congelador'; } break;
+      case 'fb-add': if (r) {
+        const txt = String(state.fbDraft[r.id] || '').trim();
+        if (!txt) { toast('Escribe la nota primero'); break; }
+        const id = newId();
+        const body = { recipe: r.id, text: txt.slice(0, 600), date: todayISO(), createdAt: new Date().toISOString() };
+        state.feedback.push({ id, ...body }); state.fbDraft[r.id] = '';
+        docWrite('feedback', id, body, 'No se ha guardado la nota. Prueba otra vez.');
+        toast('Nota guardada'); render();
+        break;
+      }
+      case 'fb-del': {
+        state.feedback = state.feedback.filter((x) => x.id !== el.dataset.id);
+        docWrite('feedback', el.dataset.id, null, 'No se ha quitado la nota. Prueba otra vez.');
+        render();
         break;
       }
       case 'hist-del': {
@@ -1495,6 +1723,20 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       case 'cook-next': moveCook(1); break;
       case 'cook-ings': toggleCookIngs(); break;
     }
+  });
+
+  document.addEventListener('input', (e) => {
+    const el = e.target;
+    if (el.id === 'fz-text') state.fzDraft.text = el.value;
+    else if (el.id === 'fz-n') state.fzDraft.n = el.value;
+    else if (el.id === 'fz-date') state.fzDraft.date = el.value;
+    else if (el.id === 'fz-place') { state.fzDraft.place = el.value === 'despensa' ? 'despensa' : 'congelador'; state.fzDraft.n = state.fzDraft.place === 'despensa' ? 1 : 2; render(); $('#fz-place')?.focus(); }
+    else if (el.id === 'fb-text') { const id = currentId(); if (id) state.fbDraft[id] = el.value; }
+  });
+
+  document.addEventListener('change', (e) => {
+    if (e.target.id !== 'sort-sel') return;
+    state.sort = e.target.value; store.set('rec:sort', state.sort); updateList(); $('#sort-sel')?.focus();
   });
 
   document.addEventListener('change', (e) => {
@@ -1785,6 +2027,21 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       });
       if (changed && !cook) render();
     }, () => { /* sin acceso: las casillas se quedan en local */ });
+    state.extraOn = true;
+    db.collection('freezer').onSnapshot((snap) => {
+      state.freezer = snap.docs.filter((d) => d.exists).map((d) => {
+        const x = d.data() || {};
+        return { id: d.id, text: String(x.text || ''), recipe: x.recipe || null, servings: Math.max(0, Math.round(Number(x.servings) || 0)), date: String(x.date || '').slice(0, 10) || todayISO(), place: x.place === 'despensa' ? 'despensa' : 'congelador', createdAt: x.createdAt || null };
+      }).filter((x) => x.text && x.servings > 0);
+      if (!cook) render();
+    }, () => { /* sin acceso: el congelador se queda vacío */ });
+    db.collection('feedback').onSnapshot((snap) => {
+      state.feedback = snap.docs.filter((d) => d.exists).map((d) => {
+        const x = d.data() || {};
+        return { id: d.id, recipe: String(x.recipe || ''), text: String(x.text || ''), date: String(x.date || '').slice(0, 10) || todayISO(), createdAt: x.createdAt || '' };
+      }).filter((x) => x.recipe && x.text);
+      if (!cook) render();
+    }, () => { /* sin acceso: no hay notas */ });
     const slow = setTimeout(() => { if (state.status === 'loading' || state.status === 'cached') { state.status = state.recipes.length ? 'cached' : 'slow'; render(); } }, 10000);
     db.collection('recipes').onSnapshot((snap) => {
       keepRaw('recipes', snap);

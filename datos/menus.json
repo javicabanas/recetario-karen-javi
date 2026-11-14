@@ -368,6 +368,7 @@
                 "text": "Ensalada de garbanzos con bonito y huevo, la que queda en la nevera"
               },
               {
+                "protein": 1,
                 "text": "Pitahaya de postre"
               }
             ],
@@ -429,6 +430,7 @@
                 "text": "Sopa de verduras, del congelador"
               },
               {
+                "protein": 15,
                 "text": "Tosta de centeno con jamón serrano"
               }
             ],
@@ -453,6 +455,7 @@
           {
             "items": [
               {
+                "protein": 15,
                 "text": "Tortilla de calabacín y cebolleta (4 huevos, medio calabacín) con ensalada de lechuga y tomate"
               }
             ],
@@ -477,6 +480,7 @@
             "items": [
               {
                 "leftover": true,
+                "protein": 10,
                 "recipe": "crema-de-calabacin-y-puerro",
                 "text": "Crema de calabacín y puerro, hecha el domingo, con huevo duro picado"
               }
@@ -502,6 +506,7 @@
           {
             "items": [
               {
+                "protein": 42,
                 "text": "Pechuga de pollo a la plancha con ajo y perejil, y ensalada de lechuga y tomate"
               }
             ],
@@ -530,6 +535,7 @@
                 "text": "Crema de calabacín y puerro, del congelador"
               },
               {
+                "protein": 24,
                 "text": "Jamón serrano y queso con pan de centeno"
               }
             ],

@@ -142,6 +142,7 @@
         ]
       }
     ],
+    "protein": 18,
     "servings": 2,
     "servingsNote": "2-3 alcachofas y 2 huevos por persona",
     "shopping": [
@@ -248,6 +249,7 @@
         ]
       }
     ],
+    "protein": 1,
     "scaleWarning": "Dobla usando 2 claras en un vaso más ancho; no bajes de una clara.",
     "servings": 4,
     "servingsNote": "unos 200 g; una clara es el mínimo que monta bien",
@@ -438,6 +440,7 @@
         ]
       }
     ],
+    "protein": 28,
     "scaleWarning": "La paellera de 36 cm está calculada para estas raciones. Con más arroz la capa engorda y cambian tiempos y punto; con mucho más, necesitas una paellera mayor.",
     "servings": 4,
     "servingsNote": "90 g de arroz por persona",
@@ -692,6 +695,7 @@
         ]
       }
     ],
+    "protein": 38,
     "servings": 2,
     "servingsNote": "70 g de arroz por persona y el doble de verdura",
     "shopping": [
@@ -874,6 +878,7 @@
         ]
       }
     ],
+    "protein": 42,
     "servings": 2,
     "servingsNote": "70 g de arroz por persona",
     "shopping": [
@@ -1057,6 +1062,7 @@
         ]
       }
     ],
+    "protein": 30,
     "servings": 2,
     "servingsNote": "unos 30 g de proteína por ración",
     "shopping": [
@@ -1275,6 +1281,7 @@
         ]
       }
     ],
+    "protein": 40,
     "scaleWarning": "En la cocotte caben hasta 1,2 kg de carne. Dora siempre en tandas que no llenen el fondo.",
     "servings": 4,
     "servingsNote": "200 g de carne en crudo por persona; 2 raciones para el día y 2 para guardar",
@@ -1501,6 +1508,7 @@
         ]
       }
     ],
+    "protein": 38,
     "servings": 2,
     "servingsNote": "plato único, con pollo y huevo",
     "shopping": [
@@ -1758,6 +1766,7 @@
         ]
       }
     ],
+    "protein": 48,
     "scaleWarning": "Hasta 1,5 kg caben en una capa en la cocotte con el mismo tiempo. Más cantidad pide una fuente honda bien tapada y 1 hora más de horno.",
     "servings": 4,
     "servingsNote": "dos comidas para dos: la mitad se congela con su jugo",
@@ -1943,6 +1952,7 @@
         ]
       }
     ],
+    "protein": 12,
     "scaleWarning": "Con más de 2 L de leche, alarga la cocción 15-20 minutos y usa la olla más ancha.",
     "servings": 4,
     "servingsNote": "cuencos bajos, capa de 2-3 cm",
@@ -2102,6 +2112,7 @@
         ]
       }
     ],
+    "protein": 4,
     "servings": 4,
     "servingsNote": "unos 300 ml por ración",
     "shopping": [
@@ -2253,6 +2264,7 @@
         ]
       }
     ],
+    "protein": 3,
     "servings": 4,
     "servingsNote": "unos 300 ml por ración",
     "shopping": [
@@ -2429,6 +2441,7 @@
         ]
       }
     ],
+    "protein": 42,
     "servings": 2,
     "servingsNote": "una dorada de 400-450 g por persona",
     "shopping": [
@@ -2591,6 +2604,7 @@
         ]
       }
     ],
+    "protein": 40,
     "servings": 2,
     "servingsNote": "unos 40 g de proteína por ración",
     "shopping": [
@@ -2749,6 +2763,7 @@
         ]
       }
     ],
+    "protein": 55,
     "scaleWarning": "Para más de 6 raciones no cabe en la cocotte con holgura: usa la olla más grande y cuenta 15-20 minutos más.",
     "servings": 4,
     "servingsNote": "plato único; unos 110 g de fabes en seco por ración",
@@ -2902,6 +2917,7 @@
         ]
       }
     ],
+    "protein": 38,
     "servings": 2,
     "servingsNote": "",
     "shopping": [
@@ -3113,6 +3129,7 @@
         ]
       }
     ],
+    "protein": 10,
     "scaleWarning": "La masa se escala sin problema, pero el tiempo de fermentación no cambia. En una bandeja caben 6 hojaldras individuales; para más, hornea en dos tandas y guarda la segunda bandeja en la nevera mientras tanto. Si haces una sola pieza grande con toda la masa, hornea 28-30 minutos.",
     "servings": 4,
     "servingsNote": "una hojaldra individual de unos 120 g por persona",
@@ -3325,6 +3342,7 @@
         ]
       }
     ],
+    "protein": 40,
     "servings": 4,
     "servingsNote": "75 g de lenteja y 125 g de pollo por persona",
     "shopping": [
@@ -3601,6 +3619,7 @@
         ]
       }
     ],
+    "protein": 35,
     "scaleWarning": "Para más de 6 raciones, usa una olla de 6 L o más: en la cocotte no cabe el agua.",
     "servings": 4,
     "servingsNote": "90 g de lenteja y 2 huevos por persona; el huevo, solo en las raciones que se sirven",
@@ -3834,6 +3853,7 @@
         ]
       }
     ],
+    "protein": 30,
     "scaleWarning": "En olla rápida, con legumbre no llenes más de la mitad de la olla. Al cambiar raciones, el tiempo con presión no cambia.",
     "servings": 4,
     "servingsNote": "85 g de lenteja y medio chorizo por persona",
@@ -3979,6 +3999,7 @@
         ]
       }
     ],
+    "protein": 30,
     "scaleWarning": "En el estuche caben 2 lomos. Para más raciones, cocina en tandas o hazlo en papel de horno (nota «En el horno»).",
     "servings": 2,
     "servingsNote": "un lomo de 150 g por persona",
@@ -4096,6 +4117,7 @@
         ]
       }
     ],
+    "protein": 0,
     "servings": 2,
     "servingsNote": "dos copas",
     "shopping": [
@@ -4260,6 +4282,7 @@
         ]
       }
     ],
+    "protein": 40,
     "servings": 2,
     "servingsNote": "200 g de merluza por persona",
     "shopping": [
@@ -4408,6 +4431,7 @@
         ]
       }
     ],
+    "protein": 1,
     "servings": 4,
     "servingsNote": "unos 200 ml: salsa para dos comidas de pescado o gambas para dos",
     "shopping": [
@@ -4701,6 +4725,7 @@
         ]
       }
     ],
+    "protein": 23,
     "scaleWarning": "La paellera de 36 cm está calculada para estas raciones. Con más arroz la capa engorda y cambian tiempos y punto; con mucho más, necesitas una paellera mayor.",
     "servings": 6,
     "servingsNote": "unos 70 g de arroz por persona, como cierre de menú",
@@ -4852,6 +4877,7 @@
         ]
       }
     ],
+    "protein": 4,
     "scaleWarning": "Para el doble, usa dos moldes en vez de uno más grande: el centro tardaría demasiado en cuajar.",
     "servings": 6,
     "servingsNote": "6 rebanadas, un molde alargado de unos 20 cm",
@@ -4967,6 +4993,7 @@
         ]
       }
     ],
+    "protein": 6,
     "servings": 2,
     "servingsNote": "dos vasos de unos 300 ml",
     "shopping": [
@@ -5125,6 +5152,7 @@
         ]
       }
     ],
+    "protein": 40,
     "servings": 2,
     "servingsNote": "350 g de pollo con hueso por persona",
     "shopping": [
@@ -5298,6 +5326,7 @@
         ]
       }
     ],
+    "protein": 40,
     "servings": 2,
     "servingsNote": "unos 40 g de proteína por ración",
     "shopping": [
@@ -5488,6 +5517,7 @@
         ]
       }
     ],
+    "protein": 35,
     "servings": 2,
     "servingsNote": "unos 35 g de proteína por ración",
     "shopping": [
@@ -5641,6 +5671,7 @@
         ]
       }
     ],
+    "protein": 22,
     "servings": 2,
     "servingsNote": "2-3 huevos por persona",
     "shopping": [
@@ -5765,6 +5796,7 @@
         ]
       }
     ],
+    "protein": 1,
     "servings": 2,
     "servingsNote": "2 arroces de 2 raciones, unos 50 g de sofrito por arroz",
     "shopping": [
@@ -5947,6 +5979,7 @@
         ]
       }
     ],
+    "protein": 7,
     "servings": 4,
     "servingsNote": "unos 350 ml por ración; el fideo, solo en lo que se sirve",
     "shopping": [
@@ -6184,6 +6217,7 @@
         ]
       }
     ],
+    "protein": 48,
     "servings": 2,
     "servingsNote": "una torta por persona, con 150 g de carne",
     "shopping": [
@@ -6329,6 +6363,7 @@
         ]
       }
     ],
+    "protein": 25,
     "servings": 2,
     "servingsNote": "2 tostas por persona",
     "shopping": [
