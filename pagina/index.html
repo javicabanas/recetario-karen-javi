@@ -513,6 +513,8 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const inline = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
   const norm = (s) => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  /* El icono viaja en el cuerpo del documento y los navegadores solo miran la cabecera: se sube allí al cargar. */
+  { const ico = document.querySelector('link[rel="icon"]'); if (ico && document.head && ico.parentNode !== document.head) document.head.appendChild(ico); }
   const store = {
     get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } },
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* sin almacenamiento local */ } },
@@ -727,6 +729,9 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     try { if (body === null) await ref.delete(); else await ref.set(body); return true; } catch { toast(failMsg); return false; }
   }
   const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+  function normalizeFreezer(id, x) {
+    return { id, text: String(x.text || ''), recipe: x.recipe || null, servings: Math.max(0, Math.round(Number(x.servings) || 0)), date: String(x.date || '').slice(0, 10) || todayISO(), place: x.place === 'despensa' ? 'despensa' : 'congelador', createdAt: x.createdAt || null };
+  }
   const fzTotal = (rid) => state.freezer.filter((x) => x.recipe === rid && x.place === 'congelador').reduce((n, x) => n + x.servings, 0);
   function fzAdd(text, servings, date, place) {
     const clean = String(text || '').trim();
@@ -820,7 +825,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     const dry = all.filter((x) => x.place === 'despensa').sort((a, b) => a.text.localeCompare(b.text, 'es'));
     const total = frozen.reduce((n, x) => n + x.servings, 0);
     app.innerHTML = `${mainHeader('congelador', total ? `${plural(total, 'ración', 'raciones')} en el congelador` : 'Despensa y congelador')}${statusNotice()}
-      <section class="head"><h1>Despensa y congelador</h1><p class="lede">Lo que hay en casa para contar con ello al hacer el menú y la lista de la compra. Al marcar un plato como comido, la página pregunta si salió del congelador para descontarlo.</p></section>
+      <section class="head"><h1>Despensa y congelador</h1><p class="lede">${ro ? 'Lo que hay en casa ahora mismo, por si se te ocurre qué cocinar con ello.' : 'Lo que hay en casa para contar con ello al hacer el menú y la lista de la compra. Al marcar un plato como comido, la página pregunta si salió del congelador para descontarlo.'}</p></section>
       ${form}
       ${group('Congelador', frozen, 'No hay nada apuntado en el congelador.')}
       ${group('Despensa', dry, 'No hay nada apuntado en la despensa.')}`;
@@ -885,7 +890,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   }
 
   /* ---------- copia de seguridad: los documentos tal como están en la base de datos ---------- */
-  const BACKUP_COLS = ['recipes', 'ratings', 'menus', 'history'];
+  const BACKUP_COLS = ['recipes', 'ratings', 'menus', 'history', 'freezer'];
   const raw = {};
   const rawFresh = new Set();
   function keepRaw(name, snap) {
@@ -1254,7 +1259,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   }
 
   function sectionsNav(active) {
-    const items = [['hoy', '#hoy', 'Hoy'], ['semana', '#semana', 'Semana'], ['finde', '#finde', '<span class="long">Fin de semana</span><span class="short">Finde</span>'], ['list', '#recetas', 'Recetas'], ['historial', '#historial', '<span class="long">Historial</span><span class="short">Hist.</span>'], ['congelador', '#congelador', '<span class="long">Despensa</span><span class="short">Desp.</span>']].filter(([k]) => k !== 'congelador' || !document.body.classList.contains('readonly'));
+    const items = [['hoy', '#hoy', 'Hoy'], ['semana', '#semana', 'Semana'], ['finde', '#finde', '<span class="long">Fin de semana</span><span class="short">Finde</span>'], ['list', '#recetas', 'Recetas'], ['historial', '#historial', '<span class="long">Historial</span><span class="short">Hist.</span>'], ['congelador', '#congelador', '<span class="long">Despensa</span><span class="short">Desp.</span>']];
     return `<nav class="sections" aria-label="Secciones">${items.map(([k, href, label]) => `<a href="${href}"${k === active ? ' aria-current="page"' : ''}>${label}</a>`).join('')}</nav>`;
   }
 
@@ -1986,6 +1991,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     state.ratings = new Map(docs('ratings').map(([id, d]) => [id, normalizeRating(d || {})]));
     state.menus = docs('menus').map(([id, d]) => normalizeMenu(id, d || {})).sort((a, b) => b.start.localeCompare(a.start));
     state.history = new Map(docs('history').map(([id, d]) => [id, normalizeEntry(id, d || {})]).filter(([, e]) => e));
+    state.freezer = docs('freezer').map(([id, d]) => normalizeFreezer(id, d || {})).filter((x) => x.text && x.servings > 0);
     state.status = 'ready'; state.menuStatus = 'ready';
     state.ratingsOn = true; state.histOn = true;
     document.body.classList.add('readonly');
@@ -2029,10 +2035,8 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     }, () => { /* sin acceso: las casillas se quedan en local */ });
     state.extraOn = true;
     db.collection('freezer').onSnapshot((snap) => {
-      state.freezer = snap.docs.filter((d) => d.exists).map((d) => {
-        const x = d.data() || {};
-        return { id: d.id, text: String(x.text || ''), recipe: x.recipe || null, servings: Math.max(0, Math.round(Number(x.servings) || 0)), date: String(x.date || '').slice(0, 10) || todayISO(), place: x.place === 'despensa' ? 'despensa' : 'congelador', createdAt: x.createdAt || null };
-      }).filter((x) => x.text && x.servings > 0);
+      keepRaw('freezer', snap);
+      state.freezer = snap.docs.filter((d) => d.exists).map((d) => normalizeFreezer(d.id, d.data() || {})).filter((x) => x.text && x.servings > 0);
       if (!cook) render();
     }, () => { /* sin acceso: el congelador se queda vacío */ });
     db.collection('feedback').onSnapshot((snap) => {

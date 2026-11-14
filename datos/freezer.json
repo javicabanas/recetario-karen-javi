@@ -1,0 +1,23 @@
+{
+  "2026-11-07-sopa-de-verduras": {
+    "createdAt": "2026-11-14T17:22:00+01:00",
+    "date": "2026-11-07",
+    "recipe": "sopa-de-verduras",
+    "servings": 2,
+    "text": "Sopa de verduras"
+  },
+  "2026-11-08-potaje-de-garbanzos-espinacas-y-bacalao": {
+    "createdAt": "2026-11-14T17:22:00+01:00",
+    "date": "2026-11-08",
+    "recipe": "potaje-de-garbanzos-espinacas-y-bacalao",
+    "servings": 2,
+    "text": "Potaje de garbanzos, espinacas y bacalao"
+  },
+  "2026-11-11-arroz-meloso-de-acelgas-alubias-y-sepia": {
+    "createdAt": "2026-11-14T17:22:00+01:00",
+    "date": "2026-11-11",
+    "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
+    "servings": 2,
+    "text": "Arroz meloso de acelgas, alubias y sepia"
+  }
+}

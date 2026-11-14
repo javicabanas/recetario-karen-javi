@@ -16,7 +16,8 @@ import json
 import pathlib
 import sys
 
-COLLECTIONS = ("recipes", "ratings", "menus", "history")
+COLLECTIONS = ("recipes", "ratings", "menus", "history", "freezer")
+OPTIONAL = ("freezer",)
 FRACTIONS = {0.5: "½", 0.25: "¼", 0.75: "¾"}
 
 
@@ -95,7 +96,7 @@ def main(argv):
         return 2
     root = pathlib.Path(__file__).resolve().parent.parent
     export = json.loads(pathlib.Path(argv[1]).read_text(encoding="utf-8"))
-    missing = [name for name in COLLECTIONS if not isinstance(export.get(name), dict)]
+    missing = [name for name in COLLECTIONS if name not in OPTIONAL and not isinstance(export.get(name), dict)]
     if missing:
         print(f"error: the export lacks these collections: {', '.join(missing)}")
         return 1
@@ -103,7 +104,7 @@ def main(argv):
     data_dir = root / "datos"
     data_dir.mkdir(exist_ok=True)
     for name in COLLECTIONS:
-        docs = dict(sorted(export[name].items()))
+        docs = dict(sorted((export.get(name) or {}).items()))
         text = json.dumps(docs, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
         (data_dir / f"{name}.json").write_text(text, encoding="utf-8")
         print(f"datos/{name}.json: {len(docs)}")

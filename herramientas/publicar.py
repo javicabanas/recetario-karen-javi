@@ -14,7 +14,7 @@ import pathlib
 import re
 import sys
 
-COLLECTIONS = ("recipes", "ratings", "menus", "history")
+COLLECTIONS = ("recipes", "ratings", "menus", "history", "freezer")
 DEFAULT_TITLE = "Recetas de Karen y Javi"
 MARKER = "<script>\n(() => {"
 
@@ -30,7 +30,10 @@ def main(argv):
         print("error: this version of the page has no read-only mode")
         return 1
 
-    data = {name: json.loads((root / "datos" / f"{name}.json").read_text(encoding="utf-8")) for name in COLLECTIONS}
+    data = {}
+    for name in COLLECTIONS:
+        path = root / "datos" / f"{name}.json"
+        data[name] = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
     stamp_file = root / "datos" / "exportado.txt"
     data["exportedAt"] = stamp_file.read_text(encoding="utf-8").strip() if stamp_file.exists() else ""
     # "</" must not appear inside a script element; "<\/" is the same string once parsed as JSON
