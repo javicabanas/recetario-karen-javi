@@ -117,5 +117,18 @@
     "recipe": "rape-a-la-plancha-con-refrito-de-ajo",
     "slot": "Comida",
     "text": "Rape a la plancha con refrito de ajo, patata y guisantes"
+  },
+  "2026-11-14-comida-ensalada-de-garbanzos-con-bonito-y-huevo": {
+    "createdAt": "2026-11-14T14:09:58.856Z",
+    "date": "2026-11-14",
+    "recipe": "ensalada-de-garbanzos-con-bonito-y-huevo",
+    "slot": "Comida",
+    "text": "Ensalada de garbanzos con bonito y huevo, la que queda en la nevera"
+  },
+  "2026-11-14-comida-pitahaya-de-postre": {
+    "createdAt": "2026-11-14T14:10:01.247Z",
+    "date": "2026-11-14",
+    "slot": "Comida",
+    "text": "Pitahaya de postre"
   }
 }

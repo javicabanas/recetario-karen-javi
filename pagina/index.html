@@ -514,6 +514,16 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   const state = { recipes: [], byId: new Map(), status: 'loading', errorCode: null, query: '', tags: new Set(), servings: {}, view: null, menus: [], menuStatus: 'loading', backTo: null, ratings: new Map(), ratingsOn: false, sort: store.get('rec:sort', 'az'), history: new Map(), histOn: false, histMonth: null, histDay: null, addDate: null };
   const app = $('#app');
   let dbh = null;
+  /* Casillas marcadas (ingredientes y plan): se guardan en la base de datos, colección `checks`,
+     para que sobrevivan a recargar y se vean en todos los dispositivos. El almacenamiento local es solo respaldo. */
+  const checkState = new Map();
+  const getChecks = (id) => (checkState.has(id) ? checkState.get(id) : store.get(`rec:checks:${id}`, []));
+  function setChecks(id, keys) {
+    checkState.set(id, keys);
+    store.set(`rec:checks:${id}`, keys);
+    if (!dbh || document.body.classList.contains('readonly')) return;
+    try { Promise.resolve(dbh.collection('checks').doc(id).set({ keys, updatedAt: new Date().toISOString() })).catch(() => {}); } catch { /* se queda en local */ }
+  }
 
   /* ---------- valoraciones (colección `ratings`, un documento por receta) ---------- */
   const RATERS = [['javier', 'Javier'], ['karen', 'Karen']];
@@ -1197,7 +1207,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     if (m && !m.prep.length) body = `${menuSwitchHTML()}<div class="empty"><p>Este menú no tiene plan de fin de semana.</p></div>`;
     else if (m) {
       const key = `plan-${m.id}`;
-      const checks = new Set(store.get(`rec:checks:${key}`, []));
+      const checks = new Set(getChecks(key));
       body = `
         ${menuSwitchHTML()}
         <section class="head"><h1>Plan del fin de semana</h1><p class="lede">Lo que se deja hecho el sábado y el domingo para que entre semana solo quede calentar o cocinar entre 15 y 30 minutos. Cada tarea explica cómo se hace y enlaza su receta, con potencias y temporizadores. Marca cada paso según lo termines.</p></section>
@@ -1313,7 +1323,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
 
   function ingHTML(r, scope) {
     const f = factorOf(r);
-    const checks = new Set(store.get(`rec:checks:${r.id}`, []));
+    const checks = new Set(getChecks(r.id));
     return r.ingredients.map((g, gi) => `
       <section class="group">
         ${g.group ? `<h3>${esc(g.group)}</h3>` : ''}
@@ -1472,9 +1482,9 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       case 'tab': if (r) { store.set(`rec:tab:${r.id}`, el.dataset.tab); render(); $(`#tab-${el.dataset.tab}`)?.focus(); } break;
       case 'serv': if (r) { const max = Math.max(24, r.servings * 4); state.servings[r.id] = Math.min(max, Math.max(1, servingsOf(r) + Number(el.dataset.d))); render(); } break;
       case 'serv-reset': if (r) { delete state.servings[r.id]; render(); } break;
-      case 'clear-checks': if (r) { store.set(`rec:checks:${r.id}`, []); render(); } break;
+      case 'clear-checks': if (r) { setChecks(r.id, []); render(); } break;
       case 'menu-switch': state.menuAhead = !state.menuAhead; render(); window.scrollTo(0, 0); break;
-      case 'clear-plan': store.set(`rec:checks:${el.dataset.key}`, []); render(); break;
+      case 'clear-plan': setChecks(el.dataset.key, []); render(); break;
       case 'copy-ing': if (r) copyIngredients(r); break;
       case 'timer-start': startTimer(el.dataset.key, el.dataset.label, Number(el.dataset.secs)); break;
       case 'timer-toggle': toggleTimer(el.dataset.id); break;
@@ -1491,9 +1501,9 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     const el = e.target;
     if (!el.matches('input[data-check]')) return;
     const id = el.dataset.check; const k = el.dataset.k;
-    const set = new Set(store.get(`rec:checks:${id}`, []));
+    const set = new Set(getChecks(id));
     el.checked ? set.add(k) : set.delete(k);
-    store.set(`rec:checks:${id}`, [...set]);
+    setChecks(id, [...set]);
     $$(`input[data-check="${CSS.escape(id)}"][data-k="${k}"]`).forEach((x) => { x.checked = el.checked; x.closest('.ing')?.classList.toggle('is-checked', el.checked); });
   });
 
@@ -1766,6 +1776,15 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       state.history = new Map(snap.docs.filter((d) => d.exists).map((d) => [d.id, normalizeEntry(d.id, d.data() || {})]).filter(([, e]) => e));
       histDirty(); render();
     }, () => { /* se queda el último historial conocido */ });
+    db.collection('checks').onSnapshot((snap) => {
+      let changed = false;
+      snap.docs.filter((d) => d.exists).forEach((d) => {
+        const keys = Array.isArray((d.data() || {}).keys) ? d.data().keys.map(String) : [];
+        if (JSON.stringify(keys) !== JSON.stringify(getChecks(d.id))) changed = true;
+        checkState.set(d.id, keys);
+      });
+      if (changed && !cook) render();
+    }, () => { /* sin acceso: las casillas se quedan en local */ });
     const slow = setTimeout(() => { if (state.status === 'loading' || state.status === 'cached') { state.status = state.recipes.length ? 'cached' : 'slow'; render(); } }, 10000);
     db.collection('recipes').onSnapshot((snap) => {
       keepRaw('recipes', snap);
