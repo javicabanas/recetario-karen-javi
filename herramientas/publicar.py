@@ -14,7 +14,7 @@ import pathlib
 import re
 import sys
 
-COLLECTIONS = ("recipes", "ratings", "menus", "history", "freezer")
+COLLECTIONS = ("recipes", "ratings", "menus", "history")
 DEFAULT_TITLE = "Recetas de Karen y Javi"
 MARKER = "<script>\n(() => {"
 

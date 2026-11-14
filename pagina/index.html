@@ -1192,7 +1192,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     else if (section === 'finde') renderPlan();
     else if (section === 'list') renderList(same);
     else if (section === 'historial') renderHistory();
-    else if (section === 'congelador') renderFreezer();
+    else if (section === 'congelador' && !document.body.classList.contains('readonly')) renderFreezer();
     else if (section === 'copia') renderBackup();
     else renderToday();
     const ask = fzAskHTML();
@@ -1259,7 +1259,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   }
 
   function sectionsNav(active) {
-    const items = [['hoy', '#hoy', 'Hoy'], ['semana', '#semana', 'Semana'], ['finde', '#finde', '<span class="long">Fin de semana</span><span class="short">Finde</span>'], ['list', '#recetas', 'Recetas'], ['historial', '#historial', '<span class="long">Historial</span><span class="short">Hist.</span>'], ['congelador', '#congelador', '<span class="long">Despensa</span><span class="short">Desp.</span>']];
+    const items = [['hoy', '#hoy', 'Hoy'], ['semana', '#semana', 'Semana'], ['finde', '#finde', '<span class="long">Fin de semana</span><span class="short">Finde</span>'], ['list', '#recetas', 'Recetas'], ['historial', '#historial', '<span class="long">Historial</span><span class="short">Hist.</span>'], ['congelador', '#congelador', '<span class="long">Despensa</span><span class="short">Desp.</span>']].filter(([k]) => k !== 'congelador' || !document.body.classList.contains('readonly'));
     return `<nav class="sections" aria-label="Secciones">${items.map(([k, href, label]) => `<a href="${href}"${k === active ? ' aria-current="page"' : ''}>${label}</a>`).join('')}</nav>`;
   }
 
