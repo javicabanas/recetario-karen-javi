@@ -118,6 +118,13 @@
     "slot": "Comida",
     "text": "Rape a la plancha con refrito de ajo, patata y guisantes"
   },
+  "2026-11-14-cena-tostas-de-escalivada-con-ventresca": {
+    "createdAt": "2026-11-14T19:47:38.952Z",
+    "date": "2026-11-14",
+    "recipe": "tostas-de-escalivada-con-ventresca",
+    "slot": "Cena",
+    "text": "Tostas de escalivada con ventresca y ensalada de escarola (gasta la escalivada abierta)"
+  },
   "2026-11-14-comida-ensalada-de-garbanzos-con-bonito-y-huevo": {
     "createdAt": "2026-11-14T14:09:58.856Z",
     "date": "2026-11-14",
