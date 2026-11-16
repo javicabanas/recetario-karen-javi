@@ -3664,7 +3664,7 @@
   },
   "lentejas-de-la-tia-ameli": {
     "equipment": [
-      "Olla rápida",
+      "Cocotte Le Creuset",
       "Batidora de mano o licuadora",
       "Cazo",
       "Inducción"
@@ -3680,8 +3680,8 @@
           },
           {
             "name": "Agua del grifo",
-            "note": "hasta cubrir las lentejas y que pase unos 3 cm",
-            "qty": 1.2,
+            "note": "hasta cubrir las lentejas y que pase unos 4 cm",
+            "qty": 1.35,
             "unit": "L"
           },
           {
@@ -3760,16 +3760,24 @@
     ],
     "notes": [
       {
-        "text": "Pasada de su libreta (21/03/2020) y adaptada: lenteja pardina sin remojo y 4 raciones. La original es para medio kilo de lentejas, con 1 cebolla, 4 zanahorias y 1 lata mediana de tomate, y 10 minutos de olla rápida con las lentejas remojadas. Las cantidades que no venían (ajo, aceite del sofrito, calabaza y chorizo) son estimadas.",
+        "text": "Pasada de su libreta (21/03/2020) y adaptada: lenteja pardina sin remojo, 4 raciones y cocción en la cocotte. La original es para medio kilo de lentejas, con 1 cebolla, 4 zanahorias y 1 lata mediana de tomate, y 10 minutos de olla rápida con las lentejas remojadas. Las cantidades que no venían (ajo, aceite del sofrito, calabaza y chorizo) son estimadas.",
         "title": "La receta de Ameli"
+      },
+      {
+        "text": "El hervor suave no golpea la lenteja: la piel queda entera y el interior cremoso. Con la tapa entreabierta el caldo evapora y se liga solo, y se puede probar y parar en el punto exacto.",
+        "title": "Por qué en la cocotte"
       },
       {
         "text": "Las lentejas se cuecen solo con agua y reciben el sofrito al final: el caldo queda espeso y uniforme, sin trozos de verdura. El chorizo cocido aparte suelta su grasa en el agua del cazo y no en el guiso.",
         "title": "Por qué el sofrito va aparte y triturado"
       },
       {
-        "text": "En la Le Creuset, después de añadir el agua (unos 150 ml más, porque evapora): hervor a nivel 9 y luego hervor suave a nivel 4 con la tapa entreabierta, unos 45 minutos. Después, el sofrito y el hervor final igual.",
-        "title": "Sin olla rápida"
+        "text": "Con 1,2 L de agua, que aquí no evapora. Cierra la olla, nivel 9 hasta que suba la válvula y nivel 4 durante 7 minutos; deja que pierda la presión sola antes de abrirla. Después, el sofrito y el hervor final igual. En total, 50 minutos; con el sofrito ya hecho, 25. Con legumbre no llenes la olla más de la mitad.",
+        "title": "Con olla rápida, si hay prisa"
+      },
+      {
+        "text": "Si el sofrito triturado está hecho de antes, empieza en la fase «Lentejas»: unos 55 minutos en la cocotte.",
+        "title": "Con el sofrito ya hecho"
       },
       {
         "text": "Unos 30 g por ración entre la lenteja y el chorizo.",
@@ -3790,7 +3798,7 @@
           },
           {
             "level": "5",
-            "text": "En la olla rápida, sin tapa, los 30 ml de AOVE. Cebolla, zanahoria, ajo, pimiento y calabaza con una pizca de sal: **pocha** removiendo de vez en cuando hasta que la cebolla esté transparente y la zanahoria tierna.",
+            "text": "En la cocotte, sin tapa, los 30 ml de AOVE. Cebolla, zanahoria, ajo, pimiento y calabaza con una pizca de sal: **pocha** removiendo de vez en cuando hasta que la cebolla esté transparente y la zanahoria tierna.",
             "timer": 720
           },
           {
@@ -3807,24 +3815,18 @@
         "name": "Lentejas",
         "steps": [
           {
-            "text": "En la misma olla, las lentejas. Agua del grifo hasta que las cubra y pase unos 3 cm, un poco de sal y un chorrito de aceite."
-          },
-          {
             "level": "9",
-            "text": "Cierra la olla y fuego fuerte hasta que suba la válvula."
+            "text": "En la misma cocotte, las lentejas. Agua del grifo hasta que las cubra y pase unos 4 cm (1,35 L), un poco de sal y un chorrito de aceite. Lleva a hervor."
           },
           {
             "level": "4",
-            "text": "Baja el fuego lo justo para mantener la presión: **7 minutos**.",
-            "timer": 420
+            "text": "Baja el fuego y deja la tapa entreabierta: **hervor suave 45 minutos**, con burbujas pequeñas y constantes. Remueve cada 15 minutos; si las lentejas asoman, añade agua caliente. Empieza a probarlas a los 35 minutos.",
+            "timer": 2700
           },
           {
             "level": "5",
             "text": "Mientras, cuece aparte el chorizo: entero, cubierto de agua en un cazo. Lleva a hervor a fuego fuerte y baja a 5 durante 10 minutos; suelta parte de su grasa en el agua. Escúrrelo y córtalo en rodajas.",
             "timer": 600
-          },
-          {
-            "text": "Apaga y deja que la olla pierda la presión sola antes de abrirla: con legumbre, abrirla de golpe saca espuma por la válvula. Mientras baja, las lentejas terminan de hacerse."
           }
         ]
       },
@@ -3832,7 +3834,7 @@
         "name": "Terminar",
         "steps": [
           {
-            "text": "Prueba varias lentejas: cremosas por dentro y con la piel entera. Si alguna tiene el centro harinoso, alarga 3-4 minutos el hervor del paso siguiente."
+            "text": "Prueba varias lentejas: cremosas por dentro y con la piel entera. Si alguna tiene el centro harinoso, sigue 5 minutos más antes de añadir el sofrito."
           },
           {
             "level": "6",
@@ -3854,7 +3856,7 @@
       }
     ],
     "protein": 30,
-    "scaleWarning": "En olla rápida, con legumbre no llenes más de la mitad de la olla. Al cambiar raciones, el tiempo con presión no cambia.",
+    "scaleWarning": "Al cambiar raciones, el tiempo de cocción no cambia: ajusta el agua para que cubra las lentejas y pase unos 4 cm.",
     "servings": 4,
     "servingsNote": "85 g de lenteja y medio chorizo por persona",
     "shopping": [
@@ -3880,15 +3882,15 @@
       }
     ],
     "short": "Lentejas Ameli",
-    "summary": "Lentejas pardinas en olla rápida con un sofrito de cebolla, zanahoria y tomate triturado que se añade al final, y chorizo cocido aparte. De la libreta de la tía Ameli.",
+    "summary": "Lentejas pardinas a hervor suave en la cocotte, con un sofrito de cebolla, zanahoria y tomate triturado que se añade al final, y chorizo cocido aparte. De la libreta de la tía Ameli.",
     "tags": [
       "legumbre",
       "guiso",
       "plato único"
     ],
-    "time": "50 min",
+    "time": "1 h 20 min",
     "title": "Lentejas de la tía Ameli",
-    "updatedAt": "2026-11-13T13:50:00+01:00"
+    "updatedAt": "2026-11-15T23:40:00+01:00"
   },
   "lubina-en-papillote": {
     "equipment": [
@@ -5128,7 +5130,7 @@
           },
           {
             "level": "3",
-            "text": "Tapa y deja **30 minutos**. A mitad, dale la vuelta y riégalo con la salsa.",
+            "text": "Tapa y deja **30 minutos**. A mitad, dale la vuelta y riégalo con el líquido de cocción (la cerveza con el jugo del pollo y la cebolla).",
             "timer": 1800
           },
           {
@@ -5179,7 +5181,7 @@
     ],
     "time": "50 min",
     "title": "Pollo guisado con cerveza y cebolla",
-    "updatedAt": "2026-11-13T19:55:00+01:00"
+    "updatedAt": "2026-11-15T13:53:00+01:00"
   },
   "potaje-de-garbanzos-espinacas-y-bacalao": {
     "equipment": [

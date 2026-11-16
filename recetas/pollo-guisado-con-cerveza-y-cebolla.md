@@ -39,7 +39,7 @@ Muslos y contramuslos dorados y guisados con cebolla en rodajas y cerveza rubia,
 **Guiso**
 
 4. Devuelve el pollo con su jugo, con la piel hacia arriba. Añade la cerveza y lleva a hervor. _[inducción nivel 9 · 2 min]_
-5. Tapa y deja **30 minutos**. A mitad, dale la vuelta y riégalo con la salsa. _[inducción nivel 3 · 30 min]_
+5. Tapa y deja **30 minutos**. A mitad, dale la vuelta y riégalo con el líquido de cocción (la cerveza con el jugo del pollo y la cebolla). _[inducción nivel 3 · 30 min]_
 6. Mientras, el arroz: hervor a nivel 9 con el agua y la sal, tapa y nivel 4 durante 15 minutos; 5 de reposo tapado. _[inducción nivel 4 · 15 min]_
 
 **Salsa**

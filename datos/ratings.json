@@ -1,4 +1,9 @@
 {
+  "alcachofas-salteadas-con-huevo-escalfado": {
+    "javier": 3,
+    "karen": 3,
+    "updatedAt": "2026-11-15T20:48:27.906Z"
+  },
   "arroz-a-banda": {
     "javier": 4,
     "karen": 4,
@@ -18,6 +23,11 @@
     "javier": 3,
     "karen": 1,
     "updatedAt": "2026-11-11T07:48:49.357Z"
+  },
+  "carne-guisada-con-vino-tinto": {
+    "javier": 5,
+    "karen": 5,
+    "updatedAt": "2026-11-15T15:10:57.388Z"
   },
   "crema-de-calabaza-y-puerro": {
     "javier": 4,

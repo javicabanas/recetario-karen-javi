@@ -137,5 +137,19 @@
     "date": "2026-11-14",
     "slot": "Comida",
     "text": "Pitahaya de postre"
+  },
+  "2026-11-15-cena-alcachofas-salteadas-con-huevo-escalfado": {
+    "createdAt": "2026-11-15T20:48:33.373Z",
+    "date": "2026-11-15",
+    "recipe": "alcachofas-salteadas-con-huevo-escalfado",
+    "slot": "Cena",
+    "text": "Alcachofas salteadas con ajo y limón, con huevo escalfado"
+  },
+  "2026-11-15-comida-carne-guisada-con-vino-tinto": {
+    "createdAt": "2026-11-15T15:10:52.839Z",
+    "date": "2026-11-15",
+    "recipe": "carne-guisada-con-vino-tinto",
+    "slot": "Comida",
+    "text": "Carne guisada con vino tinto, con patata cocida"
   }
 }

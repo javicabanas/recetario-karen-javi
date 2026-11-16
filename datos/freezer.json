@@ -19,5 +19,21 @@
     "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
     "servings": 2,
     "text": "Arroz meloso de acelgas, alubias y sepia"
+  },
+  "mwii9yc8-yywcmb": {
+    "createdAt": "2026-11-16T00:08:53.528Z",
+    "date": "2026-11-16",
+    "place": "congelador",
+    "recipe": "pollo-guisado-con-cerveza-y-cebolla",
+    "servings": 2,
+    "text": "Pollo guisado con cerveza y cebolla"
+  },
+  "mwiib3rs-7hfotd": {
+    "createdAt": "2026-11-16T00:09:47.223Z",
+    "date": "2026-11-16",
+    "place": "congelador",
+    "recipe": "crema-de-calabacin-y-puerro",
+    "servings": 2,
+    "text": "Crema de calabacín y puerro"
   }
 }
