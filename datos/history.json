@@ -151,5 +151,25 @@
     "recipe": "carne-guisada-con-vino-tinto",
     "slot": "Comida",
     "text": "Carne guisada con vino tinto, con patata cocida"
+  },
+  "2026-11-16-cena-sopa-de-verduras": {
+    "createdAt": "2026-11-16T22:14:41.651Z",
+    "date": "2026-11-16",
+    "recipe": "sopa-de-verduras",
+    "slot": "Cena",
+    "text": "Sopa de verduras, del congelador"
+  },
+  "2026-11-16-cena-tosta-de-centeno-con-jamon-serrano": {
+    "createdAt": "2026-11-16T22:14:46.969Z",
+    "date": "2026-11-16",
+    "slot": "Cena",
+    "text": "Tosta de centeno con jamón serrano"
+  },
+  "2026-11-16-comida-pollo-guisado-con-cerveza-y-cebolla": {
+    "createdAt": "2026-11-16T14:04:36.986Z",
+    "date": "2026-11-16",
+    "recipe": "pollo-guisado-con-cerveza-y-cebolla",
+    "slot": "Comida",
+    "text": "Pollo guisado con cerveza y cebolla, hecho el domingo, con arroz blanco recién hecho"
   }
 }
