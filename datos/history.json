@@ -171,5 +171,18 @@
     "recipe": "pollo-guisado-con-cerveza-y-cebolla",
     "slot": "Comida",
     "text": "Pollo guisado con cerveza y cebolla, hecho el domingo, con arroz blanco recién hecho"
+  },
+  "2026-11-17-cena-tortilla-de-calabacin-y-cebolleta-4-huevos-medio-calabacin-c": {
+    "createdAt": "2026-11-17T20:22:19.957Z",
+    "date": "2026-11-17",
+    "slot": "Cena",
+    "text": "Tortilla de calabacín y cebolleta (4 huevos, medio calabacín) con ensalada de lechuga y tomate"
+  },
+  "2026-11-17-comida-arroz-meloso-de-acelgas-alubias-y-sepia": {
+    "createdAt": "2026-11-17T14:31:47.508Z",
+    "date": "2026-11-17",
+    "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
+    "slot": "Comida",
+    "text": "Arroz meloso de acelgas, alubias y sepia, del congelador"
   }
 }
