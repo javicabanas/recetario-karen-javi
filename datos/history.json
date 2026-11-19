@@ -184,5 +184,19 @@
     "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
     "slot": "Comida",
     "text": "Arroz meloso de acelgas, alubias y sepia, del congelador"
+  },
+  "2026-11-18-cena-crema-de-calabacin-y-puerro": {
+    "createdAt": "2026-11-18T22:23:17.144Z",
+    "date": "2026-11-18",
+    "recipe": "crema-de-calabacin-y-puerro",
+    "slot": "Cena",
+    "text": "Crema de calabacín y puerro, hecha el domingo, con huevo duro picado"
+  },
+  "2026-11-18-comida-carne-guisada-con-vino-tinto": {
+    "createdAt": "2026-11-18T22:23:12.028Z",
+    "date": "2026-11-18",
+    "recipe": "carne-guisada-con-vino-tinto",
+    "slot": "Comida",
+    "text": "Carne guisada con vino tinto, la del domingo"
   }
 }
