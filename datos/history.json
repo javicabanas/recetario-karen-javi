@@ -198,5 +198,25 @@
     "recipe": "carne-guisada-con-vino-tinto",
     "slot": "Comida",
     "text": "Carne guisada con vino tinto, la del domingo"
+  },
+  "2026-11-19-cena-crema-de-calabacin-y-puerro": {
+    "createdAt": "2026-11-19T21:34:00+01:00",
+    "date": "2026-11-19",
+    "recipe": "crema-de-calabacin-y-puerro",
+    "slot": "Cena",
+    "text": "Crema de calabacín y puerro"
+  },
+  "2026-11-19-cena-pollo-a-la-plancha-con-ajo": {
+    "createdAt": "2026-11-19T21:35:00+01:00",
+    "date": "2026-11-19",
+    "slot": "Cena",
+    "text": "Pollo a la plancha con ajo"
+  },
+  "2026-11-19-comida-potaje-de-garbanzos-espinacas-y-bacalao": {
+    "createdAt": "2026-11-19T15:44:09.589Z",
+    "date": "2026-11-19",
+    "recipe": "potaje-de-garbanzos-espinacas-y-bacalao",
+    "slot": "Comida",
+    "text": "Potaje de garbanzos, espinacas y bacalao, del congelador"
   }
 }

@@ -1,11 +1,4 @@
 {
-  "2026-11-08-potaje-de-garbanzos-espinacas-y-bacalao": {
-    "createdAt": "2026-11-14T17:22:00+01:00",
-    "date": "2026-11-08",
-    "recipe": "potaje-de-garbanzos-espinacas-y-bacalao",
-    "servings": 2,
-    "text": "Potaje de garbanzos, espinacas y bacalao"
-  },
   "2026-11-11-arroz-meloso-de-acelgas-alubias-y-sepia": {
     "createdAt": "2026-11-14T17:22:00+01:00",
     "date": "2026-11-11",
@@ -14,12 +7,95 @@
     "servings": 2,
     "text": "Arroz meloso de acelgas, alubias y sepia"
   },
-  "mwmp1bvb-o6auky": {
-    "createdAt": "2026-11-18T22:29:13.175Z",
-    "date": "2026-11-11",
+  "2026-11-19-aceite-de-sesamo": {
+    "createdAt": "2026-11-19T17:30:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Aceite de sésamo (botella de 230 ml, queda poco)"
+  },
+  "2026-11-19-arroz-para-sushi-haruka": {
+    "createdAt": "2026-11-19T20:42:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Arroz para sushi Haruka (italiano, grano corto)"
+  },
+  "2026-11-19-arroz-redondo": {
+    "createdAt": "2026-11-19T15:55:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Arroz redondo"
+  },
+  "2026-11-19-confitura-de-petalos-de-violeta": {
+    "createdAt": "2026-11-19T17:30:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Confitura de pétalos de violeta"
+  },
+  "2026-11-19-harina-de-arroz": {
+    "createdAt": "2026-11-19T17:30:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Harina de arroz Nomen"
+  },
+  "2026-11-19-miel": {
+    "createdAt": "2026-11-19T15:55:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Miel de Galicia (queda poca)"
+  },
+  "2026-11-19-salsa-de-ostras": {
+    "createdAt": "2026-11-19T17:35:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Salsa de ostras Lee Kum Kee Panda (510 g)"
+  },
+  "2026-11-19-salsa-de-soja": {
+    "createdAt": "2026-11-19T15:55:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Salsa de soja Kikkoman (botella de 1 L, queda un tercio)"
+  },
+  "2026-11-19-sesamo-negro-tostado": {
+    "createdAt": "2026-11-19T21:21:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Sésamo negro tostado EMB Food (bote de 100 g)"
+  },
+  "2026-11-19-sriracha": {
+    "createdAt": "2026-11-19T20:33:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Salsa sriracha Go-Tan"
+  },
+  "2026-11-19-vinagre-de-arroz-o-manzana": {
+    "createdAt": "2026-11-19T15:55:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Vinagre de arroz blanco (botella casi llena)"
+  },
+  "2026-11-19-vinagre-negro-de-zhenjiang": {
+    "createdAt": "2026-11-19T17:30:00+01:00",
+    "date": "2026-11-19",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Vinagre negro chino de Zhenjiang"
+  },
+  "mwnvhonx-apse1v": {
+    "createdAt": "2026-11-19T18:17:40.125Z",
+    "date": "2026-11-19",
     "place": "congelador",
-    "recipe": "crema-de-calabacin-y-puerro",
     "servings": 2,
-    "text": "Crema de calabacín y puerro"
+    "text": "Filete pechuga crudo fino"
   }
 }

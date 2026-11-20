@@ -506,14 +506,19 @@
           {
             "items": [
               {
-                "protein": 42,
-                "text": "Pechuga de pollo a la plancha con ajo y perejil, y ensalada de lechuga y tomate"
+                "leftover": true,
+                "recipe": "crema-de-calabacin-y-puerro",
+                "text": "Crema de calabacín y puerro, del congelador"
+              },
+              {
+                "protein": 40,
+                "text": "Pollo a la plancha con ajo"
               }
             ],
             "slot": "Cena"
           }
         ],
-        "night": "Sofrito de las lentejas y crema de calabacín del congelador a la nevera."
+        "night": "Sofrito de las lentejas del congelador a la nevera. Para la cena de mañana: marinar el pollo, hacer las espinacas, mezclar la salsa picante y picar la cebolleta."
       },
       {
         "date": "2026-11-20",
@@ -530,13 +535,8 @@
           {
             "items": [
               {
-                "leftover": true,
-                "recipe": "crema-de-calabacin-y-puerro",
-                "text": "Crema de calabacín y puerro, del congelador"
-              },
-              {
-                "protein": 24,
-                "text": "Jamón serrano y queso con pan de centeno"
+                "recipe": "pollo-a-la-coreana",
+                "text": "Pollo a la coreana con arroz, pepino y espinacas: cena de cumpleaños para 3"
               }
             ],
             "slot": "Cena"
@@ -653,6 +653,6 @@
     "start": "2026-11-14",
     "summary": "Comidas y cenas para dos, con cuchara y guisos de carne y pollo. Aprovecha lo que había en la nevera y el congelador; lo largo se cocina el domingo.",
     "title": "Semana del 14 al 20 de noviembre",
-    "updatedAt": "2026-11-13T19:55:00+01:00"
+    "updatedAt": "2026-11-19T21:40:00+01:00"
   }
 }

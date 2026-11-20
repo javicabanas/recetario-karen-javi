@@ -5018,6 +5018,346 @@
     "title": "Piñada",
     "updatedAt": "2026-11-12T19:10:00+01:00"
   },
+  "pollo-a-la-coreana": {
+    "equipment": [
+      "Sartén De Buyer de 28 cm",
+      "Cazo con tapa",
+      "Olla para escaldar",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Pollo y marinada",
+        "items": [
+          {
+            "name": "Contramuslos de pollo",
+            "note": "deshuesados y sin piel, en trozos de 3 cm",
+            "qty": 650,
+            "unit": "g"
+          },
+          {
+            "name": "Salsa de soja",
+            "qty": 60,
+            "unit": "ml"
+          },
+          {
+            "name": "Miel",
+            "qty": 20,
+            "unit": "g"
+          },
+          {
+            "name": "Aceite de sésamo tostado",
+            "qty": 15,
+            "unit": "ml"
+          },
+          {
+            "name": "Ajo",
+            "note": "rallado",
+            "qty": 3,
+            "unit": "dientes"
+          },
+          {
+            "name": "Jengibre fresco",
+            "note": "rallado",
+            "qty": 15,
+            "unit": "g"
+          },
+          {
+            "name": "Pera conferencia",
+            "note": "madura, rallada",
+            "qty": 0.5,
+            "unit": "ud"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Pimienta negra"
+          },
+          {
+            "name": "Cebolleta tierna",
+            "note": "picada, para terminar",
+            "qty": 2,
+            "unit": "ud"
+          },
+          {
+            "name": "Sésamo tostado",
+            "note": "blanco o negro",
+            "qty": 1,
+            "unit": "cda"
+          },
+          {
+            "name": "Aceite de girasol u oliva suave",
+            "note": "para la sartén",
+            "qty": 10,
+            "unit": "ml"
+          }
+        ]
+      },
+      {
+        "group": "Arroz",
+        "items": [
+          {
+            "name": "Arroz para sushi",
+            "note": "grano corto",
+            "qty": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Agua",
+            "qty": 340,
+            "unit": "ml"
+          }
+        ]
+      },
+      {
+        "group": "Pepino aliñado",
+        "items": [
+          {
+            "name": "Pepino",
+            "note": "1 grande o 2 pequeños",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Sal",
+            "qty": 0.5,
+            "unit": "cdta"
+          },
+          {
+            "name": "Azúcar",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Vinagre de arroz o de manzana",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Aceite de sésamo tostado",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sésamo tostado"
+          }
+        ]
+      },
+      {
+        "group": "Espinacas con sésamo",
+        "items": [
+          {
+            "name": "Espinacas frescas",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Salsa de soja",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Aceite de sésamo tostado",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Ajo",
+            "note": "medio diente, rallado",
+            "qty": 0.5,
+            "unit": "dientes"
+          },
+          {
+            "amount": "una pizca",
+            "name": "Sésamo tostado"
+          }
+        ]
+      },
+      {
+        "group": "Salsa picante para la mesa (opcional)",
+        "items": [
+          {
+            "name": "Salsa sriracha",
+            "qty": 3,
+            "unit": "cda"
+          },
+          {
+            "name": "Miel",
+            "note": "o azúcar disuelto en 1 cda de agua caliente",
+            "qty": 3,
+            "unit": "cda"
+          },
+          {
+            "name": "Salsa de soja",
+            "qty": 1,
+            "unit": "cda"
+          },
+          {
+            "name": "Aceite de sésamo tostado",
+            "qty": 1,
+            "unit": "cda"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "Se adelanta todo menos el arroz, el pollo y el aliño del pepino. El arroz recalentado queda seco y suelto; el pollo recalentado pierde el dorado. Si vas justo, deja el pepino cortado, salado y escurrido, y alíñalo al servir.",
+        "title": "Hecho de víspera"
+      },
+      {
+        "text": "Si consigues gochujang (pasta de guindilla fermentada coreana, en tiendas asiáticas), la salsa de mesa es: 2 cda de gochujang, 1 cda de miel, 1 cda de vinagre de arroz y 1 cdta de aceite de sésamo. Pica menos que la sriracha y tiene más fondo.",
+        "title": "Con gochujang"
+      },
+      {
+        "text": "Tiempos ajustados al arroz para sushi Haruka (italiano, grano corto), cuya caja pide 1 taza de arroz por 1,25 de agua y no indica lavado: basta un aclarado de 2 aguas. El bomba no sirve aquí: sale seco y suelto.",
+        "title": "Arroz"
+      },
+      {
+        "text": "Vale blanco o negro. El negro tostado sabe algo más intenso y destaca sobre el arroz y el pepino.",
+        "title": "Sésamo"
+      },
+      {
+        "text": "Añade kimchi (col fermentada picante) y hojas de cogollo para envolver el pollo. Muchos kimchis llevan salsa de pescado: mira la etiqueta si no quieres pescado.",
+        "title": "Más coreano"
+      },
+      {
+        "text": "Unos 40 g por ración.",
+        "title": "Proteína"
+      },
+      {
+        "text": "El pollo marinado crudo, 24 horas en nevera. Ya hecho, 2 días en nevera. Las espinacas, 2 días; la salsa picante, semanas.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "Chat del proyecto, 19 de noviembre de 2026 (cena de cumpleaños)",
+    "phases": [
+      {
+        "name": "Víspera",
+        "steps": [
+          {
+            "text": "Corta los 650 g de pollo en trozos de bocado, de unos 3 cm."
+          },
+          {
+            "text": "Marinada: ralla **3 dientes de ajo**, 15 g de jengibre y media pera. Mézclalos con 60 ml de salsa de soja, 20 g de miel, 15 ml de aceite de sésamo y pimienta negra. Mezcla con el pollo, tapa y a la nevera: mínimo 1 hora, máximo 24."
+          },
+          {
+            "level": "9",
+            "text": "Espinacas: escalda los 300 g durante 30 segundos en agua hirviendo, pásalas a agua fría y estrújalas bien con las manos. Aliña con 1 cdta de salsa de soja, 1 cdta de aceite de sésamo, **medio diente de ajo** rallado y una pizca de sésamo. A la nevera en un recipiente hermético.",
+            "timer": 30
+          },
+          {
+            "text": "Salsa picante (sale un cuenco de unos 100 ml): mezcla en un tarro 3 cda de sriracha, 3 cda de miel, 1 cda de salsa de soja y 1 cda de aceite de sésamo. Pruébala: si pica demasiado, añade más miel. Pica las 2 cebolletas y guárdalas con un papel de cocina húmedo encima."
+          }
+        ]
+      },
+      {
+        "name": "Pepino",
+        "steps": [
+          {
+            "text": "De 2 a 3 horas antes de cenar: corta el pepino en rodajas finas, mézclalo con ½ cdta de sal y déjalo **10 minutos**.",
+            "timer": 600
+          },
+          {
+            "text": "Escurre apretando y aliña con 1 cdta de azúcar, 1 cdta de vinagre de arroz, 1 cdta de aceite de sésamo y una pizca de sésamo."
+          }
+        ]
+      },
+      {
+        "name": "Arroz",
+        "steps": [
+          {
+            "text": "Saca el pollo y las espinacas de la nevera 30 minutos antes de cocinar. Aclara los 250 g de arroz en 2 aguas, removiendo con la mano, y escúrrelo bien."
+          },
+          {
+            "level": "9",
+            "text": "Arroz en el cazo con los 340 ml de agua, hasta que hierva.",
+            "timer": 180
+          },
+          {
+            "level": "2",
+            "text": "Tapa y deja **15 minutos**. No destapes. Al acabar, prueba un grano: si queda duro en el centro, añade 2 cucharadas de agua y deja 3 minutos más.",
+            "timer": 900
+          },
+          {
+            "text": "Apaga y deja reposar tapado **10 minutos**.",
+            "timer": 600
+          }
+        ]
+      },
+      {
+        "name": "Pollo",
+        "steps": [
+          {
+            "text": "Escurre el pollo y guarda la marinada."
+          },
+          {
+            "level": "7",
+            "text": "Calienta la sartén De Buyer con los 10 ml de aceite.",
+            "timer": 120
+          },
+          {
+            "level": "7",
+            "text": "Dora el pollo en dos tandas, en una sola capa, 3 minutos por cada lado. Si lo amontonas, se cuece en vez de dorarse.",
+            "timer": 360
+          },
+          {
+            "level": "6",
+            "text": "Devuelve todo el pollo a la sartén, añade la marinada y reduce hasta que quede brillante y pegada al pollo. Tiene que hervir: ha estado en contacto con el pollo crudo.",
+            "timer": 120
+          },
+          {
+            "text": "Sirve en boles: arroz, pollo encima, la cebolleta picada y 1 cda de sésamo. Las guarniciones y la salsa picante, al centro."
+          }
+        ]
+      }
+    ],
+    "protein": 40,
+    "scaleWarning": "En la sartén de 28 cm caben unos 350 g de pollo por tanda: con más raciones, haz más tandas.",
+    "servings": 3,
+    "servingsNote": "unos 215 g de pollo limpio por persona",
+    "shopping": [
+      {
+        "detail": "Contramuslo, no pechuga: aguanta el fuego fuerte sin secarse. Carne rosada y firme, sin líquido en la bandeja.",
+        "item": "Pollo"
+      },
+      {
+        "detail": "De fermentación natural (Kikkoman o similar).",
+        "item": "Salsa de soja"
+      },
+      {
+        "detail": "Tostado, de color oscuro. El claro no da sabor.",
+        "item": "Aceite de sésamo"
+      },
+      {
+        "detail": "Conferencia madura, que ceda al apretar: ablanda la carne y endulza. Media manzana rallada también sirve.",
+        "item": "Pera"
+      },
+      {
+        "detail": "Piel tersa y lisa, sin arrugas.",
+        "item": "Jengibre"
+      },
+      {
+        "detail": "Para sushi, de grano corto. El bomba, el largo y el vaporizado no quedan pegajosos.",
+        "item": "Arroz"
+      },
+      {
+        "detail": "Salsa de guindilla y ajo, en la zona de cocina internacional (Go-Tan o similar). Sin pescado.",
+        "item": "Sriracha"
+      }
+    ],
+    "short": "Pollo a la coreana",
+    "summary": "Contramuslo de pollo marinado en soja, ajo, jengibre y sésamo (dak-bulgogi), salteado y glaseado con su marinada; en bol con arroz blanco, pepino aliñado y espinacas con sésamo. No pica: el picante va aparte.",
+    "tags": [
+      "carne",
+      "pollo",
+      "plato único",
+      "coreana"
+    ],
+    "time": "Víspera + 45 min",
+    "title": "Pollo a la coreana con arroz, pepino y espinacas",
+    "updatedAt": "2026-11-19T22:34:00+01:00"
+  },
   "pollo-guisado-con-cerveza-y-cebolla": {
     "equipment": [
       "Cocotte Le Creuset o cazuela con tapa",
