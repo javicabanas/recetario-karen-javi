@@ -1,4 +1,209 @@
 {
+  "albondigas-en-salsa": {
+    "equipment": [
+      "Sartén De Buyer 28 cm",
+      "Cocotte Le Creuset",
+      "Batidora de mano",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Albóndigas",
+        "items": [
+          {
+            "name": "Carne picada, mitad ternera y mitad cerdo",
+            "qty": 600,
+            "unit": "g"
+          },
+          {
+            "name": "Huevo L",
+            "note": "batido",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Pan rallado",
+            "note": "4 cucharadas",
+            "qty": 40,
+            "unit": "g"
+          },
+          {
+            "name": "Vino blanco seco",
+            "qty": 45,
+            "unit": "ml"
+          },
+          {
+            "name": "Ajo",
+            "note": "muy picado",
+            "qty": 1,
+            "unit": "dientes"
+          },
+          {
+            "name": "Perejil",
+            "note": "picado",
+            "qty": 1,
+            "unit": "rama"
+          },
+          {
+            "name": "Sal",
+            "note": "1 cucharadita rasa",
+            "qty": 6,
+            "unit": "g"
+          },
+          {
+            "amount": "para rebozar",
+            "name": "Harina de trigo"
+          },
+          {
+            "name": "AOVE",
+            "note": "para dorar",
+            "qty": 45,
+            "unit": "ml"
+          }
+        ]
+      },
+      {
+        "group": "Salsa",
+        "items": [
+          {
+            "name": "Cebolla",
+            "note": "1 mediana, picada",
+            "qty": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Pimiento verde italiano",
+            "note": "picado",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Tomate de pera",
+            "note": "2 ud, rallados",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Agua",
+            "qty": 400,
+            "unit": "ml"
+          },
+          {
+            "amount": "unas hebras",
+            "name": "Azafrán en hebra"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "El libro usa 500 g de carne y fríe las albóndigas en medio litro de aceite. Aquí: 600 g, para llegar a unos 32 g de proteína por ración; doradas en la De Buyer con poco aceite, y la salsa se hace en esa misma sartén para aprovechar el fondo; un pimiento verde en el sofrito; y la salsa se tritura con la batidora en lugar del pasapurés.",
+        "title": "Cambios respecto al libro"
+      },
+      {
+        "text": "Arroz blanco recién hecho o patata cocida, y una ensalada.",
+        "title": "Guarnición"
+      },
+      {
+        "text": "3 días en nevera, con su salsa. Congelan muy bien: descongela en la nevera la víspera y calienta tapadas a nivel 3, con un chorrito de agua si la salsa ha espesado.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "1080 recetas de cocina (Simone Ortega), n.º 720",
+    "phases": [
+      {
+        "name": "Masa",
+        "steps": [
+          {
+            "text": "En un bol, el huevo batido con el ajo, el perejil, el vino, el pan rallado y la sal. Añade la carne y mezcla con la mano lo justo para que quede uniforme: amasada de más, la albóndiga queda prieta."
+          },
+          {
+            "text": "Con las manos mojadas, forma unas 20 bolas de 35 g (como una nuez grande). Pásalas por harina y sacude el exceso."
+          }
+        ]
+      },
+      {
+        "name": "Dorar",
+        "steps": [
+          {
+            "level": "7",
+            "text": "De Buyer con los 45 ml de AOVE. Dora las albóndigas en dos tandas, sin amontonarlas, dándoles vueltas: solo color por fuera, se terminan en la salsa. Pásalas a la cocotte, sin apretarlas.",
+            "timer": 240
+          }
+        ]
+      },
+      {
+        "name": "Salsa",
+        "steps": [
+          {
+            "level": "5",
+            "text": "En la misma sartén, con 2 cucharadas del aceite que queda, cebolla y pimiento con una pizca de sal hasta que la cebolla empiece a dorarse.",
+            "timer": 480
+          },
+          {
+            "level": "5",
+            "text": "Añade el tomate rallado y sofríe, rascando el fondo, hasta que pierda el agua y oscurezca.",
+            "timer": 420
+          },
+          {
+            "level": "9",
+            "text": "Vierte 350 ml de agua, sal y lleva a hervor. Pasa la salsa a un vaso y tritúrala con la batidora."
+          },
+          {
+            "text": "Tuesta las hebras de azafrán 10 segundos en la sartén vacía y templada, desházalas con los dedos sobre los 50 ml de agua restantes, calientes, y añádelo a la salsa."
+          }
+        ]
+      },
+      {
+        "name": "Cocción",
+        "steps": [
+          {
+            "level": "3",
+            "text": "Salsa sobre las albóndigas en la cocotte. Tapada, a hervor suave 15 minutos; mueve la cazuela por las asas un par de veces en vez de remover, para no romperlas.",
+            "timer": 900
+          },
+          {
+            "text": "Rectifica de sal. Lo que no vayas a tomar hoy, en tápers con su salsa: enfría destapado y a la nevera antes de 2 horas."
+          }
+        ]
+      }
+    ],
+    "protein": 32,
+    "scaleWarning": "Con más de 600 g de carne, dora en tres tandas.",
+    "servings": 4,
+    "servingsNote": "5 albóndigas por persona; 2 raciones para la semana y 2 para congelar",
+    "shopping": [
+      {
+        "detail": "Picada en el momento en el mostrador: aguja de ternera y cabeza de lomo o aguja de cerdo, a partes iguales. El cerdo aporta la grasa que las deja jugosas; solo con ternera magra quedan secas.",
+        "item": "Carne picada"
+      },
+      {
+        "detail": "De pera, maduro y blando al tacto. Alternativa: 200 g de tomate triturado en conserva.",
+        "item": "Tomate"
+      },
+      {
+        "detail": "Seco y sencillo, del que te beberías; ni dulce ni afrutado.",
+        "item": "Vino blanco"
+      },
+      {
+        "detail": "En hebra, con D.O. La Mancha. Alternativa: se puede omitir; la salsa queda más clara de sabor.",
+        "item": "Azafrán"
+      }
+    ],
+    "short": "Albóndigas",
+    "summary": "Albóndigas de ternera y cerdo doradas en sartén y terminadas en una salsa triturada de cebolla, pimiento verde, tomate y azafrán; se hacen para cuatro y mejoran de un día para otro.",
+    "tags": [
+      "guiso",
+      "carne"
+    ],
+    "time": "1 h",
+    "title": "Albóndigas en salsa",
+    "updatedAt": "2026-11-20T16:20:00+01:00"
+  },
   "alcachofas-salteadas-con-huevo-escalfado": {
     "equipment": [
       "Sartén antiadherente grande con tapa",
@@ -2288,6 +2493,175 @@
     "title": "Crema de calabaza y puerro",
     "updatedAt": "2026-11-13T13:50:00+01:00"
   },
+  "crema-de-zanahorias": {
+    "equipment": [
+      "Olla 4 L",
+      "Batidora de mano",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Crema",
+        "items": [
+          {
+            "name": "Zanahoria",
+            "note": "en rodajas de 1 cm",
+            "qty": 600,
+            "unit": "g"
+          },
+          {
+            "name": "Patata",
+            "note": "1 mediana, en dados de 2 cm",
+            "qty": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Cebolla",
+            "note": "media, picada",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Tomate de pera",
+            "note": "1 ud, rallado",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Perejil",
+            "qty": 1,
+            "unit": "rama"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua",
+            "qty": 700,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          }
+        ]
+      },
+      {
+        "group": "Al servir",
+        "items": [
+          {
+            "amount": "un hilo",
+            "name": "AOVE"
+          },
+          {
+            "name": "Huevo duro",
+            "note": "opcional, picado por encima",
+            "qty": 2,
+            "unit": "ud"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "El libro cuece todo en crudo una hora en 2 litros de agua, con tanta patata como zanahoria, y lo sirve con pan frito. Aquí: más zanahoria y menos patata y agua, para que sea crema y no sopa; la cebolla y el tomate se sofríen antes, que da más sabor; 20 minutos de cocción, que con la zanahoria en rodajas bastan; y sin pan frito, con huevo duro para sumar proteína.",
+        "title": "Cambios respecto al libro"
+      },
+      {
+        "text": "Acompáñala de proteína: huevo duro picado por encima, pechuga a la plancha o una tosta con jamón.",
+        "title": "Cena completa"
+      },
+      {
+        "text": "3-4 días en nevera. Congela bien; al calentarla, remueve o pasa la batidora 10 segundos.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "1080 recetas de cocina (Simone Ortega), n.º 139",
+    "phases": [
+      {
+        "name": "Corte",
+        "steps": [
+          {
+            "text": "Pela las zanahorias y córtalas en rodajas de 1 cm. Patata pelada en dados de 2 cm. Pica la cebolla y ralla el tomate."
+          }
+        ]
+      },
+      {
+        "name": "Sofrito",
+        "steps": [
+          {
+            "level": "5",
+            "text": "AOVE en la olla. Cebolla con una pizca de sal, hasta que esté translúcida, sin que tome color.",
+            "timer": 360
+          },
+          {
+            "level": "5",
+            "text": "Añade el tomate rallado y sofríe hasta que pierda el agua.",
+            "timer": 180
+          },
+          {
+            "level": "5",
+            "text": "Zanahoria y patata: rehoga 2 minutos para que se impregnen del aceite.",
+            "timer": 120
+          }
+        ]
+      },
+      {
+        "name": "Cocción",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Añade los 700 ml de agua, la rama de perejil y sal. Lleva a hervor."
+          },
+          {
+            "level": "4",
+            "text": "Hervor suave 20 minutos, tapada, hasta que la zanahoria se deshaga al presionarla contra la pared de la olla.",
+            "timer": 1200
+          }
+        ]
+      },
+      {
+        "name": "Triturar",
+        "steps": [
+          {
+            "text": "Retira el perejil y saca un cucharón de caldo a un vaso. Tritura hasta que quede lisa y añade de ese caldo solo lo que haga falta: tiene que napar la cuchara. Termina con una cucharada de AOVE en crudo y rectifica de sal."
+          },
+          {
+            "text": "Lo que no vayas a tomar hoy, en tápers: enfría destapado y a la nevera antes de 2 horas."
+          }
+        ]
+      }
+    ],
+    "protein": 3,
+    "servings": 4,
+    "servingsNote": "unos 300 ml por ración",
+    "shopping": [
+      {
+        "detail": "Firme, lisa y de naranja intenso, sin grietas ni brotes. En manojo, con la hoja verde y tersa, es la más fresca.",
+        "item": "Zanahoria"
+      },
+      {
+        "detail": "Monalisa: se deshace bien y da cuerpo sin dejar la crema gomosa.",
+        "item": "Patata"
+      },
+      {
+        "detail": "De pera, maduro. Alternativa: una cucharadita de tomate concentrado.",
+        "item": "Tomate"
+      }
+    ],
+    "short": "Crema de zanahorias",
+    "summary": "Crema de zanahoria con un poco de patata, cebolla pochada y tomate, emulsionada con aceite en crudo; se hace para cuatro y congela bien.",
+    "tags": [
+      "sopa",
+      "verdura",
+      "cena"
+    ],
+    "time": "35 min",
+    "title": "Crema de zanahorias",
+    "updatedAt": "2026-11-20T16:15:00+01:00"
+  },
   "dorada-al-horno-con-panadera": {
     "equipment": [
       "Horno",
@@ -3169,6 +3543,185 @@
     "time": "45 min de trabajo + 2 h 45 min de fermentación y horno",
     "title": "Hojaldras tlaxcaltecas (pan de muerto)",
     "updatedAt": "2026-11-13T13:07:00Z"
+  },
+  "judias-blancas-con-sepia": {
+    "equipment": [
+      "Cocotte Le Creuset",
+      "Inducción"
+    ],
+    "ingredients": [
+      {
+        "group": "Guiso",
+        "items": [
+          {
+            "name": "Alubia blanca cocida",
+            "note": "1 tarro, escurrida y enjuagada",
+            "qty": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Sepia limpia",
+            "note": "en dados de 2 cm, bien seca",
+            "qty": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Cebolla",
+            "note": "media, picada",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Pimiento verde italiano",
+            "note": "picado",
+            "qty": 1,
+            "unit": "ud"
+          },
+          {
+            "name": "Ajo",
+            "note": "picados",
+            "qty": 2,
+            "unit": "dientes"
+          },
+          {
+            "name": "Tomate de pera",
+            "note": "1 ud, rallado",
+            "qty": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Pimentón dulce",
+            "qty": 1,
+            "unit": "cdta"
+          },
+          {
+            "name": "Laurel",
+            "qty": 1,
+            "unit": "hoja"
+          },
+          {
+            "name": "AOVE",
+            "qty": 30,
+            "unit": "ml"
+          },
+          {
+            "name": "Agua",
+            "qty": 300,
+            "unit": "ml"
+          },
+          {
+            "amount": "al gusto",
+            "name": "Sal"
+          },
+          {
+            "amount": "un poco",
+            "name": "Perejil",
+            "note": "picado, al servir"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "text": "El libro parte de alubia seca cocida 2 horas con media cabeza de ajos asada y un chorizo o una morcilla, y la liga con un refrito de cebolla, harina y pimentón pasado por el pasapurés. Aquí: alubia de tarro, para tenerlo en 40 minutos; sepia en lugar del embutido, que da la proteína de un plato único y es más ligera; pimiento verde y tomate en el refrito; y sin harina, ligado con las propias alubias aplastadas.",
+        "title": "Cambios respecto al libro"
+      },
+      {
+        "text": "200 g en remojo 12 horas; cuécelas con el laurel 1 h 30 min a nivel 3, asustándolas dos veces con agua fría, y sigue la receta desde el refrito usando su caldo en vez de agua.",
+        "title": "Con alubia seca"
+      },
+      {
+        "text": "3 días en nevera; gana de un día para otro. Calienta a nivel 3 con un chorrito de agua. Se puede congelar, aunque la alubia de tarro se rompe algo.",
+        "title": "Conservación"
+      }
+    ],
+    "origin": "1080 recetas de cocina (Simone Ortega), n.º 218",
+    "phases": [
+      {
+        "name": "Sepia",
+        "steps": [
+          {
+            "level": "8",
+            "text": "Sepia muy seca y salada. En la cocotte con 15 ml de AOVE, séllala hasta que suelte el agua, se evapore y empiece a dorar. Retírala a un plato.",
+            "timer": 180
+          }
+        ]
+      },
+      {
+        "name": "Refrito",
+        "steps": [
+          {
+            "level": "5",
+            "text": "15 ml de AOVE, cebolla y pimiento con una pizca de sal, hasta que la cebolla esté dorada.",
+            "timer": 480
+          },
+          {
+            "level": "5",
+            "text": "Ajo, 1 minuto, sin que se dore.",
+            "timer": 60
+          },
+          {
+            "level": "5",
+            "text": "Tomate rallado, hasta que pierda el agua.",
+            "timer": 300
+          },
+          {
+            "text": "Fuera del fuego, el pimentón: remueve solo 10 segundos, que se quema enseguida."
+          }
+        ]
+      },
+      {
+        "name": "Guiso",
+        "steps": [
+          {
+            "level": "9",
+            "text": "Devuelve la sepia, añade los 300 ml de agua y el laurel y lleva a hervor."
+          },
+          {
+            "level": "3",
+            "text": "Tapada, a hervor suave 15 minutos, hasta que la sepia esté tierna.",
+            "timer": 900
+          },
+          {
+            "level": "3",
+            "text": "Añade las alubias y cuece 10 minutos destapado. Aplasta un cucharón de alubias contra la pared de la cazuela y remueve: su almidón liga el caldo.",
+            "timer": 600
+          },
+          {
+            "text": "Retira el laurel, rectifica de sal y termina con perejil picado."
+          }
+        ]
+      }
+    ],
+    "protein": 32,
+    "servings": 2,
+    "servingsNote": "200 g de alubia cocida y 150 g de sepia por persona",
+    "shopping": [
+      {
+        "detail": "Cocida en tarro de cristal, tipo planchada o riñón, solo con agua y sal. Grano entero y caldo claro.",
+        "item": "Alubia"
+      },
+      {
+        "detail": "Fresca: carne blanca nacarada, sin tonos amarillentos, olor a mar limpio. Pide que te la limpien. Alternativa: sepia limpia congelada, descongelada en la nevera la víspera.",
+        "item": "Sepia"
+      },
+      {
+        "detail": "Italiano, verde brillante y firme.",
+        "item": "Pimiento"
+      }
+    ],
+    "short": "Judías con sepia",
+    "summary": "Alubia blanca de tarro guisada con un refrito de cebolla, pimiento verde y pimentón, con sepia en lugar de chorizo para que sea plato único.",
+    "tags": [
+      "legumbre",
+      "guiso",
+      "pescado",
+      "marisco",
+      "plato único"
+    ],
+    "time": "40 min",
+    "title": "Judías blancas guisadas con sepia",
+    "updatedAt": "2026-11-20T16:20:00+01:00"
   },
   "lentejas-con-pollo": {
     "equipment": [

@@ -218,5 +218,19 @@
     "recipe": "potaje-de-garbanzos-espinacas-y-bacalao",
     "slot": "Comida",
     "text": "Potaje de garbanzos, espinacas y bacalao, del congelador"
+  },
+  "2026-11-20-cena-pollo-a-la-coreana": {
+    "createdAt": "2026-11-20T19:53:02.926Z",
+    "date": "2026-11-20",
+    "recipe": "pollo-a-la-coreana",
+    "slot": "Cena",
+    "text": "Pollo a la coreana con arroz, pepino y espinacas: cena de cumpleaños para 3"
+  },
+  "2026-11-20-comida-lentejas-de-la-tia-ameli": {
+    "createdAt": "2026-11-20T14:18:12.709Z",
+    "date": "2026-11-20",
+    "recipe": "lentejas-de-la-tia-ameli",
+    "slot": "Comida",
+    "text": "Lentejas de la tía Ameli, con el sofrito hecho el domingo: 25 minutos. 2 raciones al congelador"
   }
 }

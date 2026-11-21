@@ -21,13 +21,6 @@
     "servings": 1,
     "text": "Arroz para sushi Haruka (italiano, grano corto)"
   },
-  "2026-11-19-arroz-redondo": {
-    "createdAt": "2026-11-19T15:55:00+01:00",
-    "date": "2026-11-19",
-    "place": "despensa",
-    "servings": 1,
-    "text": "Arroz redondo"
-  },
   "2026-11-19-confitura-de-petalos-de-violeta": {
     "createdAt": "2026-11-19T17:30:00+01:00",
     "date": "2026-11-19",
@@ -90,6 +83,27 @@
     "place": "despensa",
     "servings": 1,
     "text": "Vinagre negro chino de Zhenjiang"
+  },
+  "2026-11-20-azafran-en-hebra": {
+    "createdAt": "2026-11-20T16:15:00+01:00",
+    "date": "2026-11-20",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Azafrán en hebra"
+  },
+  "2026-11-20-noras": {
+    "createdAt": "2026-11-20T16:15:00+01:00",
+    "date": "2026-11-20",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Ñoras secas"
+  },
+  "2026-11-20-pimenton-dulce": {
+    "createdAt": "2026-11-20T16:15:00+01:00",
+    "date": "2026-11-20",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Pimentón dulce"
   },
   "mwnvhonx-apse1v": {
     "createdAt": "2026-11-19T18:17:40.125Z",

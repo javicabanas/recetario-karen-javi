@@ -654,5 +654,312 @@
     "summary": "Comidas y cenas para dos, con cuchara y guisos de carne y pollo. Aprovecha lo que había en la nevera y el congelador; lo largo se cocina el domingo.",
     "title": "Semana del 14 al 20 de noviembre",
     "updatedAt": "2026-11-19T21:40:00+01:00"
+  },
+  "2026-11-21": {
+    "days": [
+      {
+        "date": "2026-11-21",
+        "errand": "Compra de la semana en El Corte Inglés. Sepia y fumet, en la pescadería; la carne picada, en el mostrador.",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "lentejas-de-la-tia-ameli",
+                "text": "Lentejas de la tía Ameli, las que sobraron del viernes"
+              },
+              {
+                "protein": 2,
+                "text": "Ensalada de lechuga, tomate y pepino"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "revuelto-de-setas",
+                "text": "Revuelto de setas con tosta de centeno"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Filetes de pechuga del congelador a la nevera, para la cena de mañana."
+      },
+      {
+        "date": "2026-11-22",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "arroz-a-banda",
+                "text": "Arroz a banda, para dos (la mitad de las cantidades de la receta)"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "crema-de-zanahorias",
+                "text": "Crema de zanahorias, hecha el sábado"
+              },
+              {
+                "protein": 35,
+                "text": "Filete de pechuga a la plancha, del congelador"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-23",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "albondigas-en-salsa",
+                "text": "Albóndigas en salsa, hechas el domingo, con arroz blanco recién hecho"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "protein": 10,
+                "recipe": "crema-de-zanahorias",
+                "text": "Crema de zanahorias con huevo duro picado"
+              },
+              {
+                "protein": 12,
+                "text": "Tosta de centeno con jamón serrano y pepino aliñado"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-24",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "judias-blancas-con-sepia",
+                "text": "Judías blancas guisadas con sepia, hechas el domingo"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "protein": 22,
+                "text": "Judías verdes con patata cocida y bonito en aceite"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Albóndigas del congelador a la nevera, para el jueves."
+      },
+      {
+        "date": "2026-11-25",
+        "errand": "Pescadería: 2 doradas de ración y 2 lomos de lubina. Verdulería: 1 calabacín y 1 puerro.",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "dorada-al-horno-con-panadera",
+                "text": "Dorada al horno con patata panadera"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "protein": 15,
+                "text": "Tortilla francesa con pimiento verde (4 huevos) y ensalada con pepino"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-26",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "albondigas-en-salsa",
+                "text": "Albóndigas en salsa, del congelador, con patata cocida"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "lubina-en-papillote",
+                "text": "Lubina en papillote con calabacín y puerro"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Arroz meloso del congelador a la nevera, para mañana."
+      },
+      {
+        "date": "2026-11-27",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
+                "text": "Arroz meloso de acelgas, alubias y sepia, del congelador"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "tostas-de-escalivada-con-ventresca",
+                "text": "Tostas de escalivada con ventresca y anchoas"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      }
+    ],
+    "end": "2026-11-27",
+    "notes": [
+      {
+        "text": "De la nevera: las lentejas del viernes, los pimientos verdes (judías, albóndigas y tortilla) y los tres pepinos (ensaladas y pepino aliñado). Del congelador: los filetes de pechuga y el arroz meloso.",
+        "title": "Aprovechado"
+      },
+      {
+        "text": "Ningún día pasa de 25 minutos de trabajo; la dorada del miércoles se hace sola en el horno.",
+        "title": "Entre semana"
+      },
+      {
+        "text": "Comidas de 30-40 g por persona y cenas de unos 20 g.",
+        "title": "Proteína"
+      },
+      {
+        "text": "Legumbre tres días, verdura en todas las comidas y crema en dos cenas. El jueves las albóndigas van con patata, para no repetir arroz blanco.",
+        "title": "Fibra y líquido"
+      },
+      {
+        "text": "El domingo entran 2 raciones de albóndigas: apúntalas en «Despensa».",
+        "title": "Congelador"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 21 al 27 de noviembre de 2026",
+    "prep": [
+      {
+        "steps": [
+          {
+            "text": "Toda la lista «Compra Súper»."
+          },
+          {
+            "how": "Pide la sepia limpia y, si te la dan, la salsa (el hígado) para la salmorreta. La carne, aguja de ternera y cabeza de lomo de cerdo a partes iguales, picada delante de ti.",
+            "text": "En la pescadería: sepia limpia en un trozo (500 g) y fumet. En la carnicería: carne picada en el momento."
+          }
+        ],
+        "title": "Compra",
+        "when": "Sábado 21 · mañana"
+      },
+      {
+        "steps": [
+          {
+            "how": "Receta entera. Las 4 raciones a la nevera: dos para la cena del domingo y dos para la del lunes.",
+            "recipe": "crema-de-zanahorias",
+            "text": "Crema de zanahorias para 4."
+          },
+          {
+            "how": "Mientras hierve la crema: 10 minutos en agua hirviendo a nivel 7 y a agua fría. Con cáscara, a la nevera.",
+            "text": "2 huevos duros para el lunes."
+          },
+          {
+            "how": "Agua muy fría 10 minutos, centrifugadora y a un táper con papel de cocina debajo y encima. Aguanta hasta el miércoles.",
+            "text": "Lechuga lavada y seca, en táper con papel de cocina."
+          },
+          {
+            "text": "Pechuga del congelador a la nevera."
+          }
+        ],
+        "title": "Adelanto, 45 minutos",
+        "when": "Sábado 21 · 17:30"
+      },
+      {
+        "steps": [
+          {
+            "how": "Sécala bien con papel y guárdala en dos boles en la nevera hasta que toque.",
+            "text": "Corta la sepia: 200 g en dados de 1 cm para el arroz y 300 g en dados de 2 cm para las judías."
+          },
+          {
+            "how": "Receta entera: masa, dorado en la De Buyer y salsa en la misma sartén. Cuando estén tapadas en la cocotte a nivel 3 (fase «Cocción»), arranca las judías.",
+            "recipe": "albondigas-en-salsa",
+            "text": "Fuego 1: albóndigas en salsa para 4."
+          },
+          {
+            "how": "Receta entera. La cocotte está ocupada con las albóndigas: usa una cazuela baja con tapa.",
+            "recipe": "judias-blancas-con-sepia",
+            "text": "Fuego 2, en otra cazuela con tapa: judías blancas con sepia para 2."
+          },
+          {
+            "how": "Tápers poco hondos, destapados hasta que dejen de humear. Albóndigas: 2 raciones con salsa a la nevera (lunes) y 2 al congelador (jueves). Judías: a la nevera (martes). Todo con nombre y fecha.",
+            "text": "Enfriar y guardar antes de 2 horas."
+          },
+          {
+            "how": "Para dos, la mitad de todo: 180 g de arroz bomba, 600 ml de fumet y 200 g de sepia. La capa queda fina en la paellera de 36 cm: vigila el socarrat desde el minuto 12.",
+            "recipe": "arroz-a-banda",
+            "text": "Arroz a banda para comer, a las 12:45."
+          }
+        ],
+        "title": "Cocina en paralelo, 2 h 15 min",
+        "when": "Domingo 22 · 11:00"
+      },
+      {
+        "steps": [
+          {
+            "how": "Pechuga seca y salada, en la De Buyer con un hilo de AOVE a nivel 7: 2 minutos por cara si es filete fino. Reposo de 1 minuto.",
+            "text": "Calentar la crema y hacer la pechuga a la plancha."
+          }
+        ],
+        "title": "Cena",
+        "when": "Domingo 22 · 21:00"
+      }
+    ],
+    "servings": 2,
+    "shopping": [
+      {
+        "what": "Toda la lista, menos el pescado de mitad de semana.",
+        "when": "Sábado 21",
+        "where": "El Corte Inglés"
+      },
+      {
+        "what": "2 doradas de ración, 2 lomos de lubina de 150 g, 1 calabacín y 1 puerro.",
+        "when": "Miércoles 25",
+        "where": "Pescadería"
+      }
+    ],
+    "start": "2026-11-21",
+    "summary": "Comidas y cenas para dos, con más pescado que la semana pasada: arroz a banda, dorada y lubina, y albóndigas y judías blancas con sepia hechas el domingo. Gasta la pechuga y el arroz meloso del congelador.",
+    "title": "Semana del 21 al 27 de noviembre",
+    "updatedAt": "2026-11-20T16:30:00+01:00"
   }
 }
