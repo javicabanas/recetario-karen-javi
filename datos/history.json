@@ -118,6 +118,13 @@
     "slot": "Comida",
     "text": "Rape a la plancha con refrito de ajo, patata y guisantes"
   },
+  "2026-11-14-cena-ensalada-de-escarola-con-granada": {
+    "createdAt": "2026-11-21T17:06:00+01:00",
+    "date": "2026-11-14",
+    "recipe": "ensalada-de-escarola-con-granada",
+    "slot": "Cena",
+    "text": "Ensalada de escarola con granada"
+  },
   "2026-11-14-cena-tostas-de-escalivada-con-ventresca": {
     "createdAt": "2026-11-14T19:47:38.952Z",
     "date": "2026-11-14",
@@ -206,9 +213,10 @@
     "slot": "Cena",
     "text": "Crema de calabacín y puerro"
   },
-  "2026-11-19-cena-pollo-a-la-plancha-con-ajo": {
+  "2026-11-19-cena-pechuga-a-la-plancha-con-ajos-fritos": {
     "createdAt": "2026-11-19T21:35:00+01:00",
     "date": "2026-11-19",
+    "recipe": "pechuga-a-la-plancha-con-ajos-fritos",
     "slot": "Cena",
     "text": "Pollo a la plancha con ajo"
   },
@@ -226,11 +234,38 @@
     "slot": "Cena",
     "text": "Pollo a la coreana con arroz, pepino y espinacas: cena de cumpleaños para 3"
   },
+  "2026-11-20-comida-ensalada-de-escarola-con-granada": {
+    "createdAt": "2026-11-21T17:07:00+01:00",
+    "date": "2026-11-20",
+    "recipe": "ensalada-de-escarola-con-granada",
+    "slot": "Comida",
+    "text": "Ensalada de escarola con granada"
+  },
   "2026-11-20-comida-lentejas-de-la-tia-ameli": {
     "createdAt": "2026-11-20T14:18:12.709Z",
     "date": "2026-11-20",
     "recipe": "lentejas-de-la-tia-ameli",
     "slot": "Comida",
     "text": "Lentejas de la tía Ameli, con el sofrito hecho el domingo: 25 minutos. 2 raciones al congelador"
+  },
+  "2026-11-21-cena-revuelto-de-setas": {
+    "createdAt": "2026-11-21T20:44:03.278Z",
+    "date": "2026-11-21",
+    "recipe": "revuelto-de-setas",
+    "slot": "Cena",
+    "text": "Revuelto de setas con tosta de centeno"
+  },
+  "2026-11-21-comida-ensalada-de-lechuga-tomate-y-pepino": {
+    "createdAt": "2026-11-21T15:54:49.695Z",
+    "date": "2026-11-21",
+    "slot": "Comida",
+    "text": "Ensalada de lechuga, tomate y pepino"
+  },
+  "2026-11-21-comida-lentejas-de-la-tia-ameli": {
+    "createdAt": "2026-11-21T15:54:46.478Z",
+    "date": "2026-11-21",
+    "recipe": "lentejas-de-la-tia-ameli",
+    "slot": "Comida",
+    "text": "Lentejas de la tía Ameli, las que sobraron del viernes"
   }
 }

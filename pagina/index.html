@@ -539,7 +539,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   const state = { recipes: [], byId: new Map(), status: 'loading', errorCode: null, query: '', tags: new Set(), servings: {}, view: null, menus: [], menuStatus: 'loading', backTo: null, ratings: new Map(), ratingsOn: false, sort: store.get('rec:sort', 'az'), history: new Map(), histOn: false, histMonth: null, histDay: null, addDate: null };
   const app = $('#app');
   let dbh = null;
-  state.freezer = []; state.feedback = []; state.fzDraft = { text: '', n: 2, date: '', place: 'congelador' }; state.fbDraft = {}; state.fzAsk = null; state.extraOn = false;
+  state.freezer = []; state.feedback = []; state.fzDraft = { text: '', n: 2, date: '', place: 'congelador' }; state.fbDraft = {}; state.fzAsk = null; state.pnAsk = null; state.extraOn = false;
   /* Casillas marcadas (ingredientes y plan): se guardan en la base de datos, colección `checks`,
      para que sobrevivan a recargar y se vean en todos los dispositivos. El almacenamiento local es solo respaldo. */
   const checkState = new Map();
@@ -732,28 +732,30 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     try { if (body === null) await ref.delete(); else await ref.set(body); return true; } catch { toast(failMsg); return false; }
   }
   const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+  const fzPlace = (p) => (p === 'despensa' || p === 'nevera' ? p : 'congelador');
+  const FZ_WHERE = { nevera: 'la nevera', congelador: 'el congelador', despensa: 'la despensa' };
   function normalizeFreezer(id, x) {
-    return { id, text: String(x.text || ''), recipe: x.recipe || null, servings: Math.max(0, Math.round(Number(x.servings) || 0)), date: String(x.date || '').slice(0, 10) || todayISO(), place: x.place === 'despensa' ? 'despensa' : 'congelador', createdAt: x.createdAt || null };
+    return { id, text: String(x.text || ''), recipe: x.recipe || null, servings: Math.max(0, Math.round(Number(x.servings) || 0)), date: String(x.date || '').slice(0, 10) || todayISO(), place: fzPlace(x.place), createdAt: x.createdAt || null };
   }
-  const fzTotal = (rid) => state.freezer.filter((x) => x.recipe === rid && x.place === 'congelador').reduce((n, x) => n + x.servings, 0);
+  const fzTotal = (rid, place) => state.freezer.filter((x) => x.recipe === rid && x.place !== 'despensa' && (!place || x.place === place)).reduce((n, x) => n + x.servings, 0);
   function fzAdd(text, servings, date, place) {
     const clean = String(text || '').trim();
     if (!clean) { toast('Escribe el nombre del plato'); return false; }
     const n = Math.max(1, Math.min(40, Math.round(Number(servings) || 0)));
     const rec = state.recipes.find((r) => norm(r.title) === norm(clean));
-    const where = place === 'despensa' ? 'despensa' : 'congelador';
-    const body = { text: rec && where === 'congelador' ? rec.title : clean.slice(0, 120), servings: n, date: date || todayISO(), place: where, createdAt: new Date().toISOString() };
-    if (rec && where === 'congelador') body.recipe = rec.id;
+    const where = fzPlace(place); const cooked = where !== 'despensa';
+    const body = { text: rec && cooked ? rec.title : clean.slice(0, 120), servings: n, date: date || todayISO(), place: where, createdAt: new Date().toISOString() };
+    if (rec && cooked) body.recipe = rec.id;
     const id = newId();
     state.freezer.push({ id, ...body, recipe: body.recipe || null });
-    docWrite('freezer', id, body, 'No se ha guardado en el congelador. Prueba otra vez.');
+    docWrite('freezer', id, body, 'No se ha guardado. Prueba otra vez.');
     return true;
   }
   function fzSet(id, servings) {
     const x = state.freezer.find((e) => e.id === id); if (!x) return;
     if (servings <= 0) {
       state.freezer = state.freezer.filter((e) => e.id !== id);
-      docWrite('freezer', id, null, 'No se ha quitado del congelador. Prueba otra vez.');
+      docWrite('freezer', id, null, 'No se ha quitado. Prueba otra vez.');
       return;
     }
     x.servings = Math.min(40, servings);
@@ -763,7 +765,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
   }
   function fzTake(rid, n) {
     let left = n;
-    for (const x of state.freezer.filter((e) => e.recipe === rid && e.place === 'congelador').sort((a, b) => a.date.localeCompare(b.date))) {
+    for (const x of state.freezer.filter((e) => e.recipe === rid && e.place !== 'despensa').sort((a, b) => (a.place === 'nevera' ? 0 : 1) - (b.place === 'nevera' ? 0 : 1) || a.date.localeCompare(b.date))) {
       if (left <= 0) break;
       const take = Math.min(left, x.servings); left -= take;
       fzSet(x.id, x.servings - take);
@@ -778,14 +780,42 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     const a = state.fzAsk; if (!a || isReadonly()) return '';
     const total = fzTotal(a.recipe); if (!total) return '';
     const n = Math.min(total, a.n);
-    return `<p class="notice fz-ask"><span>Hay ${plural(total, 'ración', 'raciones')} de <b>${esc(a.title)}</b> en el congelador. ¿Esto salió de ahí?</span><span class="row"><button class="btn btn-primary" data-action="fz-ask-yes">Sí, descontar ${n}</button><button class="btn" data-action="fz-ask-no">No</button></span></p>`;
+    const nev = fzTotal(a.recipe, 'nevera'), con = total - nev;
+    const where = nev && con ? `guardadas (${nev} en la nevera y ${con} en el congelador)` : nev ? 'en la nevera' : 'en el congelador';
+    return `<p class="notice fz-ask"><span>Hay ${plural(total, 'ración', 'raciones')} de <b>${esc(a.title)}</b> ${where}. ¿Esto salió de ahí?</span><span class="row"><button class="btn btn-primary" data-action="fz-ask-yes">Sí, descontar ${n}</button><button class="btn" data-action="fz-ask-no">No</button></span></p>`;
+  }
+  /* Despensa: al apuntar un plato como comido, pregunta por los productos de la despensa que coinciden
+     con los ingredientes de su receta. Coincidencia: las dos primeras palabras con peso de uno están en el otro. */
+  const PN_STOP = new Set(['con', 'del', 'las', 'los', 'para', 'por', 'una', 'uno', 'sin']);
+  const pnWords = (s) => norm(String(s || '').replace(/\(.*?\)/g, ' ')).split(/[^a-z0-9ñ]+/).filter((w) => w.length >= 3 && !PN_STOP.has(w)).map((w) => w.replace(/s$/, ''));
+  function pnMatch(a, b) {
+    const head = a.slice(0, 2);
+    return head.length > 0 && head.every((w) => b.includes(w));
+  }
+  function pnMaybeAsk(rid, title) {
+    const r = rid && state.byId.get(rid);
+    if (!r || isReadonly()) return;
+    const ings = r.ingredients.flatMap((g) => g.items.map((i) => pnWords(i.name)));
+    const ids = state.freezer.filter((x) => x.place === 'despensa').filter((x) => { const w = pnWords(x.text); return ings.some((i) => pnMatch(w, i) || pnMatch(i, w)); })
+      .sort((a, b) => a.text.localeCompare(b.text, 'es')).map((x) => x.id);
+    state.pnAsk = ids.length ? { title, ids } : null;
+  }
+  function pnAskHTML() {
+    const a = state.pnAsk; if (!a || isReadonly()) return '';
+    const items = a.ids.map((id) => state.freezer.find((x) => x.id === id)).filter(Boolean);
+    if (!items.length) return '';
+    return `<div class="notice fz-ask"><span>¿Gastaste algo de la despensa al hacer <b>${esc(a.title)}</b>?</span>
+      <ul class="hist-list">${items.map((x) => `<li><span>${esc(x.text)}${x.servings > 1 ? ` · quedan ${x.servings}` : ''}</span><button class="btn" data-action="pn-used" data-id="${esc(x.id)}">Gastado</button></li>`).join('')}</ul>
+      <span class="row"><button class="btn btn-primary" data-action="pn-done">Listo</button></span></div>`;
   }
   function fzRecipeHTML(r) {
     if (isReadonly() || !state.extraOn) return '';
     const total = fzTotal(r.id);
-    return `<section class="hist" aria-label="Congelador">
-      <div class="hist-sum"><b>Congelador</b><span>${total ? plural(total, 'ración guardada', 'raciones guardadas') : 'No hay raciones guardadas'}</span></div>
-      <div class="row"><button class="btn" data-action="fz-from-recipe">Guardar raciones</button>${total ? '<a class="howto" href="#congelador">Ver el congelador →</a>' : ''}</div>
+    const nev = fzTotal(r.id, 'nevera'), con = total - nev;
+    const sum = [nev ? `${nev} en la nevera` : '', con ? `${con} en el congelador` : ''].filter(Boolean).join(' · ');
+    return `<section class="hist" aria-label="Nevera y congelador">
+      <div class="hist-sum"><b>Nevera y congelador</b><span>${total ? `Raciones guardadas: ${sum}` : 'No hay raciones guardadas'}</span></div>
+      <div class="row"><button class="btn" data-action="fz-from-recipe">Guardar raciones</button>${total ? '<a class="howto" href="#congelador">Ver lo guardado →</a>' : ''}</div>
     </section>`;
   }
   function feedbackHTML(r) {
@@ -804,8 +834,8 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     const ro = isReadonly();
     const pantry = d.place === 'despensa';
     const form = ro ? '' : `<section class="hist" aria-label="Apuntar">
-        <div class="hist-sum"><b>Apuntar</b><span>${pantry ? 'Lo que dura: conservas, legumbres, arroces, pasta. Nombre, unidades y día en que lo apuntas.' : 'Plato, raciones y día en que lo congelas. Si es una receta, elige su nombre de la lista para que quede enlazada.'}</span></div>
-        <div class="row"><label class="sr" for="fz-place">Dónde</label><select id="fz-place" class="sort-sel"><option value="congelador"${pantry ? '' : ' selected'}>Congelador</option><option value="despensa"${pantry ? ' selected' : ''}>Despensa</option></select>
+        <div class="hist-sum"><b>Apuntar</b><span>${pantry ? 'Lo que dura: conservas, legumbres, arroces, pasta. Nombre, unidades y día en que lo apuntas.' : d.place === 'nevera' ? 'Plato ya hecho que guardas en táper: raciones y día en que lo cocinas. Si es una receta, elige su nombre de la lista para que quede enlazada.' : 'Plato, raciones y día en que lo congelas. Si es una receta, elige su nombre de la lista para que quede enlazada.'}</span></div>
+        <div class="row"><label class="sr" for="fz-place">Dónde</label><select id="fz-place" class="sort-sel">${[['nevera', 'Nevera'], ['congelador', 'Congelador'], ['despensa', 'Despensa']].map(([v, l]) => `<option value="${v}"${d.place === v ? ' selected' : ''}>${l}</option>`).join('')}</select>
           <label class="sr" for="fz-text">${pantry ? 'Producto' : 'Plato'}</label><input type="text" id="fz-text" ${pantry ? '' : 'list="fz-recipes" '}placeholder="${pantry ? 'Producto' : 'Plato'}" autocomplete="off" maxlength="120" value="${esc(d.text)}">
           ${pantry ? '' : `<datalist id="fz-recipes">${state.recipes.map((r) => `<option value="${esc(r.title)}"></option>`).join('')}</datalist>`}
           <label class="sr" for="fz-n">${pantry ? 'Unidades' : 'Raciones'}</label><input type="number" id="fz-n" min="1" max="40" inputmode="numeric" value="${esc(d.n)}">
@@ -813,23 +843,27 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
           <button class="btn btn-primary" data-action="fz-add">Guardar</button></div>
       </section>`;
     const itemHTML = (x) => {
-      const frozen = x.place === 'congelador';
+      const frozen = x.place !== 'despensa';
+      const fridge = x.place === 'nevera';
       const r = x.recipe ? state.byId.get(x.recipe) : null;
-      const old = frozen && (new Date(t) - new Date(x.date)) / 864e5 > 90;
+      const days = (new Date(t) - new Date(x.date)) / 864e5;
+      const old = fridge ? days >= 3 : frozen && days > 90;
       const name = esc(r ? r.title : x.text);
       const unit = frozen ? 'rac.' : 'ud.';
       return `<li class="fz-item">
-        <div class="what">${r ? `<a href="#r-${encodeURIComponent(r.id)}">${name}</a>` : `<b>${name}</b>`}<span${old ? ' class="old"' : ''}>${frozen ? 'Congelado' : 'Apuntado'} el ${esc(shortDate(x.date))} (${esc(agoText(x.date))})${old ? ' · lleva más de 3 meses' : ''}</span></div>
+        <div class="what">${r ? `<a href="#r-${encodeURIComponent(r.id)}">${name}</a>` : `<b>${name}</b>`}<span${old ? ' class="old"' : ''}>${fridge ? 'Hecho' : frozen ? 'Congelado' : 'Apuntado'} el ${esc(shortDate(x.date))} (${esc(agoText(x.date))})${old ? (fridge ? ' · gástalo ya o congélalo' : ' · lleva más de 3 meses') : ''}</span></div>
         ${ro ? `<div class="fz-ctl"><output>${x.servings}</output><span class="unit">${unit}</span></div>` : `<div class="fz-ctl"><button class="pm" data-action="fz-step" data-id="${esc(x.id)}" data-d="-1" aria-label="Uno menos de ${name}">−</button><output aria-live="polite">${x.servings}</output><span class="unit">${unit}</span><button class="pm" data-action="fz-step" data-id="${esc(x.id)}" data-d="1" aria-label="Uno más de ${name}">+</button><button class="x-btn" data-action="fz-del" data-id="${esc(x.id)}" aria-label="Quitar ${name}">Quitar</button></div>`}
       </li>`;
     };
     const group = (title, list, empty) => `<section class="group"><h3>${title}</h3>${list.length ? `<ul class="fz-list">${list.map(itemHTML).join('')}</ul>` : `<div class="empty"><p>${empty}</p></div>`}</section>`;
     const frozen = all.filter((x) => x.place === 'congelador');
+    const fridge = all.filter((x) => x.place === 'nevera');
     const dry = all.filter((x) => x.place === 'despensa').sort((a, b) => a.text.localeCompare(b.text, 'es'));
-    const total = frozen.reduce((n, x) => n + x.servings, 0);
-    app.innerHTML = `${mainHeader('congelador', total ? `${plural(total, 'ración', 'raciones')} en el congelador` : 'Despensa y congelador')}${statusNotice()}
-      <section class="head"><h1>Despensa y congelador</h1><p class="lede">${ro ? 'Lo que hay en casa ahora mismo, por si se te ocurre qué cocinar con ello.' : 'Lo que hay en casa para contar con ello al hacer el menú y la lista de la compra. Al marcar un plato como comido, la página pregunta si salió del congelador para descontarlo.'}</p></section>
+    const total = frozen.concat(fridge).reduce((n, x) => n + x.servings, 0);
+    app.innerHTML = `${mainHeader('congelador', total ? `${plural(total, 'ración guardada', 'raciones guardadas')}` : 'Nevera, congelador y despensa')}${statusNotice()}
+      <section class="head"><h1>Nevera, congelador y despensa</h1><p class="lede">${ro ? 'Lo que hay en casa ahora mismo, por si se te ocurre qué cocinar con ello.' : 'Lo que hay en casa para contar con ello al hacer el menú y la lista de la compra. En la nevera, solo los platos ya hechos. Al marcar un plato como comido, la página pregunta si salió de la nevera o del congelador para descontarlo.'}</p></section>
       ${form}
+      ${group('Nevera', fridge, 'No hay platos hechos apuntados en la nevera.')}
       ${group('Congelador', frozen, 'No hay nada apuntado en el congelador.')}
       ${group('Despensa', dry, 'No hay nada apuntado en la despensa.')}`;
   }
@@ -1198,7 +1232,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     else if (section === 'congelador' && !document.body.classList.contains('readonly')) renderFreezer();
     else if (section === 'copia') renderBackup();
     else renderToday();
-    const ask = fzAskHTML();
+    const ask = fzAskHTML() || pnAskHTML();
     if (ask) { const head = app.querySelector('header'); if (head) head.insertAdjacentHTML('afterend', ask); }
     if (keepId && same) {
       const again = document.getElementById(keepId);
@@ -1650,7 +1684,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       }
       case 'eat': {
         const d = el.dataset;
-        if (el.getAttribute('aria-pressed') !== 'true' && d.recipe) fzMaybeAsk(d.recipe, (state.byId.get(d.recipe) || {}).title || d.text);
+        if (el.getAttribute('aria-pressed') !== 'true' && d.recipe) { const t = (state.byId.get(d.recipe) || {}).title || d.text; fzMaybeAsk(d.recipe, t); pnMaybeAsk(d.recipe, t); }
         histSet({ id: d.id, date: d.date, slot: d.slot, recipe: d.recipe || null, text: d.text }, el.getAttribute('aria-pressed') !== 'true');
         $(`[data-action="eat"][data-id="${CSS.escape(d.id)}"]`)?.focus();
         break;
@@ -1659,12 +1693,12 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         const date = state.addDate || todayISO(); const slot = el.dataset.slot;
         const id = histId(date, slot, r.id, r.title);
         if (histIndex().all.has(id)) toast('Ya estaba apuntada ese día');
-        else { fzMaybeAsk(r.id, r.title); histSet({ id, date, slot, recipe: r.id, text: r.title }, true); toast(`Apuntada: ${slot.toLowerCase()} del ${shortDate(date)}`); }
+        else { fzMaybeAsk(r.id, r.title); pnMaybeAsk(r.id, r.title); histSet({ id, date, slot, recipe: r.id, text: r.title }, true); toast(`Apuntada: ${slot.toLowerCase()} del ${shortDate(date)}`); }
         break;
       }
       case 'fz-add': {
         const d = state.fzDraft;
-        if (fzAdd(d.text, d.n, d.date, d.place)) { state.fzDraft = { text: '', n: d.place === 'despensa' ? 1 : 2, date: '', place: d.place }; toast('Guardado en el congelador'); render(); }
+        if (fzAdd(d.text, d.n, d.date, d.place)) { state.fzDraft = { text: '', n: d.place === 'despensa' ? 1 : 2, date: '', place: d.place }; toast(`Guardado en ${FZ_WHERE[fzPlace(d.place)]}`); render(); }
         break;
       }
       case 'fz-step': {
@@ -1672,14 +1706,25 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         if (x) { const id = x.id; const d = el.dataset.d; fzSet(id, x.servings + Number(d)); render(); $(`[data-action="fz-step"][data-id="${CSS.escape(id)}"][data-d="${d}"]`)?.focus(); }
         break;
       }
-      case 'fz-del': fzSet(el.dataset.id, 0); toast('Quitado del congelador'); render(); break;
+      case 'fz-del': fzSet(el.dataset.id, 0); toast('Quitado'); render(); break;
       case 'fz-ask-yes': {
-        const a = state.fzAsk; state.fzAsk = null;
-        if (a) { const n = Math.min(fzTotal(a.recipe), a.n); fzTake(a.recipe, n); toast(`${plural(n, 'ración descontada', 'raciones descontadas')} del congelador`); }
+        const a = state.fzAsk; state.fzAsk = null; state.pnAsk = null;
+        if (a) { const n = Math.min(fzTotal(a.recipe), a.n); fzTake(a.recipe, n); toast(plural(n, 'ración descontada', 'raciones descontadas')); }
         render();
         break;
       }
       case 'fz-ask-no': state.fzAsk = null; render(); break;
+      case 'pn-used': {
+        const a = state.pnAsk; const x = state.freezer.find((e) => e.id === el.dataset.id);
+        if (a && x) {
+          fzSet(x.id, x.servings - 1); toast('Descontado de la despensa');
+          a.ids = a.ids.filter((id) => id !== x.id);
+          if (!a.ids.length) state.pnAsk = null;
+        }
+        render();
+        break;
+      }
+      case 'pn-done': state.pnAsk = null; render(); break;
       case 'fz-from-recipe': if (r) { state.fzDraft = { text: r.title, n: 2, date: '', place: 'congelador' }; location.hash = 'congelador'; } break;
       case 'fb-add': if (r) {
         const txt = String(state.fbDraft[r.id] || '').trim();
@@ -1738,7 +1783,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     if (el.id === 'fz-text') state.fzDraft.text = el.value;
     else if (el.id === 'fz-n') state.fzDraft.n = el.value;
     else if (el.id === 'fz-date') state.fzDraft.date = el.value;
-    else if (el.id === 'fz-place') { state.fzDraft.place = el.value === 'despensa' ? 'despensa' : 'congelador'; state.fzDraft.n = state.fzDraft.place === 'despensa' ? 1 : 2; render(); $('#fz-place')?.focus(); }
+    else if (el.id === 'fz-place') { state.fzDraft.place = fzPlace(el.value); state.fzDraft.n = state.fzDraft.place === 'despensa' ? 1 : 2; render(); $('#fz-place')?.focus(); }
     else if (el.id === 'fb-text') { const id = currentId(); if (id) state.fbDraft[id] = el.value; }
   });
 

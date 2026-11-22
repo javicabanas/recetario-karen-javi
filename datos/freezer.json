@@ -105,6 +105,83 @@
     "servings": 1,
     "text": "Pimentón dulce"
   },
+  "2026-11-21-alioli": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 2,
+    "text": "Alioli (tarro)"
+  },
+  "2026-11-21-alubia-blanca-cocida": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Alubia blanca cocida (tarro de 400 g)"
+  },
+  "2026-11-21-anchoas": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Anchoas (lata)"
+  },
+  "2026-11-21-arroz-bomba": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Arroz bomba (500 g)"
+  },
+  "2026-11-21-bonito-en-aceite-de-oliva": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Bonito en aceite de oliva (tarro)"
+  },
+  "2026-11-21-escalivada": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Escalivada (tarro)"
+  },
+  "2026-11-21-harina-de-trigo": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Harina de trigo (1 kg)"
+  },
+  "2026-11-21-pan-rallado": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Pan rallado (paquete)"
+  },
+  "2026-11-21-tomate-entero-pelado": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Tomate entero pelado (lata de 400 g)"
+  },
+  "2026-11-21-ventresca": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Ventresca (lata)"
+  },
+  "2026-11-21-vino-blanco-seco": {
+    "createdAt": "2026-11-21T12:45:00+01:00",
+    "date": "2026-11-21",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Vino blanco seco (botella)"
+  },
   "mwnvhonx-apse1v": {
     "createdAt": "2026-11-19T18:17:40.125Z",
     "date": "2026-11-19",

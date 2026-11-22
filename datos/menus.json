@@ -707,8 +707,12 @@
                 "text": "Crema de zanahorias, hecha el sábado"
               },
               {
-                "protein": 35,
-                "text": "Filete de pechuga a la plancha, del congelador"
+                "recipe": "pechuga-a-la-plancha-con-ajos-fritos",
+                "text": "Pechuga a la plancha con ajos fritos, del congelador"
+              },
+              {
+                "recipe": "ensalada-de-escarola-con-granada",
+                "text": "Ensalada de escarola con granada"
               }
             ],
             "slot": "Cena"
@@ -936,11 +940,17 @@
       {
         "steps": [
           {
-            "how": "Pechuga seca y salada, en la De Buyer con un hilo de AOVE a nivel 7: 2 minutos por cara si es filete fino. Reposo de 1 minuto.",
-            "text": "Calentar la crema y hacer la pechuga a la plancha."
+            "how": "Escarola en agua muy fría 10 minutos, centrifugadora, granada desgranada y el aliño en el mortero; se aliña al sentarse. Mientras la escarola está en remojo, calienta la crema a nivel 4.",
+            "recipe": "ensalada-de-escarola-con-granada",
+            "text": "Ensalada de escarola con granada y calentar la crema."
+          },
+          {
+            "how": "Receta entera: primero los ajos fritos en el cazo y, ya reservados, la pechuga en la De Buyer. Lo último, para que llegue caliente a la mesa.",
+            "recipe": "pechuga-a-la-plancha-con-ajos-fritos",
+            "text": "Pechuga a la plancha con ajos fritos."
           }
         ],
-        "title": "Cena",
+        "title": "Cena, 25 minutos",
         "when": "Domingo 22 · 21:00"
       }
     ],
@@ -960,6 +970,6 @@
     "start": "2026-11-21",
     "summary": "Comidas y cenas para dos, con más pescado que la semana pasada: arroz a banda, dorada y lubina, y albóndigas y judías blancas con sepia hechas el domingo. Gasta la pechuga y el arroz meloso del congelador.",
     "title": "Semana del 21 al 27 de noviembre",
-    "updatedAt": "2026-11-20T16:30:00+01:00"
+    "updatedAt": "2026-11-21T17:25:00+01:00"
   }
 }

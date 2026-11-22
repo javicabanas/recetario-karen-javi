@@ -44,6 +44,11 @@
     "karen": 5,
     "updatedAt": "2026-11-09T13:39:35.771Z"
   },
+  "ensalada-de-escarola-con-granada": {
+    "javier": 5,
+    "karen": 5,
+    "updatedAt": "2026-11-21T16:05:03.190Z"
+  },
   "ensalada-de-garbanzos-con-bonito-y-huevo": {
     "javier": 4,
     "karen": 4,
@@ -72,6 +77,10 @@
     "javier": 5,
     "karen": 2,
     "updatedAt": "2026-11-11T10:49:25.986Z"
+  },
+  "pechuga-a-la-plancha-con-ajos-fritos": {
+    "javier": 3,
+    "updatedAt": "2026-11-21T16:28:08.680Z"
   },
   "pollo-a-la-coreana": {
     "javier": 4,
