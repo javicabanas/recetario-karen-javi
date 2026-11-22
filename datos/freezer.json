@@ -91,13 +91,6 @@
     "servings": 1,
     "text": "Azafrán en hebra"
   },
-  "2026-11-20-noras": {
-    "createdAt": "2026-11-20T16:15:00+01:00",
-    "date": "2026-11-20",
-    "place": "despensa",
-    "servings": 1,
-    "text": "Ñoras secas"
-  },
   "2026-11-20-pimenton-dulce": {
     "createdAt": "2026-11-20T16:15:00+01:00",
     "date": "2026-11-20",
@@ -181,6 +174,35 @@
     "place": "despensa",
     "servings": 1,
     "text": "Vino blanco seco (botella)"
+  },
+  "2026-11-22-berenjenas-a-la-parmigiana": {
+    "createdAt": "2026-11-22T18:00:00+01:00",
+    "date": "2026-11-22",
+    "place": "nevera",
+    "recipe": "berenjenas-a-la-parmigiana",
+    "servings": 6,
+    "text": "Berenjenas a la parmigiana (regalo de Mary Nelly)"
+  },
+  "2026-11-22-carne-picada-de-anojo": {
+    "createdAt": "2026-11-22T11:30:00+01:00",
+    "date": "2026-11-22",
+    "place": "congelador",
+    "servings": 1,
+    "text": "Carne picada de añojo (200 g)"
+  },
+  "2026-11-22-carne-picada-de-cerdo-iberico": {
+    "createdAt": "2026-11-22T11:30:00+01:00",
+    "date": "2026-11-22",
+    "place": "congelador",
+    "servings": 1,
+    "text": "Carne picada de cerdo ibérico (100 g)"
+  },
+  "2026-11-22-fumet-de-pescado": {
+    "createdAt": "2026-11-22T18:13:00+01:00",
+    "date": "2026-11-22",
+    "place": "congelador",
+    "servings": 1,
+    "text": "Fumet de pescado (400 ml)"
   },
   "mwnvhonx-apse1v": {
     "createdAt": "2026-11-19T18:17:40.125Z",

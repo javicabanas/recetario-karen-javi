@@ -39,7 +39,7 @@ Albóndigas de ternera y cerdo doradas en sartén y terminadas en una salsa trit
 
 **Masa**
 
-1. En un bol, el huevo batido con el ajo, el perejil, el vino, el pan rallado y la sal. Añade la carne y mezcla con la mano lo justo para que quede uniforme: amasada de más, la albóndiga queda prieta.
+1. En un bol, el huevo batido con el ajo, el perejil, los 45 ml de vino blanco, el pan rallado y la sal. Añade la carne y mezcla con la mano lo justo para que quede uniforme: amasada de más, la albóndiga queda prieta.
 2. Con las manos mojadas, forma unas 20 bolas de 35 g (como una nuez grande). Pásalas por harina y sacude el exceso.
 
 **Dorar**
@@ -51,7 +51,7 @@ Albóndigas de ternera y cerdo doradas en sartén y terminadas en una salsa trit
 4. En la misma sartén, con 2 cucharadas del aceite que queda, cebolla y pimiento con una pizca de sal hasta que la cebolla empiece a dorarse. _[inducción nivel 5 · 8 min]_
 5. Añade el tomate rallado y sofríe, rascando el fondo, hasta que pierda el agua y oscurezca. _[inducción nivel 5 · 7 min]_
 6. Vierte 350 ml de agua, sal y lleva a hervor. Pasa la salsa a un vaso y tritúrala con la batidora. _[inducción nivel 9]_
-7. Tuesta las hebras de azafrán 10 segundos en la sartén vacía y templada, desházalas con los dedos sobre los 50 ml de agua restantes, calientes, y añádelo a la salsa.
+7. Tuesta las hebras de azafrán 10 segundos en la sartén vacía y templada, deshazlas con los dedos sobre los 50 ml de agua restantes, calientes, y añádelo a la salsa.
 
 **Cocción**
 

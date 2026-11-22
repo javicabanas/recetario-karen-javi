@@ -695,6 +695,10 @@
               {
                 "recipe": "arroz-a-banda",
                 "text": "Arroz a banda, para dos (la mitad de las cantidades de la receta)"
+              },
+              {
+                "recipe": "ensalada-de-escarola-con-granada",
+                "text": "Ensalada de escarola con granada"
               }
             ],
             "slot": "Comida"
@@ -703,16 +707,15 @@
             "items": [
               {
                 "leftover": true,
+                "protein": 2,
                 "recipe": "crema-de-zanahorias",
-                "text": "Crema de zanahorias, hecha el sábado"
+                "text": "Crema de zanahorias, hecha el sábado: 2 raciones repartidas en 3 cuencos pequeños"
               },
               {
-                "recipe": "pechuga-a-la-plancha-con-ajos-fritos",
-                "text": "Pechuga a la plancha con ajos fritos, del congelador"
-              },
-              {
-                "recipe": "ensalada-de-escarola-con-granada",
-                "text": "Ensalada de escarola con granada"
+                "leftover": true,
+                "protein": 14,
+                "recipe": "berenjenas-a-la-parmigiana",
+                "text": "Berenjenas a la parmigiana de Mary Nelly, al horno (media bandeja para tres, con Abril)"
               }
             ],
             "slot": "Cena"
@@ -741,8 +744,8 @@
                 "text": "Crema de zanahorias con huevo duro picado"
               },
               {
-                "protein": 12,
-                "text": "Tosta de centeno con jamón serrano y pepino aliñado"
+                "recipe": "pechuga-a-la-plancha-con-ajos-fritos",
+                "text": "Pechuga a la plancha con ajos fritos (la que se descongeló para el domingo)"
               }
             ],
             "slot": "Cena"
@@ -765,8 +768,14 @@
           {
             "items": [
               {
-                "protein": 22,
-                "text": "Judías verdes con patata cocida y bonito en aceite"
+                "leftover": true,
+                "protein": 20,
+                "recipe": "berenjenas-a-la-parmigiana",
+                "text": "Berenjenas a la parmigiana de Mary Nelly, lo que queda, al horno"
+              },
+              {
+                "protein": 4,
+                "text": "Judías verdes con patata cocida, aliñadas con aceite"
               }
             ],
             "slot": "Cena"
@@ -855,6 +864,10 @@
         "title": "Aprovechado"
       },
       {
+        "text": "Mary Nelly nos regaló una bandeja de berenjenas a la parmigiana (22 × 20 × 5 cm, unas 6 raciones de segundo). Media bandeja, el domingo por la noche con Abril, en lugar de la pechuga; el resto, el martes por la noche, en lugar del bonito. La pechuga, ya descongelada, pasa a la cena del lunes en lugar de la tosta de jamón. El bonito y el jamón aguantan para otra semana.",
+        "title": "Cambios del domingo 22"
+      },
+      {
         "text": "Ningún día pasa de 25 minutos de trabajo; la dorada del miércoles se hace sola en el horno.",
         "title": "Entre semana"
       },
@@ -940,18 +953,18 @@
       {
         "steps": [
           {
-            "how": "Escarola en agua muy fría 10 minutos, centrifugadora, granada desgranada y el aliño en el mortero; se aliña al sentarse. Mientras la escarola está en remojo, calienta la crema a nivel 4.",
-            "recipe": "ensalada-de-escarola-con-granada",
-            "text": "Ensalada de escarola con granada y calentar la crema."
+            "how": "Lo primero. Corta media bandeja y pásala a una fuente de horno (o calienta la bandeja entera si prefieres no cortarla en frío). Horno a 180 °C, arriba y abajo, tapada con papel de aluminio 20-25 minutos; destapa los últimos 5 para que el queso vuelva a gratinar. Está cuando burbujea por los bordes y el centro quema al tocarlo con la punta de un cuchillo. Reposa 5 minutos antes de cortar. Lo que no se caliente, tapado, a la nevera.",
+            "recipe": "berenjenas-a-la-parmigiana",
+            "text": "Berenjenas a la parmigiana al horno."
           },
           {
-            "how": "Receta entera: primero los ajos fritos en el cazo y, ya reservados, la pechuga en la De Buyer. Lo último, para que llegue caliente a la mesa.",
-            "recipe": "pechuga-a-la-plancha-con-ajos-fritos",
-            "text": "Pechuga a la plancha con ajos fritos."
+            "how": "Con la parmigiana en el horno: calienta la mitad de la crema a nivel 4 y repártela en tres cuencos pequeños; la otra mitad se queda en la nevera para el lunes.",
+            "recipe": "crema-de-zanahorias",
+            "text": "Calentar la crema."
           }
         ],
-        "title": "Cena, 25 minutos",
-        "when": "Domingo 22 · 21:00"
+        "title": "Cena con Abril, 30 minutos",
+        "when": "Domingo 22 · 20:45"
       }
     ],
     "servings": 2,
@@ -970,6 +983,6 @@
     "start": "2026-11-21",
     "summary": "Comidas y cenas para dos, con más pescado que la semana pasada: arroz a banda, dorada y lubina, y albóndigas y judías blancas con sepia hechas el domingo. Gasta la pechuga y el arroz meloso del congelador.",
     "title": "Semana del 21 al 27 de noviembre",
-    "updatedAt": "2026-11-21T17:25:00+01:00"
+    "updatedAt": "2026-11-22T19:52:00+01:00"
   }
 }

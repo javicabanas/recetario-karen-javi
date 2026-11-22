@@ -455,6 +455,10 @@ a.btn.btn-primary { color: var(--on-cobalt); }
 .x-btn { border: 0; background: transparent; color: var(--muted); font-size: .85rem; font-weight: 700; padding: 8px; border-radius: 8px; }
 .x-btn:hover { color: var(--alarm); background: var(--alarm-soft); }
 .dish .x-btn { margin-left: 6px; padding: 2px 6px; }
+.dish-add .x-btn { margin-left: -6px; padding: 2px 6px; }
+.menu-form { display: flex; flex-direction: column; gap: 8px; margin: 6px 0 8px; padding: 10px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--surface); }
+.menu-form .btn { padding: 9px 14px; }
+.menu-form .sort-sel { max-width: 100%; }
 .cal { background: var(--surface); border: 1.5px solid var(--line); border-radius: var(--r); padding: 12px; display: flex; flex-direction: column; gap: 10px; }
 .cal-nav { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
 .cal-nav h2 { font-family: var(--f-display); font-weight: 600; font-size: 1.25rem; }
@@ -1220,7 +1224,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     const same = state.view === viewKey;
     const y = window.scrollY;
     const act = document.activeElement;
-    const keepId = act && ['fz-text', 'fz-n', 'fz-date', 'fb-text'].includes(act.id) ? act.id : null;
+    const keepId = act && ['fz-text', 'fz-n', 'fz-date', 'fb-text', 'md-date', 'md-slot', 'md-recipe'].includes(act.id) ? act.id : null;
     const keepSel = keepId && typeof act.selectionStart === 'number' ? [act.selectionStart, act.selectionEnd] : null;
     if (!id) state.backTo = null;
     else if (!same && state.view && !state.view.startsWith('r:')) state.backTo = state.view;
@@ -1309,15 +1313,87 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       </header>`;
   }
 
-  function dishHTML(it, date, slot) {
+  /* ---------- cambiar el menú desde «Semana» ---------- */
+  function dishTake(days, from) {
+    const d = days.find((x) => x.date === from.date);
+    const m = d && Array.isArray(d.meals) ? d.meals.find((x) => x.slot === from.slot) : null;
+    const it = m && Array.isArray(m.items) ? m.items[from.index] : null;
+    if (!it || String(it.text || '') !== from.text) return null;
+    m.items.splice(from.index, 1);
+    if (!m.items.length) d.meals = d.meals.filter((x) => x !== m);
+    return it;
+  }
+  function dishPut(days, to, it) {
+    const d = days.find((x) => x.date === to.date);
+    if (!d) return false;
+    if (!Array.isArray(d.meals)) d.meals = [];
+    let m = d.meals.find((x) => x.slot === to.slot);
+    if (!m) { m = { slot: to.slot, items: [] }; d.meals.push(m); d.meals.sort((a, b) => SLOTS.indexOf(a.slot) - SLOTS.indexOf(b.slot)); }
+    if (!Array.isArray(m.items)) m.items = [];
+    m.items.push(it);
+    return true;
+  }
+  function moveDish(days, from, to) {
+    if ((from.date === to.date && from.slot === to.slot) || !days.some((x) => x.date === to.date)) return null;
+    const it = dishTake(days, from);
+    return it && dishPut(days, to, it) ? days : null;
+  }
+  function removeDish(days, from) { return dishTake(days, from) ? days : null; }
+  function addDish(days, to, recipeId, title, leftover) {
+    const it = { text: title, recipe: recipeId };
+    if (leftover) it.leftover = true;
+    return dishPut(days, to, it) ? days : null;
+  }
+  async function menuEdit(menuId, fn) {
+    const doc = raw.menus && raw.menus[menuId];
+    if (!doc || isReadonly()) return false;
+    const days = fn(JSON.parse(JSON.stringify(Array.isArray(doc.days) ? doc.days : [])));
+    if (!days) { toast('El menú ha cambiado: vuelve a intentarlo'); return false; }
+    const body = { ...doc, days, updatedAt: new Date().toISOString() };
+    const ok = await docWrite('menus', menuId, body, 'No se ha podido cambiar el menú');
+    if (ok) { raw.menus[menuId] = body; state.menus = state.menus.map((m) => (m.id === menuId ? normalizeMenu(menuId, body) : m)); render(); }
+    return ok;
+  }
+  const menuEditable = (m) => !!(m && dbh && !isReadonly() && raw.menus && raw.menus[m.id]);
+  const draftAt = (kind, m, date, slot, index) => {
+    const d = state.menuDraft;
+    return d && d.kind === kind && d.menu === m.id && d.date === date && d.slot === slot && (kind === 'add' || d.index === index) ? d : null;
+  };
+  function dishFormHTML(m, d) {
+    const opt = (v, label, sel) => `<option value="${esc(v)}"${v === sel ? ' selected' : ''}>${esc(label)}</option>`;
+    return `<div class="menu-form">
+      <div class="row"><label class="sr" for="md-date">Día</label><select id="md-date" class="sort-sel">${m.days.map((x) => opt(x.date, `${weekday(x.date)} ${shortDate(x.date)}`, d.toDate)).join('')}</select>
+      <label class="sr" for="md-slot">Comida o cena</label><select id="md-slot" class="sort-sel">${SLOTS.map((x) => opt(x, x, d.toSlot)).join('')}</select></div>
+      <div class="row"><button class="btn btn-primary" data-action="menu-move">Mover aquí</button><button class="btn" data-action="menu-remove">${d.confirm ? '¿Seguro? Quitar' : 'Quitar del menú'}</button><button class="x-btn" data-action="menu-cancel">Cancelar</button></div>
+    </div>`;
+  }
+  function addFormHTML(d) {
+    const label = (r) => { const n = fzTotal(r.id); return r.title + (n ? ` · ${plural(n, 'ración guardada', 'raciones guardadas')}` : ''); };
+    return `<div class="menu-form">
+      <div class="row"><label class="sr" for="md-recipe">Receta</label><select id="md-recipe" class="sort-sel"><option value="">Elige una receta…</option>${state.recipes.map((r) => `<option value="${esc(r.id)}"${r.id === d.recipe ? ' selected' : ''}>${esc(label(r))}</option>`).join('')}</select></div>
+      <div class="row"><button class="btn btn-primary" data-action="menu-add">Añadir</button><button class="x-btn" data-action="menu-cancel">Cancelar</button></div>
+    </div>`;
+  }
+
+  function dishHTML(it, date, slot, index, m) {
     const r = it.recipe ? state.byId.get(it.recipe) : null;
     const label = esc(it.text);
     const eat = date && date <= todayISO() ? eatBtnHTML(date, slot, it, true) : '';
-    return `<li class="dish">${r ? `<a href="#r-${encodeURIComponent(r.id)}">${label}</a>` : label}${eat}</li>`;
+    const d = m ? draftAt('dish', m, date, slot, index) : null;
+    const edit = !m ? '' : d ? dishFormHTML(m, d)
+      : `<button class="x-btn" data-action="menu-open" data-menu="${esc(m.id)}" data-date="${esc(date)}" data-slot="${esc(slot)}" data-index="${index}">Cambiar</button>`;
+    return `<li class="dish">${r ? `<a href="#r-${encodeURIComponent(r.id)}">${label}</a>` : label}${eat}${edit}</li>`;
   }
 
-  function dayHTML(d, withTasks = true) {
-    let html = d.meals.map((m) => `<div class="meal"><span class="slot">${esc(m.slot)}</span><ul class="dishes">${m.items.map((it) => dishHTML(it, d.date, m.slot)).join('')}</ul></div>`).join('');
+  function dayHTML(d, withTasks = true, m = null) {
+    const meals = !m ? d.meals
+      : [...d.meals, ...SLOTS.filter((x) => !d.meals.some((y) => y.slot === x)).map((x) => ({ slot: x, items: [] }))].sort((a, b) => SLOTS.indexOf(a.slot) - SLOTS.indexOf(b.slot));
+    let html = meals.map((meal) => {
+      const a = m ? draftAt('add', m, d.date, meal.slot) : null;
+      const add = !m ? '' : `<li class="dish-add">${a ? addFormHTML(a)
+        : `<button class="x-btn" data-action="menu-add-open" data-menu="${esc(m.id)}" data-date="${esc(d.date)}" data-slot="${esc(meal.slot)}">+ Añadir plato</button>`}</li>`;
+      return `<div class="meal"><span class="slot">${esc(meal.slot)}</span><ul class="dishes">${meal.items.map((it, i) => dishHTML(it, d.date, meal.slot, i, m)).join('')}${add}</ul></div>`;
+    }).join('');
     if (withTasks && d.errand) html += `<div class="todo"><span class="slot">Compra</span><p>${inline(d.errand)}</p></div>`;
     if (withTasks && d.night) html += `<div class="todo"><span class="slot">Noche</span><p>${inline(d.night)}</p></div>`;
     return html;
@@ -1393,7 +1469,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
           const cls = d.date === t ? ' is-today' : d.date < t ? ' is-past' : '';
           return `<li class="day${cls}"${d.date === t ? ' aria-current="date"' : ''}>
             <div class="day-head"><h2 class="day-name">${esc(weekday(d.date))}</h2><span class="day-date">${d.date === t ? '<span class="chip">Hoy</span>' : ''}${esc(shortDate(d.date))}</span></div>
-            ${dayHTML(d)}
+            ${dayHTML(d, true, menuEditable(m) ? m : null)}
             ${dayProteinHTML(d)}
           </li>`;
         }).join('')}</ol>
@@ -1401,7 +1477,7 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
         ${m.notes.map((n) => `<section class="group">${n.title ? `<h3>${esc(n.title)}</h3>` : ''}<div class="notes-body"><p>${inline(n.text || '')}</p></div></section>`).join('')}`;
     }
     app.innerHTML = `${mainHeader('semana', m ? menuRange(m) : 'Menú de la semana')}${statusNotice()}${body}
-      <p class="foot">Toca un plato para abrir su receta.</p>`;
+      <p class="foot">Toca un plato para abrir su receta.${menuEditable(m) ? ' Con «Cambiar» lo mueves de día o lo quitas del menú.' : ''}</p>`;
   }
 
   function howLink(id) {
@@ -1765,6 +1841,42 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
       case 'serv-reset': if (r) { delete state.servings[r.id]; render(); } break;
       case 'clear-checks': if (r) { setChecks(r.id, []); render(); } break;
       case 'menu-switch': state.menuAhead = !state.menuAhead; render(); window.scrollTo(0, 0); break;
+      case 'menu-open': {
+        const m = state.menus.find((x) => x.id === el.dataset.menu);
+        const day = m && m.days.find((x) => x.date === el.dataset.date);
+        const meal = day && day.meals.find((x) => x.slot === el.dataset.slot);
+        const index = Number(el.dataset.index);
+        const it = meal && meal.items[index];
+        if (it) {
+          state.menuDraft = { kind: 'dish', menu: m.id, date: day.date, slot: meal.slot, index, text: it.text, toDate: day.date, toSlot: meal.slot === 'Comida' ? 'Cena' : 'Comida', confirm: false };
+          render(); $('#md-date')?.focus();
+        }
+        break;
+      }
+      case 'menu-add-open': state.menuDraft = { kind: 'add', menu: el.dataset.menu, date: el.dataset.date, slot: el.dataset.slot, recipe: '' }; render(); $('#md-recipe')?.focus(); break;
+      case 'menu-cancel': state.menuDraft = null; render(); break;
+      case 'menu-move': {
+        const d = state.menuDraft; if (!d || d.kind !== 'dish') break;
+        if (d.toDate === d.date && d.toSlot === d.slot) { toast('Elige otro día u otra comida'); break; }
+        state.menuDraft = null; render();
+        menuEdit(d.menu, (days) => moveDish(days, d, { date: d.toDate, slot: d.toSlot })).then((ok) => { if (ok) toast('Plato movido'); });
+        break;
+      }
+      case 'menu-remove': {
+        const d = state.menuDraft; if (!d || d.kind !== 'dish') break;
+        if (!d.confirm) { d.confirm = true; render(); $('[data-action="menu-remove"]')?.focus(); break; }
+        state.menuDraft = null; render();
+        menuEdit(d.menu, (days) => removeDish(days, d)).then((ok) => { if (ok) toast('Plato quitado del menú'); });
+        break;
+      }
+      case 'menu-add': {
+        const d = state.menuDraft; if (!d || d.kind !== 'add') break;
+        const rec = state.byId.get(d.recipe);
+        if (!rec) { toast('Elige una receta'); break; }
+        state.menuDraft = null; render();
+        menuEdit(d.menu, (days) => addDish(days, d, rec.id, rec.title, fzTotal(rec.id) > 0)).then((ok) => { if (ok) toast('Plato añadido'); });
+        break;
+      }
       case 'clear-plan': setChecks(el.dataset.key, []); render(); break;
       case 'copy-ing': if (r) copyIngredients(r); break;
       case 'timer-start': startTimer(el.dataset.key, el.dataset.label, Number(el.dataset.secs)); break;
@@ -1785,6 +1897,9 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     else if (el.id === 'fz-date') state.fzDraft.date = el.value;
     else if (el.id === 'fz-place') { state.fzDraft.place = fzPlace(el.value); state.fzDraft.n = state.fzDraft.place === 'despensa' ? 1 : 2; render(); $('#fz-place')?.focus(); }
     else if (el.id === 'fb-text') { const id = currentId(); if (id) state.fbDraft[id] = el.value; }
+    else if (el.id === 'md-date' && state.menuDraft) state.menuDraft.toDate = el.value;
+    else if (el.id === 'md-slot' && state.menuDraft) state.menuDraft.toSlot = el.value;
+    else if (el.id === 'md-recipe' && state.menuDraft) state.menuDraft.recipe = el.value;
   });
 
   document.addEventListener('change', (e) => {
