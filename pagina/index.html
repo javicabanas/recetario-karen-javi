@@ -2159,7 +2159,20 @@ button.cal-day[aria-pressed="true"] { background: var(--cobalt); color: var(--on
     state.ratingsOn = true; state.histOn = true;
     document.body.classList.add('readonly');
     histDirty(); render();
+    startCounter();
     return true;
+  }
+
+  /* Contador de visitas (GoatCounter), solo en la versión pública. La ruta lleva el `#`,
+     así cada receta y cada vista cuentan por separado. */
+  function startCounter() {
+    const path = () => location.pathname + location.hash;
+    window.goatcounter = { path };
+    window.addEventListener('hashchange', () => { if (window.goatcounter.count) window.goatcounter.count({ path: path() }); });
+    const s = document.createElement('script');
+    s.async = true; s.src = 'https://gc.zgo.at/count.js';
+    s.dataset.goatcounter = 'https://recetario-karen-javi.goatcounter.com/count';
+    document.head.appendChild(s);
   }
 
   async function connect() {
