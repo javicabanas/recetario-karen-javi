@@ -102,22 +102,8 @@
     "createdAt": "2026-11-21T12:45:00+01:00",
     "date": "2026-11-21",
     "place": "despensa",
-    "servings": 2,
+    "servings": 1,
     "text": "Alioli (tarro)"
-  },
-  "2026-11-21-alubia-blanca-cocida": {
-    "createdAt": "2026-11-21T12:45:00+01:00",
-    "date": "2026-11-21",
-    "place": "despensa",
-    "servings": 1,
-    "text": "Alubia blanca cocida (tarro de 400 g)"
-  },
-  "2026-11-21-anchoas": {
-    "createdAt": "2026-11-21T12:45:00+01:00",
-    "date": "2026-11-21",
-    "place": "despensa",
-    "servings": 1,
-    "text": "Anchoas (lata)"
   },
   "2026-11-21-arroz-bomba": {
     "createdAt": "2026-11-21T12:45:00+01:00",
@@ -208,7 +194,7 @@
     "createdAt": "2026-11-19T18:17:40.125Z",
     "date": "2026-11-19",
     "place": "congelador",
-    "servings": 2,
+    "servings": 1,
     "text": "Filete pechuga crudo fino"
   }
 }

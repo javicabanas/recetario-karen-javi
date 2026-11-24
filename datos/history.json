@@ -295,5 +295,26 @@
     "recipe": "ensalada-de-escarola-con-granada",
     "slot": "Comida",
     "text": "Ensalada de escarola con granada"
+  },
+  "2026-11-23-cena-crema-de-zanahorias": {
+    "createdAt": "2026-11-23T22:21:35.222Z",
+    "date": "2026-11-23",
+    "recipe": "crema-de-zanahorias",
+    "slot": "Cena",
+    "text": "Crema de zanahorias con huevo duro picado"
+  },
+  "2026-11-23-cena-pechuga-a-la-plancha-con-ajos-fritos": {
+    "createdAt": "2026-11-23T22:21:36.683Z",
+    "date": "2026-11-23",
+    "recipe": "pechuga-a-la-plancha-con-ajos-fritos",
+    "slot": "Cena",
+    "text": "Pechuga a la plancha con ajos fritos (la que se descongeló para el domingo)"
+  },
+  "2026-11-23-comida-albondigas-en-salsa": {
+    "createdAt": "2026-11-23T12:14:39.074Z",
+    "date": "2026-11-23",
+    "recipe": "albondigas-en-salsa",
+    "slot": "Comida",
+    "text": "Albóndigas en salsa, hechas el domingo, con arroz blanco recién hecho"
   }
 }
