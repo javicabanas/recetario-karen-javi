@@ -154,13 +154,6 @@
     "servings": 1,
     "text": "Ventresca (lata)"
   },
-  "2026-11-21-vino-blanco-seco": {
-    "createdAt": "2026-11-21T12:45:00+01:00",
-    "date": "2026-11-21",
-    "place": "despensa",
-    "servings": 1,
-    "text": "Vino blanco seco (botella)"
-  },
   "2026-11-22-berenjenas-a-la-parmigiana": {
     "createdAt": "2026-11-22T18:00:00+01:00",
     "date": "2026-11-22",
@@ -190,11 +183,33 @@
     "servings": 1,
     "text": "Fumet de pescado (400 ml)"
   },
+  "2026-11-23-crema-de-zanahorias": {
+    "createdAt": "2026-11-23T23:24:00+01:00",
+    "date": "2026-11-23",
+    "place": "congelador",
+    "recipe": "crema-de-zanahorias",
+    "servings": 2,
+    "text": "Crema de zanahorias (raciones pequeñas)"
+  },
+  "2026-11-23-filetes-de-pechuga-de-pollo": {
+    "createdAt": "2026-11-23T23:24:00+01:00",
+    "date": "2026-11-23",
+    "place": "congelador",
+    "servings": 1,
+    "text": "Filetes de pechuga de pollo (200 g)"
+  },
+  "2026-11-24-vino-tinto-perlat-2023": {
+    "createdAt": "2026-11-24T14:50:00+01:00",
+    "date": "2026-11-24",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Vino tinto Perlat 2023, DO Montsant (75 cl; regalo de Alex, 20 nov)"
+  },
   "mwnvhonx-apse1v": {
     "createdAt": "2026-11-19T18:17:40.125Z",
     "date": "2026-11-19",
     "place": "congelador",
     "servings": 1,
-    "text": "Filete pechuga crudo fino"
+    "text": "Filete pechuga crudo fino (unos 180 g)"
   }
 }

@@ -316,5 +316,26 @@
     "recipe": "albondigas-en-salsa",
     "slot": "Comida",
     "text": "Albóndigas en salsa, hechas el domingo, con arroz blanco recién hecho"
+  },
+  "2026-11-24-cena-berenjenas-a-la-parmigiana": {
+    "createdAt": "2026-11-24T21:04:21.345Z",
+    "date": "2026-11-24",
+    "recipe": "berenjenas-a-la-parmigiana",
+    "slot": "Cena",
+    "text": "Berenjenas a la parmigiana de Mary Nelly, lo que queda, al horno"
+  },
+  "2026-11-24-comida-ensalada-de-escarola-con-granada": {
+    "createdAt": "2026-11-24T20:21:26.011Z",
+    "date": "2026-11-24",
+    "recipe": "ensalada-de-escarola-con-granada",
+    "slot": "Comida",
+    "text": "Ensalada de escarola con granada"
+  },
+  "2026-11-24-comida-judias-blancas-con-sepia": {
+    "createdAt": "2026-11-24T13:12:43.237Z",
+    "date": "2026-11-24",
+    "recipe": "judias-blancas-con-sepia",
+    "slot": "Comida",
+    "text": "Judías blancas guisadas con sepia, hechas el domingo"
   }
 }
