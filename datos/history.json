@@ -337,5 +337,18 @@
     "recipe": "judias-blancas-con-sepia",
     "slot": "Comida",
     "text": "Judías blancas guisadas con sepia, hechas el domingo"
+  },
+  "2026-11-25-cena-tortilla-francesa-con-pimiento-verde-4-huevos-y-ensalada-con": {
+    "createdAt": "2026-11-25T21:45:04.901Z",
+    "date": "2026-11-25",
+    "slot": "Cena",
+    "text": "Tortilla francesa con pimiento verde (4 huevos) y ensalada con pepino"
+  },
+  "2026-11-25-comida-dorada-al-horno-con-panadera": {
+    "createdAt": "2026-11-25T21:45:01.198Z",
+    "date": "2026-11-25",
+    "recipe": "dorada-al-horno-con-panadera",
+    "slot": "Comida",
+    "text": "Dorada al horno con patata panadera"
   }
 }
