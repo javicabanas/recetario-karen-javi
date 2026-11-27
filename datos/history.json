@@ -350,5 +350,26 @@
     "recipe": "dorada-al-horno-con-panadera",
     "slot": "Comida",
     "text": "Dorada al horno con patata panadera"
+  },
+  "2026-11-26-cena-lubina-en-papillote": {
+    "createdAt": "2026-11-26T20:53:23.021Z",
+    "date": "2026-11-26",
+    "recipe": "lubina-en-papillote",
+    "slot": "Cena",
+    "text": "Lubina en papillote con calabacín y puerro"
+  },
+  "2026-11-26-comida-albondigas-en-salsa": {
+    "createdAt": "2026-11-26T16:41:12.387Z",
+    "date": "2026-11-26",
+    "recipe": "albondigas-en-salsa",
+    "slot": "Comida",
+    "text": "Albóndigas en salsa, del congelador, con patata cocida"
+  },
+  "2026-11-26-comida-ensalada-de-escarola-con-granada": {
+    "createdAt": "2026-11-26T16:41:15.202Z",
+    "date": "2026-11-26",
+    "recipe": "ensalada-de-escarola-con-granada",
+    "slot": "Comida",
+    "text": "Ensalada de escarola con granada"
   }
 }

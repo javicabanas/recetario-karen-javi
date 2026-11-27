@@ -816,6 +816,10 @@
                 "leftover": true,
                 "recipe": "albondigas-en-salsa",
                 "text": "Albóndigas en salsa, del congelador, con patata cocida"
+              },
+              {
+                "recipe": "ensalada-de-escarola-con-granada",
+                "text": "Ensalada de escarola con granada"
               }
             ],
             "slot": "Comida"
@@ -983,6 +987,6 @@
     "start": "2026-11-21",
     "summary": "Comidas y cenas para dos, con más pescado que la semana pasada: arroz a banda, dorada y lubina, y albóndigas y judías blancas con sepia hechas el domingo. Gasta la pechuga y el arroz meloso del congelador.",
     "title": "Semana del 21 al 27 de noviembre",
-    "updatedAt": "2026-11-24T12:29:16.970Z"
+    "updatedAt": "2026-11-26T16:41:10.696Z"
   }
 }
