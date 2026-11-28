@@ -66,10 +66,6 @@ Es un primer plato con poca proteína: acompáñala de un segundo con proteína 
 
 3 días en nevera. Congela bien, sin la guarnición.
 
-**Pendiente**
-
-Proponerla en el menú de la semana del 28 de noviembre al 4 de diciembre de 2026.
-
 **Al cambiar raciones**
 
 Para 4 o más, usa dos tarros de espárragos y cuela en dos tandas.

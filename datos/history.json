@@ -371,5 +371,19 @@
     "recipe": "ensalada-de-escarola-con-granada",
     "slot": "Comida",
     "text": "Ensalada de escarola con granada"
+  },
+  "2026-11-27-comida-arroz-meloso-de-acelgas-alubias-y-sepia": {
+    "createdAt": "2026-11-27T13:38:40.906Z",
+    "date": "2026-11-27",
+    "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
+    "slot": "Comida",
+    "text": "Arroz meloso de acelgas, alubias y sepia, del congelador"
+  },
+  "2026-11-27-comida-ensalada-de-escarola-con-granada": {
+    "createdAt": "2026-11-27T13:39:00.862Z",
+    "date": "2026-11-27",
+    "recipe": "ensalada-de-escarola-con-granada",
+    "slot": "Comida",
+    "text": "Ensalada de escarola con granada"
   }
 }

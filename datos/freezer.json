@@ -1,12 +1,4 @@
 {
-  "2026-11-11-arroz-meloso-de-acelgas-alubias-y-sepia": {
-    "createdAt": "2026-11-14T17:22:00+01:00",
-    "date": "2026-11-11",
-    "place": "congelador",
-    "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
-    "servings": 2,
-    "text": "Arroz meloso de acelgas, alubias y sepia"
-  },
   "2026-11-19-aceite-de-sesamo": {
     "createdAt": "2026-11-19T17:30:00+01:00",
     "date": "2026-11-19",
@@ -119,13 +111,6 @@
     "servings": 1,
     "text": "Bonito en aceite de oliva (tarro)"
   },
-  "2026-11-21-escalivada": {
-    "createdAt": "2026-11-21T12:45:00+01:00",
-    "date": "2026-11-21",
-    "place": "despensa",
-    "servings": 1,
-    "text": "Escalivada (tarro)"
-  },
   "2026-11-21-harina-de-trigo": {
     "createdAt": "2026-11-21T12:45:00+01:00",
     "date": "2026-11-21",
@@ -197,11 +182,81 @@
     "servings": 1,
     "text": "Vino tinto Perlat 2023, DO Montsant (75 cl; regalo de Alex, 20 nov)"
   },
+  "2026-11-27-aceite-de-girasol": {
+    "createdAt": "2026-11-27T23:40:00+01:00",
+    "date": "2026-11-27",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Aceite de girasol"
+  },
+  "2026-11-27-ajo-en-polvo": {
+    "createdAt": "2026-11-27T23:40:00+01:00",
+    "date": "2026-11-27",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Ajo en polvo"
+  },
+  "2026-11-27-cebolla-en-polvo": {
+    "createdAt": "2026-11-27T23:40:00+01:00",
+    "date": "2026-11-27",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Cebolla en polvo"
+  },
+  "2026-11-27-comino-molido": {
+    "createdAt": "2026-11-27T23:40:00+01:00",
+    "date": "2026-11-27",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Comino molido"
+  },
+  "2026-11-27-laurel": {
+    "createdAt": "2026-11-27T23:40:00+01:00",
+    "date": "2026-11-27",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Laurel"
+  },
+  "2026-11-27-mayonesa": {
+    "createdAt": "2026-11-27T23:40:00+01:00",
+    "date": "2026-11-27",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Mayonesa"
+  },
+  "2026-11-27-tomillo": {
+    "createdAt": "2026-11-27T23:40:00+01:00",
+    "date": "2026-11-27",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Tomillo"
+  },
+  "2026-11-27-vino-tinto-para-cocinar": {
+    "createdAt": "2026-11-27T23:40:00+01:00",
+    "date": "2026-11-27",
+    "place": "despensa",
+    "servings": 1,
+    "text": "Vino tinto (para cocinar)"
+  },
   "mwnvhonx-apse1v": {
     "createdAt": "2026-11-19T18:17:40.125Z",
     "date": "2026-11-19",
     "place": "congelador",
     "servings": 1,
     "text": "Filete pechuga crudo fino (unos 180 g)"
+  },
+  "mwzjdfgf-ctzn0v": {
+    "createdAt": "2026-11-27T22:11:40.287Z",
+    "date": "2026-11-27",
+    "place": "nevera",
+    "servings": 2,
+    "text": "Calabacín"
+  },
+  "mwzjewul-mvsze3": {
+    "createdAt": "2026-11-27T22:12:49.485Z",
+    "date": "2026-11-27",
+    "place": "despensa",
+    "servings": 5,
+    "text": "Zanahoria"
   }
 }

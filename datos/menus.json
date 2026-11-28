@@ -845,6 +845,10 @@
                 "leftover": true,
                 "recipe": "arroz-meloso-de-acelgas-alubias-y-sepia",
                 "text": "Arroz meloso de acelgas, alubias y sepia, del congelador"
+              },
+              {
+                "recipe": "ensalada-de-escarola-con-granada",
+                "text": "Ensalada de escarola con granada"
               }
             ],
             "slot": "Comida"
@@ -987,6 +991,302 @@
     "start": "2026-11-21",
     "summary": "Comidas y cenas para dos, con más pescado que la semana pasada: arroz a banda, dorada y lubina, y albóndigas y judías blancas con sepia hechas el domingo. Gasta la pechuga y el arroz meloso del congelador.",
     "title": "Semana del 21 al 27 de noviembre",
-    "updatedAt": "2026-11-26T16:41:10.696Z"
+    "updatedAt": "2026-11-27T13:38:59.107Z"
+  },
+  "2026-11-28": {
+    "days": [
+      {
+        "date": "2026-11-28",
+        "errand": "Compra de la semana en El Corte Inglés: toda la lista «Compra Súper». Rape y fumet, en la pescadería.",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "arroz-caldoso-de-rape-y-alcachofas",
+                "text": "Arroz caldoso de rape y alcachofas, con el fumet del congelador y el de la pescadería"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "recipe": "crema-de-esparragos-blancos-y-avellanas",
+                "text": "Crema de espárragos blancos y avellanas"
+              },
+              {
+                "protein": 13,
+                "text": "Tortilla francesa (2 huevos por persona)"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Fabes en remojo en agua fría; lacón y panceta, en otro cuenco con agua templada."
+      },
+      {
+        "date": "2026-11-29",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "fabada-asturiana",
+                "text": "Fabada asturiana"
+              },
+              {
+                "recipe": "ensalada-de-escarola-con-granada",
+                "text": "Ensalada de escarola con granada"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "protein": 2,
+                "recipe": "crema-de-zanahorias",
+                "text": "Crema de zanahorias, del congelador (raciones pequeñas)"
+              },
+              {
+                "protein": 15,
+                "text": "Tosta de centeno con ventresca"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-30",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "solomillo-de-cerdo-con-salsa-de-granada",
+                "text": "Solomillo de cerdo con salsa de granada y patata cocida"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "protein": 10,
+                "recipe": "crema-de-calabaza-y-puerro",
+                "text": "Crema de calabaza y puerro, hecha el sábado, con huevo duro picado"
+              },
+              {
+                "protein": 12,
+                "text": "Tosta de centeno con bonito"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-12-01",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "fabada-asturiana",
+                "text": "Solo Karen: fabada del domingo, táper individual con el compango troceado; 3 minutos de microondas, tapado"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "protein": 15,
+                "text": "Tortilla de calabacín (4 huevos, los 2 calabacines de la nevera) con ensalada de lechuga y tomate"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Pechuga del congelador a la nevera, para mañana."
+      },
+      {
+        "date": "2026-12-02",
+        "errand": "Muslos y contramuslos de pollo (1 kg) y 2 panecillos tipo Viena.",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "torta-de-milanesa",
+                "text": "Torta de milanesa con la pechuga del congelador (3 minutos por cara)"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "crema-de-calabaza-y-puerro",
+                "text": "Crema de calabaza y puerro"
+              },
+              {
+                "protein": 13,
+                "text": "Tortilla francesa (2 huevos por persona)"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      },
+      {
+        "date": "2026-12-03",
+        "meals": [
+          {
+            "items": [
+              {
+                "recipe": "pollo-al-horno-con-granada",
+                "text": "Muslos de pollo al horno con granada y cebolla, hechos para 3 (1 kg de pollo, 3 cebollas, 3 granadas)"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "protein": 14,
+                "text": "Tosta de centeno con jamón serrano y tomate"
+              },
+              {
+                "recipe": "ensalada-de-escarola-con-granada",
+                "text": "Ensalada de escarola con granada"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ],
+        "night": "Táper de Karen para mañana: pollo deshuesado y troceado, con cebolla y salsa. Carne picada del congelador a la nevera."
+      },
+      {
+        "date": "2026-12-04",
+        "meals": [
+          {
+            "items": [
+              {
+                "leftover": true,
+                "recipe": "pollo-al-horno-con-granada",
+                "text": "Solo Karen: pollo al horno con granada del jueves, deshuesado y troceado; 2-3 minutos de microondas, tapado"
+              }
+            ],
+            "slot": "Comida"
+          },
+          {
+            "items": [
+              {
+                "protein": 30,
+                "text": "Hamburguesas con la carne picada del congelador (300 g) y ensalada"
+              }
+            ],
+            "slot": "Cena"
+          }
+        ]
+      }
+    ],
+    "end": "2026-12-04",
+    "notes": [
+      {
+        "text": "Javier come en el trabajo. Karen tiene un táper individual ya troceado, para calentar en el microondas (700 W) y comer solo con tenedor o cuchara.",
+        "title": "Martes y viernes"
+      },
+      {
+        "text": "Del congelador: fumet, crema de zanahorias, pechuga y carne picada. De la nevera: los 2 calabacines. De la despensa: arroz bomba, ventresca, bonito, pan rallado y harina.",
+        "title": "Aprovechado"
+      },
+      {
+        "text": "Ningún día pasa de 40 minutos de trabajo; el pollo del jueves se hace casi solo en el horno.",
+        "title": "Entre semana"
+      },
+      {
+        "text": "Comidas de 38-55 g por persona y cenas de 15-30 g.",
+        "title": "Proteína"
+      },
+      {
+        "text": "El domingo entra 1 ración de fabada sin compango: apúntala en «Despensa».",
+        "title": "Congelador"
+      }
+    ],
+    "origin": "Proyecto Cocina y recetas · menú del 28 de noviembre al 4 de diciembre de 2026",
+    "prep": [
+      {
+        "steps": [
+          {
+            "text": "Toda la lista «Compra Súper», en El Corte Inglés."
+          },
+          {
+            "how": "Pide que retiren piel y telilla. Con los 400 ml de fumet del congelador (sácalo al llegar) completas el litro del arroz.",
+            "text": "En la pescadería: cola de rape de 500 g en tacos, con la espina, y 600 ml de fumet."
+          }
+        ],
+        "title": "Compra",
+        "when": "Sábado 28 · mañana"
+      },
+      {
+        "steps": [
+          {
+            "how": "Receta entera. Las 4 raciones a la nevera: dos para la cena del lunes y dos para la del miércoles.",
+            "recipe": "crema-de-calabaza-y-puerro",
+            "text": "Crema de calabaza y puerro para 4."
+          },
+          {
+            "how": "Mientras hierve la crema: 10 minutos en agua hirviendo a nivel 7 y a agua fría. Con cáscara, a la nevera.",
+            "text": "2 huevos duros para el lunes."
+          },
+          {
+            "how": "Paso «Víspera» de la receta: fabes en agua fría (3 veces su volumen) y, aparte, lacón y panceta en agua templada. 12 horas.",
+            "recipe": "fabada-asturiana",
+            "text": "Fabes, lacón y panceta en remojo."
+          }
+        ],
+        "title": "Adelanto, 45 minutos",
+        "when": "Sábado 28 · 17:30"
+      },
+      {
+        "steps": [
+          {
+            "how": "Receta entera desde «Cocción»: 2 h 30 min a temblor (nivel 3) y 45 minutos de reposo.",
+            "recipe": "fabada-asturiana",
+            "text": "Fabada para 4, para comer a las 14:00."
+          },
+          {
+            "how": "Agua muy fría 10 minutos, centrifugadora y a un táper con papel debajo y encima. Aguanta hasta el jueves.",
+            "text": "Escarola lavada y seca, en táper con papel de cocina."
+          },
+          {
+            "how": "Táper de Karen para el martes: 1 ración con su compango cortado en trozos de bocado, a la nevera. La otra ración, sin compango, al congelador con nombre y fecha.",
+            "text": "Guardar lo que sobra, antes de 2 horas."
+          }
+        ],
+        "title": "Fabada, 30 minutos de trabajo",
+        "when": "Domingo 29 · 10:00"
+      }
+    ],
+    "servings": 2,
+    "shopping": [
+      {
+        "what": "Toda la lista, menos el pollo y los panecillos.",
+        "when": "Sábado 28",
+        "where": "El Corte Inglés"
+      },
+      {
+        "what": "Muslos y contramuslos de pollo (1 kg) y 2 panecillos tipo Viena.",
+        "when": "Miércoles 2",
+        "where": "El Corte Inglés"
+      }
+    ],
+    "start": "2026-11-28",
+    "summary": "Arroz caldoso el sábado, fabada el domingo y carne y pollo entre semana. Martes y viernes Javier come en el trabajo: Karen tiene su táper hecho, solo calentar. Gasta el fumet, la pechuga, la carne picada y la crema de zanahorias del congelador.",
+    "title": "Semana del 28 de noviembre al 4 de diciembre",
+    "updatedAt": "2026-11-27T23:40:00+01:00"
   }
 }
